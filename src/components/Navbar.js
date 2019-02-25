@@ -3,8 +3,8 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="mb-1 navbar navbar-expand-lg navbar-dark default-color">
-        <a className="navbar-brand" href="/">
+      <nav className="mb-1 navbar navbar-expand-lg navbar-dark blue">
+        <a className="navbar-brand lrg-padding" href="/">
           Navbar
         </a>
         <button
@@ -24,25 +24,24 @@ class Navbar extends Component {
         >
           <ul className="navbar-nav mr-auto">
             <li className="nav-item ">
-              <a className="nav-link" href="/">
+              <a className="nav-link lrg-padding" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/curriculum">
+              <a className="nav-link lrg-padding"  href="/curriculum">
                 Curriculum
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/price">
+              <a className="nav-link lrg-padding" href="/price">
                 Pricing
               </a>
             </li>
           </ul>
           <ul className="navbar-nav ml-auto nav-flex-icons">
 
-            <a href="/apply">
-            <li className="nav-item dropdown fas fa-user-alt white-text" ></li></a>
+            <a href="/apply" className="white-text shadow green lrg-padding">Apply Now</a>
 
 
           </ul>
