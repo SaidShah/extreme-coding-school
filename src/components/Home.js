@@ -28,9 +28,24 @@ class Home extends Component {
   render() {
     return (
       <div>
+      <div className="header-img-container center-text">
       {this.getImages()}
         <img src={image_one} id="jumbo-image-home" alt="jumbotron " className="jumbo-image"/>
-        <h1>HOME PAGE</h1>
+        <div className="header-img-text center-text white-text">
+          <h2 className="bold-text">Extreme Coding School</h2>
+          <h1 className="bold-text">Learn Coding</h1>
+          <div className="header-img-text image-box">
+          <h2 className="bold-text">Featured Languages</h2>
+            <div className="row center-text">
+              <div className="column box-border"><h3 className="white-letters">HTML & CSS</h3></div>
+              <div className="column box-border"><h3 className="white-letters">JavaScript</h3></div>
+              <div className="column box-border"><h3 className="white-letters">Ruby & Rails</h3></div>
+              <div className="column box-border"><h3 className="white-letters">Algorithms</h3></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
       </div>
     );
   }

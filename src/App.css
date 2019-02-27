@@ -32,11 +32,57 @@
 
 .jumbo-image{
   width: 100%;
-  height: 500px;
+  height: 700px;
   filter: brightness(40%);
 }
 
+.header-img-container{
+  position: relative;
+}
 
+.header-img-text{
+  position: absolute;
+  top: 20px;
+  margin-left: 35%;
+  padding: 30px;
+}
+
+.image-box{
+  position: absolute;
+  height: 350px;
+  width: 1000px;
+  margin-top: 30px;
+  right: -60%;
+  top: 80%;
+  background: #0046ba;
+  opacity: .5;
+
+}
+
+.white-letters{
+  color: white;
+  opacity: .9;
+  font-weight: bold;
+}
+
+.box-border{
+  border: 2px white solid;
+  margin: auto;
+  background: gray;
+  height: 200px;
+  padding: 5px;
+
+}
+
+.column{
+  width: 20%;
+  padding: 10px;
+  margin: 3px;
+}
+
+.bold-text{
+  font-weight: bold;
+}
 
 .center-text{
   text-align: center;
