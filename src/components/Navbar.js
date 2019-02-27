@@ -3,10 +3,7 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="mb-1 navbar navbar-expand-lg navbar-dark blue">
-        <a className="navbar-brand lrg-padding" href="/">
-          Navbar
-        </a>
+      <nav className="mb-1 navbar navbar-expand-lg navbar-dark color-dark-blue outside-margin">
         <button
           className="navbar-toggler"
           type="button"
@@ -23,29 +20,47 @@ class Navbar extends Component {
           id="navbarSupportedContent-333"
         >
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item ">
-              <a className="nav-link lrg-padding" href="/">
+            <li className="nav-item">
+              <a className="nav-link bold-font" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link lrg-padding"  href="/curriculum">
+              <a className="nav-link bold-font"  href="/curriculum">
                 Curriculum
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link lrg-padding" href="/pricing">
+              <a className="nav-link bold-font" href="/pricing">
                 Pricing
               </a>
             </li>
-          </ul>
-          <ul className="navbar-nav ml-auto nav-flex-icons">
 
-            <a href="/apply" className="white-text shadow green lrg-padding">Apply Now</a>
+            <li className="nav-item">
+              <a className="nav-link bold-font" href="/program">
+                Program
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link bold-font" href="/faq">
+                FAQ
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a href="/experience" className="nav-link bold-font ">Experience</a>
+            </li>
+
+            <li className="nav-item">
+              <a href="/apply" className="nav-link bold-font shadow light-green">Apply Now</a>
+            </li>
 
 
           </ul>
         </div>
+
+
       </nav>
     );
   }
