@@ -15,10 +15,8 @@ class App extends Component {
   render() {
     return (
       <div >
-
-        <div className="row">
-            <div className="column logo-img-margin"><img src={logo} className="logo-image" alt="logo"/></div>
-            <div className="column logo-text"><h4> Extreme | Coding | School </h4></div>
+        <div>
+          <img src={logo} className="logo-image" alt="logo"/><span className="logo-text"> Extreme | Coding | School </span>
         </div>
 
         <Navbar/>
