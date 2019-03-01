@@ -7,7 +7,7 @@ class Privacy extends Component {
       <div className="blue-bg">
         <p className="privacy">
             Extreme Coding School Global Privacy Policy
-            Effective Date: May 25, 2018
+            Effective Date: March 01, 2019
             <br/><br/>
             Extreme Coding School Companies Inc. and our affiliates (collectively, “Extreme Coding School,” “we,” “us,” “our,” or “Extreme Coding School Family”) cares about your privacy. We are committed to maintaining your trust by protecting your Personal Information. This Privacy Policy (“Policy”) describes how the Extreme Coding School Family collects, uses, and discloses your Personal Information in connection with the use of our websites (“Website Services”), applications (“apps”), or other service that refers to or links to the Policy, as well as any offline products, programs, courses, and services (collectively our “Services”).
             <br/><br/>

@@ -2,13 +2,94 @@ import React, { Component } from 'react';
 
 class ApplyForm extends Component {
 
-  render() {
-    return (
-      <div>
-      <h1>Apply Form</h1>
-      </div>
-    );
-  }
+    state={
+      firstName: '',
+      lastName: '',
+      email: '',
+      phone: '',
+      college: '',
+      major: ''
+    }
+
+    handleChange=(e)=>{
+      this.setState({
+        [e.target.name]:e.target.value
+      })
+
+    }
+
+    handleSubmit=(e,values)=>{
+      e.preventDefault();
+
+    }
+
+    render() {
+      return (
+        <form onSubmit={(e)=>this.handleSubmit(e,this.state)} className="form-width">
+
+        <div className="signup-form">
+            <div className="card">
+          <div className="card-block">
+
+          <div className="form-header blue-gradient">
+              <h3><i className="fa fa-user padding-header"></i> Apply Now</h3>
+          </div>
+
+          <div className="md-form margin-left">
+              <i className="fa fa-user prefix"></i>
+              <input type="text"  className="form-control" placeholder="First Name" value={this.state.firstName} name="firstName" onChange={this.handleChange} required/>
+          </div>
+          <div className="md-form margin-left">
+              <i className="fa fa-user prefix "></i>
+              <input type="text" className="form-control" placeholder="Last Name" value={this.state.lastName} name="lastName" onChange={this.handleChange} required/>
+          </div>
+          <div className="md-form margin-left">
+              <i className="fa fa-envelope prefix "></i>
+              <input type="text"  className="form-control" placeholder="Email" value={this.state.email} name="email" onChange={this.handleChange} required/>
+          </div>
+
+          <div className="md-form margin-left">
+              <i className="fa fa-phone prefix"></i>
+              <input type="number"  className="form-control " placeholder="Phone Number" value={this.state.phone} name="phone" onChange={this.handleChange} required/>
+          </div>
+
+          <label className="select-box">
+         College Degree
+         <select value={this.state.college} name="college" onChange={this.handleChange} className="form-control">
+           <option defaultValue value="none">No Degree</option>
+           <option value="associates">Associates</option>
+           <option value="bachelors">Bachelors</option>
+           <option value="masters">Masters</option>
+           <option value="phd">Phd</option>
+         </select>
+       </label>
+
+       <label className="select-box">
+      Degree Major
+      <select value={this.state.major} name="major" onChange={this.handleChange} className="form-control">
+        <option defaultValue value="none">No Degree</option>
+        <option value="computerScience">Computer Science</option>
+        <option value="informationTechnology">Information Technology</option>
+        <option value="informationSystems">Information Systems</option>
+        <option value="cyberSecurity">Cyber Security</option>
+        <option value="nonTech">Non-Tech Degree</option>
+        <option value="other">Other</option>
+      </select>
+    </label>
+
+
+          <div className="text-center">
+              <button type="submit" className="btn">Submit</button>
+              <hr></hr>
+
+          </div>
+
+          </div>
+          </div>
+        </div>
+        </form>
+      );
+    }
 
 }
 

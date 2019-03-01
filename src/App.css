@@ -1,3 +1,12 @@
+div.card-block{
+  padding: 20px;
+}
+
+button.btn{
+  background-color: #003c9e;
+  font-weight: bold;
+  font-size: 1em;
+}
 
 .sm-padding{
 
@@ -193,4 +202,24 @@ width: 10%;
   padding-top: 40px;
   margin: auto;
   width: 80%;
+}
+
+.form-width{
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.padding-header{
+  margin-left: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.select-box{
+  margin-left: 2%;
 }
