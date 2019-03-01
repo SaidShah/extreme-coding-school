@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Curriculum from './components/Curriculum'
 import Pricing from './components/Pricing'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import {Switch, Route, withRouter} from 'react-router-dom'
 import logo from './images/code-image.png'
 
@@ -26,6 +27,7 @@ class App extends Component {
           <Route path="/apply" render={()=><ApplyForm/>}/>
           <Route path="/" render={()=><Home/>}/>
         </Switch>
+        <Footer/>
       </div>
     )
   }

@@ -1,3 +1,4 @@
+
 .sm-padding{
 
   font-weight: bold;
@@ -62,15 +63,19 @@
 }
 
 .white-letters{
-  color: white;
+  color: black;
   opacity: .9;
   font-weight: bold;
+}
+
+.black-letters{
+  color: black;
 }
 
 .box-border{
   border: 2px white solid;
   margin: auto;
-  background: gray;
+  background: white;
   height: 250px;
   padding: 5px;
 }
@@ -93,4 +98,92 @@
 
 .color-dark-blue{
   background-color: #003c9e;
+}
+
+.padding-after-jumbotron{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.column-left-side{
+  width: 20%;
+  padding: 2%;
+}
+
+.column-right-side{
+  width: 75%;
+  padding: 2%;
+}
+
+.remove-bullets{
+  list-style-type:square;
+}
+
+.left-text{
+  text-align: left;
+  padding-left: 2px;
+}
+
+.home-page-ul{
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 0;
+}
+
+.home-page-li{
+  margin-left: 2%;
+  word-wrap: break-word;
+  text-align: left;
+  padding: 5px;
+}
+
+.program_image{
+  margin: auto;
+  margin-top: 40%;
+  margin-left: 5%;
+  height: 45%;
+  /* word-wrap: break-word; */
+}
+
+.home-page-li-programming{
+  text-align: left;
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+.column-right-side-programming{
+  width: 70%;
+  margin-left: 20%;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.graduate_image{
+  height: 45%;
+ margin-left: 0%;
+}
+
+.column-right-side-graduate{
+  width: 70%;
+  padding-right: 10px;
+  margin-bottom: 0px;
+
+}
+
+.column-left-side-graduate{
+width: 10%;
+}
+
+.column-left-side-programming{
+  width: 10%;
+}
+
+.move-up{
+  margin-top: -15%;
+}
+
+.home-page-li-graduate{
+  text-align: left;
+  word-wrap: break-word;
+  padding: 5px;
 }
