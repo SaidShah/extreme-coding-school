@@ -49,7 +49,7 @@ class Navbar extends Component {
             </li>
 
             <li className="nav-item">
-              <a href="/experience" className="nav-link bold-font ">Experience</a>
+              <a href="/requirements" className="nav-link bold-font ">Requirements</a>
             </li>
 
             <li className="nav-item">

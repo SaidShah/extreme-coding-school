@@ -26,7 +26,7 @@ class Footer extends Component {
 
                   <ul className="list-unstyled">
                     <li>
-                      <a href="mailto:projectCode@gmail.com">Contact Us</a>
+                      <a href="mailto:admissions@extremecodingschool.com">Contact Us</a>
                     </li>
                     <li>
                       <a href="/curriculum">Curriculum</a>
@@ -50,10 +50,10 @@ class Footer extends Component {
                       <a href="/privacy">Privacy Policy</a>
                     </li>
                     <li>
-                      <a href="/signup">Apply Now</a>
+                      <a href="/apply">Apply Now</a>
                     </li>
                     <li>
-                      <a href="/">Statistics</a>
+                      <a href="/faq">FAQ</a>
                     </li>
                     <li>
                       <a href="/">Home</a>
