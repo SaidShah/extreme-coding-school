@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="mb-1 navbar navbar-expand-lg navbar-dark color-dark-blue outside-margin">
+      <nav className="mb-1 navbar navbar-expand-lg sticky navbar-dark color-dark-blue outside-margin">
         <button
           className="navbar-toggler"
           type="button"
