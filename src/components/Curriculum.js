@@ -38,12 +38,13 @@ const Curriculum = () => (
         you graduate as a full-stack developer. We not only cover the most in-demand skills for full-stack development,
         we also provide you with a solid foundation in Data-Structures and Algorithms.
         </p>
+        <p className="left-text p-width">Our curriculum starts with the back-end then dives into the front-end followed
+          by computer science fundamentals like data-structures and algorithms. Most importantly we teach you how to
+          learn so you can continue growing your skills in the years to come.
+          </p>
+          <p className="left-text p-width">We know that prospective employers care about what you can do, and not just what you say uou can do, so our program is 90% hands on starting from day 1. During your 15 weeks at Extreme Coding School you'll gain a wide set of technical skills, put them in action, and complete the program with an array of projects, and an impressive portfolio that will help you land your dream job.
+            </p>
       <hr/>
-
-        
-
-
-
 
 
 
