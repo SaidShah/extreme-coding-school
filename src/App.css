@@ -22,6 +22,17 @@ button.btn{
 
 }
 
+.p-width{
+  width: 86%;
+}
+
+.curriculum-image{
+  width: 90%;
+  height: 40%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .logo-image{
   height: 50px;
   width: 50px;
