@@ -33,7 +33,7 @@ const Curriculum = () => (
 
 
       <div className="column-right-side ">
-      <h2 className="blue-text bold-text ">Coding Boot Camp Curriculum</h2>
+      <h2 className="blue-text bold-text ">Extreme Coding School Curriculum</h2>
       <img alt="curriculum " src={curr_img} className="curriculum-image"/>
       <p className="left-text p-width">Here at Extreme Coding School we want to equip you for cintinued success even when
         you graduate as a full-stack developer. We not only cover the most in-demand skills for full-stack development,
