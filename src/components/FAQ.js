@@ -88,8 +88,8 @@ class FAQ extends Component {
                 </div>
 
                 <div className="tab faq-width faq-top-margin">
-                  <input id="tab-eight" type="checkbox" name="tabs"/>
-                  <label htmlFor="tab-eight" className="curriculum-label">How are you different from other boot camps?</label>
+                  <input id="tab-ninth" type="checkbox" name="tabs"/>
+                  <label htmlFor="tab-ninth" className="curriculum-label">How are you different from other boot camps?</label>
                   <div className="tab-content faq-width">
                   <ul className='faq-ul'>
                     <li>At Extreme Coding School we have built a curriculum based on the most in-demand technologies specific to the New York market. Especially our Data Structures and Algorithms which most boot camps do not offer.</li>
@@ -97,6 +97,25 @@ class FAQ extends Component {
                   </div>
                   </div>
 
+                  <div className="tab faq-width faq-top-margin">
+                    <input id="tab-tenth" type="checkbox" name="tabs"/>
+                    <label htmlFor="tab-tenth" className="curriculum-label">Are there any scholarships?</label>
+                    <div className="tab-content faq-width">
+                    <ul className='faq-ul'>
+                      <li>We offer early registration pricing and an interest-free payment plan for those who qualify.</li>
+                      </ul>
+                    </div>
+                    </div>
+
+                    <div className="tab faq-width faq-top-margin">
+                      <input id="tab-eleventh" type="checkbox" name="tabs"/>
+                      <label htmlFor="tab-eleventh" className="curriculum-label">How long does the program take to complete?</label>
+                      <div className="tab-content faq-width">
+                      <ul className='faq-ul'>
+                        <li>The program takes 15 weeks to complete, and then you will start working with career services to land your first full-stack developer or web developer position.</li>
+                        </ul>
+                      </div>
+                      </div>
 
         </div>
 
