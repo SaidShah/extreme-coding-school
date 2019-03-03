@@ -16,10 +16,11 @@ import logo from './images/code-image.png'
 class App extends Component {
 
 
-
   render() {
     return (
       <div >
+      <div>
+
         <div>
           <img src={logo} className="logo-image" alt="logo"/><span className="logo-text"> Extreme | Coding | School </span>
         </div>
@@ -35,7 +36,8 @@ class App extends Component {
           <Route path="/apply" render={()=><ApplyForm/>}/>
           <Route path="/" render={()=><Home/>}/>
         </Switch>
-        <Footer/>
+      </div>
+      <Footer/>
       </div>
     )
   }

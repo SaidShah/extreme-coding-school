@@ -4,7 +4,7 @@ class Footer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="footer-margin">
       <footer className="page-footer font-small color-dark-blue pt-4">
 
           <div className="container-fluid text-center text-md-left">
