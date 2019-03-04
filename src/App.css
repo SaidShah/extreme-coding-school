@@ -1,3 +1,5 @@
+
+
 div.card-block{
   padding: 20px;
 }
@@ -375,3 +377,140 @@ width: 95%;
   list-style-type: square;
   list-style-position: outside;
 }
+
+/* @media(max-width: 800px){
+   html, body{
+   overflow-x: hidden;
+   margin-left: 0px;
+   margin-right: 0px;
+ }
+}
+
+@media (max-width: 400px){
+    html, body{
+    overflow-x: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .column-left-side{
+    display: none;
+  }
+}
+
+@media (max-width: 600px){
+
+  .column-left-side{
+    display: none;
+  }
+
+    html, body{
+     overflow-x: hidden;
+     margin-left: 0px;
+     margin-right: 0px;
+   }
+
+
+  .jumbo-image-home{
+    max-width: 80%;
+
+  }
+
+  body{
+    font-size: .5em;
+  }
+    .image-box{
+      width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: auto;
+
+    }
+    .column-left-side{
+      display: none;
+    }
+
+    .column-right-side{
+      font-size: .5em;
+    }
+
+    .column-right-side-programming{
+      margin-left: 1%;
+      width: 100%;
+
+    }
+
+    .row{
+      margin: auto;
+    }
+
+    .program_image{
+      display: none;
+    }
+
+  img.jumbo-image-home{
+    max-width: 50%;
+  }
+
+
+} */
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+    .column-left-side {
+      display: none;
+    }
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .program_image{
+      display: none;
+    }
+
+    .graduate_image{
+      display: none;
+    }
+
+    .logo-image{
+      margin-top: 2%;
+      margin-right: auto;
+      margin-bottom: 2%;
+      margin-left: 5px;
+    }
+
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+    .column-left-side {
+      display: none;
+    }
+    html, body{
+        overflow-x: hidden;
+    }
+
+    .program_image{
+      display: none;
+    }
+
+    .graduate_image{
+      display: none;
+    }
+
+    .logo-image{
+      margin-top: 2%;
+      margin-right: auto;
+      margin-bottom: 2%;
+      margin-left: 5px;
+    }
+
+}
+
+
+
+img { max-width: 100%; }
+
+html { font-size:100%; }
