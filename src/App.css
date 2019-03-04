@@ -480,6 +480,16 @@ width: 95%;
       margin-left: 5px;
     }
 
+    .column-right-side {
+      width: 100%;
+      text-align: center;
+    }
+
+    .curriculum-image{
+      max-width: 100%;
+      height: 10%;
+    }
+
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
@@ -491,6 +501,8 @@ width: 95%;
     html, body{
         overflow-x: hidden;
     }
+
+
 
     .program_image{
       display: none;
@@ -507,7 +519,126 @@ width: 95%;
       margin-left: 5px;
     }
 
+    .row-div > div:nth-child(4){
+      display: none;
+    }
+
+    .row-div > div:nth-child(1){
+      display: none;
+    }
+
+    .row-div > div:nth-child(2){
+      display: none;
+    }
+
+
+
+    .black-letters::before{
+
+
+    }
+
+
+    .row-div{
+      margin-right: 30px;
+      margin-left: 30px;
+      width: 100%;
+      text-align: center;
+    }
+    .header-img-text.center-text.white-text{
+      width: 100%;
+      margin-left: 0px;
+      position: absolute;
+    }
+
+    .header-img-text.image-box{
+      max-width: 100%;
+      margin-right: 0px;
+      margin-left: 0px;
+      position:  static;
+    }
+
+    div.column.box-border{
+      width: 100%;
+      height: 100%;
+      padding-bottom: 1em;
+    }
+
+    .row.row-div{
+      margin-left: 0px;
+    }
+
+    #ruby-text{
+      visibility: hidden;
+      position: relative;
+    }
+
+    #ruby-text:after{
+      visibility: visible;
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	content: "Our curriculum is based on todays most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms";
+    }
+
+    h5.white-letters{
+      display: none;
+    }
+    .column-right-side.center-text{
+      width: 100%;
+      padding: 40px;
+    }
+
+    .column-right-side-programming{
+      width: 100%;
+      margin-left: auto;
+      margin-bottom: 2em;
+      padding: 5px;
+    }
+
+    .column-right-side-graduate{
+      width: 100%;
+      margin-right: auto;
+      margin-bottom: 2em;
+      padding: 5px;
+    }
+
+    .bold-text{
+      color: #2195f3
+    }
+
+    .column-right-side {
+      width: 100%;
+      text-align: center;
+    }
+
+    .curriculum-image{
+      max-width: 100%;
+      height: 10%;
+    }
+
+    .left-text.p-width{
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 0px;
+    }
+
+    .blue-text.bold-text{
+      padding: 5px;
+    }
+
+    label.curriculum-label{
+      width: 100%;
+      padding-left: 0px;
+      font-size: 1em;
+      padding-top: 20px;
+    }
+
+  .column-left.curriculum-text{
+    
+  }
+
 }
 
 
-html { font-size:100%; }
+html { font-size:100%;}

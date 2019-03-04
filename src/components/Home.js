@@ -37,7 +37,7 @@ class Home extends Component {
           <h1 className="bold-text">Become a developer in 12 weeks</h1>
           <div className="header-img-text image-box">
           <h2 className="bold-text">Featured Languages</h2>
-            <div className="row">
+            <div className="row row-div">
               <div className="column box-border">
                 <h5 className="white-letters">HTML & CSS</h5>
                 <p className="black-letters">Build projects as you dive into detail about how the browser works and what exactly the source code comprising a web page does.</p>
@@ -49,7 +49,7 @@ class Home extends Component {
                 </div>
               <div className="column box-border">
               <h5 className="white-letters">Ruby & Rails</h5>
-              <p className="black-letters">Learn Basic + Intermediate Ruby,Test-Driven Development,
+              <p className="black-letters" id="ruby-text">Learn Basic + Intermediate Ruby,Test-Driven Development,
                 ActiveRecord, Database Queries, Joins, Schema Design, etc... </p>
               </div>
               <div className="column box-border">
