@@ -5,7 +5,7 @@ class FAQ extends Component {
   render() {
     return (
       <div className="faq-top-margin">
-        <h1 className="center-text ">Frequently Asked Questions</h1>
+        <h1 className="center-text blue-text bold-text">Frequently Asked Questions</h1>
 
         <div className="tab faq-width faq-top-margin">
           <input id="tab-one" type="checkbox" name="tabs"/>
@@ -52,7 +52,7 @@ class FAQ extends Component {
             <label htmlFor="tab-five" className="curriculum-label">What are the pre-enrollment code challenges?</label>
             <div className="tab-content faq-width">
             <ul className='faq-ul'>
-              <li>The first challenge will test your knowledge of HTML and CSS. For the second and third code challenges you will have the option of either completing them in Java or Javascript. They are not difficult, but we would like to test your critical thinking and problem-solving skills. </li>
+              <li>The first challenge will test your knowledge of HTML and CSS. For the second and third code challenges you will have the option of either completing them in Java, Javascript or Ruby. They are not difficult, but we would like to test your critical thinking and problem-solving skills. </li>
               </ul>
             </div>
             </div>
