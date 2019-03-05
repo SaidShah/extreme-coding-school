@@ -13,14 +13,14 @@ class Footer extends Component {
 
               <div className="col-md-6 mt-md-0 mt-3">
 
-                <h5 className="text-uppercase">Extreme Coding School</h5>
+                <h5 className="text-uppercase" style={{marginTop:"5%"}}>Extreme Coding School</h5>
                 <p>Learn Programming and Change Your Life</p>
 
               </div>
 
-              <hr className="clearfix w-100 d-md-none pb-3"/>
+              <hr className="clearfix w-100 d-md-none" style={{marginTop:"10px", marginBottom:"10px"}}/>
 
-              <div className="col-md-3 mb-md-0 mb-3">
+              <div className="col-md-3 mb-md-0 mb-3" style={{marginBot:"10px"}}>
 
                   <h5 className="text-uppercase">About</h5>
 
