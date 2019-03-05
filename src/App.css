@@ -827,6 +827,12 @@ width: 95%;
     font-size: 1em;
   }
 
+  .form-width{
+    width: 100%;
+  }
+  .padding-header{
+    margin-left: 20px;
+  }
 
 
 }
