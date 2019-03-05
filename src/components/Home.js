@@ -110,31 +110,37 @@ class Home extends Component {
 
                 </ul>
 
+                <div>
+                <hr style={{minHeight:"5px"}}/>
+                </div>
 
-                <hr/>
-                <div className="row">
-                  <div className="column-left-side-programming">
-                    <img src={programming_image} alt="programming" className="program_image"/>
+                <div className="programming-container">
+                  <div className="row prog-row">
+                    <div className="column-left-side-programming">
+                      <img src={programming_image} alt="programming" className="program_image"/>
+                    </div>
+
+
+                    <div className="column-right-side-programming">
+                      <h3 className="bold-text">What You Will Learn at Extreme</h3>
+                      <ul className="home-page-ul">
+                        <li className="home-page-li-programming">Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...</li>
+                        <li className="home-page-li-programming">Learn the most used Databases like Postgres, MySQL, etc..</li>
+                        <li className="home-page-li-programming">Learn GIT commits, pushing, pulling, branching, etc...</li>
+                        <li className="home-page-li-programming">Learn agile principles and methods through building projects from end-to-end</li>
+                        <li className="home-page-li-programming">Learn how to build a tech resume, so you can put your best foot forward</li>
+                      </ul> 
+                    </div>
                   </div>
 
-
-                  <div className="column-right-side-programming">
-                    <h3 className="bold-text">What You Will Learn at Extreme</h3>
-                    <ul className="home-page-ul">
-                      <li className="home-page-li-programming">Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...</li>
-                      <li className="home-page-li-programming">Learn the most used Databases like Postgres, MySQL, etc..</li>
-                      <li className="home-page-li-programming">Learn GIT commits, pushing, pulling, branching, etc...</li>
-                      <li className="home-page-li-programming">Learn agile principles and methods through building projects from end-to-end</li>
-                      <li className="home-page-li-programming">Learn how to build a tech resume, so you can put your best foot forward</li>
-                    </ul> 
+                  <div>
+                  <hr style={{minHeight:"5px"}}/>
                   </div>
-
-
 
                   <div className="move-up">
-                    <hr/>
+                    
                     <div className="row">
-                      <div className="column-right-side-graduate">
+                      <div className="column-left-side-graduate">
                         <h3 className="bold-text">What You Receive After Graduation</h3>
                         <ul className="home-page-ul">
                           <li className="home-page-li-graduate">Award showcasing your accomplishment to future employers.</li>
@@ -145,7 +151,7 @@ class Home extends Component {
                         </ul>
                       </div>
 
-                      <div className="column-left-side-graduate">
+                      <div className="column-right-side-graduate">
                         <img src={graduate_image} alt="programming" className="graduate_image"/>
                       </div>
                     </div>

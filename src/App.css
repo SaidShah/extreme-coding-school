@@ -131,6 +131,11 @@ button.btn{
   z-index: 1000;
 }
 
+.prog-row {
+  position: relative;
+  margin: auto;
+}
+
 .color-dark-blue{
   background-color: #003c9e;
 }
@@ -174,9 +179,9 @@ button.btn{
 
 .program_image{
   margin: auto;
-  margin-top: 40%;
-  margin-left: 5%;
-  height: 45%;
+  width: 75%;
+  margin-top: 7%;
+  margin-bottom: 5%;
   /* word-wrap: break-word; */
 }
 
@@ -187,10 +192,14 @@ button.btn{
 }
 
 .column-right-side-programming{
-  width: 70%;
-  margin-left: 20%;
-  padding-left: 10px;
-  margin-bottom: 0px;
+  width: 50%;
+  margin-top: 2%;
+  display: inline-block;
+}
+
+.column-left-side-programming{
+  width: 40%;
+  display: inline-block;
 }
 
 .graduate_image{
@@ -198,23 +207,21 @@ button.btn{
   margin-left: 0%;
 }
 
-.column-right-side-graduate{
+.column-left-side-graduate{
   width: 70%;
   padding-right: 10px;
   margin-bottom: 0px;
 
 }
 
-.column-left-side-graduate{
+.column-right-side-graduate{
 width: 10%;
 }
 
-.column-left-side-programming{
-  width: 10%;
-}
+
 
 .move-up{
-  margin-top: -15%;
+ /*dead class*/
 }
 
 .home-page-li-graduate{
@@ -476,6 +483,23 @@ width: 95%;
     }
     html, body{
         overflow-x: hidden;
+    }
+
+    .column-left-side-programming {
+      display: none;
+    }
+
+    .column-right-side-programming {
+      margin: auto;
+      width: 70%; /* fixes for dead space */
+    }
+
+    .column-right-side-graduate {
+      display: none;
+    }
+
+    .column-left-side-graduate {
+      margin: auto;
     }
 
     .program_image{
