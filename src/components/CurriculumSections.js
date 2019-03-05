@@ -120,7 +120,7 @@ class CurriculumSections extends PureComponent {
           </div>
 
 
-          <div className="tab">
+          <div className="tab tab-bottom">
             <input id="tab-five" type="checkbox" name="tabs"/>
             <label htmlFor="tab-five" className="curriculum-label">Module 5: Learn Data Structures and Algorithms</label>
               <hr className="curriculum-hr"/>
@@ -138,7 +138,7 @@ class CurriculumSections extends PureComponent {
                   <li>Understand how to search for data with depth first search, breath first search and more</li>
                   <li>Learn how to sort small and large data sets by implementing sorting algorithms</li>
                   <li>Understand which data structures to use based on the given problem to come up with the most efficient solution</li>
-                  <li>Learn about space and time complexities as well as Big O </li>
+                  <li>Learn about space and time complexities as well as Big-O </li>
                 </ul>
 
                 </div>

@@ -19,7 +19,8 @@ class App extends Component {
   render() {
     return (
       <div >
-      <div>
+      <div className="middle-div">
+      <div className="body-content">
 
         <div>
           <img src={logo} className="logo-image" alt="logo"/><span className="logo-text"> Extreme | Coding | School </span>
@@ -36,6 +37,7 @@ class App extends Component {
           <Route path="/apply" render={()=><ApplyForm/>}/>
           <Route path="/" render={()=><Home/>}/>
         </Switch>
+      </div>
       </div>
       <Footer/>
       </div>

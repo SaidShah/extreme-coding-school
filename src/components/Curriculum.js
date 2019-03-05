@@ -47,13 +47,13 @@ const Curriculum = () => (
             </p>
       <hr/>
 
-      <CurriculumSections/>
 
 
 
 
 
 
+      <CurriculumSections />
         </div>
 
       </div>
