@@ -77,7 +77,7 @@ class Home extends Component {
           <p>(###)###-####</p>
           <p>(###)###-####</p>
 
-        <h6 className="bold-text">Email US</h6>
+        <h6 className="bold-text">Email Us</h6>
         <hr/>
           <p><a href="mailto:admissions@extremecodingschool.com">Enrollment</a></p>
           <p><a href="mailto:admissions@extremecodingschool.com">Student Services</a></p>
