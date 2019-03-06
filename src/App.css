@@ -713,7 +713,6 @@ width: 95%;
     }
 
 
-
     .program_image{
       display: none;
     }
@@ -871,6 +870,9 @@ width: 95%;
     margin-left: 20px;
   }
 
+  .footer-margin {
+    margin-top: 90px;
+  }
 
 }
 
@@ -1041,6 +1043,10 @@ width: 95%;
   }
   .padding-header{
     margin-left: 20px;
+  }
+
+  .footer-margin {
+    margin-top: 90px;
   }
 
 
