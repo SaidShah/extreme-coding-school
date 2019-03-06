@@ -96,7 +96,7 @@ class Home extends Component {
                 <ul className="home-page-ul">
                   <li className="home-page-li">Get a full time position as a Web Developer or Software Engineer with our job placement assistance.</li>
                   <li className="home-page-li">Use Git to build a portfolio of projects and applications in our Web Development program.</li>
-                  <li className="home-page-li">Build an online portfolio to show off and demo your projects for perspective employers.</li>
+                  <li className="home-page-li">Build an online portfolio to show off and demo your projects for prospective employers.</li>
                   <li className="home-page-li">Study part-time while maintaining your work schedule. Accelerated full-time options will help you achieve your dreams faster.</li>
                   <li className="home-page-li">Get extra help from our instructors to help you navigate through the program.</li>
                   <li className="home-page-li">Build an incredible resume to show off your technical abilities.</li>
