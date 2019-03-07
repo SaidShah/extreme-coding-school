@@ -9,7 +9,7 @@ class Footer extends Component {
 
           <div className="container-fluid text-center text-md-left">
 
-            <div className="row">
+            <div className="row" style={{justifyContent:"center"}}>
 
               <div className="col-md-6" style={{display:"flex", justifyContent:"center"}}>
                 <div>
@@ -19,47 +19,60 @@ class Footer extends Component {
               </div>
 
               <hr className="clearfix w-100 d-md-none" style={{marginTop:"10px", marginBottom:"10px"}}/>
+              <div style={{width:"50%", display:"flex", justifyContent:"center"}}>
+                <div className="mb-md-0 mb-3" style={{marginBot:"10px", paddingRight:"3%"}}>
 
-              <div className="col-md-3 mb-md-0 mb-3" style={{marginBot:"10px"}}>
+                    <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>About</h5>
 
-                  <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>About</h5>
+                    <ul className="list-unstyled font-size-1-4">
+                      <li>
+                        <a className="no-transition" href="/curriculum">Curriculum</a>
+                      </li>
+                      <li>
+                        <a className="no-transition" href="/pricing">Pricing</a>
+                      </li>
+                      <li>
+                        <a className="no-transition" href="/requirements">Requirements</a>
+                      </li>
+                    </ul>
 
-                  <ul className="list-unstyled font-size-1-4">
-                    <li>
-                      <a className="no-transition" href="mailto:admissions@extremecodingschool.com">Contact Us</a>
-                    </li>
-                    <li>
-                      <a className="no-transition" href="/curriculum">Curriculum</a>
-                    </li>
-                    <li>
-                      <a className="no-transition" href="/pricing">Pricing</a>
-                    </li>
-                    <li>
-                      <a className="no-transition" href="/requirements">Requirements</a>
-                    </li>
-                  </ul>
+                  </div>
 
-                </div>
+                  <div className="mb-md-0 mb-3" style={{paddingRight:"3%"}}>
 
-                <div className="col-md-3 mb-md-0 mb-3">
+                    <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Resources</h5>
 
-                  <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Resources</h5>
+                    <ul className="list-unstyled font-size-1-4">
+                      <li>
+                        <a className="no-transition" href="/privacy">Privacy Policy</a>
+                      </li>
+                      <li>
+                        <a className="no-transition" href="/apply">Apply Now</a>
+                      </li>
+                      <li>
+                        <a className="no-transition" href="/faq">FAQ</a>
+                      </li>
+                      <li>
+                        <a className="no-transition" href="/">Home</a>
+                      </li>
+                    </ul>
 
-                  <ul className="list-unstyled font-size-1-4">
-                    <li>
-                      <a className="no-transition" href="/privacy">Privacy Policy</a>
-                    </li>
-                    <li>
-                      <a className="no-transition" href="/apply">Apply Now</a>
-                    </li>
-                    <li>
-                      <a className="no-transition" href="/faq">FAQ</a>
-                    </li>
-                    <li>
-                      <a className="no-transition" href="/">Home</a>
-                    </li>
-                  </ul>
+                  </div>
 
+                  <div className="mb-md-0 mb-3" style={{paddingRight:"3%"}}>
+
+                    <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Contact Us</h5>
+
+                    <ul className="list-unstyled font-size-1-4">
+                      <li>
+                        <a className="no-transition" href="mailto:admissions@extremecodingschool.com">Contact Us</a>
+                      </li>
+                      <li>
+                        <a className="no-transition" href="tel:+###########">###-#####</a>
+                      </li>
+                    </ul>
+
+                  </div>
                 </div>
 
             </div>
