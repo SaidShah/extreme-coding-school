@@ -516,6 +516,7 @@ button.btn{
   }
   html, body{
     overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   .bold-text-3 {
