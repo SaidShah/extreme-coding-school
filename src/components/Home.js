@@ -101,13 +101,13 @@ class Home extends Component {
               <div className="column-right-side center-text">
                 <div>
                   <h2 className="blue-text bold-text home-page-ul-header-h2">Gain In-Demand Skills at Extreme</h2>
-                  <p className="left-text skills-paragraph">Extreme Coding School equips you with the skills to succeed in todays computerized world. We at Extreme equip you with essential skills for today’s digital economy. With strategically engineered curricula, face-to-face interaction, and knowledgeable instructors, we provide an educational experience that will help you find a path to success.
+                  <p className="left-text skills-paragraph">Extreme Coding School equips you with the skills to succeed in today's computerized world. We at Extreme equip you with essential skills for today’s digital economy. With strategically engineered curricula, face-to-face interaction, and knowledgeable instructors, we provide an educational experience that will help you find a path to success.
                   </p>
                   <div className="skills-ul-div">
                       <ul className="home-page-ul">
                         <li className="home-page-li">Get a full time position as a Web Developer or Software Engineer with our job placement assistance.</li>
                         <li className="home-page-li">Use Git to build a portfolio of projects and applications in our Web Development program.</li>
-                        <li className="home-page-li">Build an online portfolio to show off and demo your projects for perspective employers.</li>
+                        <li className="home-page-li">Build an online portfolio to show off and demo your projects for prospective employers.</li>
                         <li className="home-page-li">Study part-time while maintaining your work schedule. Accelerated full-time options will help you achieve your dreams faster.</li>
                         <li className="home-page-li">Get extra help from our instructors to help you navigate through the program.</li>
                         <li className="home-page-li">Build an incredible resume to show off your technical abilities.</li>
