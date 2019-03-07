@@ -13,15 +13,9 @@ class Home extends Component {
      let index = 0;
 
      setInterval(function(){
-       if(index >= 3){
-         index = 0
-
-         document.getElementById("jumbo-image-home").src = images[index]
-       }else {
-         index++
-         document.getElementById("jumbo-image-home").src = images[index]
-
-       }
+       index++;
+       index %= 3;
+       document.getElementById("jumbo-image-home").src = images[index];
 
      },5000)
   }
