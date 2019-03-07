@@ -279,8 +279,9 @@ button.btn{
 
 .column-right-side-programming{
   width: 50%;
-  margin-top: 2%;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .program_image{
@@ -312,6 +313,9 @@ button.btn{
 .column-left-side-graduate{
   width: 50%;
   float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .column-right-side-graduate{

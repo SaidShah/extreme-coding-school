@@ -5,6 +5,7 @@ import image_three from '.././images/jumbotron-img-three.jpg'
 import image_four from '.././images/jumbotron-img-four.jpg'
 import programming_image from '.././images/programming-image.jpg'
 import graduate_image from '.././images/graduate.jpg'
+import SideBar from './SideBar'
 
 class Home extends Component {
 
@@ -74,28 +75,7 @@ class Home extends Component {
             <div className="padding-after-jumbotron row">
 
 
-              <div className="column-left-side center-text">
-                <h3 className="blue-text bold-text font-size-2">Enrolling Now</h3>
-                <h6 className="bold-text font-size-1-3">Full-Stack Development</h6>
-                <hr/>
-                <p className="font-size-1-2">5/01 : Stony Brook </p>
-                <p className="font-size-1-2"> 5/22 : Stony Brook </p>
-
-                <h6 className="bold-text font-size-1-3">Contact Admissions</h6>
-                <hr/>
-                <p className="font-size-1-2">(###)###-####</p>
-                <p className="font-size-1-2">(###)###-####</p>
-
-                <h6 className="bold-text font-size-1-3">Email</h6>
-                <hr/>
-                <p className="font-size-1-2"><a className="no-transition" href="mailto:admissions@extremecodingschool.com">Enrollment</a></p>
-                <p className="font-size-1-2"><a className="no-transition" href="mailto:admissions@extremecodingschool.com">Student Services</a></p>
-
-                <h6 className="bold-text font-size-1-3">Our Mission</h6>
-                <hr/>
-                <p className="font-size-1-2 left-text">The mission at Extreme Coding School is to educate students through practice and not just slides or books. We want to train our students to push disciplinary frontiers, confront complex issues and engineer innovative solutions for the grand challenges of our time.</p>
-
-              </div>
+              <SideBar> </SideBar>
 
 
               <div className="column-right-side center-text">
@@ -130,8 +110,8 @@ class Home extends Component {
                     <div className="column-right-side-programming">
                       
                       <ul className="home-page-ul" style={{position:"relative"}}>
-                        <h3 className="bold-text home-page-ul-header-h3" style={{position:"absolute", top:"-25%", marginBotton:"30px"}}>What You Will Learn at Extreme</h3>
-                        <li className="home-page-li-prog">Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...</li>
+                        <h3 className="bold-text home-page-ul-header-h3">What You Will Learn at Extreme</h3>
+                        <li className="home-page-li">Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...</li>
                         <li className="home-page-li">Learn the most used Databases like Postgres, MySQL, etc..</li>
                         <li className="home-page-li">Learn GIT commits, pushing, pulling, branching, etc...</li>
                         <li className="home-page-li">Learn agile principles and methods through building projects from end-to-end</li>
