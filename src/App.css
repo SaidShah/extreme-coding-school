@@ -259,6 +259,8 @@ button.btn{
 .prog-row {
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -290,11 +292,12 @@ button.btn{
 .grad-row {
   position: relative;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .column-left-side-graduate{
   width: 50%;
-  margin-top: 4%;
   float: left;
 }
 
@@ -650,7 +653,7 @@ button.btn{
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) and (min-height: 568px) /*13" macbook screws up at 500% zoom*/ {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
   .column-left-side {
