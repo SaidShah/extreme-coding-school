@@ -1,5 +1,6 @@
 import React from 'react';
 import CurriculumSections from './CurriculumSections'
+import SideBar from './SideBar'
 import curr_img from '.././images/person-coding.png'
 
 const Curriculum = () => (
@@ -8,28 +9,7 @@ const Curriculum = () => (
   <div className="padding-after-jumbotron row">
 
 
-  <div className="column-left-side center-text">
-    <h3 className="blue-text bold-text">Enrolling Now</h3>
-    <h6 className="bold-text">Full-Stack Development</h6>
-    <hr/>
-      <p>5/01 : Stony Brook </p>
-      <p>5/22 : Stony Brook </p>
-
-    <h6 className="bold-text">Contact Admissions</h6>
-    <hr/>
-      <p>(###)###-####</p>
-      <p>(###)###-####</p>
-
-    <h6 className="bold-text">Email US</h6>
-    <hr/>
-      <p><a href="mailto:admissions@extremecodingschool.com">Enrollment</a></p>
-      <p><a href="mailto:admissions@extremecodingschool.com">Student Services</a></p>
-
-      <h6 className="bold-text">Our Mission</h6>
-      <hr/>
-        <p className="left-text">The mission at Extreme Coding School is to educate students through practice and not just slides or books. We want to train our students to push disciplinary frontiers, confront complex issues and engineer innovative solutions for the grand challenges of our time.</p>
-
-      </div>
+    <SideBar></SideBar>
 
 
       <div className="column-right-side ">
