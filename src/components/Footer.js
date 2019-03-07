@@ -11,31 +11,31 @@ class Footer extends Component {
 
             <div className="row">
 
-              <div className="col-md-6 mt-md-0 mt-3">
-
-                <h5 className="text-uppercase">Extreme Coding School</h5>
-                <p>Learn Programming and Change Your Life</p>
-
+              <div className="col-md-6" style={{display:"flex", justifyContent:"center"}}>
+                <div>
+                  <h5 className="text-uppercase font-size-2-footer bold-text" style={{textAlign:"center", marginTop:"5%"}}>Extreme Coding School</h5>
+                 <p className="font-size-1-5-footer">Learn Programming and Change Your Life</p>
+                </div>
               </div>
 
-              <hr className="clearfix w-100 d-md-none pb-3"/>
+              <hr className="clearfix w-100 d-md-none" style={{marginTop:"10px", marginBottom:"10px"}}/>
 
-              <div className="col-md-3 mb-md-0 mb-3">
+              <div className="col-md-3 mb-md-0 mb-3" style={{marginBot:"10px"}}>
 
-                  <h5 className="text-uppercase">About</h5>
+                  <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>About</h5>
 
-                  <ul className="list-unstyled">
+                  <ul className="list-unstyled font-size-1-4">
                     <li>
-                      <a href="mailto:admissions@extremecodingschool.com">Contact Us</a>
+                      <a className="no-transition" href="mailto:admissions@extremecodingschool.com">Contact Us</a>
                     </li>
                     <li>
-                      <a href="/curriculum">Curriculum</a>
+                      <a className="no-transition" href="/curriculum">Curriculum</a>
                     </li>
                     <li>
-                      <a href="/pricing">Pricing</a>
+                      <a className="no-transition" href="/pricing">Pricing</a>
                     </li>
                     <li>
-                      <a href="/requirements">Requirements</a>
+                      <a className="no-transition" href="/requirements">Requirements</a>
                     </li>
                   </ul>
 
@@ -43,20 +43,20 @@ class Footer extends Component {
 
                 <div className="col-md-3 mb-md-0 mb-3">
 
-                  <h5 className="text-uppercase">Resources</h5>
+                  <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Resources</h5>
 
-                  <ul className="list-unstyled">
+                  <ul className="list-unstyled font-size-1-4">
                     <li>
-                      <a href="/privacy">Privacy Policy</a>
+                      <a className="no-transition" href="/privacy">Privacy Policy</a>
                     </li>
                     <li>
-                      <a href="/apply">Apply Now</a>
+                      <a className="no-transition" href="/apply">Apply Now</a>
                     </li>
                     <li>
-                      <a href="/faq">FAQ</a>
+                      <a className="no-transition" href="/faq">FAQ</a>
                     </li>
                     <li>
-                      <a href="/">Home</a>
+                      <a className="no-transition" href="/">Home</a>
                     </li>
                   </ul>
 
@@ -66,8 +66,8 @@ class Footer extends Component {
 
           </div>
 
-          <div className="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="/"> ExtremeCodingSchool.com</a>
+          <div className="footer-copyright text-center py-3 font-size-1-5">© 2018 Copyright:
+            <a className="no-transition" href="/"> ExtremeCodingSchool.com</a>
           </div>
 
         </footer>
