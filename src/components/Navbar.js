@@ -21,39 +21,39 @@ class Navbar extends Component {
         >
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <a className="nav-link bold-font" href="/">
+              <a className="nav-link no-transition-nav bold-font" href="/">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link bold-font"  href="/curriculum">
+              <a className="nav-link no-transition-nav bold-font"  href="/curriculum">
                 Curriculum
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link bold-font" href="/pricing">
+              <a className="nav-link no-transition-nav bold-font" href="/pricing">
                 Pricing
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link bold-font" href="/program">
+              <a className="nav-link no-transition-nav bold-font" href="/program">
                 Program
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link bold-font" href="/faq">
+              <a className="nav-link no-transition-nav bold-font" href="/faq">
                 FAQ
               </a>
             </li>
 
             <li className="nav-item">
-              <a href="/requirements" className="nav-link bold-font ">Requirements</a>
+              <a href="/requirements" className="nav-link no-transition-nav bold-font ">Requirements</a>
             </li>
 
             <li className="nav-item">
-              <a href="/apply" className="nav-link bold-font shadow light-green">Apply Now</a>
+              <a href="/apply" className="nav-link no-transition-nav bold-font shadow light-green">Apply Now</a>
             </li>
 
 
