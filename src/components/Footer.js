@@ -37,7 +37,7 @@ class Footer extends Component {
                     </ul>
 
                   </div>
-
+                <div style = {{width:"4px"}}/>
                   <div className="mb-md-0 mb-3" style={{paddingRight:"3%"}}>
 
                     <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Resources</h5>
@@ -58,6 +58,7 @@ class Footer extends Component {
                     </ul>
 
                   </div>
+                <div style = {{width:"4px"}}/>
 
                   <div className="mb-md-0 mb-3" style={{paddingRight:"3%"}}>
 
