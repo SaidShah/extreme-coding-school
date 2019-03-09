@@ -20,7 +20,7 @@ class Footer extends Component {
 
               <hr className="clearfix w-100 d-md-none" style={{marginTop:"10px", marginBottom:"10px"}}/>
               <div style={{width:"50%", display:"flex", justifyContent:"center"}}>
-                <div className="mb-md-0 mb-3" style={{marginBot:"10px", paddingRight:"3%"}}>
+                <div className="mb-md-0 mb-3" style={{marginBot:"10px", marginRight:"3%", marginLeft:"3%"}}>
 
                     <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>About</h5>
 
@@ -37,8 +37,8 @@ class Footer extends Component {
                     </ul>
 
                   </div>
-                <div style = {{width:"4px"}}/>
-                  <div className="mb-md-0 mb-3" style={{paddingRight:"3%"}}>
+                <div style = {{width:"10px"}}/>
+                  <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
                     <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Resources</h5>
 
@@ -58,9 +58,9 @@ class Footer extends Component {
                     </ul>
 
                   </div>
-                <div style = {{width:"4px"}}/>
+                <div style = {{width:"10px"}}/>
 
-                  <div className="mb-md-0 mb-3" style={{paddingRight:"3%"}}>
+                  <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
                     <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Contact Us</h5>
 
