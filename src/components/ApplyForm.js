@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import database from './base'
+// import env from '.././.env.local'
 
 
 class ApplyForm extends Component {
@@ -19,8 +21,27 @@ class ApplyForm extends Component {
 
     }
 
+
+
+
     handleSubmit=(e,values)=>{
       e.preventDefault();
+
+      let id = values.phone.replace(/[^0-9]+/g, "")
+
+      if(id.length !== 10){
+        console.log(id, "ID INVALID")
+      }else{
+
+        database.database().ref('users').push({
+          first_Name: values.firstName,
+          last_Name: values.lastName,
+          email: values.email,
+          phone: values.phone,
+          college: values.college,
+          major: values.major
+        })
+      }
 
     }
 
@@ -51,7 +72,7 @@ class ApplyForm extends Component {
 
           <div className="md-form margin-left">
               <i className="fa fa-phone prefix"></i>
-              <input type="number"  className="form-control " placeholder="Phone Number" value={this.state.phone} name="phone" onChange={this.handleChange} required/>
+              <input type="text"  className="form-control " placeholder="Phone Number" value={this.state.phone} name="phone" onChange={this.handleChange} required/>
           </div>
 
           <label className="select-box">
