@@ -1,7 +1,9 @@
 
-import firebase from 'firebase'
+// import firebase from 'firebase/database'
+const firebase = require("firebase/app");
+require('firebase/database');
 
-var config = {
+const config = {
   apiKey: process.env.REACT_APP_FIREBASE_KEY,
   authDomain: process.env.REACT_APP_FIREBASE_DOMAIN,
   databaseURL: process.env.REACT_APP_FIREBASE_DATABASE,

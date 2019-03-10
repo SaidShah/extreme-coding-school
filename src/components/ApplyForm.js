@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import database from './base'
-// import env from '.././.env.local'
 
 
 class ApplyForm extends Component {
@@ -21,6 +20,9 @@ class ApplyForm extends Component {
 
     }
 
+    redirectUser=()=>{
+      this.props.props.history.push('/thankyou')
+    }
 
 
 
@@ -32,8 +34,12 @@ class ApplyForm extends Component {
       let lName = values.lastName.replace(/[a-zA-Z]+/g,"")
       let mail = values.email.replace(/[a-zA-Z0-9_.]+/g,"")
 
-      if((id.length !== 10 || fName.length !== 0 || lName.length !== 0 || mail.length !== 1)){
+      if(id.length !== 10 || fName.length !== 0){
         document.getElementById("errorMsg").innerText="Enter Valid Values"
+        console.log('IN FIRST IF');
+      }else if (lName.length !== 0 || mail.length !== 1){
+        document.getElementById("errorMsg").innerText="Enter Valid Values"
+        console.log('IN second IF');
       }
       else{
         document.getElementById("errorMsg").innerText=""
@@ -51,7 +57,7 @@ class ApplyForm extends Component {
           phone: '',
           college: '',
           major: ''
-        }))
+        },()=>this.redirectUser()))
       }
 
     }
@@ -120,6 +126,7 @@ class ApplyForm extends Component {
           </div>
           </div>
         </div>
+
         </form>
       );
     }
