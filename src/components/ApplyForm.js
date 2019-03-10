@@ -29,10 +29,12 @@ class ApplyForm extends Component {
     handleSubmit=(e,values)=>{
       e.preventDefault();
 
+
       let id = values.phone.replace(/[^0-9]+/g, "")
       let fName = values.firstName.replace(/[a-zA-Z]+/g,"")
       let lName = values.lastName.replace(/[a-zA-Z]+/g,"")
       let mail = values.email.replace(/[a-zA-Z0-9_.]+/g,"")
+
 
       if(id.length !== 10 || fName.length !== 0){
         document.getElementById("errorMsg").innerText="Enter Valid Values"
