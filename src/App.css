@@ -590,9 +590,16 @@ button.btn{
     margin-left: 0px;
   }
 
+  .logo-div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .logo-text {
+    padding-top: 0;
+    margin-left: 15px !important;
     font-size: 3vw;
-    margin: auto;
   }
 
   .header-img-text {
@@ -740,6 +747,7 @@ button.btn{
     height: 8vw;
     width: 8vw;
   }
+
 
   .row-div{
     margin-right: 30px;
@@ -946,174 +954,5 @@ button.btn{
   }
 }
 
-/*
-@media screen and (max-width: 320px) {
-  #primary { width:100%; }
-  #secondary { width:100%; margin:0; border:none; }
-  .column-left-side {
-    display: none;
-  }
-  html, body{
-    overflow-x: hidden;
-  }
-
-  .row-div > div:nth-child(4){
-    display: none;
-  }
-
-  .row-div > div:nth-child(1){
-    display: none;
-  }
-
-  .row-div > div:nth-child(2){
-    display: none;
-  }
-
-  .black-letters::before{}
-
-  .row-div{
-    margin-right: 30px;
-    margin-left: 30px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .header-img-text.center-text.white-text{
-    width: 100%;
-    margin-left: 0px;
-    position: absolute;
-  }
-
-  .header-img-text.image-box{
-    margin-top: 100%;
-    max-width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    position:  static;
-  }
-
-  div.column.box-border{
-    width: 100%;
-    height: 100%;
-    padding-bottom: 1em;
-  }
-
-  .row.row-div{
-    margin-left: 0px;
-  }
-
-  #ruby-text{
-    visibility: hidden;
-    position: relative;
-    font-size:130%;
-  }
-
-  #ruby-text:after{
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: "Our curriculum is based on todays most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms";
-  }
-
-  h5.white-letters{
-    display: none;
-  }
-
-  .bold-text{
-    color: #2195f3
-  }
-
-  .column-right-side.center-text{
-    width: 100%;
-    padding: 40px;
-  }
-
-  .left-text.p-width{
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 0px;
-  }
-
-  .blue-text.bold-text{
-    padding: 5px;
-  }
-
-  label.curriculum-label{
-    width: 100%;
-    padding-left: 0px;
-    font-size: 1em;
-    padding-top: 0px;
-  }
-
-  .column-left.curriculum-text{
-    padding-bottom: 0px;
-    padding-left: 0px;
-    width: 100%;
-  }
-
-  .column-right.curriculum-text{
-    margin-right: 5px;
-    width: 100%;
-  }
-
-  .curriculum-h4{
-    font-size: 1em;
-  }
-  label.curriculum-label{
-    font-size: 1em;
-  }
-
-  .form-width{
-    width: 100%;
-  }
-  .padding-header{
-    margin-left: 20px;
-  }
-
-  .footer-margin {
-    margin-top: 90px;
-  }
-
-
-  .logo-image{
-    margin-top: 2%;
-    margin-right: auto;
-    margin-bottom: 2%;
-    margin-left: 5px;
-  }
-
-
-  .program_image{
-    display: none;
-  }
-
-  .column-right-side-programming{
-    width: 100%;
-    margin-left: auto;
-    margin-bottom: 2em;
-    padding: 5px;
-  }
-
-
-  .column-left-side-graduate {
-    margin-top: 50%;
-  }
-
-  .graduate_image{
-    display: none;
-  }
-
-  .column-right-side {
-    width: 100%;
-    text-align: center;
-  }
-
-  .curriculum-image{
-    max-width: 70%;
-    height: 10%;
-  }
-}
-*/
 
 html { font-size:100%;}
