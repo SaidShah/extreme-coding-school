@@ -54,8 +54,9 @@ class Home extends Component {
                       </div>
                     </div>
                     <div className="column box-border">
-                      <div>
+                      <div className="featured-phone-fix">
                        <h5 className="white-letters font-size-1-5">Ruby & Rails</h5>
+                        <p className="ruby-text-2 font-size-2" style={{display:"none"}}> Our curriculum is based on todays most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms</p>
                        <p className="black-letters font-size-1-3" id="ruby-text">Learn Basic + Intermediate Ruby,Test-Driven Development,
                        ActiveRecord, Database Queries, Joins, Schema Design, etc... </p>
                       </div>

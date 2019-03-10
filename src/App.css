@@ -687,7 +687,7 @@ button.btn{
 }
 
 
-@media screen and (max-width: 480px) and (min-height: 568px) /*13" macbook screws up at 500% zoom*/ {
+@media screen and (max-width: 480px) and (min-height: 568px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
   .column-left-side {
@@ -697,8 +697,21 @@ button.btn{
     overflow-x: hidden;
   }
 
+  .bold-text-3 {
+    font-size: 7vw;
+  }
+
+  .bold-text-2 {
+    font-size: 5vw;
+  }
+
   .row-div > div:nth-child(4){
     display: none;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .row-div > div:nth-child(1){
@@ -708,7 +721,25 @@ button.btn{
   .row-div > div:nth-child(2){
     display: none;
   }
+
   .black-letters::before{}
+
+  .logo-div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo-text {
+    padding-top: 0;
+    margin-left: 5px !important;
+    font-size: 5vw;
+  }
+
+  .logo-image {
+    height: 8vw;
+    width: 8vw;
+  }
 
   .row-div{
     margin-right: 30px;
@@ -733,12 +764,17 @@ button.btn{
     font-size:130%;
   }
 
-  #ruby-text:after{
-    visibility: visible;
+  .featured-phone-fix {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .ruby-text-2{
     position: absolute;
-    top: 0;
-    left: 0;
-    content: "Our curriculum is based on todays most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms";
+    display: initial !important;
+    width: 70%;
+    font-size: 7vw;
   }
 
   h5.white-letters{
@@ -782,10 +818,6 @@ button.btn{
     margin-left: 20px;
   }
 
-  .footer-margin {
-    margin-top: 90px;
-  }
-
   .header-img-text.center-text.white-text{
     width: 100%;
     margin-left: 0px;
@@ -808,9 +840,6 @@ button.btn{
     width: 100%;
   }
 
-
-
-
   .logo-image{
     margin-top: 2%;
     margin-right: auto;
@@ -818,18 +847,39 @@ button.btn{
     margin-left: 5px;
   }
 
-  .header-img-text.image-box{
-    margin-top: 75%;
-    max-width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-    position:  static;
+  .image-box{
+    margin-top: 30%;
+    height: 70%;
+  }
+
+  .row-div {
+    height: 95%;
+  }
+
+  .skills-paragraph {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+  .skills-ul-div {
+    width: 100%;
+  }
+
+  .home-page-ul-header-h2 {
+    font-size: 7vw;
+  }
+
+  .home-page-ul {
+    margin-top: 20px;
+  }
+
+  .home-page-li {
+    font-size: 3.7vw;
   }
 
   .column-right-side-programming{
     width: 100%;
     margin-left: auto;
-    margin-bottom: 2em;
     padding: 5px;
   }
 
@@ -839,11 +889,15 @@ button.btn{
 
   .column-left-side-graduate {
     width: 100%;
-    margin-top: 30%;
+    margin-top: 5%;
   }
 
   .grad-h3 {
     top: -45%;
+  }
+
+  .grad-hr {
+    margin-bottom: 5px !important;
   }
 
   .column-right-side-graduate{
@@ -851,6 +905,14 @@ button.btn{
     margin-right: auto;
     margin-bottom: 2em;
     padding: 5px;
+  }
+
+  .tablet-home-page-ul-header-h2 {
+    font-size: 7vw;
+  }
+
+  .home-page-ul-header-h3 {
+    display: none;
   }
 
   .graduate_image{
@@ -867,8 +929,24 @@ button.btn{
     height: 10%;
   }
 
+  .font-size-2-footer {
+    font-size: 6vw;
+  }
+
+  .font-size-1-5-footer {
+    font-size: 4vw;
+  }
+
+  .font-size-1-4 {
+    font-size:  3vw;
+  }
+
+  .footer-bold {
+    font-size: 4vw !important;
+  }
 }
 
+/*
 @media screen and (max-width: 320px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
@@ -1036,5 +1114,6 @@ button.btn{
     height: 10%;
   }
 }
+*/
 
 html { font-size:100%;}

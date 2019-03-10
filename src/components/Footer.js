@@ -22,7 +22,7 @@ class Footer extends Component {
               <div style={{width:"50%", display:"flex", justifyContent:"center"}}>
                 <div className="mb-md-0 mb-3" style={{marginBot:"10px", marginRight:"3%", marginLeft:"3%"}}>
 
-                    <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>About</h5>
+                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.8vw"}}>About</h5>
 
                     <ul className="list-unstyled font-size-1-4">
                       <li>
@@ -40,7 +40,7 @@ class Footer extends Component {
                 <div style = {{width:"10px"}}/>
                   <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
-                    <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Resources</h5>
+                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.8vw"}}>Resources</h5>
 
                     <ul className="list-unstyled font-size-1-4">
                       <li>
@@ -62,7 +62,7 @@ class Footer extends Component {
 
                   <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
-                    <h5 className="text-uppercase bold-text" style={{fontSize:"1.8vw"}}>Contact Us</h5>
+                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.8vw"}}>Contact Us</h5>
 
                     <ul className="list-unstyled font-size-1-4">
                       <li>

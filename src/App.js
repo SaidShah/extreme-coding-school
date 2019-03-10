@@ -23,7 +23,7 @@ class App extends Component {
       <div className="body-content">
 
         <div className = "logo-div">
-          <div>
+          <div className="logo-div-2">
             <img src={logo} className="logo-image" alt="logo"/><span className="logo-text"> Extreme | Coding | School </span>
           </div>
         </div>
