@@ -15,6 +15,10 @@ button.btn{
   transition: none !important;
 }
 
+.error{
+  color: red;
+}
+
 .no-transition {
   -webkit-transition: none !important;
   transition: none !important;
@@ -726,7 +730,7 @@ button.btn{
   #ruby-text{
     visibility: hidden;
     position: relative;
-    font-size:130%; 
+    font-size:130%;
   }
 
   #ruby-text:after{
@@ -923,7 +927,7 @@ button.btn{
   #ruby-text{
     visibility: hidden;
     position: relative;
-    font-size:130%; 
+    font-size:130%;
   }
 
   #ruby-text:after{

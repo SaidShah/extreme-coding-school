@@ -28,10 +28,15 @@ class ApplyForm extends Component {
       e.preventDefault();
 
       let id = values.phone.replace(/[^0-9]+/g, "")
-      if(id.length !== 10){
-        console.log(id, "ID INVALID")
-      }else{
+      let fName = values.firstName.replace(/[a-zA-Z]+/g,"")
+      let lName = values.lastName.replace(/[a-zA-Z]+/g,"")
+      let mail = values.email.replace(/[a-zA-Z0-9_.]+/g,"")
 
+      if((id.length !== 10 || fName.length !== 0 || lName.length !== 0 || mail.length !== 1)){
+        document.getElementById("errorMsg").innerText="Enter Valid Values"
+      }
+      else{
+        document.getElementById("errorMsg").innerText=""
         database.database().ref('users/'+id).set({
           first_Name: values.firstName,
           last_Name: values.lastName,
@@ -39,7 +44,14 @@ class ApplyForm extends Component {
           phone: values.phone,
           college: values.college,
           major: values.major
-        })
+        },()=>this.setState({
+          firstName: '',
+          lastName: '',
+          email: '',
+          phone: '',
+          college: '',
+          major: ''
+        }))
       }
 
     }
@@ -102,7 +114,7 @@ class ApplyForm extends Component {
           <div className="text-center">
               <button type="submit" className="btn">Submit</button>
               <hr></hr>
-
+          <h3 className="error" id="errorMsg"> </h3>
           </div>
 
           </div>
