@@ -28,12 +28,11 @@ class ApplyForm extends Component {
       e.preventDefault();
 
       let id = values.phone.replace(/[^0-9]+/g, "")
-
       if(id.length !== 10){
         console.log(id, "ID INVALID")
       }else{
 
-        database.database().ref('users').push({
+        database.database().ref('users/'+id).set({
           first_Name: values.firstName,
           last_Name: values.lastName,
           email: values.email,
