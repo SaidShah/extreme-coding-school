@@ -127,10 +127,17 @@ button.btn{
 }
 
 .curriculum-image{
-  width: 90%;
-  height: 20%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: -56%;
+  padding-top: 56.25%;
+}
+
+.cirr-text {
+  margin-top: 5%;
+  font-size: 4vw;
+}
+
+.cirr-text.left-text {
+  font-size: 2vw;
 }
 
 .logo-text{
@@ -384,7 +391,15 @@ button.btn{
 .curriculum-label{
   font-weight: bold;
   font-size: 1.5em;
+}
 
+.faq-label{
+  font-weight: bold;
+  font-size: 2.5vw;
+}
+
+.curriculum-label-mobile {
+  display: none !important;
 }
 
 .footer-margin{
@@ -469,14 +484,14 @@ button.btn{
 }
 /* :checked */
 .tab input:checked ~ .tab-content {
-  max-height: 100vh;
+  max-height: 120vh;
 
 }
 /* Icon */
 .tab label::after {
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
   display: block;
   width: 3em;
   height: 3em;
@@ -511,6 +526,7 @@ button.btn{
 .faq-ul{
   list-style-type: square;
   list-style-position: outside;
+  font-size: 2vw;
 }
 
 
@@ -638,7 +654,6 @@ button.btn{
 
   .curriculum-image{
     max-width: 90%;
-    height: 30%;
   }
 
   .prog-hr-div {
@@ -688,6 +703,27 @@ button.btn{
 
   .graduate_image{
     display: none;
+  }
+
+  .cirr-text.left-text {
+    font-size: 3vw;
+  }
+
+  .curriculum-label {
+    display: none !important;
+  }
+
+  .curriculum-label-mobile {
+    display: block !important;
+    font-size: 3.8vw;
+  }
+
+  .curriculum-hr {
+    margin-top: 0;
+  }
+
+  .faq-label {
+    font-size: 3.5vw;
   }
 }
 
@@ -933,8 +969,11 @@ button.btn{
   }
 
   .curriculum-image{
-    max-width: 70%;
-    height: 10%;
+    display:  none;
+  }
+
+  .cirr-text.left-text  {
+    font-size: 4vw;
   }
 
   .font-size-2-footer {
@@ -951,6 +990,14 @@ button.btn{
 
   .footer-bold {
     font-size: 4vw !important;
+  }
+
+  .faq-width {
+    width: 95%;
+  }
+
+  .faq-ul {
+    font-size: 3vw;
   }
 }
 

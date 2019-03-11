@@ -15,6 +15,7 @@ class CurriculumSections extends PureComponent {
           <div className="tab">
             <input id="tab-one" type="checkbox" name="tabs"/>
             <label htmlFor="tab-one" className="curriculum-label">Module 1: Gain an in-depth knowledge of Git, Ruby, HTML & SQL </label>
+            <label htmlFor="tab-one" className="curriculum-label-mobile">Module 1: Git, Ruby, HTML & SQL </label>
             <hr className="curriculum-hr"/>
             <div className="tab-content">
             <div className="row">
@@ -41,6 +42,7 @@ class CurriculumSections extends PureComponent {
           <div className="tab">
             <input id="tab-two" type="checkbox" name="tabs"/>
             <label htmlFor="tab-two" className="curriculum-label">Module 2: Master JSON and Frameworks like Rails and Rack</label>
+            <label htmlFor="tab-two" className="curriculum-label-mobile">Module 2: JSON, Rails and Rack</label>
               <hr className="curriculum-hr"/>
             <div className="tab-content">
             <div className="row">
@@ -67,6 +69,7 @@ class CurriculumSections extends PureComponent {
           <div className="tab">
             <input id="tab-three" type="checkbox" name="tabs"/>
             <label htmlFor="tab-three" className="curriculum-label">Module 3: Learn JavaScript, the DOM, Node and JSON</label>
+            <label htmlFor="tab-three" className="curriculum-label-mobile">Module 3: JavaScript, DOM, Node and JSON</label>
               <hr className="curriculum-hr"/>
             <div className="tab-content">
 
@@ -96,6 +99,7 @@ class CurriculumSections extends PureComponent {
           <div className="tab">
             <input id="tab-four" type="checkbox" name="tabs"/>
             <label htmlFor="tab-four" className="curriculum-label">Module 4: Dive into React, Redux and Json Web Tokens</label>
+            <label htmlFor="tab-four" className="curriculum-label-mobile">Module 4: React, Redux and JSON Web Tokens</label>
               <hr className="curriculum-hr"/>
             <div className="tab-content">
             <div className="row">
@@ -123,6 +127,7 @@ class CurriculumSections extends PureComponent {
           <div className="tab tab-bottom">
             <input id="tab-five" type="checkbox" name="tabs"/>
             <label htmlFor="tab-five" className="curriculum-label">Module 5: Learn Data Structures and Algorithms</label>
+            <label htmlFor="tab-five" className="curriculum-label-mobile">Module 5: Learn Data Structures and Algorithms</label>
               <hr className="curriculum-hr"/>
             <div className="tab-content">
             <div className="row">
