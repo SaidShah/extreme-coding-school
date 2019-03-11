@@ -43,7 +43,7 @@ class App extends Component {
         </Switch>
       </div>
       </div>
-      <Footer/>
+      <Footer style={{bottom:"0"}}/>
       </div>
     )
   }
