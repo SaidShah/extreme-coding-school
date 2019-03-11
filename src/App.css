@@ -523,8 +523,6 @@ button.btn{
     display: none;
   }
   html, body{
-    overflow-x: hidden;
-    overflow-y: scroll;
   }
 
   .bold-text-3 {
@@ -694,15 +692,13 @@ button.btn{
 }
 
 
-@media screen and (max-width: 480px) and (min-height: 568px) {
+@media screen and (max-width: 480px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
   .column-left-side {
     display: none;
   }
-  html, body{
-    overflow-x: hidden;
-  }
+  html, body{}
 
   .bold-text-3 {
     font-size: 7vw;

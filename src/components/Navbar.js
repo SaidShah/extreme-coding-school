@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Navbar extends Component {
   render() {
     return (
-      <nav className="mb-1 navbar navbar-expand-lg sticky navbar-dark color-dark-blue outside-margin">
+      <nav className="mb-1 navbar navbar-expand-md sticky navbar-dark color-dark-blue outside-margin">
         <button
           className="navbar-toggler"
           type="button"
@@ -33,12 +33,6 @@ class Navbar extends Component {
             <li className="nav-item">
               <a className="nav-link no-transition-nav bold-font" href="/pricing">
                 Pricing
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link no-transition-nav bold-font" href="/program">
-                Program
               </a>
             </li>
 
