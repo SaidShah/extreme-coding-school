@@ -700,6 +700,10 @@ button.btn{
   }
   html, body{}
 
+  .nav-link {
+    font-size: 5vw;
+  }
+
   .bold-text-3 {
     font-size: 7vw;
   }
