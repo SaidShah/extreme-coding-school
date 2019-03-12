@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
     "dotenv": "^6.2.0",
     "firebase": "^5.8.6",
     "mdbreact": "^4.11.0",
@@ -11,7 +12,8 @@
     "react-dom": "^16.8.3",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.5"
+    "react-scripts": "^2.1.5",
+    "sendgrid": "^5.2.3"
   },
   "scripts": {
     "start": "react-scripts start",

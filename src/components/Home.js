@@ -24,7 +24,7 @@ class Home extends Component {
  render() {
   return (
           <div>
- 
+
             <div className="header-img-container center-text">
 
               {this.getImages()}
@@ -109,7 +109,7 @@ class Home extends Component {
                     </div>
 
                     <div className="column-right-side-programming">
-                      
+
                       <ul className="home-page-ul" style={{position:"relative"}}>
                         <h3 className="bold-text home-page-ul-header-h3">What You Will Learn at Extreme</h3>
                         <li className="home-page-li">Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...</li>
@@ -117,7 +117,7 @@ class Home extends Component {
                         <li className="home-page-li">Learn GIT commits, pushing, pulling, branching, etc...</li>
                         <li className="home-page-li">Learn agile principles and methods through building projects from end-to-end</li>
                         <li className="home-page-li">Learn how to build a tech resume, so you can put your best foot forward</li>
-                      </ul> 
+                      </ul>
                     </div>
                   </div>
 

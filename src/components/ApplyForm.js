@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import database from './base'
 
-
 class ApplyForm extends Component {
 
     state={
@@ -38,10 +37,8 @@ class ApplyForm extends Component {
 
       if(id.length !== 10 || fName.length !== 0){
         document.getElementById("errorMsg").innerText="Enter Valid Values"
-        console.log('IN FIRST IF');
       }else if (lName.length !== 0 || mail.length !== 1){
         document.getElementById("errorMsg").innerText="Enter Valid Values"
-        console.log('IN second IF');
       }
       else{
         document.getElementById("errorMsg").innerText=""
@@ -59,10 +56,25 @@ class ApplyForm extends Component {
           phone: '',
           college: '',
           major: ''
-        },()=>this.redirectUser()))
+        },()=>this.sendMail()))
       }
 
     }
+    sendMail=()=>{
+
+          const sgMail = require('@sendgrid/mail');
+          sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
+          const msg = {
+            to: 'test@example.com',
+            from: 'test@example.com',
+            subject: 'Sending with SendGrid is Fun',
+            text: 'and easy to do anywhere, even with Node.js',
+            html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+          };
+          sgMail.send(msg);
+    }
+
+
 
     render() {
       return (
