@@ -12,7 +12,7 @@ class Requirements extends PureComponent {
           <li className="black-text">A prospective student must pass the first code challenge which will test their understanding of basic HTML and CSS.</li>
           <li className="black-text">A prospective student must pass the second code challenge which will test their critical thinking ability through the use of some basic algorithms using either Java, JavaScript or Ruby.</li>
           <li className="black-text">A prospective student must pass the third code challenge which will test their problem solving ability through the use of basic data structures in a either Java or JavaScript.</li>
-          <li className="black-text">After the other four reqirments are met the student will be ready to start, and there will be a payment due before, or on the first day of class, which must be paid in order to attend.</li>
+          <li className="black-text">After the other four requirements are met the student will be ready to start, and there will be a payment due before, or on the first day of class, which must be paid in order to attend.</li>
         </ol>
 
         <br/>

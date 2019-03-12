@@ -23,7 +23,7 @@ const Curriculum = () => (
           by computer science fundamentals like data-structures and algorithms. Most importantly we teach you how to
           learn so you can continue growing your skills in the years to come.
           </p>
-          <p className="left-text p-width cirr-text">We know that prospective employers care about what you can do, and not just what you say uou can do, so our program is 90% hands on starting from day 1. During your 15 weeks at Extreme Coding School you'll gain a wide set of technical skills, put them in action, and complete the program with an array of projects, and an impressive portfolio that will help you land your dream job.
+          <p className="left-text p-width cirr-text">We know that prospective employers care about what you can do, and not just what you say you can do, so our program is 90% hands on starting from Day 1. During your 15 weeks at Extreme Coding School you'll gain a wide set of technical skills, put them in action, and complete the program with an array of projects, and an impressive portfolio that will help you land your dream job.
             </p>
       <hr/>
 
