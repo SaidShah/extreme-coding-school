@@ -28,12 +28,11 @@ class ApplyForm extends Component {
     handleSubmit=(e,values)=>{
       e.preventDefault();
 
-
+      let userEmail = values.email
       let id = values.phone.replace(/[^0-9]+/g, "")
       let fName = values.firstName.replace(/[a-zA-Z]+/g,"")
       let lName = values.lastName.replace(/[a-zA-Z]+/g,"")
       let mail = values.email.replace(/[a-zA-Z0-9_.]+/g,"")
-
 
       if(id.length !== 10 || fName.length !== 0){
         document.getElementById("errorMsg").innerText="Enter Valid Values"
@@ -56,22 +55,29 @@ class ApplyForm extends Component {
           phone: '',
           college: '',
           major: ''
-        },()=>this.sendMail()))
+        },()=>this.sendMail(userEmail)))
       }
 
     }
-    sendMail=()=>{
+    sendMail=(givenEmail)=>{
 
-          const sgMail = require('@sendgrid/mail');
-          sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
-          const msg = {
-            to: 'test@example.com',
-            from: 'test@example.com',
-            subject: 'Sending with SendGrid is Fun',
-            text: 'and easy to do anywhere, even with Node.js',
-            html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-          };
-          sgMail.send(msg);
+      const mailgun = require("mailgun-js");
+      const DOMAIN = process.env.REACT_APP_TEST_DOMAIN;
+      const api_key = process.env.REACT_APP_MAILGUN_API_KEY
+      const mg = mailgun({apiKey: api_key, domain: DOMAIN});
+      const data = {
+      from: 'Extreme Coding School',
+      to: `${givenEmail}`,
+      subject: 'Hello',
+      text: 'Thank you for applying. We will be in contact with you shortly.'
+      };
+
+
+      mg.messages().send(data, function (error, body) {
+      if(error){
+        console.log(error)
+      }
+      });
     }
 
 
