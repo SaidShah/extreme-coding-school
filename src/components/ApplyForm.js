@@ -55,7 +55,7 @@ class ApplyForm extends Component {
           phone: '',
           college: '',
           major: ''
-        },()=>this.sendMail(userEmail)))
+        },()=>this.sendMail(userEmail),()=>this.redirectUser()))
       }
 
     }
@@ -76,6 +76,7 @@ class ApplyForm extends Component {
       mg.messages().send(data, function (error, body) {
       if(error){
         console.log(error)
+      }else{
       }
       });
     }
