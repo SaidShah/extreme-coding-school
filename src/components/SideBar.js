@@ -27,7 +27,7 @@ class SideBar extends PureComponent {
 				<hr/>
 				<h6 className="blue-text bold-text font-size-1-3">Contact Admissions</h6>
 				<hr/>
-				<p className="font-size-1-2">(631) 213-3240</p>
+				<a className="no-transition font-size-1-2" href="tel:+6312313240">(631) 213-3240</a>
 			</div>
 		)
 	}
