@@ -28,10 +28,10 @@
 //   }
 // })
 
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
-
-const senderMail = function (givenMsg){
-   sgMail.send(givenMsg);
-}
-export default senderMail;
+// const sgMail = require('@sendgrid/mail');
+// sgMail.setApiKey(process.env.REACT_APP_SENDGRID_API_KEY);
+//
+// const senderMail = function (givenMsg){
+//    sgMail.send(givenMsg);
+// }
+// export default senderMail;
