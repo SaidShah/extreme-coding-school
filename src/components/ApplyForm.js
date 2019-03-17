@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import database from './base'
+import senderMail from './sendmail'
 
 class ApplyForm extends Component {
 
@@ -55,30 +56,22 @@ class ApplyForm extends Component {
           phone: '',
           college: '',
           major: ''
-        },()=>this.sendMail(userEmail),()=>this.redirectUser()))
+        },()=>this.sendMail(userEmail)))
       }
 
     }
     sendMail=(givenEmail)=>{
 
-      const mailgun = require("mailgun-js");
-      const DOMAIN = process.env.REACT_APP_TEST_DOMAIN;
-      const api_key = process.env.REACT_APP_MAILGUN_API_KEY
-      const mg = mailgun({apiKey: api_key, domain: DOMAIN});
-      const data = {
-      from: 'Extreme Coding School',
-      to: `${givenEmail}`,
-      subject: 'Hello',
-      text: 'Thank you for applying. We will be in contact with you shortly.'
+      const msg = {
+        to: `${givenEmail}`,
+        from: 'admissions@extremecodingschool.com',
+        subject: 'Sending with SendGrid is Fun',
+        text: 'and easy to do anywhere, even with Node.js',
+        html: '<strong>and easy to do anywhere, even with Node.js</strong>',
       };
 
-
-      mg.messages().send(data, function (error, body) {
-      if(error){
-        console.log(error)
-      }else{
-      }
-      });
+      senderMail(msg)
+      this.redirectUser()
     }
 
 

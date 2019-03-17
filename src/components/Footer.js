@@ -71,16 +71,18 @@ class Footer extends Component {
                       <li>
                         <a className="no-transition" href="tel:+###########">(631) 213-3240</a>
                       </li>
+
                     </ul>
 
                   </div>
                 </div>
-
+                  <p className="no-transition">207 Hallock Road, Suite 2F.  Stony Brook, NY 11790</p>
             </div>
 
           </div>
 
           <div className="footer-copyright text-center py-3 font-size-1-5">© 2018 Copyright:
+
             <a className="no-transition" href="/"> ExtremeCodingSchool.com</a>
           </div>
 
