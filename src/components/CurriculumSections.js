@@ -112,7 +112,7 @@ class CurriculumSections extends PureComponent {
 
                 <h4 className="curriculum-h4">What You Will Learn:</h4>
                 <ul>
-                  <li>Learn the file structure of React, how to draw routes, create forms, draw routes, and more</li>
+                  <li>Learn the file structure of React, how to draw routes, create forms, and more</li>
                   <li>Build end-to-end web applications with Rails in the back-end and React in the front-end</li>
                   <li>Understand and implement state management with Redux</li>
                   <li>Build applications that consume APIs and scale as application complexity increases</li>
