@@ -33,7 +33,7 @@ class Home extends Component {
               <div className="header-table">
                 <div className="header-img-text center-text white-text">
                   <h1 className="bold-text-3 white-text">Extreme Coding School</h1>
-                  <h2 className="bold-text-2 white-text">Become a developer in 12 weeks</h2>
+                  <h2 className="bold-text-2 white-text">Become a developer in 15 weeks</h2>
                 </div>
 
                 <div className="header-img-text image-box">
