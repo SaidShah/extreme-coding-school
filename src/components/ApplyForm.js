@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import database from './base'
-import senderMail from './sendmail'
+// import senderMail from './sendmail'
 
 class ApplyForm extends Component {
 
@@ -62,15 +62,15 @@ class ApplyForm extends Component {
     }
     sendMail=(givenEmail)=>{
 
-      const msg = {
-        to: `${givenEmail}`,
-        from: 'admissions@extremecodingschool.com',
-        subject: 'Sending with SendGrid is Fun',
-        text: 'and easy to do anywhere, even with Node.js',
-        html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-      };
-
-      senderMail(msg)
+      // const msg = {
+      //   to: `${givenEmail}`,
+      //   from: 'admissions@extremecodingschool.com',
+      //   subject: 'Sending with SendGrid is Fun',
+      //   text: 'and easy to do anywhere, even with Node.js',
+      //   html: '<strong>and easy to do anywhere, even with Node.js</strong>',
+      // };
+      //
+      // senderMail(msg)
       this.redirectUser()
     }
 
