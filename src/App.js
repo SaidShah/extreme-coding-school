@@ -25,7 +25,9 @@ class App extends Component {
 
         <div className = "logo-div">
           <div className="logo-div-2">
-            <img src={logo} className="logo-image" alt="logo"/><span className="logo-text"> Extreme | Coding | School </span>
+            <a className="nav-link no-transition-nav bold-font" href="/">
+              <img src={logo} className="logo-image" alt="logo"/><span className="logo-text" style={{verticalAlign:"middle"}}> Extreme | Coding | School </span>
+            </a>
           </div>
         </div>
 
