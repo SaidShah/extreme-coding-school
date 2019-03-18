@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import database from './base'
 // import senderMail from './sendmail'
 
-
 class ApplyForm extends Component {
 
     state={
@@ -60,11 +59,12 @@ class ApplyForm extends Component {
         },()=>this.sendMail(userEmail)))
       }
 
+
     }
 
     sendMail=(givenEmail)=>{
 
-
+      //
       // const msg = {
       //   to: `${givenEmail}`,
       //   from: 'admissions@extremecodingschool.com',
