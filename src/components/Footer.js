@@ -13,8 +13,8 @@ class Footer extends Component {
 
               <div className="col-md-6" style={{display:"flex", justifyContent:"center"}}>
                 <div>
-                  <h5 className="text-uppercase font-size-2-footer bold-text" style={{textAlign:"center", marginTop:"5%"}}>Extreme Coding School</h5>
-                 <p className="font-size-1-5-footer">Learn Programming and Change Your Life</p>
+                  <h5 className="text-uppercase font-size-1-5-footer bold-text" style={{textAlign:"center", marginTop:"5%"}}>Extreme Coding School</h5>
+                 <p className="font-size-1-2-footer">Learn Programming and Change Your Life</p>
                 </div>
               </div>
 
@@ -22,9 +22,9 @@ class Footer extends Component {
               <div style={{width:"50%", display:"flex", justifyContent:"center"}}>
                 <div className="mb-md-0 mb-3" style={{marginBot:"10px", marginRight:"3%", marginLeft:"3%"}}>
 
-                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.8vw"}}>About</h5>
+                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.4vw"}}>About</h5>
 
-                    <ul className="list-unstyled font-size-1-4">
+                    <ul className="list-unstyled font-size-1-1">
                       <li>
                         <a className="no-transition" href="/curriculum">Curriculum</a>
                       </li>
@@ -40,9 +40,9 @@ class Footer extends Component {
                 <div style = {{width:"10px"}}/>
                   <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
-                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.8vw"}}>Resources</h5>
+                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.4vw"}}>Resources</h5>
 
-                    <ul className="list-unstyled font-size-1-4">
+                    <ul className="list-unstyled font-size-1-1">
                       <li>
                         <a className="no-transition" href="/privacy">Privacy Policy</a>
                       </li>
@@ -62,9 +62,9 @@ class Footer extends Component {
 
                   <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
-                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.8vw"}}>Contact Us</h5>
+                    <h5 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.4vw"}}>Contact Us</h5>
 
-                    <ul className="list-unstyled font-size-1-4">
+                    <ul className="list-unstyled font-size-1-1">
                       <li>
                         <a className="no-transition" href="mailto:admissions@extremecodingschool.com">Email Us</a>
                       </li>
@@ -75,7 +75,9 @@ class Footer extends Component {
 
                   </div>
                 </div>
-                <p className="no-transition">207 Hallock Road, Suite 2F.  Stony Brook, NY 11790</p>
+                <a className="no-transition" href="https://goo.gl/maps/z6EYdnYBwg12" target="_blank" rel="noopener">
+                  <p className="no-transition">207 Hallock Road, Suite 2F.  Stony Brook, NY 11790</p>
+                </a>
             </div>
 
           </div>
