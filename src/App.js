@@ -12,7 +12,7 @@ import Navbar from './components/Navbar'
 import ThankyouPage from './components/ThankyouPage'
 import Footer from './components/Footer'
 import {Switch, Route, withRouter} from 'react-router-dom'
-import logo from './images/code-image.png'
+import logo from './images/code-image.svg'
 
 class App extends Component {
 
