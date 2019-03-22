@@ -11,6 +11,7 @@ import FAQ from './components/FAQ'
 import Navbar from './components/Navbar'
 import ThankyouPage from './components/ThankyouPage'
 import Footer from './components/Footer'
+import About from './components/About'
 import {Switch, Route, withRouter} from 'react-router-dom'
 import logo from './images/code-image.svg'
 
@@ -40,7 +41,8 @@ class App extends Component {
           <Route path="/pricing" render={()=><Pricing/>}/>
           <Route path="/curriculum" render={()=><Curriculum/>}/>
           <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
-            <Route path="/thankyou" render={()=><ThankyouPage/>}/>
+          <Route path="/about" render={()=><About/>}/>
+          <Route path="/thankyou" render={()=><ThankyouPage/>}/>
           <Route  path="/" render={()=><Home/>}/>
         </Switch>
       </div>

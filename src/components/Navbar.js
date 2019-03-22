@@ -20,7 +20,7 @@ render() {
         className="navbar-toggler collapsed"
         type="button"
         onClick={this._onToggleNav}
-        style={{zIndex:"1000"}}  
+        style={{zIndex:"1000"}}
         data-toggle="collapse"
         aria-expanded="false"
         aria-label="Toggle navigation"
@@ -51,6 +51,12 @@ render() {
           <li className="nav-item">
             <a className="nav-link no-transition-nav bold-font" href="/faq">
           FAQ
+            </a>
+          </li>
+
+          <li className="nav-item">
+            <a className="nav-link no-transition-nav bold-font" href="/about">
+          About Us
             </a>
           </li>
 
