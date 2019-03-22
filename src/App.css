@@ -127,7 +127,7 @@ button.btn{
   width: 4vw;
   margin-top: 6px;
   margin-bottom: 6px;
-  margin-left: 150px;
+  margin-left: 50px;
 }
 
 .curriculum-image{
@@ -233,6 +233,7 @@ button.btn{
 .column-right-side{
   width: 75%;
   padding: 2%;
+  margin: auto;
 }
 
 .remove-bullets{
@@ -301,10 +302,9 @@ button.btn{
 
 .program_image{
   margin: auto;
-  width: 75%;
+  width: 100%;
   margin-top: 7%;
   margin-bottom: 5%;
-  /* word-wrap: break-word; */
 }
 
 .column-left-side-programming{
@@ -340,7 +340,7 @@ button.btn{
 
 .graduate_image{
   margin: auto;
-  width: 75%;
+  width: 100%;
   margin-top: 7%;
   margin-bottom: 5%;
 }
@@ -531,6 +531,11 @@ button.btn{
   list-style-type: square;
   list-style-position: outside;
   font-size: 2vw;
+}
+
+.schedule-image {
+  width:70%;
+  margin: auto;
 }
 
 
@@ -986,6 +991,10 @@ button.btn{
 
   .font-size-1-5-footer {
     font-size: 4vw;
+  }
+
+  .font-size-1-2-footer {
+    font-size: 3.5vw;
   }
 
   .font-size-1-4 {
