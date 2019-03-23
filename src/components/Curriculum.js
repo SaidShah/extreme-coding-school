@@ -7,7 +7,7 @@ import schedule from '.././images/mock-schedule.svg'
 const Curriculum = () => (
   <div>
     <div style={{display:"grid"}}>
-      <h style={{textAlign:"center", marginTop:"4%", marginBottom: "5%", fontSize:"2.7rem"}}>
+      <h style={{textAlign:"center", marginTop:"1%", marginBottom: "1%", fontSize:"2.7rem"}}>
         <Fade top>
           This is our schedule.
         </Fade>
@@ -20,11 +20,13 @@ const Curriculum = () => (
         Front End course that allows students to learn about the basics of web design.
       </p>
 
-      <h2 style={{textAlign:"center", marginTop: "3%"}}> (Here's a more in-depth look at what we offer.)</h2>
+      <h2 style={{textAlign:"center", marginTop: "5%"}}> (Here's a more in-depth look at what we offer.)</h2>
     </div>
 
     <div style={{background:"#7fc6ff"}}>
-      <h1 style={{textAlign: "center", marginTop:"2%"}}> Front End Crash Course </h1>
+      <h1 style={{textAlign: "center", marginTop:"5%", paddingTop:"3%"}}>
+        Front End Crash Course
+      </h1>
       <div style={{display:"flex", marginTop:"4%"}}>
         <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
           <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem"}}>
@@ -54,7 +56,7 @@ const Curriculum = () => (
     </div>
 
     <div style={{background:"#282c34"}}>
-      <h1 style={{textAlign: "center", marginTop:"2%", color:"#61dafb"}}>
+      <h1 style={{textAlign: "center", marginTop:"2%", color:"#61dafb", paddingTop:"3%"}}>
         React and Redux
       </h1>
       <div style={{display:"flex", marginTop:"4%"}}>
