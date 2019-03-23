@@ -127,7 +127,6 @@ button.btn{
   width: 4vw;
   margin-top: 6px;
   margin-bottom: 6px;
-  margin-left: 150px;
 }
 
 .curriculum-image{
@@ -147,7 +146,7 @@ button.btn{
 .logo-text{
   margin-left: 10px;
   padding-top: 15px;
-  font-size: 1vw;
+  font-size: 2vw;
   font-weight: bold;
   color: #003c9e;
 }
@@ -544,6 +543,7 @@ button.btn{
   }
   html, body{
   }
+
 
   .bold-text-3 {
     font-size: 4vw;

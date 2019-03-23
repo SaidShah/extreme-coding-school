@@ -21,33 +21,35 @@ class App extends Component {
   render() {
     return (
       <div >
-      <div className="middle-div">
-      <div className="body-content">
+        <div className="middle-div">
+          <div className="body-content">
 
-        <div className = "logo-div">
-          <div className="logo-div-2">
-            <a className="nav-link no-transition-nav bold-font" href="/">
-              <img src={logo} className="logo-image" alt="logo"/><span className="logo-text" style={{verticalAlign:"middle"}}> Extreme | Coding | School </span>
-            </a>
+            <div className = "logo-div">
+              <div className="logo-div-2">
+                <a className="nav-link no-transition-nav bold-font" href="/" style={{display:"flex"}}>
+                  <div style={{display:"inline-block", margin:"auto"}}>
+                    <img src={logo} className="logo-image" alt="logo"/><span className="logo-text" style={{verticalAlign:"middle"}}> Extreme | Coding | School </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <Navbar/>
+            <Switch>
+              <Route path="/faq" render={()=><FAQ/>}/>
+              <Route path="/privacy" render={()=><Privacy/>}/>
+              <Route path="/program" render={()=><Program/>}/>
+              <Route path="/requirements" render={()=><Requirements/>}/>
+              <Route path="/pricing" render={()=><Pricing/>}/>
+              <Route path="/curriculum" render={()=><Curriculum/>}/>
+              <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
+              <Route path="/about" render={()=><About/>}/>
+              <Route path="/thankyou" render={()=><ThankyouPage/>}/>
+              <Route  path="/" render={()=><Home/>}/>
+            </Switch>
           </div>
         </div>
-
-        <Navbar/>
-        <Switch>
-          <Route path="/faq" render={()=><FAQ/>}/>
-          <Route path="/privacy" render={()=><Privacy/>}/>
-          <Route path="/program" render={()=><Program/>}/>
-          <Route path="/requirements" render={()=><Requirements/>}/>
-          <Route path="/pricing" render={()=><Pricing/>}/>
-          <Route path="/curriculum" render={()=><Curriculum/>}/>
-          <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
-          <Route path="/about" render={()=><About/>}/>
-          <Route path="/thankyou" render={()=><ThankyouPage/>}/>
-          <Route  path="/" render={()=><Home/>}/>
-        </Switch>
-      </div>
-      </div>
-      <Footer style={{bottom:"0"}}/>
+        <Footer style={{bottom:"0"}}/>
       </div>
     )
   }
