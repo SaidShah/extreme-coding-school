@@ -45,7 +45,7 @@ class App extends Component {
               <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
               <Route path="/about" render={()=><About/>}/>
               <Route path="/thankyou" render={()=><ThankyouPage/>}/>
-              <Route  path="/" render={()=><Home/>}/>
+              <Route path="/" render={()=><Home/>}/>
             </Switch>
           </div>
         </div>
