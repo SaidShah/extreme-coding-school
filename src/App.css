@@ -768,6 +768,7 @@ button.btn{
     margin-left: 7.5vw;
   }
 
+
 }
 
 
@@ -1076,6 +1077,14 @@ button.btn{
     padding-right: 10px;
     margin-right: 7.5vw;
     margin-left: 7.5vw;
+  }
+
+  .mission-title{
+    font-size: 5vw;
+  }
+
+  .about-title{
+    font-size: 4vw;
   }
 }
 

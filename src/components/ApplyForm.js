@@ -10,7 +10,8 @@ class ApplyForm extends Component {
       email: '',
       phone: '',
       college: '',
-      major: ''
+      major: '',
+      course: ''
     }
 
     handleChange=(e)=>{
@@ -48,14 +49,16 @@ class ApplyForm extends Component {
           email: values.email,
           phone: values.phone,
           college: values.college,
-          major: values.major
+          major: values.major,
+          course: values.course
         },()=>this.setState({
           firstName: '',
           lastName: '',
           email: '',
           phone: '',
           college: '',
-          major: ''
+          major: '',
+          course: ''
         },()=>this.sendMail(userEmail)))
       }
 
@@ -132,6 +135,20 @@ class ApplyForm extends Component {
         <option value="other">Other</option>
       </select>
     </label>
+
+    <label className="select-box">
+   Course
+   <select value={this.state.course} name="course" onChange={this.handleChange} className="form-control">
+     <option defaultValue value="none">Select Your Course</option>
+     <option value="BootCamp">Full-Stack Bootcamp 15 Weeks</option>
+     <option value="BootCampTeens">Full-Stack Bootcamp For Teens 12 Weeks</option>
+     <option value="apCSa">AP Computer Science A Mon & Wed 8 Weeks</option>
+     <option value="frontEndWebDev4">Web Development Sat & Sun 4 weeks</option>
+     <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
+     <option value="dataStructures">Java Algorithms Sat & Sun 4 weeks</option>
+     <option value="reactRedux">React & Redux</option>
+   </select>
+ </label>
 
 
           <div className="text-center">
