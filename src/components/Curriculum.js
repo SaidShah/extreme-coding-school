@@ -23,6 +23,7 @@ const Curriculum = () => (
       <h2 style={{textAlign:"center", marginTop: "5%"}}> (Here's a more in-depth look at what we offer.)</h2>
     </div>
 
+    {/* Front End */}
     <div style={{background:"#7fc6ff"}}>
       <h1 style={{textAlign: "center", marginTop:"5%", paddingTop:"3%"}}>
         Front End Crash Course
@@ -55,6 +56,7 @@ const Curriculum = () => (
       </Fade>
     </div>
 
+    {/* React/Redux */}
     <div style={{background:"#282c34"}}>
       <h1 style={{textAlign: "center", marginTop:"2%", color:"#61dafb", paddingTop:"3%"}}>
         React and Redux
@@ -92,6 +94,50 @@ const Curriculum = () => (
       </Fade>
     </div>
 
+
+    {/* Java */}
+    <div className="java-gradient">
+      <h1 style={{textAlign: "center", marginTop:"2%", paddingTop:"3%", color:"white"}}>
+        Java
+      </h1>
+      <div style={{display:"flex", marginTop:"4%"}}>
+        <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
+          <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem", color:"white"}}>
+            <Slide left>
+              Enter into Object Oriented Programming (OOP) with Java. Java is widely used in
+              applications deployed all over the world; from apps on your smartphone to large
+              databases for multi-billion dollar companies.
+            </Slide>
+          </p>
+        </div>
+
+        <div style={{width:"35%", marginRight: "13%"}}>
+          <Slide right>
+            <ul style={{fontSize:"1.2rem", color:"white"}}>
+              <li>
+                Learn a language that can be used on any operating system.
+              </li>
+              <li>
+                Find out how modular programming can be powerful.
+              </li>
+              <li>
+                My brain is malfunctioning and I don't know what to write.
+              </li>
+              <li>
+                Course also covers AP-CS A so you are able to take the AP Test with the knowledge
+                from this class.
+              </li>
+            </ul>
+          </Slide>
+        </div>
+      </div>
+      <Fade>
+        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"white"}}>
+          We offer an 8 Week, Weekday Night Course.
+          Contact us for more info.
+        </h4>
+      </Fade>
+    </div>
   </div>
 );
 
