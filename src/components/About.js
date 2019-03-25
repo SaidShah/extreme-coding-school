@@ -10,7 +10,7 @@ const About = () => (
   <div>
   <div>
     <h1 className="center-text bold-text black-text mission-title">Our Mission</h1>
-    <h3 className="center-text about-title">To help you succeed in life. Mentorship, Community and Practice</h3>
+    <h3 className="center-text about-title">Mentorship, Community and Practice</h3>
     <hr className="about-us-hr"/>
   </div>
 

@@ -546,17 +546,19 @@ button.btn{
 }
 
 .mission-title{
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .about-p{
   font-size: 1.2vw;
   padding-left: 20px;
   padding-right: 10px;
+  margin-right: 7.5vw;
+  margin-left: 7.5vw;
 }
 
 .about-us-hr{
-  width: 80%;
+  width: 82%;
   border: 1px solid black;
 }
 
@@ -762,6 +764,8 @@ button.btn{
     font-size: 3vw;
     padding-left: 10px;
     padding-right: 10px;
+    margin-right: 7.5vw;
+    margin-left: 7.5vw;
   }
 
 }
@@ -1070,6 +1074,8 @@ button.btn{
     font-size: 4vw;
     padding-left: 10px;
     padding-right: 10px;
+    margin-right: 7.5vw;
+    margin-left: 7.5vw;
   }
 }
 
