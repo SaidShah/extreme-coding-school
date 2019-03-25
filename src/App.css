@@ -532,6 +532,34 @@ button.btn{
   font-size: 2vw;
 }
 
+.row-about{
+  display: flex;
+  padding: 1.5vw;
+}
+
+.column-about{
+  padding: 5px;
+}
+
+.about-title{
+  font-size: 2vw;
+}
+
+.mission-title{
+  font-size: 4vw;
+}
+
+.about-p{
+  font-size: 1.2vw;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.about-us-hr{
+  width: 80%;
+  border: 1px solid black;
+}
+
 
 
 /* Tablet Landscape (big tablet [ipad pro])*/
@@ -729,6 +757,13 @@ button.btn{
   .faq-label {
     font-size: 3.5vw;
   }
+
+  .about-p{
+    font-size: 3vw;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
 }
 
 
@@ -1006,6 +1041,35 @@ button.btn{
 
   .faq-ul {
     font-size: 3vw;
+  }
+
+  .row-about{
+    display: flex;
+    padding: 1.5vw;
+  }
+
+  .column-about{
+    padding: 5px;
+  }
+
+  .about-font{
+    font-size: 4vw;
+    padding: 0;
+    color: black;
+    margin-bottom: 0px;
+  }
+
+  .about-font-name{
+    font-size: 6vw;
+    padding: 0;
+    color: black;
+    margin-bottom: 0px;
+  }
+
+  .about-p{
+    font-size: 4vw;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
