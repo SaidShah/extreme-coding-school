@@ -87,7 +87,7 @@ const Curriculum = () => (
         </div>
       </div>
       <Fade>
-        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"white"}}>
+        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"#61dafb"}}>
           We offer an 8 Week, Weekday Night Course.
           Contact us for more info.
         </h4>
@@ -134,6 +134,39 @@ const Curriculum = () => (
       <Fade>
         <h4 style={{textAlign: "center", paddingBottom:"2%", color:"white"}}>
           We offer an 8 Week, Weekday Night Course.
+          Contact us for more info.
+        </h4>
+      </Fade>
+    </div>
+
+    {/* Bootcamp */}
+    <div className="bootcamp-gradient">
+      <h1 style={{textAlign: "center", marginTop:"2%", paddingTop:"3%", color:"white"}}>
+        Boot-Camp
+      </h1>
+      <div style={{display:"flex", marginTop:"4%"}}>
+        <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
+          <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem", color:"white"}}>
+            <Slide left>
+              You've checked all of the above, and then some. Become a Full-Stack Developer
+              and learn the ins-and-outs of the real world for web development.
+            </Slide>
+          </p>
+        </div>
+
+        <div style={{width:"35%", marginRight: "13%"}}>
+          <Slide right>
+            <ul style={{fontSize:"1.2rem", color:"white"}}>
+              <li>
+                Put something here.  
+              </li>
+            </ul>
+          </Slide>
+        </div>
+      </div>
+      <Fade>
+        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"white"}}>
+          We offer an 15 Week, Weekday Day Course.
           Contact us for more info.
         </h4>
       </Fade>

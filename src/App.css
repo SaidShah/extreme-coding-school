@@ -541,10 +541,15 @@ button.btn{
 .java-gradient {
   background: rgb(248,152,29);
   background: linear-gradient(90deg, rgba(248,152,29,1) 0%, rgba(248, 0, 0,1) 65%);
+}
+
+.bootcamp-gradient {
+  background: rgb(127,198,255);
+  background: linear-gradient(90deg, rgba(127,198,255,1) 20%, rgba(248,152,49,1) 50%, rgba(248,0,0,1) 80%);
   background-size: 400% 400%;
-	-webkit-animation: Gradient 8s ease infinite;
-	-moz-animation: Gradient 8s ease infinite;
-	animation: Gradient 8s ease infinite;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
 }
 
 @-webkit-keyframes Gradient {
