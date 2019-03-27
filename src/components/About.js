@@ -10,7 +10,7 @@ const About = () => (
   <div>
   <div>
     <h1 className="center-text bold-text black-text mission-title">Our Mission</h1>
-    <h3 className="center-text about-title">Mentorship, Community and Practice</h3>
+    <h3 className="center-text about-title bold-text black-text">Mentorship | Community | Practice</h3>
     <hr className="about-us-hr"/>
   </div>
 
@@ -21,10 +21,10 @@ const About = () => (
   <div className="column-about">
   <img src={chen_pic} alt="Ben Chen PhD"/>
   </div>
-  <div className="column-about">
+  <div className="column-about-name">
   <h3 className="bold-text about-font-name">Ben Chen, PhD</h3>
   <h5 className="bold-text about-font">Co-Founder</h5>
-  <h6 className="bold-text about-font">Software Engineer</h6>
+  <h6 className="bold-text about-font">Professor in Computer Science</h6>
   </div>
   </div>
   <p className="about-p">
@@ -78,13 +78,13 @@ const About = () => (
 
 
 
-
+  <hr className="about-us-hr about-hr-margin"/>
 
   <div className="row-about">
   <div className="column-about">
   <img src={said_pic} alt="said b shah"/>
   </div>
-  <div className="column-about">
+  <div className="column-about-name">
   <h3 className="bold-text about-font-name">Said B Shah</h3>
   <h5 className="bold-text about-font">Co-Founder</h5>
   <h6 className="bold-text about-font">Full-Stack Developer</h6>
@@ -111,13 +111,87 @@ const About = () => (
   <p className="about-p">
     This is why we designed our curricula this way. It’s hands-on and project-oriented. It focuses on a full-stack of technologies used currently in the industry.
   </p>
-</div>
+
+
+
+
+  <hr className="about-us-hr about-hr-margin"/>
+
+  <div className="row-about">
+  <div className="column-about">
+  <img src={chen_pic} alt="dylan downard"/>
+  </div>
+  <div className="column-about-name">
+  <h3 className="bold-text about-font-name">Dylan Downard</h3>
+  <h5 className="bold-text about-font">Lead Instructor</h5>
+  <h6 className="bold-text about-font">Full-Stack Developer</h6>
+  </div>
+  </div>
+  <p className="about-p">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis sapien suscipit, cursus elit quis, ornare massa. Mauris in nibh in dolor porta vehicula vel ac turpis. Cras leo odio, porta in odio at, lobortis porta purus. Ut pulvinar turpis sit amet magna convallis, ut consequat massa interdum.
+  </p>
+  <p className="about-p">
+    Nulla rutrum sit amet sapien a varius. Aenean pharetra rhoncus enim, eu dapibus mi dapibus nec. Duis aliquet eu magna et sagittis. Maecenas dignissim, lectus sit amet aliquet fermentum, odio mi molestie enim, eget vulputate eros magna quis dolor. Phasellus lacinia ipsum ac turpis tincidunt dictum. Praesent euismod, felis vel tempus aliquam, nisl lectus fringilla arcu, a ultrices lectus augue a dui. Suspendisse vitae tellus eget lorem feugiat euismod et sed risus.
+  </p>
+  <p className="about-p">
+    Suspendisse potenti. Donec volutpat ut metus consectetur mattis. Aenean sed semper diam, vitae fringilla quam. Nullam justo metus, viverra non odio sit amet, pulvinar ullamcorper purus. Vivamus mollis sem libero, id sollicitudin felis rutrum sed. Aliquam volutpat sodales odio a suscipit. Curabitur sit amet ligula at elit consequat mollis. Pellentesque tristique tortor eu diam vehicula semper. Nulla facilisi. Morbi ultrices nibh ut lorem sollicitudin, vitae rhoncus neque faucibus.
+  </p>
+
+
+  <hr className="about-us-hr about-hr-margin"/>
+
+  <div className="row-about">
+  <div className="column-about">
+  <img src={chen_pic} alt="james lerner"/>
+  </div>
+  <div className="column-about-name">
+  <h3 className="bold-text about-font-name">James Lerner</h3>
+  <h5 className="bold-text about-font">Lead Instructor</h5>
+  <h6 className="bold-text about-font">Full-Stack Developer</h6>
+  </div>
+  </div>
+  <p className="about-p">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis sapien suscipit, cursus elit quis, ornare massa. Mauris in nibh in dolor porta vehicula vel ac turpis. Cras leo odio, porta in odio at, lobortis porta purus. Ut pulvinar turpis sit amet magna convallis, ut consequat massa interdum.
+  </p>
+  <p className="about-p">
+    Nulla rutrum sit amet sapien a varius. Aenean pharetra rhoncus enim, eu dapibus mi dapibus nec. Duis aliquet eu magna et sagittis. Maecenas dignissim, lectus sit amet aliquet fermentum, odio mi molestie enim, eget vulputate eros magna quis dolor. Phasellus lacinia ipsum ac turpis tincidunt dictum. Praesent euismod, felis vel tempus aliquam, nisl lectus fringilla arcu, a ultrices lectus augue a dui. Suspendisse vitae tellus eget lorem feugiat euismod et sed risus.
+  </p>
+  <p className="about-p">
+    Suspendisse potenti. Donec volutpat ut metus consectetur mattis. Aenean sed semper diam, vitae fringilla quam. Nullam justo metus, viverra non odio sit amet, pulvinar ullamcorper purus. Vivamus mollis sem libero, id sollicitudin felis rutrum sed. Aliquam volutpat sodales odio a suscipit. Curabitur sit amet ligula at elit consequat mollis. Pellentesque tristique tortor eu diam vehicula semper. Nulla facilisi. Morbi ultrices nibh ut lorem sollicitudin, vitae rhoncus neque faucibus.
+  </p>
+
+
+
+  <hr className="about-us-hr about-hr-margin"/>
+
+  <div className="row-about">
+  <div className="column-about">
+  <img src={chen_pic} alt="dylan downard"/>
+  </div>
+  <div className="column-about-name">
+  <h3 className="bold-text about-font-name">Dylan Downard</h3>
+  <h5 className="bold-text about-font">Lead Instructor</h5>
+  <h6 className="bold-text about-font">Full-Stack Developer</h6>
+  </div>
+  </div>
+  <p className="about-p">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis sapien suscipit, cursus elit quis, ornare massa. Mauris in nibh in dolor porta vehicula vel ac turpis. Cras leo odio, porta in odio at, lobortis porta purus. Ut pulvinar turpis sit amet magna convallis, ut consequat massa interdum.
+  </p>
+  <p className="about-p">
+    Nulla rutrum sit amet sapien a varius. Aenean pharetra rhoncus enim, eu dapibus mi dapibus nec. Duis aliquet eu magna et sagittis. Maecenas dignissim, lectus sit amet aliquet fermentum, odio mi molestie enim, eget vulputate eros magna quis dolor. Phasellus lacinia ipsum ac turpis tincidunt dictum. Praesent euismod, felis vel tempus aliquam, nisl lectus fringilla arcu, a ultrices lectus augue a dui. Suspendisse vitae tellus eget lorem feugiat euismod et sed risus.
+  </p>
+  <p className="about-p">
+    Suspendisse potenti. Donec volutpat ut metus consectetur mattis. Aenean sed semper diam, vitae fringilla quam. Nullam justo metus, viverra non odio sit amet, pulvinar ullamcorper purus. Vivamus mollis sem libero, id sollicitudin felis rutrum sed. Aliquam volutpat sodales odio a suscipit. Curabitur sit amet ligula at elit consequat mollis. Pellentesque tristique tortor eu diam vehicula semper. Nulla facilisi. Morbi ultrices nibh ut lorem sollicitudin, vitae rhoncus neque faucibus.
+  </p>
 
 
 
 
 
 
+
+
+    </div>
   </div>
 );
 

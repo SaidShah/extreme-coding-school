@@ -535,14 +535,20 @@ button.btn{
 .row-about{
   display: flex;
   padding: 1.5vw;
+  text-align: center;
 }
 
 .column-about{
-  padding: 5px;
+  padding-left: 38%;
+}
+
+div.column-about-name{
+  margin-left: 5px;
 }
 
 .about-title{
   font-size: 2vw;
+  color: black;
 }
 
 .mission-title{
@@ -553,13 +559,19 @@ button.btn{
   font-size: 1.5vw;
   padding-left: 20px;
   padding-right: 10px;
-  margin-right: 16vw;
-  margin-left: 16vw;
+  margin-right: 20vw;
+  margin-left: 20vw;
+
 }
 
 .about-us-hr{
   width: 82%;
   border: 1px solid black;
+}
+
+.about-hr-margin{
+  margin-top: 3vw;
+  margin-bottom: 2vw;
 }
 
 
@@ -1085,7 +1097,9 @@ button.btn{
 
   .about-title{
     font-size: 4vw;
+    color: black;
   }
+
 }
 
 
