@@ -25,7 +25,7 @@ const Courses = () => (
     {/* Front End */}
     <div style={{background:"#7fc6ff"}}>
       <h1 style={{textAlign: "center", marginTop:"5%", paddingTop:"3%"}}>
-        Front End Crash Course
+         Web Development
       </h1>
       <div style={{display:"flex", marginTop:"4%"}}>
         <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
@@ -102,7 +102,7 @@ const Courses = () => (
     {/* Java */}
     <div className="java-gradient">
       <h1 style={{textAlign: "center", marginTop:"2%", paddingTop:"3%", color:"white"}}>
-        Java
+        Data Structures and Algorithms with Java
       </h1>
       <div style={{display:"flex", marginTop:"4%"}}>
         <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
