@@ -6,11 +6,11 @@ import Slide from 'react-reveal/Slide';
 const Courses = () => (
   <div>
     <div style={{display:"grid"}}>
-      <h style={{textAlign:"center", marginTop:"1%", marginBottom: "1%", fontSize:"2.7rem"}}>
+      <h1 style={{textAlign:"center", marginTop:"1%", marginBottom: "1%", fontSize:"2.7rem"}}>
         <Fade top>
           This is our schedule.
         </Fade>
-      </h>
+      </h1>
       <img  className="schedule-image" alt="school schedule"/>
       <p style={{width:"70%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "1.3rem"}}>
         Here at Extreme, we offer many different courses for our students to choose from. We have everything
@@ -29,12 +29,12 @@ const Courses = () => (
       </h1>
       <div style={{display:"flex", marginTop:"4%"}}>
         <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
+        <Slide left>
           <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem"}}>
-            <Slide left>
               The Front End Crash Course will include what any basic Front End development would need,
               which would be HTML5, CSS3, and Javascript.
-            </Slide>
           </p>
+          </Slide>
         </div>
 
         <div style={{width:"35%", marginRight: "13%"}}>
@@ -65,13 +65,13 @@ const Courses = () => (
       </h1>
       <div style={{display:"flex", marginTop:"4%"}}>
         <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
+        <Slide left>
           <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem", color:"#61dafb"}}>
-            <Slide left>
               Heighten your web development prowess with React and Redux. These two Javascript
               libraries allow you to push your Front End skills farther than before, and preps
               you for real world projects.
-            </Slide>
           </p>
+          </Slide>
         </div>
 
         <div style={{width:"35%", marginRight: "13%"}}>
@@ -106,13 +106,13 @@ const Courses = () => (
       </h1>
       <div style={{display:"flex", marginTop:"4%"}}>
         <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
+        <Slide left>
           <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem", color:"white"}}>
-            <Slide left>
               Enter into Object Oriented Programming (OOP) with Java. Java is widely used in
               applications deployed all over the world; from apps on your smartphone to large
               databases for multi-billion dollar companies.
-            </Slide>
           </p>
+          </Slide>
         </div>
 
         <div style={{width:"35%", marginRight: "13%"}}>
@@ -161,12 +161,12 @@ const Courses = () => (
         Private Classes
       </h1>
       <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
+      <Fade>
         <p style={{width:"80%", textAlign: "center", fontSize: "2rem", color:"white", margin:"auto"}}>
-          <Fade>
             We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
             with. We are able to teach any of the above courses to you.
-          </Fade>
         </p>
+        </Fade>
       </div>
       <Fade>
         <h4 style={{textAlign: "center", color:"white"}}>
