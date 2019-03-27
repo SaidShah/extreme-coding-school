@@ -11,7 +11,7 @@ const Courses = () => (
           This is our schedule.
         </Fade>
       </h>
-      <img  className="schedule-image"/>
+      <img  className="schedule-image" alt="school schedule"/>
       <p style={{width:"70%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "1.3rem"}}>
         Here at Extreme, we offer many different courses for our students to choose from. We have everything
         from the Full-Stack development course like Boot Camp to learn everything
@@ -48,9 +48,12 @@ const Courses = () => (
         </div>
       </div>
       <Fade>
-        <h4 style={{textAlign: "center", paddingBottom:"2%"}}>
+        <h4 style={{textAlign: "center"}}>
           We offer either an 8 Week, Weekend Course or a 4 Week,
-          Weekday Course. Contact us for more info.
+          Weekday Course.
+        </h4>
+        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"black"}}>
+          Contact us for more info.
         </h4>
       </Fade>
     </div>
@@ -86,8 +89,10 @@ const Courses = () => (
         </div>
       </div>
       <Fade>
-        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"#61dafb"}}>
+        <h4 style={{textAlign: "center", color:"#61dafb"}}>
           We offer an 8 Week, Weekday Night Course.
+        </h4>
+        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"#61dafb"}}>
           Contact us for more info.
         </h4>
       </Fade>
@@ -131,41 +136,41 @@ const Courses = () => (
         </div>
       </div>
       <Fade>
-        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"white"}}>
+        <h4 style={{textAlign: "center", color:"white"}}>
           We offer an 8 Week, Weekday Night Course.
+        </h4>
+        <h4 style={{textAlign: "center", paddingBottom:"2%", color:"white"}}>
           Contact us for more info.
         </h4>
       </Fade>
     </div>
+    {/* Private Lessons */}
 
-    {/* Bootcamp */}
+    <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+
+    <Fade top>
+      <h2 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem"}}>
+        In case you're wondering: We offer private classes.
+      </h2>
+    </Fade>
+
     <div className="bootcamp-gradient">
-      <h1 style={{textAlign: "center", marginTop:"2%", paddingTop:"3%", color:"white"}}>
-        Boot-Camp
+      <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
+        Private Classes
       </h1>
-      <div style={{display:"flex", marginTop:"4%"}}>
-        <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
-          <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem", color:"white"}}>
-            <Slide left>
-              You've checked all of the above, and then some. Become a Full-Stack Developer
-              and learn the ins-and-outs of the real world for web development.
-            </Slide>
-          </p>
-        </div>
-
-        <div style={{width:"35%", marginRight: "13%"}}>
-          <Slide right>
-            <ul style={{fontSize:"1.2rem", color:"white"}}>
-              <li>
-                Put something here.
-              </li>
-            </ul>
-          </Slide>
-        </div>
+      <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
+        <p style={{width:"80%", textAlign: "center", fontSize: "2rem", color:"white", margin:"auto"}}>
+          <Fade>
+            We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
+            with. We are able to teach any of the above courses to you.
+          </Fade>
+        </p>
       </div>
       <Fade>
+        <h4 style={{textAlign: "center", color:"white"}}>
+          We go on a student by student basis to make sure we get your needs right.
+        </h4>
         <h4 style={{textAlign: "center", paddingBottom:"2%", color:"white"}}>
-          We offer an 15 Week, Weekday Day Course.
           Contact us for more info.
         </h4>
       </Fade>
