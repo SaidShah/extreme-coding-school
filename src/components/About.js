@@ -139,8 +139,13 @@ const About = () => (
         private tutors, because the classroom environment was too unfocused for me.
       </p>
       <p className="about-p">
-        I ended up going to college for Math, which I was good at, however I had to take an intro CS class
-        
+        I ended up going to college for Math, which I was good at, however I had to take an intro CS class and
+        it reignited  my passion for programming. I then got into tutoring for Computer Science, as it was Second Nature
+        to me at that point. I started working on other projects, websites, programs and a couple games. I started
+        applying for jobs, however, it did not bear fruit.
+      </p>
+      <p className="about-p">
+
       </p>
 
 
@@ -189,14 +194,7 @@ const About = () => (
       <p className="about-p">
         Suspendisse potenti. Donec volutpat ut metus consectetur mattis. Aenean sed semper diam, vitae fringilla quam. Nullam justo metus, viverra non odio sit amet, pulvinar ullamcorper purus. Vivamus mollis sem libero, id sollicitudin felis rutrum sed. Aliquam volutpat sodales odio a suscipit. Curabitur sit amet ligula at elit consequat mollis. Pellentesque tristique tortor eu diam vehicula semper. Nulla facilisi. Morbi ultrices nibh ut lorem sollicitudin, vitae rhoncus neque faucibus.
       </p>
-
-
-
-
-
-
-
-
+      
     </div>
   </div>
 );
