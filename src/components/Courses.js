@@ -6,6 +6,7 @@ import ReactRedux from './ReactRedux'
 import PrivateLessons from './PrivateLessons'
 import Java from './Java'
 import FrontLogo from '.././images/htmlcssjs.svg'
+import ReactReduxLogo from '.././images/reactredux.svg'
 import {Route, Link, Switch} from 'react-router-dom'
 
 
@@ -14,97 +15,162 @@ class Courses extends Component {
   render() {
 
     const course =  <div>
-        <div style={{display:"grid"}}>
+      <div style={{display:"grid"}}>
 
-          <p style={{width:"70%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "1.3rem"}}>
-            Here at Extreme, we offer many different courses for our students to choose from. We have everything
-            from the Full-Stack development course like Boot Camp to learn everything
-            you need to get a job in web development, or a smoother, and lighter,
-            Front End course that allows students to learn about the basics of web design.
-          </p>
+        <p style={{width:"70%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "1.3rem"}}>
+          Here at Extreme, we offer many different courses for our students to choose from. We have everything
+          from the Full-Stack development course like Boot Camp to learn everything
+          you need to get a job in web development, or a smoother, and lighter,
+          Front End course that allows students to learn about the basics of web design.
+        </p>
 
-          <h2 style={{textAlign:"center", marginTop: "5%"}}> (Here's a more in-depth look at what we offer.)</h2>
-        </div>
+        <h2 style={{textAlign:"center", marginTop: "5%"}}> (Here's a more in-depth look at what we offer.)</h2>
+      </div>
 
-        {/* Front End */}
-        <div style={{background:"#7fc6ff"}}>
-          <h1 style={{textAlign: "center", marginTop:"5%", paddingTop:"3%"}}>
-             Web Development
-          </h1>
-          <div style={{display:"flex", marginTop:"4%", marginBottom:"4%"}}>
-            <div style={{width:"30%", marginLeft: "17%"}}>
+      {/* Front End */}
+      <div style={{background:"#7fc6ff"}}>
+        <h1 className="course-title">
+          Web Development
+        </h1>
+        <div className="course-top-half">
+          <div className="course-top-left">
             <Fade>
-              <img src={FrontLogo} alt="logo" style={{width:"75%"}}/>
+              <img src={FrontLogo} alt="html/css/js" style={{width:"75%"}}/>
             </Fade>
-            </div>
-
-            <div style={{width:"35%", margin:"auto"}}>
-              <Slide right>
-                <ul style={{fontSize:"1.2rem"}}>
-                  <li>Learn HTML5 and how to properly lay elements onto a page seamlessly</li>
-                  <li>Learn CSS3 and stylize your elements to captivate your audience</li>
-                  <li>Learn Javascript and create reactive web pages that puts you on a higher level</li>
-                </ul>
-              </Slide>
-            </div>
           </div>
-          <Fade>
-            <h4 style={{textAlign: "center"}}>
-              We offer either an 8 Week, Weekend Course or a 4 Week,
-              Weekday Course.
-            </h4>
-            <div style={{width:"100%", display:"flex", paddingBottom:"2%"}}>
-            <Link to={'/courses/frontend'} style={{fontSize:"2vw", margin:"auto"}}>
-              Course Details
-            </Link>
-            </div>
-          </Fade>
-        </div>
 
-
-
-        {/* React/Redux */}
-        <div style={{background:"#282c34"}}>
-          <h1 style={{textAlign: "center", marginTop:"2%", color:"#61dafb", paddingTop:"3%"}}>
-            React and Redux
-          </h1>
-          <div style={{display:"flex", marginTop:"4%"}}>
-            <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
-            <Slide left>
-              <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem", color:"#61dafb"}}>
-                  Heighten your web development prowess with React and Redux. These two Javascript
-                  libraries allow you to push your Front End skills farther than before, and preps
-                  you for real world projects.
+          <div className="course-top-right">
+            <Slide right>
+              <p className="course-paragraph">
+                Build your own website! Learn HTML5, CSS3, and Javascript with
+                our Front End Web Development course.
+                We go into all that you would need to know to design and build a website
+                from the ground up.
               </p>
-              </Slide>
-            </div>
-
-            <div style={{width:"35%", marginRight: "13%"}}>
-              <Slide right>
-                <ul style={{fontSize:"1.2rem", color:"#61dafb"}}>
-                  <li>React will allow you to add statefulness to your HTML/CSS,
-                    effectively turning it into a way to run Javascript and allow you
-                    to open up many new ways of designing functionality for web.
-                  </li>
-                  <li>Redux is a container for statefulness, making it easier and lighter
-                    to code in React.
-                  </li>
-                </ul>
-              </Slide>
-            </div>
+            </Slide>
           </div>
-          <Fade>
-            <h4 style={{textAlign: "center", color:"#61dafb"}}>
-              We offer an 8 Week, Weekday Night Course.
-            </h4>
-            <Link to={'/courses/react'} style={{fontSize:"2vw", marginLeft: "40vw"}}>
-              Course Details
-            </Link>
-          </Fade>
         </div>
 
+        {/*list hidden until mobile*/}
+        <ul className="course-list">
+          <li>
+            Learn HTML5 and how to properly lay elements onto a page seamlessly
+          </li>
+          <li>
+            Learn CSS3 and stylize your elements to captivate your audience
+          </li>
+          <li>
+            Learn Javascript and create reactive web pages that puts you on a higher level
+          </li>
+        </ul>
 
-        {/* Java */}
+        <Fade>
+          <h4 className="center-text">
+            We offer either an 8 Week, Weekend Course or a 4 Week,
+            Weekday Course.
+          </h4>
+          <div className="course-link-div">
+            <Link to={'/courses/frontend'} className="course-link">
+              Course Details
+            </Link>
+          </div>
+        </Fade>
+      </div>
+
+      {/* React and Redux */}
+      <div style={{background:"#282c34"}}>
+        <h1 className="course-title" style={{color:"#61dafb"}}>
+          React and Redux
+        </h1>
+        <div className="course-top-half">
+          <div className="course-top-left">
+            <Fade>
+              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%"}}/>
+            </Fade>
+          </div>
+
+          <div className="course-top-right">
+            <Slide right>
+              <p className="course-paragraph" style={{color:"#61dafb"}}>
+                Heighten your web development prowess with React and Redux. These two Javascript
+                libraries allow you to push your Front End skills farther than before, and preps
+                you for real world projects.
+              </p>
+            </Slide>
+          </div>
+        </div>
+
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:"#61dafb"}}>
+          <li>React will allow you to add statefulness to your HTML/CSS,
+            effectively turning it into a way to run Javascript and allow you
+            to open up many new ways of designing functionality for web.
+          </li>
+          <li>Redux is a container for statefulness, making it easier and lighter
+            to code in React.
+          </li>
+        </ul>
+
+        <Fade>
+          <h4 className="center-text" style={{color:"#61dafb"}}>
+            We offer an 8 Week, Weekday Night Course.
+          </h4>
+          <div className="course-link-div">
+            <Link to={'/courses/frontend'} className="course-link">
+              Course Details
+            </Link>
+          </div>
+        </Fade>
+      </div>
+
+      {/* AP CS Java */}
+      <div style={{background:""}}>
+        <h1 className="course-title" style={{color:""}}>
+          AP CS : Intro to Java
+        </h1>
+        <div className="course-top-half">
+          <div className="course-top-left">
+            <Fade>
+              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%"}}/>
+            </Fade>
+          </div>
+
+          <div className="course-top-right">
+            <Slide right>
+              <p className="course-paragraph" style={{color:""}}>
+                Heighten your web development prowess with React and Redux. These two Javascript
+                libraries allow you to push your Front End skills farther than before, and preps
+                you for real world projects.
+              </p>
+            </Slide>
+          </div>
+        </div>
+
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:""}}>
+          <li>React will allow you to add statefulness to your HTML/CSS,
+            effectively turning it into a way to run Javascript and allow you
+            to open up many new ways of designing functionality for web.
+          </li>
+          <li>Redux is a container for statefulness, making it easier and lighter
+            to code in React.
+          </li>
+        </ul>
+
+        <Fade>
+          <h4 className="center-text" style={{color:""}}>
+            We offer an 8 Week, Weekday Night Course.
+          </h4>
+          <div className="course-link-div">
+            <Link to={'/courses/frontend'} className="course-link">
+              Course Details
+            </Link>
+          </div>
+        </Fade>
+      </div>
+
+
+      {/* Java DATASTRUCT */}
         <div className="java-gradient">
           <h1 style={{textAlign: "center", marginTop:"2%", paddingTop:"3%", color:"white"}}>
             Data Structures and Algorithms with Java

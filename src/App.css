@@ -575,6 +575,53 @@ div.column-about-name{
   margin-bottom: 2vw;
 }
 
+/*------------------------------ */
+/* Courses */
+
+.course-title {
+  text-align: center;
+  margin-top: 5%;
+  padding-top:3%;
+}
+
+.course-top-half {
+  display:flex;
+  margin-top:4%;
+  margin-bottom: 4%;
+}
+
+.course-top-left {
+  width:30%;
+  margin-left:17%;
+  display: flex;
+}
+
+.course-top-right {
+  width: 35%;
+  margin: auto;
+}
+
+.course-paragraph {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.course-list {
+  font-size: 1.2rem;
+  display: none;
+}
+
+.course-link-div {
+  width:100%;
+  display:flex;
+  padding-bottom: 2%;
+}
+
+.course-link {
+  font-size: 2vw;
+  margin:auto;
+}
+
 .java-gradient {
   background: rgb(248,152,29);
   background: linear-gradient(90deg, rgba(248,152,29,1) 0%, rgba(248, 0, 0,1) 65%);
@@ -625,6 +672,7 @@ div.column-about-name{
 	}
 }
 
+<<<<<<< HEAD
 .course-top-div{
   margin-top: 2vw;
 }
@@ -675,6 +723,9 @@ div.column-about-name{
   margin-left: 2vw;
 }
 
+=======
+/*---------------------------*/
+>>>>>>> e5a6881ce9afe97480a8c1baa81620366a1f92a8
 
 
 /* Tablet Landscape (big tablet [ipad pro])*/
@@ -746,15 +797,19 @@ div.column-about-name{
   }
 
   .logo-image{
-    height: 7vw;
-    width: 7vw;
     margin-left: 0px;
+  }
+
+
+  .logo-a{
+    width:100%;
   }
 
   .logo-div-2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%
   }
 
   .logo-text {
@@ -943,12 +998,6 @@ div.column-about-name{
     margin-left: 5px !important;
     font-size: 5vw;
   }
-
-  .logo-image {
-    height: 15vw;
-    width: 15vw;
-  }
-
 
   .row-div{
     margin-right: 30px;
