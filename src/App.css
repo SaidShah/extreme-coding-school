@@ -695,15 +695,19 @@ div.column-about-name{
   }
 
   .logo-image{
-    height: 7vw;
-    width: 7vw;
     margin-left: 0px;
+  }
+
+
+  .logo-a{
+    width:100%;
   }
 
   .logo-div-2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%
   }
 
   .logo-text {
@@ -895,8 +899,7 @@ div.column-about-name{
   }
 
   .logo-image {
-    height: 15vw;
-    width: 15vw;
+
   }
 
 

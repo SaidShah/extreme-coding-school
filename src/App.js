@@ -26,7 +26,7 @@ class App extends Component {
 
             <div className = "logo-div">
               <div className="logo-div-2">
-                <a className="nav-link no-transition-nav bold-font" href="/" style={{display:"flex"}}>
+                <a className="nav-link no-transition-nav bold-font logo-a" href="/" style={{display:"flex"}}>
                   <div style={{display:"inline-block", margin:"auto", width:"60%"}}>
                     <img src={logo} className="logo-image" alt="logo" />
                   </div>
