@@ -5,6 +5,7 @@ import Frontend from './Frontend'
 import ReactRedux from './ReactRedux'
 import PrivateLessons from './PrivateLessons'
 import Java from './Java'
+import FrontLogo from '.././images/htmlcssjs.svg'
 import {Route, Link, Switch} from 'react-router-dom'
 
 
@@ -30,17 +31,14 @@ class Courses extends Component {
           <h1 style={{textAlign: "center", marginTop:"5%", paddingTop:"3%"}}>
              Web Development
           </h1>
-          <div style={{display:"flex", marginTop:"4%"}}>
-            <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
-            <Slide left>
-              <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem"}}>
-                  The Front End Crash Course will include what any basic Front End development would need,
-                  which would be HTML5, CSS3, and Javascript.
-              </p>
-              </Slide>
+          <div style={{display:"flex", marginTop:"4%", marginBottom:"4%"}}>
+            <div style={{width:"30%", marginLeft: "17%"}}>
+            <Fade>
+              <img src={FrontLogo} alt="logo" style={{width:"75%"}}/>
+            </Fade>
             </div>
 
-            <div style={{width:"35%", marginRight: "13%"}}>
+            <div style={{width:"35%", margin:"auto"}}>
               <Slide right>
                 <ul style={{fontSize:"1.2rem"}}>
                   <li>Learn HTML5 and how to properly lay elements onto a page seamlessly</li>
@@ -55,9 +53,11 @@ class Courses extends Component {
               We offer either an 8 Week, Weekend Course or a 4 Week,
               Weekday Course.
             </h4>
-            <Link to={'/courses/frontend'} style={{fontSize:"2vw", marginLeft: "40vw"}}>
+            <div style={{width:"100%", display:"flex", paddingBottom:"2%"}}>
+            <Link to={'/courses/frontend'} style={{fontSize:"2vw", margin:"auto"}}>
               Course Details
             </Link>
+            </div>
           </Fade>
         </div>
 
