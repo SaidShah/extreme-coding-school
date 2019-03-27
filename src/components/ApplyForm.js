@@ -147,6 +147,7 @@ class ApplyForm extends Component {
      <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
      <option value="dataStructures">Java Data Structures & Algorithms 4 weeks</option>
      <option value="reactRedux">React & Redux</option>
+     <option value="reactRedux">Computer Graphics For The Web</option>
    </select>
  </label>
 
