@@ -5,6 +5,7 @@ import Frontend from './Frontend'
 import ReactRedux from './ReactRedux'
 import PrivateLessons from './PrivateLessons'
 import Java from './Java'
+import Apcs from './Apcs'
 import FrontLogo from '.././images/htmlcssjs.svg'
 import ReactReduxLogo from '.././images/reactredux.svg'
 import JavaRedLogo from '.././images/java-red.svg'
@@ -213,7 +214,7 @@ class Courses extends Component {
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/frontend'} className="course-link">
+            <Link to={'/courses/java'} className="course-link">
               Course Details
             </Link>
           </div>
@@ -265,6 +266,7 @@ class Courses extends Component {
       <Route exact path="/courses/react" render={()=><ReactRedux/>}/>
       <Route exact path="/courses/java" render={()=><Java/>}/>
       <Route exact path="/courses/privateLessons" render={()=><PrivateLessons/>}/>
+      <Route exact path="/courses/apcs" render={()=><Apcs/>}/>
       <Route exact path="/courses" render={()=><div>{course}</div>}/>
 
       </Switch>
