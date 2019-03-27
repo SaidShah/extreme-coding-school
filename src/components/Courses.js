@@ -154,6 +154,8 @@ const Courses = () => (
       </h2>
     </Fade>
 
+    <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+
     <div className="bootcamp-gradient">
       <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
         Private Classes
