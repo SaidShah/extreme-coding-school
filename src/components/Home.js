@@ -32,8 +32,7 @@ class Home extends Component {
 
               <div className="header-table">
                 <div className="header-img-text center-text white-text">
-                  <h1 className="bold-text-3 white-text">Extreme Coding School</h1>
-                  <h2 className="bold-text-2 white-text">Become a developer in 15 weeks</h2>
+                  <h1 className="bold-text-2 white-text">Become a developer in 15 weeks</h1>
                 </div>
 
                 <div className="header-img-text image-box">
@@ -56,7 +55,7 @@ class Home extends Component {
                     <div className="column box-border">
                       <div className="featured-phone-fix">
                        <h5 className="white-letters font-size-1-5">Ruby & Rails</h5>
-                        <p className="ruby-text-2 font-size-2" style={{display:"none"}}> Our curriculum is based on todays most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms</p>
+                        <p className="ruby-text-2 font-size-2" style={{display:"none"}}> Our curriculum is based on today's most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms</p>
                        <p className="black-letters font-size-1-3" id="ruby-text">Learn Basic + Intermediate Ruby,Test-Driven Development,
                        ActiveRecord, Database Queries, Joins, Schema Design, etc... </p>
                       </div>
@@ -76,7 +75,6 @@ class Home extends Component {
             <div className="padding-after-jumbotron row">
 
 
-              <SideBar> </SideBar>
 
 
               <div className="column-right-side center-text">
