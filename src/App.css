@@ -137,6 +137,8 @@ button.btn{
 .cirr-text {
   margin-top: 2%;
   font-size: 4vw;
+  width: 55vw;
+  margin-left: 20.5vw;
 }
 
 .cirr-text.left-text {
@@ -222,6 +224,7 @@ button.btn{
   margin-top: 2%;
   margin-bottom: 2%;
   width: 100%;
+
 }
 
 .column-left-side{
@@ -230,8 +233,9 @@ button.btn{
 }
 
 .column-right-side{
-  width: 75%;
+  width: 100%;
   padding: 2%;
+  margin-left: auto;
 }
 
 .remove-bullets{
@@ -311,10 +315,6 @@ button.btn{
   display: inline-block;
 }
 
-
-.move-up{
- /*dead class*/
-}
 
 
 .grad-row {
@@ -447,11 +447,11 @@ button.btn{
 .tab {
   position: relative;
   margin-bottom: 2%;
-  width: 100%;
+  width: 70%;
   color: #003c9e;
   overflow: hidden;
   border: 1px lightgray solid;
-
+  margin-left: 14vw;
 }
 .tab input {
   position: absolute;
@@ -745,6 +745,7 @@ div.column-about-name{
   .column-right-side {
     width: 100%;
     text-align: center;
+
   }
 
   .curriculum-image{
@@ -802,6 +803,7 @@ div.column-about-name{
 
   .cirr-text.left-text {
     font-size: 3vw;
+    width: 75vw;
   }
 
   .curriculum-label {
@@ -827,6 +829,13 @@ div.column-about-name{
     padding-right: 10px;
     margin-right: 7.5vw;
     margin-left: 7.5vw;
+  }
+
+  .tab {
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -1147,6 +1156,18 @@ div.column-about-name{
   .about-title{
     font-size: 4vw;
     color: black;
+  }
+
+  .tab {
+    position: relative;
+    /* margin-bottom: 2%;
+    max-width: 100%;
+    color: #003c9e;
+    overflow: hidden;
+    border: 1px lightgray solid; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }

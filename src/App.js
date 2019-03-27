@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ApplyForm from './components/ApplyForm'
 import Home from './components/Home'
-import Curriculum from './components/Curriculum'
+import BootCamp from './components/BootCamp'
 import Requirements from './components/Requirements'
 import Courses from './components/Courses'
 import Program from './components/Program'
@@ -41,7 +41,7 @@ class App extends Component {
               <Route path="/program" render={()=><Program/>}/>
               <Route path="/requirements" render={()=><Requirements/>}/>
               <Route path="/courses" render={()=><Courses/>}/>
-              <Route path="/curriculum" render={()=><Curriculum/>}/>
+              <Route path="/bootcamp" render={()=><BootCamp/>}/>
               <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
               <Route path="/about" render={()=><About/>}/>
               <Route path="/thankyou" render={()=><ThankyouPage/>}/>

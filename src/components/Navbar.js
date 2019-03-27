@@ -38,8 +38,8 @@ render() {
            </a>
           </li>
           <li className="nav-item">
-           <a className="nav-link no-transition-nav bold-font"  href="/curriculum">
-          Curriculum
+           <a className="nav-link no-transition-nav bold-font"  href="/bootcamp">
+          Bootcamp
             </a>
           </li>
           <li className="nav-item">
