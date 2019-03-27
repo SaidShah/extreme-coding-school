@@ -4,7 +4,7 @@ import ApplyForm from './components/ApplyForm'
 import Home from './components/Home'
 import Curriculum from './components/Curriculum'
 import Requirements from './components/Requirements'
-import Pricing from './components/Pricing'
+import Courses from './components/Courses'
 import Program from './components/Program'
 import Privacy from './components/Privacy'
 import FAQ from './components/FAQ'
@@ -40,7 +40,7 @@ class App extends Component {
               <Route path="/privacy" render={()=><Privacy/>}/>
               <Route path="/program" render={()=><Program/>}/>
               <Route path="/requirements" render={()=><Requirements/>}/>
-              <Route path="/pricing" render={()=><Pricing/>}/>
+              <Route path="/courses" render={()=><Courses/>}/>
               <Route path="/curriculum" render={()=><Curriculum/>}/>
               <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
               <Route path="/about" render={()=><About/>}/>

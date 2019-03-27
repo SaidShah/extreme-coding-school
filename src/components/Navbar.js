@@ -43,8 +43,8 @@ render() {
             </a>
           </li>
           <li className="nav-item">
-           <a className="nav-link no-transition-nav bold-font" href="/pricing">
-          Pricing
+           <a className="nav-link no-transition-nav bold-font" href="/courses">
+          Courses
            </a>
           </li>
 
