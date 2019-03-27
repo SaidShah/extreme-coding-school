@@ -1,8 +1,8 @@
 import React from 'react';
 
-const ReactRedux = (props) => (
+const ReactRedux = () => (
   <div>
-    <h1>COURSE PAGE FOR REACT and REDUX{console.log(props.courseChosen)}</h1>
+    <h1>COURSE PAGE FOR REACT and REDUX</h1>
   </div>
 );
 
