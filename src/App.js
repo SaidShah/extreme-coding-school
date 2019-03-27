@@ -13,7 +13,7 @@ import ThankyouPage from './components/ThankyouPage'
 import Footer from './components/Footer'
 import About from './components/About'
 import {Switch, Route, withRouter} from 'react-router-dom'
-import logo from './images/code-image.svg'
+import logo from './images/ecs-long.svg'
 
 class App extends Component {
 
@@ -27,8 +27,8 @@ class App extends Component {
             <div className = "logo-div">
               <div className="logo-div-2">
                 <a className="nav-link no-transition-nav bold-font" href="/" style={{display:"flex"}}>
-                  <div style={{display:"inline-block", margin:"auto"}}>
-                    <img src={logo} className="logo-image" alt="logo"/><span className="logo-text" style={{verticalAlign:"middle"}}> Extreme | Coding | School </span>
+                  <div style={{display:"inline-block", margin:"auto", width:"60%"}}>
+                    <img src={logo} className="logo-image" alt="logo" />
                   </div>
                 </a>
               </div>
