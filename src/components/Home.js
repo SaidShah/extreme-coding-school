@@ -5,7 +5,6 @@ import image_three from '.././images/jumbotron-img-three.jpg'
 import image_four from '.././images/jumbotron-img-four.jpg'
 import programming_image from '.././images/programming-image.jpg'
 import graduate_image from '.././images/graduate.jpg'
-import SideBar from './SideBar'
 
 class Home extends Component {
 

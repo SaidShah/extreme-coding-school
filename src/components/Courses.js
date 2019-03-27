@@ -121,7 +121,7 @@ class Courses extends Component {
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/frontend'} className="course-link">
+            <Link to={'/courses/react'} className="course-link">
               Course Details
             </Link>
           </div>
@@ -167,7 +167,7 @@ class Courses extends Component {
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/frontend'} className="course-link">
+            <Link to={'/courses/apcs'} className="course-link">
               Course Details
             </Link>
           </div>
