@@ -7,6 +7,8 @@ import PrivateLessons from './PrivateLessons'
 import Java from './Java'
 import FrontLogo from '.././images/htmlcssjs.svg'
 import ReactReduxLogo from '.././images/reactredux.svg'
+import JavaRedLogo from '.././images/java-red.svg'
+import JavaOrangeLogo from '.././images/java-orange.svg'
 import {Route, Link, Switch} from 'react-router-dom'
 
 
@@ -24,7 +26,9 @@ class Courses extends Component {
           Front End course that allows students to learn about the basics of web design.
         </p>
 
-        <h2 style={{textAlign:"center", marginTop: "5%"}}> (Here's a more in-depth look at what we offer.)</h2>
+        <h2 style={{textAlign:"center", marginTop: "5%", marginBottom: "3%"}}>
+          (Here's a more in-depth look at what we offer.)
+        </h2>
       </div>
 
       {/* Front End */}
@@ -83,20 +87,21 @@ class Courses extends Component {
           React and Redux
         </h1>
         <div className="course-top-half">
-          <div className="course-top-left">
-            <Fade>
-              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%"}}/>
-            </Fade>
-          </div>
+
 
           <div className="course-top-right">
-            <Slide right>
+            <Slide left>
               <p className="course-paragraph" style={{color:"#61dafb"}}>
                 Heighten your web development prowess with React and Redux. These two Javascript
                 libraries allow you to push your Front End skills farther than before, and preps
                 you for real world projects.
               </p>
             </Slide>
+          </div>
+          <div className="course-top-left-swap">
+            <Fade>
+              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%"}}/>
+            </Fade>
           </div>
         </div>
 
@@ -131,16 +136,16 @@ class Courses extends Component {
         <div className="course-top-half">
           <div className="course-top-left">
             <Fade>
-              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%"}}/>
+              <img src={JavaRedLogo} alt="html/css/js" style={{width:"85%"}}/>
             </Fade>
           </div>
 
           <div className="course-top-right">
             <Slide right>
               <p className="course-paragraph" style={{color:""}}>
-                Heighten your web development prowess with React and Redux. These two Javascript
-                libraries allow you to push your Front End skills farther than before, and preps
-                you for real world projects.
+                Want to get started on AP early or get college credit over the summer with us?
+                How about just learn the basics of Java? We're your go-to with this course. We
+                teach the basics of Java, which covers AP CS or all Intro Java College courses.
               </p>
             </Slide>
           </div>
@@ -171,50 +176,54 @@ class Courses extends Component {
 
 
       {/* Java DATASTRUCT */}
-        <div className="java-gradient">
-          <h1 style={{textAlign: "center", marginTop:"2%", paddingTop:"3%", color:"white"}}>
-            Data Structures and Algorithms with Java
-          </h1>
-          <div style={{display:"flex", marginTop:"4%"}}>
-            <div style={{width:"35%", marginLeft: "17%", marginBottom: "4%"}}>
+      <div className="java-gradient">
+        <h1 className="course-title" style={{color:"white"}}>
+          Data Structures and Algorithms with Java
+        </h1>
+        <div className="course-top-half">
+          <div className="course-top-right">
             <Slide left>
-              <p style={{width:"75%", textAlign: "center", fontSize: "1.4rem", color:"white"}}>
-                  Enter into Object Oriented Programming (OOP) with Java. Java is widely used in
-                  applications deployed all over the world; from apps on your smartphone to large
-                  databases for multi-billion dollar companies.
+              <p className="course-paragraph" style={{color:"white"}}>
+                Enter into Object Oriented Programming (OOP) with Java. Java is widely used in
+                applications deployed all over the world; from apps on your smartphone to large
+                databases for multi-billion dollar companies.
               </p>
-              </Slide>
-            </div>
-
-            <div style={{width:"35%", marginRight: "13%"}}>
-              <Slide right>
-                <ul style={{fontSize:"1.2rem", color:"white"}}>
-                  <li>
-                    Learn a language that can be used on any operating system.
-                  </li>
-                  <li>
-                    Find out how modular programming can be powerful.
-                  </li>
-                  <li>
-                    My brain is malfunctioning and I don't know what to write.
-                  </li>
-                  <li>
-                    Course also covers AP-CS A so you are able to take the AP Test with the knowledge
-                    from this class.
-                  </li>
-                </ul>
-              </Slide>
-            </div>
+            </Slide>
           </div>
-          <Fade>
-            <h4 style={{textAlign: "center", color:"white"}}>
-              We offer an 8 Week, Weekday Night Course.
-            </h4>
-            <Link to={'/courses/java'} style={{fontSize:"2vw", marginLeft: "40vw"}}>
+          <div className="course-top-left-swap">
+            <Fade>
+              <img src={JavaOrangeLogo} alt="html/css/js" style={{width:"85%"}}/>
+            </Fade>
+          </div>
+        </div>
+
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:"white"}}>
+          <li>React will allow you to add statefulness to your HTML/CSS,
+            effectively turning it into a way to run Javascript and allow you
+            to open up many new ways of designing functionality for web.
+          </li>
+          <li>Redux is a container for statefulness, making it easier and lighter
+            to code in React.
+          </li>
+        </ul>
+
+        <Fade>
+          <h4 className="center-text" style={{color:"white"}}>
+            We offer an 8 Week, Weekday Night Course.
+          </h4>
+          <div className="course-link-div">
+            <Link to={'/courses/frontend'} className="course-link">
               Course Details
             </Link>
-          </Fade>
-        </div>
+          </div>
+        </Fade>
+      </div>
+
+
+
+
+
         {/* Private Lessons */}
 
         <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>

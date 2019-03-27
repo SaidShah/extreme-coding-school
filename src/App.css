@@ -580,7 +580,6 @@ div.column-about-name{
 
 .course-title {
   text-align: center;
-  margin-top: 5%;
   padding-top:3%;
 }
 
@@ -593,6 +592,12 @@ div.column-about-name{
 .course-top-left {
   width:30%;
   margin-left:17%;
+  display: flex;
+}
+
+.course-top-left-swap {
+  width:30%;
+  margin: auto;
   display: flex;
 }
 
