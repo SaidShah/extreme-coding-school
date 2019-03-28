@@ -145,7 +145,25 @@ const About = () => (
         applying for jobs, however, it did not bear fruit.
       </p>
       <p className="about-p">
+        While I had experience doing lower level projects when I was young, all school
+        had taught me was theory. I could learn all day on what an Object or certain Data Structure
+        was, but none of that matters if you don't have anything to show in the real world. Companies
+        just don't look at degrees in this field. If you waste 4 years of your life doing nothing but homework
+        and no real world projects/work, then you'll be stuck like I was.
+      </p>
+      <p className="about-p">
+        I want to help people avoid this problem. Because of Extreme, I'm able to do so. I am
+        in the position where I can help people of all ages learn about code at different
+        skill levels and make sure they get the practical side of it all. It drives me foward,
+        knowing that other people don't have to go through the trouble I did to get knowledge;
+        to waste time learning theory when it didn't apply or wasn't taught right.
+      </p>
+      <p className="about-p" style={{textAlign: "center"}}>
 
+        <span style={{fontStyle: 'italic'}}>
+          "I wasted time, and now doth time waste me."
+        </span>
+        &nbsp;- William Shakespeare
       </p>
 
 
