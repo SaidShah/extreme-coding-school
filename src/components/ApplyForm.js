@@ -14,6 +14,22 @@ class ApplyForm extends Component {
       course: ''
     }
 
+    componentDidMount() {
+      let userLocArr= this.props.props.location.pathname.split("/")
+      let userCourse = userLocArr[userLocArr.length-1]
+      if(userCourse==="frontEndWebDev4"){
+        this.setState({course: "frontEndWebDev4"})
+      }else if(userCourse==="frontEndWebDev8"){
+        this.setState({course: "frontEndWebDev8"})
+      }else if(userCourse ==="dataStructures"){
+        this.setState({course: "dataStructures"})
+      }else if(userCourse==="apCSa"){
+        this.setState({course: "apCSa"})
+      }else if(userCourse==="react"){
+        this.setState({course: "reactRedux"})
+      }
+    }
+
     handleChange=(e)=>{
       this.setState({
         [e.target.name]:e.target.value
@@ -83,6 +99,7 @@ class ApplyForm extends Component {
 
 
     render() {
+
       return (
         <form onSubmit={(e)=>this.handleSubmit(e,this.state)} className="form-width">
 
@@ -147,7 +164,7 @@ class ApplyForm extends Component {
      <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
      <option value="dataStructures">Java Data Structures & Algorithms 4 weeks</option>
      <option value="reactRedux">React & Redux</option>
-     <option value="reactRedux">Computer Graphics For The Web</option>
+     <option value="computerGraphics">Computer Graphics For The Web</option>
    </select>
  </label>
 

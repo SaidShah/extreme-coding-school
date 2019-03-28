@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import frontEnd from '.././images/front-end.svg'
 import frontEndTwo from '.././images/front-end-two.svg'
 
@@ -40,6 +41,8 @@ const Frontend = () => (
       <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
       <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
     </ul>
+      <Link to="/apply/frontEndWebDev4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 4 weeks Sat & Sun</Link>
+      <Link to="/apply/frontEndWebDev8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 8 weeks Tues & Thurs</Link>
   </div>
   <div className="course-image-div">
   <img src={frontEndTwo} alt="front end web development extreme coding school" />

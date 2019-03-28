@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import react from '.././images/react.svg'
 
 const ReactRedux = () => (
@@ -39,6 +40,7 @@ const ReactRedux = () => (
       <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
       <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
     </ul>
+      <Link to="/apply/react" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now React & Redux</Link>
   </div>
   <div className="course-image-div">
   <img src={react} alt="front end web development extreme coding school" />
