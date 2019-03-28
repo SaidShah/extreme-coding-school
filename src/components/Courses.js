@@ -260,7 +260,6 @@ class Courses extends Component {
       <Route exact path="/courses/privateLessons" render={()=><PrivateLessons/>}/>
       <Route exact path="/courses/apcs" render={()=><Apcs/>}/>
       <Route exact path="/courses" render={()=><div>{course}</div>}/>
-
       </Switch>
       </>
     );
