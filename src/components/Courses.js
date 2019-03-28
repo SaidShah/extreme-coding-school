@@ -154,13 +154,7 @@ class Courses extends Component {
 
         {/*list hidden until mobile*/}
         <ul className="course-list" style={{color:""}}>
-          <li>React will allow you to add statefulness to your HTML/CSS,
-            effectively turning it into a way to run Javascript and allow you
-            to open up many new ways of designing functionality for web.
-          </li>
-          <li>Redux is a container for statefulness, making it easier and lighter
-            to code in React.
-          </li>
+
         </ul>
 
         <Fade>
@@ -220,9 +214,7 @@ class Courses extends Component {
           </div>
         </Fade>
       </div>
-
-
-
+      
 
 
         {/* Private Lessons */}
