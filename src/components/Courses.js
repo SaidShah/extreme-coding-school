@@ -10,6 +10,7 @@ import FrontLogo from '.././images/htmlcssjs.svg'
 import ReactReduxLogo from '.././images/reactredux.svg'
 import JavaRedLogo from '.././images/java-red.svg'
 import JavaOrangeLogo from '.././images/java-orange.svg'
+import BootcampLogo from '.././images/bootcamp.svg'
 import {Route, Link, Switch} from 'react-router-dom'
 
 
@@ -232,6 +233,52 @@ class Courses extends Component {
         </Fade>
       </div>
 
+      {/* Bootcamp 4 kids */}
+      <div className="bootcamp-gradient">
+        <h1 className="course-title" style={{color:"white"}}>
+          Bootcamp For Young Adults
+        </h1>
+        <div className="course-top-half">
+          <div className="course-top-left">
+            <Fade>
+              <img src={BootcampLogo} alt="html/css/js" style={{width:"55%", margin:"auto", height:"75%"}}/>
+            </Fade>
+          </div>
+
+          <div className="course-top-right">
+            <Slide right>
+              <p className="course-paragraph" style={{color:"white"}}>
+                If you (or your child) is very invested in programming, or wants to get a job later in life
+                in the field: look no further. This course is a lighter, more relaxed version of our 15-week bootcamp.
+              </p>
+            </Slide>
+          </div>
+        </div>
+
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:"white"}}>
+          <li>
+            Learn Full-Stack Development in a class focused on the experience of the student.
+          </li>
+          <li>
+            Be assured that you will be able to keep up in the bootcamp, even if you don't have
+            as much time to dedicate to it.
+          </li>
+        </ul>
+
+        <Fade>
+          <h4 className="center-text" style={{color:"white"}}>
+            We offer an 8 Week, Weekday Night Course.
+          </h4>
+          <div className="course-link-div">
+            <Link to={'/courses/apcs'} className="course-link">
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
+            </Link>
+          </div>
+        </Fade>
+      </div>
 
 
       {/* Private Lessons */}
@@ -246,7 +293,7 @@ class Courses extends Component {
 
       <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
 
-      <div className="bootcamp-gradient">
+      <div className="private-gradient">
         <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
           Private Classes
         </h1>

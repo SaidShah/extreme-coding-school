@@ -655,6 +655,11 @@ div.column-about-name {
 }
 
 .bootcamp-gradient {
+  background: rgb(235,111,255);
+  background: linear-gradient(90deg, rgba(235,111,255,1) 0%, rgba(127,198,255,1) 50%, rgba(0,248,139,1) 100%);
+}
+
+.private-gradient {
   background: rgb(127,198,255);
   background: linear-gradient(90deg, rgba(127,198,255,1) 20%, rgba(248,152,49,1) 50%, rgba(248,0,0,1) 80%);
   background-size: 400% 400%;
