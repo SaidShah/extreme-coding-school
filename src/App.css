@@ -534,17 +534,18 @@ button.btn{
 }
 
 .row-about{
-  display: flex;
+  display: inline-grid;
   padding: 1.5vw;
+  width: 100%;
   text-align: center;
 }
 
 .column-about{
-  padding-left: 38%;
+  margin: auto;
 }
 
-div.column-about-name{
-  margin-left: 5px;
+div.column-about-name {
+  margin: auto;
 }
 
 .about-title{
@@ -561,8 +562,8 @@ div.column-about-name{
   padding-left: 20px;
   padding-right: 10px;
   margin-right: 20vw;
-  margin-left: 20vw;
-
+  margin-left: 20vw; 
+  text-align: justify;
 }
 
 .about-us-hr{

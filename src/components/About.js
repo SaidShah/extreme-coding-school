@@ -1,6 +1,7 @@
 import React from 'react';
-import said_pic from '.././images/said-pic-min.png'
-import chen_pic from '.././images/chen-pic-min.png'
+import said_pic from '.././images/said-pic-min.jpg'
+import chen_pic from '.././images/chen-pic-min.jpg'
+import dylan_pic from '.././images/dylan-pic-min.jpg'
 
 const About = () => (
   <div>
@@ -11,7 +12,7 @@ const About = () => (
       <div>
         <h1 className="center-text bold-text black-text mission-title">Our Mission</h1>
         <h3 className="center-text about-title bold-text black-text">Mentorship | Community | Practice</h3>
-        <hr className="about-us-hr"/>
+        <hr className="about-us-hr" style={{marginBottom:"2rem"}}/>
       </div>
 
 
@@ -119,7 +120,7 @@ const About = () => (
 
       <div className="row-about">
         <div className="column-about">
-          <img src={chen_pic} alt="Dylan T. Downard"/>
+          <img src={dylan_pic} alt="Dylan T. Downard"/>
         </div>
         <div className="column-about-name">
           <h3 className="bold-text about-font-name">Dylan Downard</h3>
