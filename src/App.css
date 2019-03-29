@@ -13,6 +13,11 @@ button.btn{
   font-size: 1em;
 }
 
+.course-btn{
+  font-size: 0.75em !important;
+}
+
+
 .no-transition-nav {
   font-size: 1.3vw;
   -webkit-transition: none !important;
@@ -601,34 +606,35 @@ div.column-about-name {
 
 .course-top-half {
   display:flex;
-  margin-top:4%;
   margin-bottom: 4%;
 }
 
 .course-top-left {
-  width:30%;
-  margin-left:17%;
+  width:50%;
   display: flex;
 }
 
 .course-top-left-swap {
-  width:30%;
+  width:50%;
   margin: auto;
   display: flex;
 }
 
 .course-top-right {
-  width: 35%;
+  width: 50%;
   margin: auto;
 }
 
 .course-paragraph {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  width: 80%;
+  margin: auto;
   text-align: justify;
 }
 
 .course-list {
   font-size: 1.2rem;
+  padding-top: 2%;
   display: none;
 }
 
@@ -972,6 +978,10 @@ div.column-about-name {
     font-size: 5vw;
   }
 
+  .course-btn{
+    font-size: 2em !important;
+  }
+
   .bold-text-3 {
     font-size: 7vw;
   }
@@ -1282,6 +1292,13 @@ div.column-about-name {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .course-list {
+    display: block;
+  }
+  .course-top-half {
+    display:none;
   }
 
 }

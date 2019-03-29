@@ -20,7 +20,7 @@ class Courses extends Component {
     const course =  <div>
       <div style={{display:"grid"}}>
 
-        <p style={{width:"70%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "1.3rem"}}>
+        <p style={{width:"90%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "2rem"}}>
           Here at Extreme, we offer many different courses for our students to choose from. We have everything
           from the Full-Stack development course like Boot Camp to learn everything
           you need to get a job in web development, or a smoother, and lighter,
@@ -40,7 +40,7 @@ class Courses extends Component {
         <div className="course-top-half">
           <div className="course-top-left">
             <Fade>
-              <img src={FrontLogo} alt="html/css/js" style={{width:"75%"}}/>
+              <img src={FrontLogo} alt="html/css/js" style={{width:"50%", margin:"auto", height:"75%"}}/>
             </Fade>
           </div>
 
@@ -76,7 +76,9 @@ class Courses extends Component {
           </h4>
           <div className="course-link-div">
             <Link to={'/courses/frontend'} className="course-link">
-              Course Details
+              <button className="btn course-btn btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
             </Link>
           </div>
         </Fade>
@@ -101,7 +103,7 @@ class Courses extends Component {
           </div>
           <div className="course-top-left-swap">
             <Fade>
-              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%"}}/>
+              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%", margin:"auto", height:"75%"}}/>
             </Fade>
           </div>
         </div>
@@ -123,7 +125,9 @@ class Courses extends Component {
           </h4>
           <div className="course-link-div">
             <Link to={'/courses/react'} className="course-link">
-              Course Details
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
             </Link>
           </div>
         </Fade>
@@ -137,7 +141,7 @@ class Courses extends Component {
         <div className="course-top-half">
           <div className="course-top-left">
             <Fade>
-              <img src={JavaRedLogo} alt="html/css/js" style={{width:"85%"}}/>
+              <img src={JavaRedLogo} alt="html/css/js" style={{width:"50%", margin:"auto", height:"75%"}}/>
             </Fade>
           </div>
 
@@ -154,7 +158,16 @@ class Courses extends Component {
 
         {/*list hidden until mobile*/}
         <ul className="course-list" style={{color:""}}>
-
+          <li>
+            Learn the basics of Java and programming in this course.
+          </li>
+          <li>
+            You'll be able to take the AP CS-A test with ease after this course.
+          </li>
+          <li>
+            Learn the more than most intro courses for Computer Science
+            at SUNY Colleges.
+          </li>
         </ul>
 
         <Fade>
@@ -163,7 +176,9 @@ class Courses extends Component {
           </h4>
           <div className="course-link-div">
             <Link to={'/courses/apcs'} className="course-link">
-              Course Details
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
             </Link>
           </div>
         </Fade>
@@ -187,7 +202,7 @@ class Courses extends Component {
           </div>
           <div className="course-top-left-swap">
             <Fade>
-              <img src={JavaOrangeLogo} alt="html/css/js" style={{width:"85%"}}/>
+              <img src={JavaOrangeLogo} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
             </Fade>
           </div>
         </div>
@@ -209,58 +224,64 @@ class Courses extends Component {
           </h4>
           <div className="course-link-div">
             <Link to={'/courses/java'} className="course-link">
-              Course Details
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
             </Link>
           </div>
         </Fade>
       </div>
-      
 
 
-        {/* Private Lessons */}
 
-        <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+      {/* Private Lessons */}
 
-        <Fade top>
-          <h2 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem"}}>
-            In case you're wondering: We offer private classes.
-          </h2>
-        </Fade>
+      <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
 
-        <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+      <Fade top>
+        <h2 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem"}}>
+          In case you're wondering: We offer private classes.
+        </h2>
+      </Fade>
 
-        <div className="bootcamp-gradient">
-          <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
-            Private Classes
-          </h1>
-          <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
+      <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+
+      <div className="bootcamp-gradient">
+        <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
+          Private Classes
+        </h1>
+        <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
           <Fade>
             <p style={{width:"80%", textAlign: "center", fontSize: "2rem", color:"white", margin:"auto"}}>
-                We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
-                with. We are able to teach any of the above courses to you.
+              We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
+              with. We are able to teach any of the above courses to you.
             </p>
-            </Fade>
-          </div>
-          <Fade>
-            <h4 style={{textAlign: "center", color:"white"}}>
-              We go on a student by student basis to make sure we get your needs right.
-            </h4>
-            <Link to={'/courses/privateLessons'} style={{fontSize:"2vw", marginLeft: "40vw"}}>
-              Course Details
-            </Link>
           </Fade>
         </div>
+        <Fade>
+          <h4 style={{textAlign: "center", color:"white"}}>
+            We go on a student by student basis to make sure we get your needs right.
+          </h4>
+          <div className="course-link-div">
+            <Link to={'/courses/privateLessons'} className="course-link">
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
+            </Link>
+          </div>
+        </Fade>
       </div>
+    </div>
     return (
       <>
-      <Switch>
-      <Route exact path="/courses/frontend" render={()=><Frontend/>}/>
-      <Route exact path="/courses/react" render={()=><ReactRedux/>}/>
-      <Route exact path="/courses/java" render={()=><Java/>}/>
-      <Route exact path="/courses/privateLessons" render={()=><PrivateLessons/>}/>
-      <Route exact path="/courses/apcs" render={()=><Apcs/>}/>
-      <Route exact path="/courses" render={()=><div>{course}</div>}/>
-      </Switch>
+        <Switch>
+          <Route exact path="/courses/frontend" render={()=><Frontend/>}/>
+          <Route exact path="/courses/react" render={()=><ReactRedux/>}/>
+          <Route exact path="/courses/java" render={()=><Java/>}/>
+          <Route exact path="/courses/privateLessons" render={()=><PrivateLessons/>}/>
+          <Route exact path="/courses/apcs" render={()=><Apcs/>}/>
+          <Route exact path="/courses" render={()=><div>{course}</div>}/>
+        </Switch>
       </>
     );
   }
