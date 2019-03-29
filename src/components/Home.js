@@ -53,10 +53,10 @@ class Home extends Component {
                     </div>
                     <div className="column box-border">
                       <div className="featured-phone-fix">
-                       <h5 className="white-letters font-size-1-5">Ruby & Rails</h5>
+                        <h5 className="white-letters font-size-1-5">Ruby & Rails</h5>
                         <p className="ruby-text-2 font-size-2" style={{display:"none"}}> Our curriculum is based on today's most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms</p>
-                       <p className="black-letters font-size-1-3" id="ruby-text">Learn Basic + Intermediate Ruby,Test-Driven Development,
-                       ActiveRecord, Database Queries, Joins, Schema Design, etc... </p>
+                        <p className="black-letters font-size-1-3" id="ruby-text">Learn Basic + Intermediate Ruby,Test-Driven Development,
+                        ActiveRecord, Database Queries, Joins, Schema Design, etc... </p>
                       </div>
                     </div>
                     <div className="column box-border">
@@ -77,24 +77,24 @@ class Home extends Component {
 
 
               <div className="column-right-side center-text">
-                <div>
+                <div className="column-mid-div">
                   <h2 className="blue-text bold-text home-page-ul-header-h2">Gain In-Demand Skills at Extreme</h2>
                   <p className="left-text skills-paragraph">Extreme Coding School equips you with the skills to succeed in today's computerized world. We at Extreme equip you with essential skills for today’s digital economy. With strategically engineered curricula, face-to-face interaction, and knowledgeable instructors, we provide an educational experience that will help you find a path to success.
                   </p>
                   <div className="skills-ul-div">
-                      <ul className="home-page-ul">
-                        <li className="home-page-li">Get a full time position as a Web Developer or Software Engineer with our job placement assistance.</li>
-                        <li className="home-page-li">Use Git to build a portfolio of projects and applications in our Web Development program.</li>
-                        <li className="home-page-li">Build an online portfolio to show off and demo your projects for prospective employers.</li>
-                        <li className="home-page-li">Study part-time while maintaining your work schedule. Accelerated full-time options will help you achieve your dreams faster.</li>
-                        <li className="home-page-li">Get extra help from our instructors to help you navigate through the program.</li>
-                        <li className="home-page-li">Build an incredible resume to show off your technical abilities.</li>
+                    <ul className="home-page-ul">
+                      <li className="home-page-li">Get a full time position as a Web Developer or Software Engineer with our job placement assistance.</li>
+                      <li className="home-page-li">Use Git to build a portfolio of projects and applications in our Web Development program.</li>
+                      <li className="home-page-li">Build an online portfolio to show off and demo your projects for prospective employers.</li>
+                      <li className="home-page-li">Study part-time while maintaining your work schedule. Accelerated full-time options will help you achieve your dreams faster.</li>
+                      <li className="home-page-li">Get extra help from our instructors to help you navigate through the program.</li>
+                      <li className="home-page-li">Build an incredible resume to show off your technical abilities.</li>
 
-                      </ul>
+                    </ul>
                   </div>
                 </div>
                 <div className="prog-hr-div">
-                <hr className = "hr-mobile-change" style={{minHeight:"5px"}}/>
+                  <hr className = "hr-mobile-change" style={{minHeight:"5px"}}/>
                 </div>
 
                 <div className="programming-container">
@@ -119,7 +119,7 @@ class Home extends Component {
                   </div>
 
                   <div>
-                  <hr className="grad-hr" style={{minHeight:"5px", position:"relative", marginBottom:"50px"}}/>
+                    <hr className="grad-hr" style={{minHeight:"5px", position:"relative", marginBottom:"50px"}}/>
                   </div>
 
                   <div className="move-up">

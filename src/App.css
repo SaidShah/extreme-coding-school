@@ -122,6 +122,12 @@ button.btn{
   background-color: #003c9e;
 }
 
+.logo-div {
+  display: flex;
+  width:70%;
+  margin: auto;
+}
+
 .logo-image{
   height: 100%;
   width: 100%;
@@ -152,6 +158,10 @@ button.btn{
   font-size: 2vw;
   font-weight: bold;
   color: #003c9e;
+}
+
+.logo-a{
+  width:80%;
 }
 
 .logo-container{
@@ -226,6 +236,11 @@ button.btn{
   margin-bottom: 2%;
   width: 100%;
 
+}
+
+.column-mid-div {
+  width: 75%;
+  margin: auto;
 }
 
 .column-left-side{
@@ -562,7 +577,7 @@ div.column-about-name {
   padding-left: 20px;
   padding-right: 10px;
   margin-right: 20vw;
-  margin-left: 20vw; 
+  margin-left: 20vw;
   text-align: justify;
 }
 
@@ -798,11 +813,7 @@ div.column-about-name {
     width: 70%;
   }
 
-  .logo-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+
 
   .logo-image{
     margin-left: 0px;
@@ -811,13 +822,6 @@ div.column-about-name {
 
   .logo-a{
     width:100%;
-  }
-
-  .logo-div-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%
   }
 
   .logo-text {
@@ -995,10 +999,8 @@ div.column-about-name {
 
   .black-letters::before{}
 
-  .logo-div-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .logo-div {
+    width:100%;
   }
 
   .logo-text {
@@ -1059,6 +1061,10 @@ div.column-about-name {
 
   .blue-text.bold-text{
     padding: 5px;
+  }
+
+  .column-mid-div {
+    width: 100%;
   }
 
   label.curriculum-label{
