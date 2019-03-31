@@ -714,33 +714,46 @@ div.column-about-name {
 }
 
 .course-image-div{
+  width: 40%;
+  display: flex;
+}
+
+.course-ul-div {
+  width:90%;
+  margin:auto;
+  display: flex;
+}
+
+.course-double-ul-div {
   width: 50%;
+  margin: auto;
 }
 
 .course-desc-div{
   width: 50%;
-  padding-right: 8vw;
   padding-top: 2vw;
-  padding-left: 0px;
-  font-size: 1.5rem;
+  margin: auto;
+  font-size: 1.4rem;
 }
 
 .second-course-div{
   background: #7fc6ff;
   padding: 2vw;
+  margin-top: 2%;
 }
 
 .not-bold-text{
-  font-size: 1.2vw;
+  font-size: 1.2rem;
   font-weight: normal;
 }
 
 .course-padding-left{
-  padding-left: 10vw;
+
 }
 
 .course-padding-btm{
   padding-bottom: 1vw;
+  text-align: center;
 }
 
 .course-desc-div-two{
@@ -1309,6 +1322,18 @@ div.column-about-name {
   }
   .course-top-half {
     display:none;
+  }
+
+  .course-ul-div {
+    display: inline-grid;
+  }
+
+  .course-double-ul-div {
+    width: 100%;
+  }
+
+  .course-image-div {
+    display: none;
   }
 
 }

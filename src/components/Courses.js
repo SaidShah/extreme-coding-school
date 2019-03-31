@@ -11,7 +11,7 @@ import ReactReduxLogo from '.././images/reactredux.svg'
 import JavaRedLogo from '.././images/java-red.svg'
 import JavaOrangeLogo from '.././images/java-orange.svg'
 import BootcampLogo from '.././images/bootcamp.svg'
-import {Route, Link, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 
 
 class Courses extends Component {
@@ -71,16 +71,16 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{fontSize:"1.5vw"}}>
+          <h4 className="center-text" style={{fontSize:"1.2em"}}>
             We offer either an 8 Week, Weekend Course or a 4 Week,
             Weekday Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/frontend'} className="course-link">
+            <a href={'/courses/frontend'} className="course-link">
               <button className="btn course-btn btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
-            </Link>
+            </a>
           </div>
         </Fade>
       </div>
@@ -121,15 +121,15 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"#61dafb", fontSize:"1.5vw"}}>
+          <h4 className="center-text" style={{color:"#61dafb", fontSize:"1.2em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/react'} className="course-link">
+            <a href={'/courses/react'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
-            </Link>
+            </a>
           </div>
         </Fade>
       </div>
@@ -172,15 +172,15 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"", fontSize:"1.5vw"}}>
+          <h4 className="center-text" style={{color:"", fontSize:"1.2em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/apcs'} className="course-link">
+            <a href={'/courses/apcs'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
-            </Link>
+            </a>
           </div>
         </Fade>
       </div>
@@ -220,15 +220,15 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white", fontSize:"1.5vw"}}>
+          <h4 className="center-text" style={{color:"white", fontSize:"1.2em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/java'} className="course-link">
+            <a href={'/courses/java'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
-            </Link>
+            </a>
           </div>
         </Fade>
       </div>
@@ -267,15 +267,15 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white", fontSize:"1.5vw"}}>
+          <h4 className="center-text" style={{color:"white", fontSize:"1.2em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/apcs'} className="course-link">
+            <a href={'/courses/apcs'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
-            </Link>
+            </a>
           </div>
         </Fade>
       </div>
@@ -299,22 +299,22 @@ class Courses extends Component {
         </h1>
         <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
           <Fade>
-            <p style={{width:"80%", textAlign: "center", fontSize: "2vw", color:"white", margin:"auto"}}>
+            <p style={{width:"80%", textAlign: "center", fontSize: "2em", color:"white", margin:"auto"}}>
               We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
               with. We are able to teach any of the above courses to you.
             </p>
           </Fade>
         </div>
         <Fade>
-          <h4 style={{textAlign: "center", color:"white", fontSize:"1.5vw"}}>
+          <h4 style={{textAlign: "center", color:"white", fontSize:"1.2em"}}>
             We go on a student by student basis to make sure we get your needs right.
           </h4>
           <div className="course-link-div">
-            <Link to={'/courses/privateLessons'} className="course-link">
+            <a href={'/courses/privateLessons'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
-            </Link>
+            </a>
           </div>
         </Fade>
       </div>
