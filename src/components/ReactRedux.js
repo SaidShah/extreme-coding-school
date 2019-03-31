@@ -33,7 +33,7 @@ const ReactRedux = () => (
 
   <div className="course-div">
   <div className="course-desc-div-two">
-    <h4>What you will learn</h4>
+    <h4 className="course-ul-title">What you will learn</h4>
     <ul className="course-ul">
       <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
       <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>

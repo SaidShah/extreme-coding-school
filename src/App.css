@@ -626,7 +626,7 @@ div.column-about-name {
 }
 
 .course-paragraph {
-  font-size: 2rem;
+  font-size: 2vw;
   width: 80%;
   margin: auto;
   text-align: justify;
@@ -722,7 +722,7 @@ div.column-about-name {
   padding-right: 8vw;
   padding-top: 2vw;
   padding-left: 0px;
-  font-size: 1.1vw;
+  font-size: 1.5rem;
 }
 
 .second-course-div{
@@ -749,9 +749,14 @@ div.column-about-name {
   margin-top: 5vw;
 }
 
+.course-ul-title {
+  font-size: 2.5rem;
+}
+
 .course-ul{
   padding: .5vw;
   margin-left: 2vw;
+  font-size: 1.5rem;
 }
 
 .apply-now-size{

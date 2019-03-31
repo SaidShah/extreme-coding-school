@@ -24,11 +24,6 @@ const BootCamp = () => (
       <hr/>
 
 
-
-
-
-
-
       <CurriculumSections />
         </div>
 

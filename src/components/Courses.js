@@ -21,7 +21,7 @@ class Courses extends Component {
     const course =  <div>
       <div style={{display:"grid"}}>
 
-        <p style={{width:"90%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "2rem"}}>
+        <p style={{width:"80%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "2rem", lineHeight: "2.2"}}>
           Here at Extreme, we offer many different courses for our students to choose from. We have everything
           from the Full-Stack development course like Boot Camp to learn everything
           you need to get a job in web development, or a smoother, and lighter,
@@ -71,7 +71,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text">
+          <h4 className="center-text" style={{fontSize:"1.5vw"}}>
             We offer either an 8 Week, Weekend Course or a 4 Week,
             Weekday Course.
           </h4>
@@ -121,7 +121,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"#61dafb"}}>
+          <h4 className="center-text" style={{color:"#61dafb", fontSize:"1.5vw"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -172,7 +172,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:""}}>
+          <h4 className="center-text" style={{color:"", fontSize:"1.5vw"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -220,7 +220,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white"}}>
+          <h4 className="center-text" style={{color:"white", fontSize:"1.5vw"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -241,7 +241,7 @@ class Courses extends Component {
         <div className="course-top-half">
           <div className="course-top-left">
             <Fade>
-              <img src={BootcampLogo} alt="html/css/js" style={{width:"55%", margin:"auto", height:"75%"}}/>
+              <img src={BootcampLogo} alt="html/css/js" style={{width:"60%", margin:"auto", height:"75%"}}/>
             </Fade>
           </div>
 
@@ -267,7 +267,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white"}}>
+          <h4 className="center-text" style={{color:"white", fontSize:"1.5vw"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -299,14 +299,14 @@ class Courses extends Component {
         </h1>
         <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
           <Fade>
-            <p style={{width:"80%", textAlign: "center", fontSize: "2rem", color:"white", margin:"auto"}}>
+            <p style={{width:"80%", textAlign: "center", fontSize: "2vw", color:"white", margin:"auto"}}>
               We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
               with. We are able to teach any of the above courses to you.
             </p>
           </Fade>
         </div>
         <Fade>
-          <h4 style={{textAlign: "center", color:"white"}}>
+          <h4 style={{textAlign: "center", color:"white", fontSize:"1.5vw"}}>
             We go on a student by student basis to make sure we get your needs right.
           </h4>
           <div className="course-link-div">
