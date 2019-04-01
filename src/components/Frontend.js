@@ -50,7 +50,12 @@ const Frontend = () => (
     <div className="course-div">
       <div className="course-desc-div-two">
         <h4 className="course-ul-title" >Who this course is for:</h4>
-        <p>If you are a beginner to coding, you may take this course. If you’re a high school student who would like to learn web development to make you stand out from the crowd in your college application, take this course to increase the edge and show your passion in Computer Science. If you are an experienced desktop programmer, take this course to get up to speed quickly with web app development.  If you are seasoned web developer, this is a fast-track way of learning some of the modern technologies such as HTML 5, CSS3, Bootstrap, React, Redux, and Ruby-on-Rails.</p>
+        <ul className="course-ul">
+          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
+          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
+          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
+          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
+        </ul>
         <Link to="/apply/frontEndWebDev4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 4 weeks Sat & Sun</Link>
         <Link to="/apply/frontEndWebDev8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 8 weeks Tues & Thurs</Link>
       </div>
