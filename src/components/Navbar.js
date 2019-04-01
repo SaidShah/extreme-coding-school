@@ -15,7 +15,7 @@ render() {
   const {navCollapsed} = this.state
   return (
 
-    <nav className="mb-1 navbar navbar-expand-md sticky navbar-dark color-dark-blue outside-margin">
+    <nav className="navbar navbar-expand-md sticky navbar-dark color-dark-blue outside-margin">
       <button
         className="navbar-toggler collapsed"
         type="button"

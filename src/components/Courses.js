@@ -6,6 +6,7 @@ import ReactRedux from './ReactRedux'
 import PrivateLessons from './PrivateLessons'
 import Java from './Java'
 import Apcs from './Apcs'
+import Bootcampkids from './bootcampkids'
 import FrontLogo from '.././images/htmlcssjs.svg'
 import ReactReduxLogo from '.././images/reactredux.svg'
 import JavaRedLogo from '.././images/java-red.svg'
@@ -21,14 +22,16 @@ class Courses extends Component {
     const course =  <div>
       <div style={{display:"grid"}}>
 
-        <p style={{width:"80%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "2rem", lineHeight: "2.2"}}>
+        <p className="mobile-display-none"
+        style={{width:"80%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "2rem", lineHeight: "2.2"}}>
           Here at Extreme, we offer many different courses for our students to choose from. We have everything
           from the Full-Stack development course like Boot Camp to learn everything
           you need to get a job in web development, or a smoother, and lighter,
           Front End course that allows students to learn about the basics of web design.
         </p>
 
-        <h2 style={{textAlign:"center", marginTop: "5%", marginBottom: "3%"}}>
+        <h2  className="mobile-display-none"
+        style={{textAlign:"center", marginTop: "5%", marginBottom: "3%"}}>
           (Here's a more in-depth look at what we offer.)
         </h2>
       </div>
@@ -271,7 +274,7 @@ class Courses extends Component {
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
-            <a href={'/courses/apcs'} className="course-link">
+            <a href={'/courses/bootcampkids'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
@@ -327,6 +330,7 @@ class Courses extends Component {
           <Route exact path="/courses/java" render={()=><Java/>}/>
           <Route exact path="/courses/privateLessons" render={()=><PrivateLessons/>}/>
           <Route exact path="/courses/apcs" render={()=><Apcs/>}/>
+          <Route exact path="/courses/bootcampkids" render={()=><Bootcampkids/>}/>
           <Route exact path="/courses" render={()=><div>{course}</div>}/>
         </Switch>
       </>

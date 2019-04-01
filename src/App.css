@@ -419,7 +419,8 @@ button.btn{
 
 .faq-label{
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 1.6vw;
+  text-align: center;
 }
 
 .curriculum-label-mobile {
@@ -550,7 +551,7 @@ button.btn{
 .faq-ul{
   list-style-type: square;
   list-style-position: outside;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 .row-about{
@@ -779,9 +780,11 @@ div.column-about-name {
 }
 
 .apply-now-size{
-  width: 40vw;
-  margin: 3vw;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
   font-size: 1.2vw;
+  margin-bottom: 1%;
 }
 
 
@@ -1088,6 +1091,10 @@ div.column-about-name {
     display: none;
   }
 
+  h5.bold-text {
+    color: black;
+  }
+
   .bold-text{
     color: #2195f3
   }
@@ -1334,12 +1341,33 @@ div.column-about-name {
     display: inline-grid;
   }
 
+  .course-desc-div {
+    width: 85%;
+    text-align: center;
+    /*display:none;*/
+  }
+
+  .course-desc-div-two {
+    width: 85%;
+    margin:auto;
+    padding-left: 0;
+  }
+
+  .second-course-div {
+    display: inline-grid;
+    margin-bottom: 5%;
+  }
+
   .course-double-ul-div {
     width: 100%;
   }
 
   .course-image-div {
     display: none;
+  }
+
+  .mobile-display-none {
+    display:none;
   }
 
 }

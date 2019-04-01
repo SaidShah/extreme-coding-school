@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import apcs from '.././images/apcs.svg'
 import apcsTwo from '.././images/apcsTwo.svg'
 
-const Apcs = () => (
+const bootcampkids= () => (
   <div className="course-top-div">
     <h1 className="center-text bold-text">AP Computer Science | Intro to Java</h1>
 
@@ -58,4 +58,4 @@ const Apcs = () => (
   </div>
 );
 
-export default Apcs;
+export default bootcampkids;

@@ -46,9 +46,6 @@ const Frontend = () => (
         <h5 className="bold-text course-padding-btm">Tools:
           <span className="not-bold-text">Macbook or Linux Laptop</span>
         </h5>
-        <h5 className="bold-text course-padding-btm">Ages:
-          <span className="not-bold-text">18+</span>
-        </h5>
       </div>
     </div>
 
