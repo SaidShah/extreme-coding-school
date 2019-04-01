@@ -14,13 +14,7 @@ const Frontend = () => (
       </div>
       <div className="course-desc-div">
         <p>
-          Do you want to learn front-end web development in a
-          short period of time? Do you have a great idea but need the
-          knowledge and skills to make it happen? Have you struggled to
-          build a website for your organization or yourself? We want to
-          share with you how to create websites with dynamic content using
-          the most cutting-edge technologies. By taking this course, you can
-          successfully build your own sites to implement your own ideas.
+          <strong>Description:</strong> Do you want to learn a set of highly marketable skills in web development in a short period of time? This Web Development crash course might just be the right path for you. In five days a week for eight weeks, you will be immersed in learning a complete set of web technologies hands-on, guided by our instructors. By the end of the course, you will have built several individual and group web apps to showcase your skills.
         </p>
       </div>
     </div>
@@ -30,21 +24,24 @@ const Frontend = () => (
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Ages:
-          <span className="not-bold-text">18+</span>
+          <span className="not-bold-text"> 15+</span>
         </h5>
         <h5 className="bold-text course-padding-btm">Skill Level:
-          <span className="not-bold-text">Beginner - Advanced</span>
+          <span className="not-bold-text"> Beginner - Advanced</span>
         </h5>
-        <h5 className="bold-text course-padding-btm">Paths:
-          <span className="not-bold-text">Coding, Game & Website Development</span>
+        <h5 className="bold-text course-padding-btm"> What you will learn:
+          <span className="not-bold-text"> HTML, CSS, JavaScript, Bootstrap, React, Redux, Ruby-on-Rails, and more.</span>
         </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Prerequisite:
-          <span className="not-bold-text">None</span>
+          <span className="not-bold-text"> Basic understanding of Algebra & a laptop(preferably a Mac)</span>
         </h5>
-        <h5 className="bold-text course-padding-btm">Tools:
-          <span className="not-bold-text">Macbook or Linux Laptop</span>
+        <h5 className="bold-text course-padding-btm">Time and Duration:
+          <span className="not-bold-text"> 8:30 AM to 4:30 PM, Monday Through Friday, 8 weeks.</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Price:
+          <span className="not-bold-text"> $4,800</span>
         </h5>
       </div>
     </div>
@@ -52,13 +49,8 @@ const Frontend = () => (
 
     <div className="course-div">
       <div className="course-desc-div-two">
-        <h4 className="course-ul-title" >What you will learn</h4>
-        <ul className="course-ul">
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-        </ul>
+        <h4 className="course-ul-title" >Who this course is for:</h4>
+        <p>If you are a beginner to coding, you may take this course. If you’re a high school student who would like to learn web development to make you stand out from the crowd in your college application, take this course to increase the edge and show your passion in Computer Science. If you are an experienced desktop programmer, take this course to get up to speed quickly with web app development.  If you are seasoned web developer, this is a fast-track way of learning some of the modern technologies such as HTML 5, CSS3, Bootstrap, React, Redux, and Ruby-on-Rails.</p>
         <Link to="/apply/frontEndWebDev4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 4 weeks Sat & Sun</Link>
         <Link to="/apply/frontEndWebDev8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 8 weeks Tues & Thurs</Link>
       </div>
