@@ -71,7 +71,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{fontSize:"1.2em"}}>
+          <h4 className="center-text" style={{fontSize:"1.7em"}}>
             We offer either an 8 Week, Weekend Course or a 4 Week,
             Weekday Course.
           </h4>
@@ -121,7 +121,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"#61dafb", fontSize:"1.2em"}}>
+          <h4 className="center-text" style={{color:"#61dafb", fontSize:"1.7em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -172,7 +172,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"", fontSize:"1.2em"}}>
+          <h4 className="center-text" style={{color:"", fontSize:"1.7em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -220,7 +220,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white", fontSize:"1.2em"}}>
+          <h4 className="center-text" style={{color:"white", fontSize:"1.7em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -267,7 +267,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white", fontSize:"1.2em"}}>
+          <h4 className="center-text" style={{color:"white", fontSize:"1.7em"}}>
             We offer an 8 Week, Weekday Night Course.
           </h4>
           <div className="course-link-div">
@@ -306,7 +306,7 @@ class Courses extends Component {
           </Fade>
         </div>
         <Fade>
-          <h4 style={{textAlign: "center", color:"white", fontSize:"1.2em"}}>
+          <h4 style={{textAlign: "center", color:"white", fontSize:"1.7em"}}>
             We go on a student by student basis to make sure we get your needs right.
           </h4>
           <div className="course-link-div">

@@ -714,7 +714,7 @@ div.column-about-name {
 }
 
 .course-image-div{
-  width: 40%;
+  width: 50%;
   display: flex;
 }
 
@@ -727,6 +727,12 @@ div.column-about-name {
 .course-double-ul-div {
   width: 50%;
   margin: auto;
+}
+
+.course-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
 
 .course-desc-div{
