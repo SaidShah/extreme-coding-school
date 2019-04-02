@@ -145,6 +145,10 @@ button.btn{
   display: none;
 }
 
+.about-img {
+  width: 60%;
+}
+
 .curriculum-image{
   margin-top: -56%;
   padding-top: 56.25%;
@@ -1291,7 +1295,6 @@ div.column-about-name {
   }
 
   .row-about{
-    display: flex;
     padding: 1.5vw;
   }
 

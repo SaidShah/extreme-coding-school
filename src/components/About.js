@@ -20,7 +20,7 @@ const About = () => (
       <div>
         <div className="row-about">
           <div className="column-about">
-            <img src={chen_pic} alt="Ben Chen PhD"/>
+            <img className="about-img" src={chen_pic} alt="Ben Chen PhD"/>
           </div>
           <div className="column-about-name">
             <h3 className="bold-text about-font-name">Ben Chen, PhD</h3>
@@ -83,7 +83,7 @@ const About = () => (
 
       <div className="row-about">
         <div className="column-about">
-          <img src={said_pic} alt="said b shah"/>
+          <img className="about-img" src={said_pic} alt="said b shah"/>
         </div>
         <div className="column-about-name">
           <h3 className="bold-text about-font-name">Said B Shah</h3>
@@ -120,7 +120,7 @@ const About = () => (
 
       <div className="row-about">
         <div className="column-about">
-          <img src={dylan_pic} alt="Dylan T. Downard"/>
+          <img className="about-img" src={dylan_pic} alt="Dylan T. Downard"/>
         </div>
         <div className="column-about-name">
           <h3 className="bold-text about-font-name">Dylan Downard</h3>
