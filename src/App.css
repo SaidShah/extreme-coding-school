@@ -762,7 +762,7 @@ div.column-about-name {
 }
 
 .second-course-div{
-  background: #3c7dcc;
+  background: #3c7dcc ;
   padding: 2vw;
   margin-top: 2%;
 }
@@ -779,6 +779,7 @@ div.column-about-name {
 .course-padding-btm{
   padding-bottom: 1vw;
   text-align: center;
+  color: white;
 }
 
 .course-desc-div-two{
