@@ -131,7 +131,7 @@ const About = () => (
       <p className="about-p">
         Back when I was young, like many kids my age, I wanted to play video games. And I did! I played them so much that
         I wanted to make one. So I went on a long journey of self discovery and eventually learned how to code a basic
-        game in LUA. Unfortunetly, that took 4 long years because there was no resources for me to learn like I needed to.
+        game in Lua. Unfortunetly, that took 4 long years because there was no resources for me to learn like I needed to.
       </p>
       <p className="about-p">
         I was a very hyper-active kid, (and am still a hyper-active person,) so for me, sitting down and forcing
