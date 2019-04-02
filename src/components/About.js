@@ -10,7 +10,7 @@ const About = () => (
 
     <div>
       <div>
-        <h1 className="center-text bold-text black-text mission-title">Our Mission</h1>
+        <h1 className="center-text bold-text black-text mission-title" style={{marginTop:"2%"}}>Our Mission</h1>
         <h3 className="center-text about-title bold-text black-text">Mentorship | Community | Practice</h3>
         <hr className="about-us-hr" style={{marginBottom:"2rem"}}/>
       </div>
@@ -20,7 +20,7 @@ const About = () => (
       <div>
         <div className="row-about">
           <div className="column-about">
-            <img src={chen_pic} alt="Ben Chen PhD"/>
+            <img className="about-img" src={chen_pic} alt="Ben Chen PhD"/>
           </div>
           <div className="column-about-name">
             <h3 className="bold-text about-font-name">Ben Chen, PhD</h3>
@@ -83,7 +83,7 @@ const About = () => (
 
       <div className="row-about">
         <div className="column-about">
-          <img src={said_pic} alt="said b shah"/>
+          <img className="about-img" src={said_pic} alt="said b shah"/>
         </div>
         <div className="column-about-name">
           <h3 className="bold-text about-font-name">Said B Shah</h3>
@@ -120,7 +120,7 @@ const About = () => (
 
       <div className="row-about">
         <div className="column-about">
-          <img src={dylan_pic} alt="Dylan T. Downard"/>
+          <img className="about-img" src={dylan_pic} alt="Dylan T. Downard"/>
         </div>
         <div className="column-about-name">
           <h3 className="bold-text about-font-name">Dylan Downard</h3>
