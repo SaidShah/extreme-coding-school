@@ -43,8 +43,9 @@ class Home extends Component {
                         <div>
                           <h5 className="white-letters font-size-1-5">Front-End Web Crash Course</h5>
                           <p className="black-letters font-size-1-3">
-                            Learn how to develop a website with HTML, CSS, and Javascript. Design
-                            professional websites and make them functional and reactive.
+                            Learn how to develop professional websites that are
+                            adaptive and reactive with HTML5, CSS3, and Javascript.
+                            Make use of modern web frameworks including Bootstrap.
                           </p>
                         </div>
                       </div>
@@ -53,8 +54,8 @@ class Home extends Component {
                         <div>
                           <h5 className="white-letters font-size-1-5">AP Computer Science A</h5>
                           <p className="black-letters font-size-1-3">
-                            Pass the AP CS-A Exam with ease! With out AP Course, you will learn the basics
-                            of Java and be ready to take your AP exam to get that valuable college credit.
+                            Pass the AP Computer Science A exam with ease! In our AP course, you will learn all the topics
+                            necessary immersively in a small class setting that caters to highschool students.
                           </p>
                         </div>
                       </div>
@@ -64,7 +65,7 @@ class Home extends Component {
                           <p className="black-letters font-size-1-3">
                             Don't have time for the Full Bootcamp but you still want to learn Full-Stack
                             Development?  We offer a Mini-Bootcamp that is lighter and
-                            requires less time and dedication.
+                            requires less time in the classroom.
                           </p>
                         </div>
                       </div>
@@ -81,7 +82,7 @@ class Home extends Component {
 
                     <a href={'/courses'} className="course-link no-transition">
                       <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
-                        More Courses
+                        All Courses
                       </button>
                     </a>
                   </div>
@@ -100,12 +101,18 @@ class Home extends Component {
                     Why Extreme
                   </h2>
                   <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
-                    At Extreme, we believe that practical knowledge is valued more than theoretical knowledge. We
-                    strive to teach students about what they can do with what tools they have, not about what is simply
-                    possible. We want to give back to our community by creating bight students who excel at their craft,
-                    and make them employeable in their field. When we teach, we don't have you sit down and listen to our
-                    instructors for hours on end, doing nothing. We have you follow us with activities and assignments to
-                    ensure that you learn, and later have projects to put straight onto your resume to help you get hired later.
+                    At Extreme, we believe that practical knowledge is valued more
+                    than theoretical knowledge. We
+                    strive to teach students about what they
+                    can do with what tools they have, not about what is simply
+                    possible. We want to give back to our community by creating bight students
+                    who excel at their craft,
+                    and make them employeable in their field.
+                    When we teach, we don't have you sit down and listen to our
+                    instructors for hours on end, doing nothing. We have you follow us
+                    with activities and assignments to
+                    ensure that you learn, and later have projects to put straight onto your resume to help
+                    you get hired later.
                   </p>
                   <div className="skills-ul-div" style={{marginTop:"2%"}}>
                     <ul className="home-page-ul">
@@ -119,7 +126,8 @@ class Home extends Component {
                         Learn and use Git, and learn version control with terminal.
                       </li>
                       <li className="home-page-li">
-                        Study part-time while maintaining your work schedule. Accelerated full-time options will help you achieve your dreams faster.
+                        Study part-time while maintaining your work schedule.
+                        Accelerated full-time options will help you achieve your dreams faster.
                       </li>
                       <li className="home-page-li">
                         Get extra help from our instructors to help you navigate through the program.
@@ -153,31 +161,13 @@ class Home extends Component {
                         principles of code, you will learn only a good understanding of how to solve
                         algorithms with code, sort of like problem solving. In the real world, while
                         this can be useful, is usally not the only thing employers are looking for. Employers
-                        want to hire someone who knows how to do the job before they take the job, and you'll never
+                        want to hire someone who knows how to do the
+                        job before they take the job, and you'll never
                         be able to do that if you only know theory. That's why we teach both. We make sure you're
-                        learning practical skills with our courses, and while you're learning, we have you complete
+                        learning practical skills with our courses,
+                        and while you're learning, we have you complete
                         projects to put on your resume to prove to whoever reads it: you know what you're doing.
                       </p>
-                      {/*}
-                        <ul className="home-page-ul" style={{position:"relative"}}>
-                        <h3 className="bold-text home-page-ul-header-h3">What You Will Learn at Extreme</h3>
-                        <li className="home-page-li">
-                          Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...
-                        </li>
-                        <li className="home-page-li">
-                          Learn the most used Databases like Postgres, MySQL, etc..
-                        </li>
-                        <li className="home-page-li">
-                          Learn GIT commits, pushing, pulling, branching, etc...
-                        </li>
-                        <li className="home-page-li">
-                          Learn agile principles and methods through building projects from end-to-end
-                        </li>
-                        <li className="home-page-li">
-                          Learn how to build a tech resume, so you can put your best foot forward
-                        </li>
-                        </ul>
-                      */}
                     </div>
                   </div>
 
@@ -186,16 +176,20 @@ class Home extends Component {
                   </div>
 
                   <div className="move-up">
-                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">What You Recieve After Graduation</h3>
+                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">Who Extreme is for</h3>
                     <div className="grad-row">
                       <div className="column-left-side-graduate">
-                        <ul className="home-page-ul-grad" style={{position:"relative"}}>
-                          <h3 className="bold-text grad-h3 home-page-ul-header-h3" style={{marginBotton:"30px"}}>What You Receive After Graduation</h3>
-                          <li className="home-page-li">Award showcasing your accomplishment to future employers.</li>
-                          <li className="home-page-li">Continued Job Placement Assistance and one-on-one career coaching</li>
-                          <li className="home-page-li">A Robust portfolio of projects</li>
-                          <li className="home-page-li">A variety of training applicable to many developer roles</li>
-                        </ul>
+                        <h3 className="bold-text grad-h3 home-page-ul-header-h3">Who Extreme is for</h3>
+                        <p className="left-text skills-paragraph">
+                          Extreme teaches in a different way from a conventional school: We keep
+                          our students immersed and invested in what they're learning. We've all been
+                          through the lecture that lasted 2 hours, so we know that if you're bored you cannot learn.
+                          Instead of listening to someone talk for 40 minutes straight and copying down what
+                          they're saying, we structure our topics in a way that you're actively engaged in coding.
+                          Extreme is for everyone because of this. It should resonate
+                          with those that cannot focus on lecture-based teaching like in a usual college setting.
+
+                        </p>
                       </div>
 
                       <div className="column-right-side-graduate">
