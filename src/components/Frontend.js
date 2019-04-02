@@ -38,7 +38,7 @@ const Frontend = () => (
           <span className="not-bold-text"> Basic understanding of Algebra</span>
         </h5>
         <h5 className="bold-text course-padding-btm">Tools:
-        <span className="not-bold-text"> Macbook or Linux laptop</span>
+          <span className="not-bold-text"> Macbook or Linux laptop</span>
         </h5>
         <h5 className="bold-text course-padding-btm">Duration:
           <span className="not-bold-text"> 4 or 8 week track</span>
@@ -56,8 +56,6 @@ const Frontend = () => (
           <li className="course-ul">Incorporate JavaScript to make dynamic multi-functional websites and more... </li>
           <li className="course-ul">RESTful routes and API's to get data for you websites and more....</li>
         </ul>
-        <Link to="/apply/frontEndWebDev4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 4 weeks Sat & Sun</Link>
-        <Link to="/apply/frontEndWebDev8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Web Development 8 weeks Tues & Thurs</Link>
       </div>
       <div className="course-image-div">
         <img src={frontEndTwo} alt="front end web development extreme coding school" className="course-image"
@@ -66,8 +64,57 @@ const Frontend = () => (
     </div>
 
 
+    <div className="course-div second-course-div">
+      <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Ages:
+          <span className="not-bold-text"> 15+</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Skill Level:
+          <span className="not-bold-text"> Beginner - Advanced</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm"> Price:
+          <span className="not-bold-text"> $1,280</span>
+        </h5>
+      </div>
+      <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Prerequisite:
+          <span className="not-bold-text"> Basic understanding of Algebra</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Tools:
+          <span className="not-bold-text"> Macbook or Linux laptop</span>
+        </h5>
 
+        <Link to="/apply/frontEndWebDev4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
+          Apply Now Web Development 4 weeks Sat & Sun
+        </Link>
 
+      </div>
+    </div>
+
+    <div className="course-div second-course-div">
+      <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Ages:
+          <span className="not-bold-text"> 15+</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Skill Level:
+          <span className="not-bold-text"> Beginner - Advanced</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm"> Price:
+          <span className="not-bold-text"> $1,280</span>
+        </h5>
+      </div>
+      <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Prerequisite:
+          <span className="not-bold-text"> Basic understanding of Algebra</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Tools:
+          <span className="not-bold-text"> Macbook or Linux laptop</span>
+        </h5>
+        <Link to="/apply/frontEndWebDev8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
+          Apply Now Web Development 8 weeks Tues & Thurs
+        </Link>
+      </div>
+    </div>
   </div>
 );
 
