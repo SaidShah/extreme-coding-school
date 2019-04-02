@@ -66,55 +66,54 @@ const Frontend = () => (
 
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages:
-          <span className="not-bold-text"> 15+</span>
+        <h5 className="bold-text course-padding-btm">Duration:
+          <span className="not-bold-text"> 4 weeks</span>
         </h5>
-        <h5 className="bold-text course-padding-btm">Skill Level:
-          <span className="not-bold-text"> Beginner - Advanced</span>
+        <h5 className="bold-text course-padding-btm">Schedule:
+          <span className="not-bold-text"> Saturday & Sunday</span>
         </h5>
-        <h5 className="bold-text course-padding-btm"> Price:
-          <span className="not-bold-text"> $1,280</span>
+        <h5 className="bold-text course-padding-btm"> Hours:
+          <span className="not-bold-text"> 8:30 am - 4:30 pm</span>
         </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite:
-          <span className="not-bold-text"> Basic understanding of Algebra</span>
-        </h5>
-        <h5 className="bold-text course-padding-btm">Tools:
-          <span className="not-bold-text"> Macbook or Linux laptop</span>
+        <h5 className="bold-text course-padding-btm">Starting:
+          <span className="not-bold-text"> May 12, 2019</span>
         </h5>
 
         <Link to="/apply/frontEndWebDev4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
-          Apply Now Web Development 4 weeks Sat & Sun
+          Apply Now 4 week course
         </Link>
 
       </div>
     </div>
-
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages:
-          <span className="not-bold-text"> 15+</span>
+        <h5 className="bold-text course-padding-btm">Duration:
+          <span className="not-bold-text"> 8 weeks</span>
         </h5>
-        <h5 className="bold-text course-padding-btm">Skill Level:
-          <span className="not-bold-text"> Beginner - Advanced</span>
+        <h5 className="bold-text course-padding-btm">Schedule:
+          <span className="not-bold-text"> Tuesday & Thursday</span>
         </h5>
-        <h5 className="bold-text course-padding-btm"> Price:
-          <span className="not-bold-text"> $1,280</span>
+        <h5 className="bold-text course-padding-btm"> Hours:
+          <span className="not-bold-text"> 12:30 pm - 4:30 pm</span>
         </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite:
-          <span className="not-bold-text"> Basic understanding of Algebra</span>
+        <h5 className="bold-text course-padding-btm">Starting:
+          <span className="not-bold-text"> May 07, 2019</span>
         </h5>
-        <h5 className="bold-text course-padding-btm">Tools:
-          <span className="not-bold-text"> Macbook or Linux laptop</span>
-        </h5>
+
         <Link to="/apply/frontEndWebDev8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
-          Apply Now Web Development 8 weeks Tues & Thurs
+          Apply Now 8 week course
         </Link>
+
       </div>
     </div>
+
+
+
+
   </div>
 );
 
