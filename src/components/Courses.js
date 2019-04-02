@@ -25,7 +25,7 @@ class Courses extends Component {
       {/* Front End */}
       <div style={{background:"#7fc6ff"}}>
         <h1 className="course-title">
-          Web Development
+          <strong> Web Development </strong>
         </h1>
         <div className="course-top-half">
           <div className="course-top-left">
@@ -73,7 +73,7 @@ class Courses extends Component {
       {/* React and Redux */}
       <div style={{background:"#282c34"}}>
         <h1 className="course-title" style={{color:"#61dafb"}}>
-          React and Redux
+          <strong> React and Redux </strong>
         </h1>
         <div className="course-top-half">
 
@@ -120,7 +120,7 @@ class Courses extends Component {
       {/* AP CS Java */}
       <div style={{background:""}}>
         <h1 className="course-title" style={{color:""}}>
-          AP Computer Science A
+          <strong> AP Computer Science A </strong>
         </h1>
         <div className="course-top-half">
           <div className="course-top-left">
@@ -169,7 +169,7 @@ class Courses extends Component {
       {/* Java DATASTRUCT */}
       <div className="java-gradient">
         <h1 className="course-title" style={{color:"white"}}>
-          Data Structures and Algorithms with Java
+          <strong> Data Structures and Algorithms with Java </strong>
         </h1>
         <div className="course-top-half">
           <div className="course-top-right">
@@ -211,54 +211,54 @@ class Courses extends Component {
       </div>
 
 
-            {/* Full Stack bootcamp */}
-            <div className="fullStackBootcamp-gradient">
-              <h1 className="course-title" style={{color:"white"}}>
-                Full Stack Web Development Bootcamp
-              </h1>
-              <div className="course-top-half">
-                <div className="course-top-right">
-                  <Slide left>
-                    <p className="course-paragraph" style={{color:"white"}}>
-                      Enter into Object Oriented Programming (OOP) with Java. Java is widely used in
-                      applications deployed all over the world; from apps on your smartphone to large
-                      databases for multi-billion dollar companies.
-                    </p>
-                  </Slide>
-                </div>
-                <div className="course-top-left-swap">
-                  <Fade>
-                    <img src={BootcampLogo} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
-                  </Fade>
-                </div>
-              </div>
+      {/* Full Stack bootcamp */}
+      <div className="fullStackBootcamp-gradient">
+        <h1 className="course-title" style={{color:"white"}}>
+          <strong> Full Stack Web Development Bootcamp </strong>
+        </h1>
+        <div className="course-top-half">
+          <div className="course-top-right">
+            <Slide left>
+              <p className="course-paragraph" style={{color:"white"}}>
+                Enter into Object Oriented Programming (OOP) with Java. Java is widely used in
+                applications deployed all over the world; from apps on your smartphone to large
+                databases for multi-billion dollar companies.
+              </p>
+            </Slide>
+          </div>
+          <div className="course-top-left-swap">
+            <Fade>
+              <img src={BootcampLogo} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
+            </Fade>
+          </div>
+        </div>
 
-              {/*list hidden until mobile*/}
-              <ul className="course-list" style={{color:"white"}}>
-                <li>React will allow you to add statefulness to your HTML/CSS,
-                  effectively turning it into a way to run Javascript and allow you
-                  to open up many new ways of designing functionality for web.
-                </li>
-                <li>Redux is a container for statefulness, making it easier and lighter
-                  to code in React.
-                </li>
-              </ul>
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:"white"}}>
+          <li>React will allow you to add statefulness to your HTML/CSS,
+            effectively turning it into a way to run Javascript and allow you
+            to open up many new ways of designing functionality for web.
+          </li>
+          <li>Redux is a container for statefulness, making it easier and lighter
+            to code in React.
+          </li>
+        </ul>
 
-              <Fade>
-                <div className="course-link-div">
-                  <a href={'/bootcamp'} className="course-link">
-                    <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
-                      More Info
-                    </button>
-                  </a>
-                </div>
-              </Fade>
-            </div>
+        <Fade>
+          <div className="course-link-div">
+            <a href={'/bootcamp'} className="course-link">
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
+            </a>
+          </div>
+        </Fade>
+      </div>
 
       {/* Bootcamp 4 kids */}
       <div className="bootcamp-gradient">
         <h1 className="course-title" style={{color:"white"}}>
-          Bootcamp For Young Adults
+          <strong> Bootcamp For Young Adults </strong>
         </h1>
         <div className="course-top-half">
           <div className="course-top-left">
@@ -314,7 +314,7 @@ class Courses extends Component {
 
       <div className="private-gradient">
         <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
-          Private Lessons & Tutoring
+          <strong> Private Lessons & Tutoring </strong>
         </h1>
         <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
           <Fade>
