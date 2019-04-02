@@ -274,7 +274,7 @@ button.btn{
 .left-text{
   text-align: left;
   padding-left: 2px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 .tablet-home-page-ul-header-h2 {
     display: none;
@@ -299,7 +299,7 @@ button.btn{
   word-wrap: break-word;
   text-align: left;
   padding: 5px;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
 .home-page-li-prog{
@@ -587,7 +587,7 @@ div.column-about-name {
 }
 
 .about-p{
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   padding-left: 20px;
   padding-right: 10px;
   margin-right: 20vw;
@@ -789,7 +789,7 @@ div.column-about-name {
 .course-ul{
   padding: .5vw;
   margin-left: 2vw;
-  font-size: 1.5rem;
+  font-size: 1.4vw;
 }
 
 .apply-now-size{
