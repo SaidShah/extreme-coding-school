@@ -20,16 +20,29 @@ const PrivateLessons = () => (
 
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text">18+</span> </h5>
-        <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text">Beginner - Advanced</span> </h5>
-        <h5 className="bold-text course-padding-btm">Paths: <span className="not-bold-text">Coding, Game & Website Development</span> </h5>
+        <h5 className="bold-text course-padding-btm">Ages:
+          <span className="not-bold-text"> 15+</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Skill Level:
+          <span className="not-bold-text"> Beginner - Advanced</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm"> Price:
+          <span className="not-bold-text"> $60/hour</span>
+        </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">None</span> </h5>
-        <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text">Macbook or Linux Laptop</span> </h5>
-        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text">18+</span> </h5>
+        <h5 className="bold-text course-padding-btm">Prerequisite:
+          <span className="not-bold-text"> Basic programming skills</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Tools:
+        <span className="not-bold-text"> Macbook or Linux laptop</span>
+        </h5>
+        <h5 className="bold-text course-padding-btm">Duration:
+          <span className="not-bold-text"> 60 minutes</span>
+        </h5>
       </div>
     </div>
+
 
 
     <div className="course-div">

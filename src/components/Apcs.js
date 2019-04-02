@@ -20,17 +20,15 @@ const Apcs = () => (
 
 
     <div className="course-div second-course-div">
-      <div className="course-ul-div">
-        <div className="course-double-ul-div course-padding-left">
-          <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text">15+</span> </h5>
-          <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text">Beginner - Advanced</span> </h5>
-          <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text">$4800</span> </h5>
-        </div>
-        <div className="course-double-ul-div course-padding-left">
-          <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">Basic understanding of Algebra & a laptop(preferably a Mac)</span> </h5>
-          <h5 className="bold-text course-padding-btm">Time and Duration:  <span className="not-bold-text">8:30 AM to 4:30 PM, Monday Through Friday, 8 weeks.</span> </h5>
-          <h5 className="bold-text course-padding-btm">What you will learn: <span className="not-bold-text">HTML, CSS, JavaScript, Bootstrap, React, Redux, Ruby-on-Rails, and more.</span> </h5>
-        </div>
+      <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text"> 16+</span> </h5>
+        <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text"> Beginner - Advanced</span> </h5>
+        <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text"> $1,280</span> </h5>
+      </div>
+      <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text"> Knowledge of algebra</span> </h5>
+        <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> Macbook or Linux Laptop</span> </h5>
+        <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4, 8 or 12 week track</span> </h5>
       </div>
     </div>
 
