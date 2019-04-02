@@ -1,6 +1,7 @@
 import React from 'react';
 import CurriculumSections from './CurriculumSections'
 import curr_img from '.././images/person-coding.png'
+import {Link} from 'react-router-dom'
 
 const BootCamp = () => (
   <div>
@@ -26,6 +27,7 @@ const BootCamp = () => (
 
       <CurriculumSections />
         </div>
+        <Link to="/apply/BootCamp" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Full Stack Coding Bootcamp</Link>
 
       </div>
 

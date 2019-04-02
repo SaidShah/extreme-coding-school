@@ -132,11 +132,7 @@ class Courses extends Component {
           <div className="course-top-right">
             <Slide right>
               <p className="course-paragraph" style={{color:""}}>
-                Want to get started on AP early or get college credit over the summer with us?
-                This course will prepare students for the end-of-course AP Exam.
-                We teach the basics of Java, which 
-                covers AP CS or all Intro Java College courses.
-                Students will learn to design and implement computer programs that solve problems relevant to today’s society, including art, media, and engineering. AP Computer Science A teaches object-oriented programming using the Java language and is meant to be the equivalent of a first semester, college-level course in computer science. It will emphasize problem solving and algorithm development, and use hands-on experiences and examples so that students can apply programming tools and solve complex problems.
+                AP CS A teaches object-oriented programming using Java and is meant to be the equivalent of a first semester, college-level course in computer science. It will emphasize problem solving and algorithm development, and use hands-on experiences and examples so that students can apply programming tools and solve complex problems.
               </p>
             </Slide>
           </div>

@@ -63,8 +63,6 @@ const bootcampkids= () => (
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 06, 2019</span> </h5>
         <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Young Adult Bootcamp</Link>
         </div>
-
-
       </div>
     </div>
 

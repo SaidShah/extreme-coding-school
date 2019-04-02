@@ -21,8 +21,10 @@ class ApplyForm extends Component {
         this.setState({course: "frontEndWebDev4"})
       }else if(userCourse==="frontEndWebDev8"){
         this.setState({course: "frontEndWebDev8"})
-      }else if(userCourse ==="dataStructures"){
-        this.setState({course: "dataStructures"})
+      }else if(userCourse ==="dataStructuresMW"){
+        this.setState({course: "dataStructuresMW"})
+      }else if(userCourse ==="dataStructuresTR"){
+        this.setState({course: "dataStructuresTR"})
       }else if(userCourse==="apCSa8"){
         this.setState({course: "apCSa8"})
       }else if(userCourse==="apCSa8mw"){
@@ -33,6 +35,8 @@ class ApplyForm extends Component {
         this.setState({course: "reactRedux"})
       }else if(userCourse==="bootcampTeens"){
         this.setState({course: "BootCampTeens"})
+      }else if(userCourse==="BootCamp"){
+        this.setState({course: "BootCamp"})
       }
     }
 
@@ -165,12 +169,13 @@ class ApplyForm extends Component {
      <option defaultValue value="none">Select Your Course</option>
      <option value="BootCamp">Full-Stack Bootcamp 15 Weeks</option>
      <option value="BootCampTeens">Full-Stack Bootcamp For Young Adults</option>
-     <option value="apCSa8mw">AP Computer Science Mon & Wed</option>
+     <option value="apCSa8mw">AP Computer Science A Mon & Wed</option>
      <option value="apCSa8">AP Computer Science A Sat & Sun</option>
-     <option value="apCSa4tr">AP Computer Science Tues & Thur</option>
+     <option value="apCSa4tr">AP Computer Science A Tues & Thur</option>
      <option value="frontEndWebDev4">Web Development Sat & Sun 4 weeks</option>
      <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
-     <option value="dataStructures">Java Data Structures & Algorithms 4 weeks</option>
+     <option value="dataStructuresMW">Java Data Structures & Algorithms Mon & Wed</option>
+     <option value="dataStructuresTR">Java Data Structures & Algorithms Tues & Thur</option>
      <option value="reactRedux">React & Redux</option>
      <option value="computerGraphics">Computer Graphics For The Web</option>
    </select>

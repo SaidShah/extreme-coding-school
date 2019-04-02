@@ -60,7 +60,7 @@ const Apcs = () => (
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 06, 2019</span> </h5>
-        <Link to="/apply/apCSa8mw" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science Mon & Wed</Link>
+        <Link to="/apply/apCSa8mw" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science Mon A & Wed</Link>
         </div>
       </div>
     </div>
@@ -74,7 +74,7 @@ const Apcs = () => (
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 07, 2019</span> </h5>
-        <Link to="/apply/apCSa4tr" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science Tues & Thur</Link>
+        <Link to="/apply/apCSa4tr" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science A Tues & Thur</Link>
         </div>
       </div>
     </div>
@@ -88,7 +88,7 @@ const Apcs = () => (
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 11, 2019</span> </h5>
-        <Link to="/apply/apCSa8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science Sat & Sun</Link>
+        <Link to="/apply/apCSa8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science A Sat & Sun</Link>
         </div>
       </div>
     </div>
