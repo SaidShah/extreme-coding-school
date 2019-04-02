@@ -20,7 +20,7 @@ class Courses extends Component {
   render() {
 
     const course =  <div>
-    
+
 
       {/* Front End */}
       <div style={{background:"#7fc6ff"}}>
@@ -226,7 +226,7 @@ class Courses extends Component {
             {/* Full Stack bootcamp */}
             <div className="fullStackBootcamp-gradient">
               <h1 className="course-title" style={{color:"white"}}>
-                Full Stack Web Development Bootcamp 15 weeks
+                Full Stack Web Development Bootcamp
               </h1>
               <div className="course-top-half">
                 <div className="course-top-right">
