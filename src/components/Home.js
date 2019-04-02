@@ -39,7 +39,7 @@ class Home extends Component {
                   <div className="row row-div">
 
                     <div style={{display:"inherit"}}>
-                      <div className="column box-border">
+                      <div className="column box-border column-desktop">
                         <div>
                           <h5 className="white-letters font-size-1-5">Front-End Web Crash Course</h5>
                           <p className="black-letters font-size-1-3">
@@ -49,7 +49,7 @@ class Home extends Component {
                         </div>
                       </div>
 
-                      <div className="column box-border">
+                      <div className="column box-border column-desktop">
                         <div>
                           <h5 className="white-letters font-size-1-5">AP Computer Science A</h5>
                           <p className="black-letters font-size-1-3">
@@ -58,19 +58,24 @@ class Home extends Component {
                           </p>
                         </div>
                       </div>
-                      <div className="column box-border">
-                        <div className="featured-phone-fix">
+                      <div className="column box-border column-desktop">
+                        <div>
                           <h5 className="white-letters font-size-1-5">Mini Bootcamp</h5>
-                          <p className="ruby-text-2 font-size-2" style={{display:"none"}}>
-                            We offer many courses here at Extreme. Everything from AP Computer Science A
-                            to Full-Stack Web Development. Find them with the button below.
-                          </p>
-                          <p className="black-letters font-size-1-3" id="ruby-text">
-                            If you don't have time for our Full 15 Week Bootcamp but you still
-                            want to learn Full-Stack Development: Look no further. We offer a Mini-Bootcamp
-                            that is lighter and requires less time and dedication.
+                          <p className="black-letters font-size-1-3">
+                            Don't have time for the Full Bootcamp but you still want to learn Full-Stack
+                            Development?  We offer a Mini-Bootcamp that is lighter and
+                            requires less time and dedication.
                           </p>
                         </div>
+                      </div>
+                    </div>
+                    <div className="column box-border column-mobile" style={{display:"none"}}>
+                      <div>
+                        <h5 className="white-letters" style={{fontSize:"155%"}}>What we teach</h5>
+                        <p className="black-letters" style={{fontSize:"150%"}}>
+                          We offer many courses here at Extreme. Everything from AP Computer Science A
+                          to Full-Stack Web Development. Find them with the button below.
+                        </p>
                       </div>
                     </div>
 
@@ -91,8 +96,9 @@ class Home extends Component {
 
               <div className="column-right-side center-text">
                 <div className="column-mid-div">
-                  <h2 className="blue-text bold-text home-page-ul-header-h2">Gain In-Demand Skills at Extreme</h2>
-                  <p className="left-text skills-paragraph">Extreme Coding School equips you with the skills to succeed in today's computerized world. We at Extreme equip you with essential skills for today’s digital economy. With strategically engineered curricula, face-to-face interaction, and knowledgeable instructors, we provide an educational experience that will help you find a path to success.
+                  <h2 className="blue-text bold-text home-page-ul-header-h2">Why Extreme?</h2>
+                  <p className="left-text skills-paragraph">
+                    At Extreme, we
                   </p>
                   <div className="skills-ul-div">
                     <ul className="home-page-ul">

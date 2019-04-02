@@ -212,11 +212,12 @@ button.btn{
 }
 
 .image-box{
-  height: 70%;
   width: 80%;
+  height: 80%;
   margin: auto;
   margin-top: -5px;
   padding-top: 30px;
+  padding-bottom: 1.5%;
   background: #023c9e;
   opacity: .8;
 }
@@ -891,7 +892,7 @@ div.column-about-name {
 
   .image-box {
     width: 95%;
-    height: 80%;
+    height: 85%;
     margin-top: -30px;
   }
 
@@ -1029,7 +1030,7 @@ div.column-about-name {
   }
 
   .bold-text-2 {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 
   .row-div > div:nth-child(4){
@@ -1097,9 +1098,6 @@ div.column-about-name {
     font-size: 7vw;
   }
 
-  h5.white-letters{
-    display: none;
-  }
 
   h5.bold-text {
     color: black;
@@ -1189,7 +1187,7 @@ div.column-about-name {
   }
 
   .row-div {
-    height: 95%;
+    height: 75%;
   }
 
   .skills-paragraph {
@@ -1385,6 +1383,14 @@ div.column-about-name {
 
   .mobile-display-none {
     display:none;
+  }
+
+  .column-desktop {
+    display: none;
+  }
+
+  .column-mobile {
+    display: block !important;
   }
 
 }
