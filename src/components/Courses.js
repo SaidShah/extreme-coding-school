@@ -258,7 +258,7 @@ class Courses extends Component {
         <h1 className="course-title" style={{color:"white"}}>
           <strong> Bootcamp For Young Adults </strong>
         </h1>
-        <div className="course-top-half">
+        <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
             <Fade>
               <img src={BootcampLogo} alt="html/css/js" style={{width:"60%", margin:"auto", height:"75%"}}/>
