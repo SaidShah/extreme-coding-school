@@ -141,6 +141,10 @@ button.btn{
   margin-bottom: 6px;
 }
 
+.logo-image-2 {
+  display: none;
+}
+
 .curriculum-image{
   margin-top: -56%;
   padding-top: 56.25%;
@@ -1163,6 +1167,14 @@ div.column-about-name {
     margin-right: auto;
     margin-bottom: 2%;
     margin-left: 5px;
+  }
+
+  .logo-image-1 {
+    display: none;
+  }
+
+  .logo-image-2 {
+    display: block;
   }
 
   .image-box{

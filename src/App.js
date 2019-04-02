@@ -14,6 +14,7 @@ import Footer from './components/Footer'
 import About from './components/About'
 import {Switch, Route, withRouter} from 'react-router-dom'
 import logo from './images/ecs-long.svg'
+import logons from './images/ecs-long-ns.svg'
 
 class App extends Component {
 
@@ -26,7 +27,8 @@ class App extends Component {
 
             <div className = "logo-div">
               <a className="nav-link no-transition-nav bold-font logo-a" href="/" style={{margin:"auto"}}>
-                <img src={logo} className="logo-image" alt="logo" />
+                <img src={logo} className="logo-image logo-image-1" alt="logo" />
+                <img src={logons} className="logo-image logo-image-2" alt="logo" />
               </a>
             </div>
 
