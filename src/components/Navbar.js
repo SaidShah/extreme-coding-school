@@ -49,19 +49,9 @@ render() {
           </li>
 
           <li className="nav-item">
-            <a className="nav-link no-transition-nav bold-font" href="/faq">
-          FAQ
-            </a>
-          </li>
-
-          <li className="nav-item">
             <a className="nav-link no-transition-nav bold-font" href="/about">
           About Us
             </a>
-          </li>
-
-          <li className="nav-item">
-            <a href="/requirements" className="nav-link no-transition-nav bold-font ">Resources</a>
           </li>
 
           <li className="nav-item">

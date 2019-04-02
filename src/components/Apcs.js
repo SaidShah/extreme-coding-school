@@ -13,7 +13,8 @@ const Apcs = () => (
           style={{width:"75%"}}/>
       </div>
       <div className="course-desc-div">
-        <p className="font-size-1-4">Description: Do you want to learn a set of highly marketable skills in web development in a short period of time? This Web Development crash course might just be the right path for you. In five days a week for eight weeks, you will be immersed in learning a complete set of web technologies hands-on, guided by our instructors. By the end of the course, you will have built several individual and group web apps to showcase your skills.</p>
+        <p className="font-size-1-4">
+        <strong>Description:</strong> Do you want to learn a set of highly marketable skills in web development in a short period of time? This Web Development crash course might just be the right path for you. In five days a week for eight weeks, you will be immersed in learning a complete set of web technologies hands-on, guided by our instructors. By the end of the course, you will have built several individual and group web apps to showcase your skills.</p>
       </div>
     </div>
 
