@@ -1,4 +1,11 @@
-
+.nav-link.no-transition-nav.bold-font.shadow.light-green:hover{
+  color: white;
+  background-color: blue !important
+}
+a.nav-link.no-transition-nav.bold-font.shadow.light-green{
+  color: white;
+  background: blue;
+}
 div.card-block{
   padding: 20px;
 }
