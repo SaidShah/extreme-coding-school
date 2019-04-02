@@ -298,7 +298,7 @@ class Courses extends Component {
 
       <div className="private-gradient">
         <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
-          Private Lessons
+          Private Lessons & Tutoring
         </h1>
         <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
           <Fade>
