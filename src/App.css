@@ -659,6 +659,11 @@ div.column-about-name {
   background: linear-gradient(90deg, rgba(248,152,29,1) 0%, rgba(248, 0, 0,1) 65%);
 }
 
+.fullStackBootcamp-gradient {
+  background: rgb(188,202,129);
+  background: linear-gradient(90deg, rgba(158,152,229,1) 0%, rgba(98, 100,150,1) 45%);
+}
+
 .bootcamp-gradient {
   background: rgb(235,111,255);
   background: linear-gradient(90deg, rgba(235,111,255,1) 0%, rgba(127,198,255,1) 50%, rgba(0,248,139,1) 100%);
