@@ -13,8 +13,8 @@ const Frontend = () => (
           style={{width:"100%"}}/>
       </div>
       <div className="course-desc-div">
-        <p className="font-size-1-4">
-          <strong>Description:</strong> If you would like to learn a set of highly marketable skills in web development in a short period of time. This Web Development crash course might just be the right path for you. In two days a week for four weeks at 8 hours per day, or two days a week for 8 weeks at 4 hours per day. You will be immersed in learning a complete set of web technologies hands-on, guided by our instructors. By the end of the course, you will have built several individual and group web apps to showcase your skills.
+        <p className="font-size-1-4 p-desc-width">
+          <strong> If you would like to learn a set of highly marketable skills in web development in a short period of time. This Web Development crash course might just be the right path for you. In two days a week for four weeks at 8 hours per day, or two days a week for 8 weeks at 4 hours per day. You will be immersed in learning a complete set of web technologies hands-on, guided by our instructors. By the end of the course, you will have built several individual and group web apps to showcase your skills.</strong>
         </p>
       </div>
     </div>
@@ -41,7 +41,7 @@ const Frontend = () => (
           <span className="not-bold-text"> Macbook or Linux laptop</span>
         </h5>
         <h5 className="bold-text course-padding-btm">Duration:
-          <span className="not-bold-text"> 4 or 8 week track</span>
+          <span className="not-bold-text"> 4 or 8 week course</span>
         </h5>
       </div>
     </div>

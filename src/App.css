@@ -801,6 +801,11 @@ div.column-about-name {
   margin-bottom: 1%;
 }
 
+.p-desc-width{
+  width: 85%;
+  text-align: justify;
+}
+
 
 
 /* Tablet Landscape (big tablet [ipad pro])*/

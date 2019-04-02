@@ -13,8 +13,8 @@ const Apcs = () => (
           style={{width:"75%"}}/>
       </div>
       <div className="course-desc-div">
-        <p className="font-size-1-4">
-        <strong>Description:</strong> The AP Computer Science A course teaches fundamental programming topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions, and ethical and social implications of computing.</p>
+        <p className="font-size-1-4 p-desc-width">
+        <strong> The AP Computer Science A course teaches fundamental programming topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions, and ethical and social implications of computing.</strong></p>
       </div>
     </div>
 
@@ -29,7 +29,7 @@ const Apcs = () => (
       <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">  Algebra I is required; Algebra II is recommended.</span> </h5>
         <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> Macbook or Linux Laptop</span> </h5>
-        <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 or 8 week track</span> </h5>
+        <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 week course</span> </h5>
       </div>
     </div>
 
@@ -43,8 +43,6 @@ const Apcs = () => (
           <li className="course-ul">Learn how to manipulate data to create more sophisticated programs, with topics including class design, algorithm development and user-defined data types.</li>
           <li className="course-ul"> User Defined Classes, Advanced Classes, Algorithms, Two-Dimensional Arrays and Exam Preparation</li>
         </ul>
-        <Link to="/apply/apCSa8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science A 8 week program</Link>
-        <Link to="/apply/apCSa4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science A 4 week program</Link>
       </div>
       <div className="course-image-div">
         <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
@@ -52,6 +50,48 @@ const Apcs = () => (
       </div>
     </div>
 
+
+    <div className="course-div second-course-div">
+      <div className="course-ul-div">
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 weeks</span> </h5>
+          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Monday & Wednesday</span> </h5>
+          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 10:30 pm | 1:00 pm - 3:00 pm</span> </h5>
+        </div>
+        <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 06, 2019</span> </h5>
+        <Link to="/apply/apCSa8mw" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science Mon & Wed</Link>
+        </div>
+      </div>
+    </div>
+
+    <div className="course-div second-course-div">
+      <div className="course-ul-div">
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 weeks</span> </h5>
+          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Tuesday & Thursday</span> </h5>
+          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 10:30 pm | 1:00 pm - 3:00 pm</span> </h5>
+        </div>
+        <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 07, 2019</span> </h5>
+        <Link to="/apply/apCSa4tr" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science Tues & Thur</Link>
+        </div>
+      </div>
+    </div>
+
+    <div className="course-div second-course-div">
+      <div className="course-ul-div">
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 weeks</span> </h5>
+          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Saturday & Sunday</span> </h5>
+          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 12:30 pm | 1:00 pm - 5:00 pm</span> </h5>
+        </div>
+        <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 11, 2019</span> </h5>
+        <Link to="/apply/apCSa8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science Sat & Sun</Link>
+        </div>
+      </div>
+    </div>
 
 
 

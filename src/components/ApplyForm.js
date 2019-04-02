@@ -25,8 +25,10 @@ class ApplyForm extends Component {
         this.setState({course: "dataStructures"})
       }else if(userCourse==="apCSa8"){
         this.setState({course: "apCSa8"})
-      }else if(userCourse==="apCSa4"){
-        this.setState({course: "apCSa4"})
+      }else if(userCourse==="apCSa8mw"){
+        this.setState({course: "apCSa8mw"})
+      }else if(userCourse==="apCSa4tr"){
+        this.setState({course: "apCSa4tr"})
       }else if(userCourse==="react"){
         this.setState({course: "reactRedux"})
       }else if(userCourse==="bootcampTeens"){
@@ -163,8 +165,9 @@ class ApplyForm extends Component {
      <option defaultValue value="none">Select Your Course</option>
      <option value="BootCamp">Full-Stack Bootcamp 15 Weeks</option>
      <option value="BootCampTeens">Full-Stack Bootcamp For Young Adults</option>
-     <option value="apCSa8">AP Computer Science A 8 Weeks</option>
-     <option value="apCSa4">AP Computer Science A 4 Weeks</option>
+     <option value="apCSa8mw">AP Computer Science Mon & Wed</option>
+     <option value="apCSa8">AP Computer Science A Sat & Sun</option>
+     <option value="apCSa4tr">AP Computer Science Tues & Thur</option>
      <option value="frontEndWebDev4">Web Development Sat & Sun 4 weeks</option>
      <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
      <option value="dataStructures">Java Data Structures & Algorithms 4 weeks</option>
