@@ -5,7 +5,7 @@ import apcsTwo from '.././images/apcsTwo.svg'
 
 const Apcs = () => (
   <div className="course-top-div">
-    <h1 className="center-text bold-text">AP Computer Science | Intro to Java</h1>
+    <h1 className="center-text bold-text">AP Computer Science</h1>
 
     <div className="course-div">
       <div className="course-image-div">
@@ -14,7 +14,7 @@ const Apcs = () => (
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4">
-        <strong>Description:</strong> Do you want to learn a set of highly marketable skills in web development in a short period of time? This Web Development crash course might just be the right path for you. In five days a week for eight weeks, you will be immersed in learning a complete set of web technologies hands-on, guided by our instructors. By the end of the course, you will have built several individual and group web apps to showcase your skills.</p>
+        <strong>Description:</strong> The AP Computer Science A course teaches fundamental programming topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions, and ethical and social implications of computing.</p>
       </div>
     </div>
 
@@ -27,23 +27,24 @@ const Apcs = () => (
         <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text"> $1,280</span> </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text"> Knowledge of algebra</span> </h5>
+        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">  Algebra I is required; Algebra II is recommended.</span> </h5>
         <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> Macbook or Linux Laptop</span> </h5>
-        <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4, 8 or 12 week track</span> </h5>
+        <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 or 8 week track</span> </h5>
       </div>
     </div>
 
 
     <div className="course-div">
       <div className="course-desc-div-two">
-        <h4 className="course-ul-title">Who this class is for:</h4>
+        <h4 className="course-ul-title">What you will Learn:</h4>
         <ul className="course-ul">
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
+          <li className="course-ul">Focus on the basic building blocks of computer science and programming tools. Topics include control structures, primitive and class data types such as arrays, ArrayList and Strings, methods, and recursions.</li>
+          <li className="course-ul">Introduction to Java, Strings, Loops, One-Dimensional Arrays and Methods</li>
+          <li className="course-ul">Learn how to manipulate data to create more sophisticated programs, with topics including class design, algorithm development and user-defined data types.</li>
+          <li className="course-ul"> User Defined Classes, Advanced Classes, Algorithms, Two-Dimensional Arrays and Exam Preparation</li>
         </ul>
-        <Link to="/apply/apCSa" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science A Mon & Wed 8 Weeks</Link>
+        <Link to="/apply/apCSa8" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science A 8 week program</Link>
+        <Link to="/apply/apCSa4" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now AP Computer Science A 4 week program</Link>
       </div>
       <div className="course-image-div">
         <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
