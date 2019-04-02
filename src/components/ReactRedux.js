@@ -13,7 +13,7 @@ const ReactRedux = () => (
           style={{width:"50%"}}/>
       </div>
       <div className="course-desc-div">
-        <p>Description: Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet, consectetur, adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</p>
+        <p>Description: React is one of the most popular libraries for JavaScript with over 100,000 stars on Github. It was built as an open source project by Facebook and is the view layer in MVC frameworks. If you know javascript and just want to gain new skills with new technologies, then React-Redux is for you. Learn to build powerful modular web applications. Transfer those skills with React Native and build full functional and native mobile applications. Learn state management with Redux and remove all of the complexity of tracking data. Learn to use the React and Redux devtools to make programming fun and interactive.</p>
       </div>
     </div>
 
@@ -21,14 +21,14 @@ const ReactRedux = () => (
 
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text">18+</span> </h5>
-        <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text">Beginner - Advanced</span> </h5>
-        <h5 className="bold-text course-padding-btm">Paths: <span className="not-bold-text">Coding, Game & Website Development</span> </h5>
+        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text">16+</span> </h5>
+        <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text">Intermediate - Advanced</span> </h5>
+        <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text">$1,280</span> </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">None</span> </h5>
+        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">Knowledge of HTML, CSS, JavaScript</span> </h5>
         <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text">Macbook or Linux Laptop</span> </h5>
-        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text">18+</span> </h5>
+        <h5 className="bold-text course-padding-btm">Time: <span className="not-bold-text">4 or 8 week course</span> </h5>
       </div>
     </div>
 
@@ -37,10 +37,12 @@ const ReactRedux = () => (
       <div className="course-desc-div-two">
         <h4 className="course-ul-title">What you will learn</h4>
         <ul className="course-ul">
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
+          <li className="course-ul">Learn React Components and related terms like JSX, Babel, Props, State etc... </li>
+          <li className="course-ul">Learn how to build custom reusable React Components</li>
+          <li className="course-ul">Use React-router to build routes for you application</li>
+          <li className="course-ul">Learn to incorporate redux as a layer for state management</li>
+          <li className="course-ul">Incorporate reducers, actions and thunk for fetching from API's</li>
+          <li className="course-ul">Publish React App websites using Node and Firebase</li>
         </ul>
         <Link to="/apply/react" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now React & Redux</Link>
       </div>
