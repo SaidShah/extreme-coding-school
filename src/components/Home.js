@@ -31,41 +31,54 @@ class Home extends Component {
 
               <div className="header-table">
                 <div className="header-img-text center-text white-text">
-                  <h1 className="bold-text-2 white-text">Become a developer in 15 weeks</h1>
+                  <h1 className="bold-text-2 white-text">Long Island's Premier Coding School</h1>
                 </div>
 
                 <div className="header-img-text image-box">
-                  <h2 className="bold-text-2 white-text header-text">Featured Languages</h2>
+                  <h2 className="bold-text-2 white-text header-text">Featured Courses</h2>
                   <div className="row row-div">
 
-                    <div className="column box-border">
-                      <div>
-                        <h5 className="white-letters font-size-1-5">HTML & CSS</h5>
-                        <p className="black-letters font-size-1-3">Build projects as you dive into detail about how the browser works and what exactly the source code comprising a web page does.</p>
+                    <div style={{display:"inherit"}}>
+                      <div className="column box-border">
+                        <div>
+                          <h5 className="white-letters font-size-1-5">Front-End Web Crash Course</h5>
+                          <p className="black-letters font-size-1-3">
+                            Learn how to develop a website with HTML, CSS, and Javascript. Design
+                            professional websites and make them functional and reactive.
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="column box-border">
+                        <div>
+                          <h5 className="white-letters font-size-1-5">AP Computer Science A</h5>
+                          <p className="black-letters font-size-1-3">
+                            Pass the AP CS-A Exam with ease! With out AP Course, you will learn the basics
+                            of Java and be ready to take your AP exam to get that valuable college credit.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="column box-border">
+                        <div className="featured-phone-fix">
+                          <h5 className="white-letters font-size-1-5">Mini Bootcamp</h5>
+                          <p className="ruby-text-2 font-size-2" style={{display:"none"}}>
+                            We offer many courses here at Extreme. Everything from AP Computer Science A
+                            to Full-Stack Web Development. Find them with the button below.
+                          </p>
+                          <p className="black-letters font-size-1-3" id="ruby-text">
+                            If you don't have time for our Full 15 Week Bootcamp but you still
+                            want to learn Full-Stack Development: Look no further. We offer a Mini-Bootcamp
+                            that is lighter and requires less time and dedication.
+                          </p>
+                        </div>
                       </div>
                     </div>
 
-                    <div className="column box-border">
-                      <div>
-                        <h5 className="white-letters font-size-1-5">JavaScript</h5>
-                        <p className="black-letters font-size-1-3">Consume RESTful API's, Parse JSON to extract data, use AJAX to update data on a website in real time, get comfortable with event handlers, etc...</p>
-                      </div>
-                    </div>
-                    <div className="column box-border">
-                      <div className="featured-phone-fix">
-                        <h5 className="white-letters font-size-1-5">Ruby & Rails</h5>
-                        <p className="ruby-text-2 font-size-2" style={{display:"none"}}> Our curriculum is based on today's most in-demand skills. You will gain extensive knowledge in Ruby, JavaScript, React, Rails, Data Structures and Algorithms</p>
-                        <p className="black-letters font-size-1-3" id="ruby-text">Learn Basic + Intermediate Ruby,Test-Driven Development,
-                        ActiveRecord, Database Queries, Joins, Schema Design, etc... </p>
-                      </div>
-                    </div>
-                    <div className="column box-border">
-                      <div>
-                        <h5 className="white-letters font-size-1-5">Algorithms</h5>
-                        <p className="black-letters font-size-1-3">Practice computer science fundamentals, Learn which data structures to use for specific problems,
-                        Learn most efficient search and sort algorithms, etc...</p>
-                      </div>
-                    </div>
+                    <a href={'/courses'} className="course-link no-transition">
+                      <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                        More Courses
+                      </button>
+                    </a>
                   </div>
 
                 </div> {/*header-img-text*/}
