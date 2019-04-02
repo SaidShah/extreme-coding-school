@@ -41,8 +41,8 @@ class Home extends Component {
                     <div style={{display:"inherit"}}>
                       <div className="column box-border column-desktop">
                         <div>
-                          <h5 className="white-letters font-size-1-5">Front-End Web Crash Course</h5>
-                          <p className="black-letters font-size-1-3">
+                          <h5 className="white-letters font-size-1-6">Front-End Web Crash Course</h5>
+                          <p className="black-letters font-size-1-5">
                             Learn how to develop professional websites that are
                             adaptive and reactive with HTML5, CSS3, and Javascript.
                             Make use of modern web frameworks including Bootstrap.
@@ -52,8 +52,8 @@ class Home extends Component {
 
                       <div className="column box-border column-desktop">
                         <div>
-                          <h5 className="white-letters font-size-1-5">AP Computer Science A</h5>
-                          <p className="black-letters font-size-1-3">
+                          <h5 className="white-letters font-size-1-6">AP Computer Science A</h5>
+                          <p className="black-letters font-size-1-5">
                             Pass the AP Computer Science A exam with ease! In our AP course, you will learn all the topics
                             necessary immersively in a small class setting that caters to highschool students.
                           </p>
@@ -61,8 +61,8 @@ class Home extends Component {
                       </div>
                       <div className="column box-border column-desktop">
                         <div>
-                          <h5 className="white-letters font-size-1-5">Mini Bootcamp</h5>
-                          <p className="black-letters font-size-1-3">
+                          <h5 className="white-letters font-size-1-6">Mini Bootcamp</h5>
+                          <p className="black-letters font-size-1-5">
                             Don't have time for the Full Bootcamp but you still want to learn Full-Stack
                             Development?  We offer a Mini-Bootcamp that is lighter and
                             requires less time in the classroom.
