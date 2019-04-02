@@ -10,7 +10,7 @@ const About = () => (
 
     <div>
       <div>
-        <h1 className="center-text bold-text black-text mission-title">Our Mission</h1>
+        <h1 className="center-text bold-text black-text mission-title" style={{marginTop:"2%"}}>Our Mission</h1>
         <h3 className="center-text about-title bold-text black-text">Mentorship | Community | Practice</h3>
         <hr className="about-us-hr" style={{marginBottom:"2rem"}}/>
       </div>
