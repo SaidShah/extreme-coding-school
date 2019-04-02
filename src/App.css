@@ -327,7 +327,7 @@ button.btn{
 
 .column-right-side-programming{
   width: 50%;
-  display: flex;
+  display: inline-grid;
   justify-content: center;
   align-items: center;
 }
