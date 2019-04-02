@@ -27,7 +27,7 @@ class Courses extends Component {
         <h1 className="course-title">
           <strong> Web Development </strong>
         </h1>
-        <div className="course-top-half">
+        <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
             <Fade>
               <img src={FrontLogo} alt="html/css/js" style={{width:"50%", margin:"auto", height:"75%"}}/>

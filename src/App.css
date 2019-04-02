@@ -624,6 +624,10 @@ div.column-about-name {
   display: flex;
 }
 
+.no-bot-margin {
+  margin-bottom: 0 !important;
+}
+
 .course-top-left-swap {
   width:50%;
   margin: auto;
@@ -1396,6 +1400,10 @@ div.column-about-name {
 
   .column-mobile {
     display: block !important;
+  }
+
+  .no-bot-margin {
+    margin-bottom: auto;
   }
 
 }

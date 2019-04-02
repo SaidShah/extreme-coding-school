@@ -143,7 +143,7 @@ class Home extends Component {
 
                     <div className="column-right-side-programming">
                       <h3 className="bold-text home-page-ul-header-h3">
-                        What You Will Learn at Extreme
+                        Why we're different
                       </h3>
 
                       <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
