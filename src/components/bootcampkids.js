@@ -13,7 +13,8 @@ const bootcampkids= () => (
           style={{width:"75%"}}/>
       </div>
       <div className="course-desc-div">
-        <p className="font-size-1-4">Description: If you are a beginner to coding, you may take this course. If you’re a high school student who would like to learn web development to make you stand out from the crowd in your college application, take this course to increase the edge and show your passion in Computer Science. If you are an experienced desktop programmer, take this course to get up to speed quickly with web app development. If you are seasoned web developer, this is a fast-track way of learning some of the modern technologies such as HTML5, CSS3, Bootstrap, React, Redux, and Ruby-on-Rails.</p>
+        <p className="font-size-1-4">
+        <strong>Description:</strong> If you are a beginner to coding, you may take this course. If you’re a high school student who would like to learn web development to make you stand out from the crowd in your college application, take this course to increase the edge and show your passion in Computer Science. If you are an experienced desktop programmer, take this course to get up to speed quickly with web app development. If you are seasoned web developer, this is a fast-track way of learning some of the modern technologies such as HTML5, CSS3, Bootstrap, React, Redux, and Ruby-on-Rails.</p>
       </div>
     </div>
 

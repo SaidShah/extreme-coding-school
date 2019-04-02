@@ -13,7 +13,8 @@ const ReactRedux = () => (
           style={{width:"50%"}}/>
       </div>
       <div className="course-desc-div">
-        <p className="font-size-1-4">Description: React is one of the most popular libraries for JavaScript with over 100,000 stars on Github. It was built as an open source project by Facebook and is the view layer in MVC frameworks. If you know javascript and just want to gain new skills with new technologies, then React-Redux is for you. Learn to build powerful modular web applications. Transfer those skills with React Native and build full functional and native mobile applications. Learn state management with Redux and remove all of the complexity of tracking data. Learn to use the React and Redux devtools to make programming fun and interactive.</p>
+        <p className="font-size-1-4">
+        <strong>Description:</strong> React is one of the most popular libraries for JavaScript with over 100,000 stars on Github. It was built as an open source project by Facebook and is the view layer in MVC frameworks. If you know javascript and just want to gain new skills with new technologies, then React-Redux is for you. Learn to build powerful modular web applications. Transfer those skills with React Native and build full functional and native mobile applications. Learn state management with Redux and remove all of the complexity of tracking data. Learn to use the React and Redux devtools to make programming fun and interactive.</p>
       </div>
     </div>
 
