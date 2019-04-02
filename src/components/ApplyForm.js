@@ -27,6 +27,8 @@ class ApplyForm extends Component {
         this.setState({course: "apCSa"})
       }else if(userCourse==="react"){
         this.setState({course: "reactRedux"})
+      }else if(userCourse==="bootcampTeens"){
+        this.setState({course: "BootCampTeens"})
       }
     }
 
@@ -158,7 +160,7 @@ class ApplyForm extends Component {
    <select value={this.state.course} name="course" onChange={this.handleChange} className="form-control">
      <option defaultValue value="none">Select Your Course</option>
      <option value="BootCamp">Full-Stack Bootcamp 15 Weeks</option>
-     <option value="BootCampTeens">Full-Stack Bootcamp For Teens 12 Weeks</option>
+     <option value="BootCampTeens">Full-Stack Bootcamp For Young Adults</option>
      <option value="apCSa">AP Computer Science A Mon & Wed 8 Weeks</option>
      <option value="frontEndWebDev4">Web Development Sat & Sun 4 weeks</option>
      <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
