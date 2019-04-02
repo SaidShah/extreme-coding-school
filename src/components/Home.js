@@ -96,19 +96,34 @@ class Home extends Component {
 
               <div className="column-right-side center-text">
                 <div className="column-mid-div">
-                  <h2 className="blue-text bold-text home-page-ul-header-h2">Why Extreme?</h2>
-                  <p className="left-text skills-paragraph">
-                    At Extreme, we
+                  <h2 className="blue-text bold-text home-page-ul-header-h2">
+                    Why Extreme
+                  </h2>
+                  <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
+                    At Extreme, we believe that practical knowledge is valued more than theoretical knowledge. We
+                    strive to teach students about what they can do with what tools they have, not about what is simply
+                    possible. We want to give back to our community by creating bight students who excel at their craft,
+                    and make them employeable in their field. When we teach, we don't have you sit down and listen to our
+                    instructors for hours on end, doing nothing. We have you follow us with activities and assignments to
+                    ensure that you learn, and later have projects to put straight onto your resume to help you get hired later.
                   </p>
-                  <div className="skills-ul-div">
+                  <div className="skills-ul-div" style={{marginTop:"2%"}}>
                     <ul className="home-page-ul">
-                      <li className="home-page-li">Get a full time position as a Web Developer or Software Engineer with our job placement assistance.</li>
-                      <li className="home-page-li">Use Git to build a portfolio of projects and applications in our Web Development program.</li>
-                      <li className="home-page-li">Build an online portfolio to show off and demo your projects for prospective employers.</li>
-                      <li className="home-page-li">Study part-time while maintaining your work schedule. Accelerated full-time options will help you achieve your dreams faster.</li>
-                      <li className="home-page-li">Get extra help from our instructors to help you navigate through the program.</li>
-                      <li className="home-page-li">Build an incredible resume to show off your technical abilities.</li>
-
+                      <li className="home-page-li">
+                        Learn skills in computer science that can be applied anywhere.
+                      </li>
+                      <li className="home-page-li">
+                        Construct projects to help build your professional portfolio to get ready for employment.
+                      </li>
+                      <li className="home-page-li">
+                        Learn and use Git, and learn version control with terminal.
+                      </li>
+                      <li className="home-page-li">
+                        Study part-time while maintaining your work schedule. Accelerated full-time options will help you achieve your dreams faster.
+                      </li>
+                      <li className="home-page-li">
+                        Get extra help from our instructors to help you navigate through the program.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -118,22 +133,51 @@ class Home extends Component {
 
                 <div className="programming-container">
                   <div className="row prog-row">
-                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">What You Will Learn at Extreme</h3>
+                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">
+                      Why we're different
+                    </h3>
                     <div className="column-left-side-programming">
 
                       <img src={programming_image} alt="programming" className="program_image"/>
                     </div>
 
                     <div className="column-right-side-programming">
+                      <h3 className="bold-text home-page-ul-header-h3">
+                        What You Will Learn at Extreme
+                      </h3>
 
-                      <ul className="home-page-ul" style={{position:"relative"}}>
+                      <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
+                        We have a philosophy here at Extreme, and that's that actions speak louder
+                        than words. When you're learning code at a school, you're usually learning
+                        because you want a job in that field. If you're only being taught theoretical
+                        principles of code, you will learn only a good understanding of how to solve
+                        algorithms with code, sort of like problem solving. In the real world, while
+                        this can be useful, is usally not the only thing employers are looking for. Employers
+                        want to hire someone who knows how to do the job before they take the job, and you'll never
+                        be able to do that if you only know theory. That's why we teach both. We make sure you're
+                        learning practical skills with our courses, and while you're learning, we have you complete
+                        projects to put on your resume to prove to whoever reads it: you know what you're doing.
+                      </p>
+                      {/*}
+                        <ul className="home-page-ul" style={{position:"relative"}}>
                         <h3 className="bold-text home-page-ul-header-h3">What You Will Learn at Extreme</h3>
-                        <li className="home-page-li">Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...</li>
-                        <li className="home-page-li">Learn the most used Databases like Postgres, MySQL, etc..</li>
-                        <li className="home-page-li">Learn GIT commits, pushing, pulling, branching, etc...</li>
-                        <li className="home-page-li">Learn agile principles and methods through building projects from end-to-end</li>
-                        <li className="home-page-li">Learn how to build a tech resume, so you can put your best foot forward</li>
-                      </ul>
+                        <li className="home-page-li">
+                          Learn the most in-demand skills like HTML, CSS, Bootstrap, JavaScript, Ruby, React, etc...
+                        </li>
+                        <li className="home-page-li">
+                          Learn the most used Databases like Postgres, MySQL, etc..
+                        </li>
+                        <li className="home-page-li">
+                          Learn GIT commits, pushing, pulling, branching, etc...
+                        </li>
+                        <li className="home-page-li">
+                          Learn agile principles and methods through building projects from end-to-end
+                        </li>
+                        <li className="home-page-li">
+                          Learn how to build a tech resume, so you can put your best foot forward
+                        </li>
+                        </ul>
+                      */}
                     </div>
                   </div>
 
