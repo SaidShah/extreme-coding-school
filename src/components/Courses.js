@@ -212,7 +212,7 @@ class Courses extends Component {
       {/* Bootcamp 4 kids */}
       <div className="bootcamp-gradient">
         <h1 className="course-title" style={{color:"white"}}>
-          <strong> Bootcamp For Young Adults </strong>
+          <strong> Mini Bootcamp </strong>
         </h1>
         <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
@@ -298,7 +298,7 @@ class Courses extends Component {
         </Fade>
       </div>
 
-      
+
       {/* Private Lessons */}
 
       <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>

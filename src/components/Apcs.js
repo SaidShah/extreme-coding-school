@@ -28,7 +28,7 @@ const Apcs = () => (
       </div>
       <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">  Algebra I is required; Algebra II is recommended.</span> </h5>
-        <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> Macbook or Linux Laptop</span> </h5>
+        <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> A Laptop</span> </h5>
         <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 or 4 week course</span> </h5>
       </div>
     </div>

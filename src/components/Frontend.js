@@ -38,7 +38,7 @@ const Frontend = () => (
           <span className="not-bold-text"> Basic understanding of Algebra</span>
         </h5>
         <h5 className="bold-text course-padding-btm">Tools:
-          <span className="not-bold-text"> Macbook or Linux laptop</span>
+          <span className="not-bold-text"> A Laptop</span>
         </h5>
         <h5 className="bold-text course-padding-btm">Duration:
           <span className="not-bold-text"> 4 or 8 week course</span>

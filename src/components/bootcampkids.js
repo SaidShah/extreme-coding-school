@@ -29,7 +29,7 @@ const bootcampkids= () => (
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Prerequisites: <span className="not-bold-text"> Basic understanding of algebra</span> </h5>
-          <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> Macbook or Linux laptop</span> </h5>
+          <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> A Laptop</span> </h5>
           <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 week Course</span> </h5>
         </div>
       </div>
