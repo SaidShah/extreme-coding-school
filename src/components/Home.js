@@ -98,7 +98,15 @@ class Home extends Component {
                 <div className="column-mid-div">
                   <h2 className="blue-text bold-text home-page-ul-header-h2">Why Extreme?</h2>
                   <p className="left-text skills-paragraph">
-                    At Extreme, we
+                    At Extreme, we believe that practical knowledge is valued more than theoretical knowledge. We
+                    strive to teach students about what they can do with what tools they have, not about what is simply
+                    possible. We want to give back to our community by creating bight students who excel at their craft,
+                    and make them employeable in their field. When we teach, we don't have you sit down and listen to our
+                    instructors for hours on end, doing nothing. We have you follow us with activities and assignments to
+                    ensure that you learn, and later have projects to put straight onto your resume to help you get hired later.
+                  </p>
+                  <p style={{margin:"2%", textAlign: "center", fontSize:"1.6vw"}}>
+                    <strong> So to recap: </strong>
                   </p>
                   <div className="skills-ul-div">
                     <ul className="home-page-ul">
