@@ -20,21 +20,7 @@ class Courses extends Component {
   render() {
 
     const course =  <div>
-      <div style={{display:"grid"}}>
-
-        <p className="mobile-display-none"
-        style={{width:"80%", textAlign: "center", margin:"auto", marginTop: "5%", fontSize: "2rem", lineHeight: "2.2"}}>
-          Here at Extreme, we offer many different courses for our students to choose from. We have everything
-          from the Full-Stack development course like Boot Camp to learn everything
-          you need to get a job in web development, or a smoother, and lighter,
-          Front End course that allows students to learn about the basics of web design.
-        </p>
-
-        <h2  className="mobile-display-none"
-        style={{textAlign:"center", marginTop: "5%", marginBottom: "3%"}}>
-          (Here's a more in-depth look at what we offer.)
-        </h2>
-      </div>
+    
 
       {/* Front End */}
       <div style={{background:"#7fc6ff"}}>
