@@ -60,10 +60,6 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{fontSize:"1.7em"}}>
-            We offer either an 8 Week, Weekend Course or a 4 Week,
-            Weekday Course.
-          </h4>
           <div className="course-link-div">
             <a href={'/courses/frontend'} className="course-link">
               <button className="btn course-btn btn-info" style={{borderRadius:"0.5rem"}}>
@@ -110,9 +106,7 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"#61dafb", fontSize:"1.7em"}}>
-            We offer an 8 Week, Weekday Night Course.
-          </h4>
+
           <div className="course-link-div">
             <a href={'/courses/react'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
@@ -161,9 +155,6 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"", fontSize:"1.7em"}}>
-            We offer an 8 Week, Weekday Night Course.
-          </h4>
           <div className="course-link-div">
             <a href={'/courses/apcs'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
@@ -209,9 +200,6 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white", fontSize:"1.7em"}}>
-            We offer an 8 Week, Weekday Night Course.
-          </h4>
           <div className="course-link-div">
             <a href={'/courses/java'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
@@ -257,9 +245,6 @@ class Courses extends Component {
               </ul>
 
               <Fade>
-                <h4 className="center-text" style={{color:"white", fontSize:"1.7em"}}>
-                  We offer an 8 Week, Weekday Night Course.
-                </h4>
                 <div className="course-link-div">
                   <a href={'/bootcamp'} className="course-link">
                     <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
@@ -304,9 +289,6 @@ class Courses extends Component {
         </ul>
 
         <Fade>
-          <h4 className="center-text" style={{color:"white", fontSize:"1.7em"}}>
-            We offer an 8 Week, Weekday Night Course.
-          </h4>
           <div className="course-link-div">
             <a href={'/courses/bootcampkids'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
