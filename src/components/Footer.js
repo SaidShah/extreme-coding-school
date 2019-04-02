@@ -32,7 +32,7 @@ class Footer extends Component {
                         <a className="no-transition" href="/courses">Courses</a>
                       </li>
                       <li>
-                        <a className="no-transition" href="/requirements">Requirements</a>
+                        <a className="no-transition" href="/requirements">Resources</a>
                       </li>
                     </ul>
 
