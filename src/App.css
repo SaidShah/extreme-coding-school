@@ -364,7 +364,7 @@ button.btn{
 .column-left-side-graduate{
   width: 50%;
   float: left;
-  display: flex;
+  display: inline-grid;
   justify-content: center;
   align-items: center;
 }
@@ -647,10 +647,14 @@ div.column-about-name {
 }
 
 .course-paragraph {
-  font-size: 2vw;
-  width: 80%;
+  font-size: 1.6vw;
+  width: 60%;
   margin: auto;
-  text-align: justify;
+  text-align: left;
+}
+
+.course-paragraph-left {
+  text-align: right;
 }
 
 .course-list {
