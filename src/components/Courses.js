@@ -126,7 +126,7 @@ class Courses extends Component {
       {/* AP CS Java */}
       <div style={{background:""}}>
         <h1 className="course-title" style={{color:""}}>
-          AP CS : Intro to Java
+          AP Computer Science A
         </h1>
         <div className="course-top-half">
           <div className="course-top-left">
@@ -284,7 +284,7 @@ class Courses extends Component {
 
       <div className="private-gradient">
         <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
-          Private Classes
+          Private Lessons & Tutoring
         </h1>
         <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
           <Fade>
