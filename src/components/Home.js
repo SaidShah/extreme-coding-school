@@ -55,7 +55,7 @@ class Home extends Component {
                           <h5 className="white-letters font-size-1-6">AP Computer Science A</h5>
                           <p className="black-letters font-size-1-5">
                             Pass the AP Computer Science A exam with ease! In our AP course, you will learn all the topics
-                            necessary immersively in a small class setting that caters to highschool students.
+                            necessary immersively in a small class setting that caters to high school students.
                           </p>
                         </div>
                       </div>

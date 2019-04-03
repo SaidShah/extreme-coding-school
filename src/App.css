@@ -68,11 +68,11 @@ button.btn{
 }
 
 .font-size-1-6 {
-  font-size: 1.6vw;
+  font-size: 1.4em;
 }
 
 .font-size-1-5 {
-  font-size: 1.5vw;
+  font-size: 1.2em;
 }
 
 .font-size-1-4 {
@@ -194,6 +194,7 @@ button.btn{
 }
 
 .jumbo-image{
+  height: fit-content;
   width: 100%;
   filter: brightness(40%);
 }
@@ -224,7 +225,6 @@ button.btn{
 
 .image-box{
   width: 80%;
-  height: 80%;
   margin: auto;
   margin-top: -5px;
   padding-top: 30px;
@@ -912,12 +912,11 @@ div.column-about-name {
   }
 
   .jumbo-image {
-    height: 600px;
+    height: 730px;
   }
 
   .image-box {
     width: 95%;
-    height: 85%;
     margin-top: -30px;
   }
 
@@ -1208,7 +1207,6 @@ div.column-about-name {
 
   .image-box{
     margin-top: 30%;
-    height: 70%;
   }
 
   .row-div {
@@ -1429,6 +1427,10 @@ div.column-about-name {
   .p-desc-width {
     margin:auto;
     font-size: 4vw;
+  }
+
+  .jumbo-image {
+    height: 640px;
   }
 
 }
