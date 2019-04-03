@@ -30,7 +30,7 @@ class Home extends Component {
               <img src={image_one} id="jumbo-image-home" alt="jumbotron " className="jumbo-image"/>
 
               <div className="header-table">
-                <div className="header-img-text center-text white-text">
+                <div className="header-img-text center-text white-text" style={{display:"inline-grid"}}>
                   <h1 className="bold-text-2 white-text">Long Island's Premier Coding School</h1>
                 </div>
 
@@ -81,7 +81,7 @@ class Home extends Component {
                     </div>
 
                     <a href={'/courses'} className="course-link no-transition">
-                      <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                      <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem", marginTop:"10%"}}>
                         All Courses
                       </button>
                     </a>
