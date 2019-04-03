@@ -188,12 +188,14 @@ class Courses extends Component {
 
         {/*list hidden until mobile*/}
         <ul className="course-list" style={{color:"white"}}>
-          <li>React will allow you to add statefulness to your HTML/CSS,
-            effectively turning it into a way to run Javascript and allow you
-            to open up many new ways of designing functionality for web.
+          <li>
+            Learn complex algorithms to use towards problem solving in the workplace.
           </li>
-          <li>Redux is a container for statefulness, making it easier and lighter
-            to code in React.
+          <li>
+            Understand the importance of data management and data structures.
+          </li>
+          <li>
+            Get to know Big O notation and efficicent sorting algorithms.
           </li>
         </ul>
 
@@ -278,12 +280,15 @@ class Courses extends Component {
 
         {/*list hidden until mobile*/}
         <ul className="course-list" style={{color:"white"}}>
-          <li>React will allow you to add statefulness to your HTML/CSS,
-            effectively turning it into a way to run Javascript and allow you
-            to open up many new ways of designing functionality for web.
+          <li>
+            Enter our Full Bootcamp and learn all of the topics listed above.
           </li>
-          <li>Redux is a container for statefulness, making it easier and lighter
-            to code in React.
+          <li>
+            Earn the respect you deserve in your interviews with the knowledge you are taught about
+            the industry.
+          </li>
+          <li>
+            Be able to complete most full-stack tasks and design full websites.
           </li>
         </ul>
 
