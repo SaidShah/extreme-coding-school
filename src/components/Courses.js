@@ -147,8 +147,8 @@ class Courses extends Component {
             You'll be able to take the AP CS-A test with ease after this course.
           </li>
           <li>
-            Learn the more than most intro courses for Computer Science
-            at SUNY Colleges.
+            Learn more than most intro courses for Computer Science
+            at SUNY Colleges offer.
           </li>
         </ul>
 
