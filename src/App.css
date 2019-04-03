@@ -1422,6 +1422,15 @@ div.column-about-name {
     margin-bottom: auto;
   }
 
+  .course-ul {
+    font-size: 4vw;
+  }
+
+  .p-desc-width {
+    margin:auto;
+    font-size: 4vw;
+  }
+
 }
 
 
