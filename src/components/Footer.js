@@ -66,7 +66,7 @@ class Footer extends Component {
 
                     <ul className="list-unstyled font-size-1-1">
                       <li>
-                        <a className="no-transition" href="mailto:admissions@extremecodingschool.com">Email Us</a>
+                        <a className="no-transition" href="mailto:admissions@extremecodingschool.com">admissions@extremecodingschool.com</a>
                       </li>
                       <li>
                         <a className="no-transition" href="tel:6312133240">(631) 213-3240</a>

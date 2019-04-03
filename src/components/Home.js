@@ -54,8 +54,8 @@ class Home extends Component {
                         <div>
                           <h5 className="white-letters font-size-1-6">AP Computer Science A</h5>
                           <p className="black-letters font-size-1-5">
-                            Pass the AP Computer Science A exam with ease! In our AP course, you will learn all the topics
-                            necessary immersively in a small class setting that caters to high school students.
+                            Pass the AP Computer Science A exam with ease! In our AP course, you will learn all necessary topics
+                            immersively in a small class setting that caters to high school students.
                           </p>
                         </div>
                       </div>
@@ -105,14 +105,15 @@ class Home extends Component {
                     than theoretical knowledge. We
                     strive to teach students about what they
                     can do with what tools they have, not about what is simply
-                    possible. We want to give back to our community by creating bight students
-                    who excel at their craft,
-                    and make them employeable in their field.
-                    When we teach, we don't have you sit down and listen to our
-                    instructors for hours on end, doing nothing. We have you follow us
+                    possible. When we teach, we don't have you sit down and listen to our
+                    instructors read from PowerPoint slides for hours on end. We have you follow us
                     with activities and assignments to
                     ensure that you learn, and later have projects to put straight onto your resume to help
                     you get hired later.
+
+                    We want to give back to our community by creating bight students
+                    who excel at their craft
+                    and make them employable in their field.
                   </p>
                   <div className="skills-ul-div" style={{marginTop:"2%"}}>
                     <ul className="home-page-ul">
@@ -120,17 +121,17 @@ class Home extends Component {
                         Learn skills in computer science that can be applied anywhere.
                       </li>
                       <li className="home-page-li">
-                        Construct projects to help build your professional portfolio to get ready for employment.
+                        Create projects to help build your professional portfolio to get ready for employment.
                       </li>
                       <li className="home-page-li">
-                        Learn and use Git, and learn version control with terminal.
+                        Learn version control with Git through the terminal.
                       </li>
                       <li className="home-page-li">
                         Study part-time while maintaining your work schedule.
-                        Accelerated full-time options will help you achieve your dreams faster.
+                        We also offer accelerated full-time options that will help you achieve your dreams faster.
                       </li>
                       <li className="home-page-li">
-                        Get extra help from our instructors to help you navigate through the program.
+                        Get extra help from our instructors to help you navigate through our programs.
                       </li>
                     </ul>
                   </div>
@@ -155,18 +156,14 @@ class Home extends Component {
                       </h3>
 
                       <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
-                        We have a philosophy here at Extreme, and that's that actions speak louder
-                        than words. When you're learning code at a school, you're usually learning
-                        because you want a job in that field. If you're only being taught theoretical
-                        principles of code, you will learn only a good understanding of how to solve
-                        algorithms with code, sort of like problem solving. In the real world, while
-                        this can be useful, is usally not the only thing employers are looking for. Employers
-                        want to hire someone who knows how to do the
-                        job before they take the job, and you'll never
-                        be able to do that if you only know theory. That's why we teach both. We make sure you're
-                        learning practical skills with our courses,
-                        and while you're learning, we have you complete
-                        projects to put on your resume to prove to whoever reads it: you know what you're doing.
+                        We started Extreme because we noticed a severe lack in the way universities are teaching Computer Science.
+                        Modern businesses are actively looking for individuals who can hit the ground running as soon
+                        as they're hired. But Computer Science programs at universities are not preparing their students for this atmosphere.
+                        Instead they focus on pure fundamentals and theory but rarely delve into modern applications of what
+                        is being taught. We design our courses with this in mind and offer students the best of both worlds; a solid foundation
+                        built on theory and modern methods being utilized by todays largest and most rapidly growing businesses. Our courses will
+                        have you complete projects that you can proudly show off on your resume to prove that you have the skills businesses
+                        are loooking for and the fundamentals to back them up.
                       </p>
                     </div>
                   </div>
@@ -181,13 +178,11 @@ class Home extends Component {
                       <div className="column-left-side-graduate">
                         <h3 className="bold-text grad-h3 home-page-ul-header-h3">Who Extreme is for</h3>
                         <p className="left-text skills-paragraph">
-                          Extreme teaches in a different way from a conventional school: We keep
+                          Extreme teaches in a different way from a conventional school. We keep
                           our students immersed and invested in what they're learning. We've all been
                           through the lecture that lasted 2 hours, so we know that if you're bored you cannot learn.
                           Instead of listening to someone talk for 40 minutes straight and copying down what
-                          they're saying, we structure our topics in a way that you're actively engaged in coding.
-                          Extreme is for everyone because of this. It should resonate
-                          with those that cannot focus on lecture-based teaching like in a usual college setting.
+                          they're saying, we structure our topics in a way to keep you actively engaged while you code.
 
                         </p>
                       </div>
