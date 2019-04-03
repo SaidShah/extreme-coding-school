@@ -58,7 +58,7 @@ const  Java = () => (
       </div>
       <div className="course-image-div">
         <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%"}}/>
+          style={{width:"50%", height:"75%"}}/>
       </div>
     </div>
 

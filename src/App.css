@@ -766,6 +766,7 @@ div.column-about-name {
 .course-image {
   margin-left: auto;
   margin-right: auto;
+  margin: auto;
   width: auto;
 }
 

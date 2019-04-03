@@ -10,7 +10,7 @@ const Frontend = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={frontEnd} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"100%"}}/>
+          style={{width:"100%", height:"100%"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
@@ -59,7 +59,7 @@ const Frontend = () => (
       </div>
       <div className="course-image-div">
         <img src={frontEndTwo} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"100%"}}/>
+          style={{width:"100%", height:"100%"}}/>
       </div>
     </div>
 

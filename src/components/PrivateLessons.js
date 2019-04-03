@@ -56,7 +56,8 @@ const PrivateLessons = () => (
         </ul>
       </div>
       <div className="course-image-div">
-        <img src={tutorTwo} alt="front end web development extreme coding school" className="course-image" style={{width:"45%"}}/>
+        <img src={tutorTwo} alt="front end web development extreme coding school"
+        className="course-image" style={{width:"45%", height:"100%"}}/>
       </div>
     </div>
 
