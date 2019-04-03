@@ -1,6 +1,6 @@
 import React from 'react';
 import CurriculumSections from './CurriculumSections'
-import curr_img from '.././images/person-coding.png'
+import curr_img from '.././images/person-coding.svg'
 import {Link} from 'react-router-dom'
 
 const BootCamp = () => (
