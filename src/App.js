@@ -17,7 +17,9 @@ import logo from './images/ecs-long.svg'
 import logons from './images/ecs-long-ns.svg'
 
 class App extends Component {
-
+  state={
+    trigger: false
+  }
 
   render() {
     return (

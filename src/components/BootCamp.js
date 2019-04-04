@@ -21,6 +21,11 @@ class BootCamp extends Component {
     }else if(userCourse==="miniBootcamp"){
       this.setState({bootcamp: false, showingBootcamp: false})
     }
+
+    if(document.getElementById("minibootcamp")){
+    document.getElementById("minibootcamp").addEventListener("click",this.handleBootcamp)
+    document.getElementById("fullbootcamp").addEventListener("click",this.handleMiniBootcamp)
+    }
   }
 
 
@@ -117,6 +122,7 @@ class BootCamp extends Component {
   }
 
   render() {
+    console.log(this.props.trigger, this.state.bootcamp)
     return (
       <>
         <div style={{display:"flex"}}>
@@ -125,7 +131,7 @@ class BootCamp extends Component {
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleBootcamp}>View Mini-Bootcamp</button>
           </div>
         </div>
-        {this.state.bootcamp ? this.showBootcamp() : this.showMiniBootcamp()}
+        {this.state.showingBootcamp ? this.showBootcamp() : this.showMiniBootcamp()}
       </>
     );
   }
