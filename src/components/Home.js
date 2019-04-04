@@ -54,8 +54,9 @@ class Home extends Component {
                         <div>
                           <h5 className="white-letters font-size-1-6">AP Computer Science A</h5>
                           <p className="black-letters font-size-1-5">
-                            Pass the AP Computer Science A exam with ease! In our AP course, you will learn all necessary topics
-                            immersively in a small class setting that caters to high school students.
+                            Ace the AP Computer Science A exam with ease! In our AP course, you will
+                            learn all necessary topics in a small and immersive
+                            class setting akin to a high school classroom.
                           </p>
                         </div>
                       </div>
@@ -98,40 +99,43 @@ class Home extends Component {
               <div className="column-right-side center-text">
                 <div className="column-mid-div">
                   <h2 className="blue-text bold-text home-page-ul-header-h2">
-                    Why Extreme
+                    Why Extreme?
                   </h2>
                   <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
-                    At Extreme, we believe that practical knowledge is valued more
-                    than theoretical knowledge. We
+                    At Extreme, we believe that practical skills are just as valuable as
+                    theoretical knowledge. With this in mind, we
                     strive to teach students about what they
-                    can do with what tools they have, not about what is simply
+                    can do with the tools available to them, not about what is simply
                     possible. When we teach, we don't have you sit down and listen to our
-                    instructors read from PowerPoint slides for hours on end. We have you follow us
-                    with activities and assignments to
-                    ensure that you learn, and later have projects to put straight onto your resume to help
-                    you get hired later.
-
-                    We want to give back to our community by creating bright students
-                    who excel at their craft
-                    and make them employable in their field.
+                    instructors read from PowerPoint slides for hours on end. When we teach, we have you follow us
+                    with activities and assignments to ensure that you absorb as much as possible while
+                    you learn. After you're finished with our courses, you will be well-versed in the tools
+                    that today's businesses are using and have the projects to show for them.
                   </p>
                   <div className="skills-ul-div" style={{marginTop:"2%"}}>
                     <ul className="home-page-ul">
                       <li className="home-page-li">
-                        Learn skills in computer science that can be applied anywhere.
+                        Learn skills in computer science that can be applied anywhere
                       </li>
+
                       <li className="home-page-li">
-                        Create projects to help build your professional portfolio to get ready for employment.
+                        Create projects to help build your professional portfolio to get ready for employment
                       </li>
+
                       <li className="home-page-li">
-                        Learn version control with Git through the terminal.
+                        Learn version control with Git through the terminal
                       </li>
+
                       <li className="home-page-li">
-                        Study part-time while maintaining your work schedule.
-                        We also offer accelerated full-time options that will help you achieve your dreams faster.
+                        Study part-time while maintaining your work schedule
                       </li>
+
                       <li className="home-page-li">
-                        Get extra help from our instructors to help you navigate through our programs.
+                        We also offer accelerated full-time options that will help you achieve your dreams faster
+                      </li>
+
+                      <li className="home-page-li">
+                        Get extra help from our instructors to help you navigate through our programs
                       </li>
                     </ul>
                   </div>
@@ -143,7 +147,7 @@ class Home extends Component {
                 <div className="programming-container">
                   <div className="row prog-row">
                     <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">
-                      Why we're different
+                      How We're Different
                     </h3>
                     <div className="column-left-side-programming">
 
@@ -152,17 +156,17 @@ class Home extends Component {
 
                     <div className="column-right-side-programming">
                       <h3 className="bold-text home-page-ul-header-h3">
-                        Why we're different
+                        How We're Different
                       </h3>
 
                       <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
                         We started Extreme because we noticed a severe lack in the way universities are teaching Computer Science.
                         Modern businesses are actively looking for individuals who can hit the ground running as soon
-                        as they're hired. But Computer Science programs at universities are not preparing their students for this atmosphere.
-                        Instead they focus on pure fundamentals and theory but rarely delve into modern applications of what
+                        as they're hired. But universities are not properly preparing their students for this atmosphere.
+                        Instead, they focus on pure fundamentals and theory but rarely delve into modern applications of what
                         is being taught. We design our courses with this in mind and offer students the best of both worlds; a solid foundation
-                        built on theory and modern methods being utilized by todays largest and most rapidly growing businesses. Our courses will
-                        have you complete projects that you can proudly show off on your resume to prove that you have the skills businesses
+                        built on theory and modern methods being utilized by today's largest and most rapidly growing businesses. Our courses will
+                        have you complete projects that you can proudly show off on your résumé to prove that you have the skills businesses
                         are loooking for and the fundamentals to back them up.
                       </p>
                     </div>
@@ -173,17 +177,20 @@ class Home extends Component {
                   </div>
 
                   <div className="move-up">
-                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">Who Extreme is for</h3>
+                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">Who Extreme is For</h3>
                     <div className="grad-row">
                       <div className="column-left-side-graduate">
-                        <h3 className="bold-text grad-h3 home-page-ul-header-h3">Who Extreme is for</h3>
+                        <h3 className="bold-text grad-h3 home-page-ul-header-h3">Who Extreme is For</h3>
                         <p className="left-text skills-paragraph">
-                          Extreme teaches in a different way from a conventional school. We keep
-                          our students immersed and invested in what they're learning. We've all been
-                          through the lecture that lasted 2 hours, so we know that if you're bored you cannot learn.
-                          Instead of listening to someone talk for 40 minutes straight and copying down what
-                          they're saying, we structure our topics in a way to keep you actively engaged while you code.
-
+                            If you're looking to learn the skills needed to be considered a full-stack developer,
+                            then Extreme is for you. Whether you want to finish our program as fast as possible or
+                            have a busy schedule that prevents you from commiting a myriad of hours per week, we accomodate
+                            for both with our main bootcamp and a mini-bootcamp. Or maybe you're looking to learn just one
+                            or a few of the courses that we offer. For that, we have you covered as we offer what
+                            makes up our bootcamps as individual courses so you can learn exactly what you need.
+                            If you're a high school student -- or the parent of one -- we are excited to inform you that
+                            we also have an AP Computer Science curriculum. We offer APCS tutoring sessions as well as
+                            the full course. If you take our APCS course, we will cover the cost of the exam for you.
                         </p>
                       </div>
 
