@@ -8,6 +8,8 @@ import graduate_image from '.././images/graduate.jpg'
 
 class Home extends Component {
 
+
+
   getImages=()=>{
      let images=[image_one,image_two,image_three,image_four]
      let index = 0;
@@ -15,8 +17,9 @@ class Home extends Component {
      setInterval(function(){
        index++;
        index %= images.length;
+       if(document.getElementById("jumbo-image-home")){
        document.getElementById("jumbo-image-home").src = images[index];
-
+     }
      },5000)
   }
 

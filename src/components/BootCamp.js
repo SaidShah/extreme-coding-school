@@ -17,6 +17,16 @@ class BootCamp extends Component {
     showingBootcamp: true
   }
 
+  componentDidMount() {
+    let userLocArr= this.props.props.location.pathname.split("/")
+    let userCourse = userLocArr[userLocArr.length-1]
+    if(userCourse==="fullBootcamp"){
+      this.setState({bootcamp: true, showingBootcamp: true})
+    }else if(userCourse==="miniBootcamp"){
+      this.setState({bootcamp: false, showingBootcamp: false})
+    }
+  }
+
   showBootcamp=()=>{
     return (<div>
 

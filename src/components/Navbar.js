@@ -1,15 +1,32 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom'
 
+const displayDropdown={
+   display:"inline"
+}
 
+const hideDropdown={
+  display:"none"
+}
 
 class Navbar extends Component {
  state = {
-  navCollapsed: true
+  navCollapsed: true,
+  dropdown: false
 }
 
 _onToggleNav = () => {
   this.setState({ navCollapsed: !this.state.navCollapsed })
 }
+
+onDropdown=()=>{
+  this.setState({dropdown: !this.state.dropdown})
+}
+
+handleClick=()=>{
+  this.setState({dropdown: !this.state.dropdown})
+}
+
 
 render() {
   const {navCollapsed} = this.state
@@ -37,11 +54,21 @@ render() {
               Home
             </a>
           </li>
-          <li className="nav-item">
-            <a className="nav-link no-transition-nav bold-font"  href="/bootcamp">
-              Bootcamps
-            </a>
-          </li>
+
+
+          <li className="navbar-nav nav-item dropdown">
+
+                  <a className="nav-link dropdown-toggle no-transition-nav bold-font dropbtn" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false" onClick={this.onDropdown}>Bootcamps</a>
+                  <div className="dropdown-menu dropdown-primary dropdown-content" aria-labelledby="navbarDropdownMenuLink" id="bootcampDropdown" style={this.state.dropdown ? displayDropdown : hideDropdown}>
+                    <Link className="dropdown-item" to="/bootcamp/fullBootcamp" onClick={this.handleClick}>Bootcamp</Link>
+                    <Link className="dropdown-item" to="/bootcamp/miniBootcamp" onClick={this.handleClick}>Mini Bootcamp</Link>
+                  </div>
+                </li>
+
+
+
+
           <li className="nav-item">
             <a className="nav-link no-transition-nav bold-font" href="/courses">
               Courses

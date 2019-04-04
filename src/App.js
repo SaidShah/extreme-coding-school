@@ -39,7 +39,7 @@ class App extends Component {
               <Route path="/program" render={()=><Program/>}/>
               <Route path="/requirements" render={()=><Requirements/>}/>
               <Route path="/courses" render={()=><Courses/>}/>
-              <Route path="/bootcamp" render={()=><BootCamp/>}/>
+              <Route path="/bootcamp" render={()=><BootCamp props={this.props}/>}/>
               <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
               <Route path="/about" render={()=><About/>}/>
               <Route path="/thankyou" render={()=><ThankyouPage/>}/>
