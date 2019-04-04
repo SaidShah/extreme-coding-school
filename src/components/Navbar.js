@@ -69,8 +69,8 @@ render() {
               Bootcamps
             </button>
             <div className="dropdown-menu dropdown-primary dropdown-content" aria-labelledby="navbarDropdownMenuLink" id="bootcampDropdown" style={this.state.dropdown ? displayDropdown : hideDropdown}>
-              <Link id="fullbootcamp" className="dropdown-item" to="/bootcamp/fullBootcamp" onClick={this.handleClick}>Bootcamp</Link>
-              <Link id="minibootcamp" className="dropdown-item" to="/bootcamp/miniBootcamp" onClick={this.handleClick}>Mini Bootcamp</Link>
+              <Link id="fullbootcamp" className="dropdown-item" to="/bootcamp/fullBootcamp" onClick={this.handleClick}>Full Bootcamp</Link>
+              <Link id="minibootcamp" className="dropdown-item" to="/bootcamp/miniBootcamp" onClick={this.handleClick}>Mini-Bootcamp</Link>
             </div>
           </li>
 

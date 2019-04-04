@@ -329,16 +329,13 @@ class Courses extends Component {
 
       <Fade top>
         <h2 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem"}}>
-          In case you're wondering: We offer private classes.
+          Private Lessons & Tutoring
         </h2>
       </Fade>
 
       <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
 
       <div className="private-gradient">
-        <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
-          <strong> Private Lessons & Tutoring </strong>
-        </h1>
         <div style={{display:"flex", marginTop:"3%", marginBottom: "3%"}}>
           <Fade>
             <p className="course-private-paragraph" style={{textAlign: "center", fontSize: "2em", color:"white", margin:"auto"}}>

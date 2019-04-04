@@ -37,7 +37,7 @@ class BootCamp extends Component {
 
         <div className="column-right-side ">
           <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>
-            Bootcamp Curriculum
+            Full Stack Web Development Bootcamp Curriculum
           </h2>
           <img alt="curriculum " src={curr_img} className="curriculum-image" style={{marginBottom:"2%"}}/>
           <p className="bootcamp-p">Here at Extreme Coding School we want to equip you for continued success even when
