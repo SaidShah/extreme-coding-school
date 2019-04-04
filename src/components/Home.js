@@ -44,7 +44,7 @@ class Home extends Component {
                     <div style={{display:"inherit"}}>
                       <div className="column box-border column-desktop">
                         <div>
-                          <h5 className="white-letters font-size-1-6">Front-End Web Crash Course</h5>
+                          <h5 className="white-letters font-size-1-6">Front-End Development</h5>
                           <p className="black-letters font-size-1-5">
                             Learn how to develop professional websites that are
                             adaptive and reactive with HTML5, CSS3, and Javascript.
