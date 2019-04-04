@@ -39,7 +39,7 @@ render() {
           </li>
           <li className="nav-item">
             <a className="nav-link no-transition-nav bold-font"  href="/bootcamp">
-              Bootcamp
+              Bootcamps
             </a>
           </li>
           <li className="nav-item">
