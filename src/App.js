@@ -12,6 +12,7 @@ import Navbar from './components/Navbar'
 import ThankyouPage from './components/ThankyouPage'
 import Footer from './components/Footer'
 import About from './components/About'
+import ContactUs from './components/ContactUs'
 import {Switch, Route, withRouter} from 'react-router-dom'
 import logo from './images/ecs-long.svg'
 import logons from './images/ecs-long-ns.svg'
@@ -45,7 +46,7 @@ class App extends Component {
               <Route path="/apply" render={()=><ApplyForm props={this.props}/>}/>
               <Route path="/about" render={()=><About/>}/>
               <Route path="/thankyou" render={()=><ThankyouPage/>}/>
-              <Route path="/contactus" render={()=><contactus/>}/>
+              <Route path="/contactus" render={()=><ContactUs/>}/>
               <Route path="/" render={()=><Home/>}/>
             </Switch>
           </div>

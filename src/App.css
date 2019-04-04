@@ -1092,6 +1092,10 @@ div.column-about-name {
   .font-size-1-5 {
     font-size: 1.1rem;
   }
+
+  .contact-h3 {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -1109,6 +1113,10 @@ div.column-about-name {
     display: none;
   }
   html, body{}
+
+  .contact-h3 {
+    font-size: 1em;
+  }
 
   .nav-link {
     font-size: 5vw;
@@ -1513,6 +1521,7 @@ div.column-about-name {
   .footer-links-div {
     width: 100%;
   }
+
 
 }
 
