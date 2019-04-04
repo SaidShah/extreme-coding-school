@@ -55,7 +55,7 @@ class Home extends Component {
                           <h5 className="white-letters font-size-1-6">AP Computer Science A</h5>
                           <p className="black-letters font-size-1-5">
                             Ace the AP Computer Science A exam with ease! In our AP course, you will
-                            learn all necessary topics in a small and immersive
+                            learn all necessary topics in a small, immersive, and personal
                             class setting akin to a high school classroom.
                           </p>
                         </div>
@@ -107,10 +107,10 @@ class Home extends Component {
                     strive to teach students about what they
                     can do with the tools available to them, not about what is simply
                     possible. When we teach, we don't have you sit down and listen to our
-                    instructors read from PowerPoint slides for hours on end. When we teach, we have you follow us
+                    instructors read from PowerPoint slides for hours on end. Instead, we have you follow us
                     with activities and assignments to ensure that you absorb as much as possible while
                     you learn. After you're finished with our courses, you will be well-versed in the tools
-                    that today's businesses are using and have the projects to show for them.
+                    that today's businesses are using and have the projects to show for it.
                   </p>
                   <div className="skills-ul-div" style={{marginTop:"2%"}}>
                     <ul className="home-page-ul">
@@ -184,10 +184,10 @@ class Home extends Component {
                         <p className="left-text skills-paragraph">
                             If you're looking to learn the skills needed to be considered a full-stack developer,
                             then Extreme is for you. Whether you want to finish our program as fast as possible or
-                            have a busy schedule that prevents you from commiting a myriad of hours per week, we accomodate
+                            have a busy schedule that prevents you from commiting a myriad of hours per week; we accomodate
                             for both with our main bootcamp and a mini-bootcamp. Or maybe you're looking to learn just one
                             or a few of the courses that we offer. For that, we have you covered as we offer what
-                            makes up our bootcamps as individual courses so you can learn exactly what you need.
+                            makes up our bootcamps as individual courses so you can learn exactly what you need and nothing else.
                             If you're a high school student -- or the parent of one -- we are excited to inform you that
                             we also have an AP Computer Science curriculum. We offer APCS tutoring sessions as well as
                             the full course. If you take our APCS course, we will cover the cost of the exam for you.
