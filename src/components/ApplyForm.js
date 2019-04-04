@@ -62,12 +62,19 @@ class ApplyForm extends Component {
       let lName = values.lastName.replace(/[a-zA-Z]+/g,"")
       let mail = values.email.replace(/[a-zA-Z0-9_.]+/g,"")
 
-      if(id.length !== 10 || fName.length !== 0){
-        document.getElementById("errorMsg").innerText="Enter Valid Values"
-      }else if (lName.length !== 0 || mail.length !== 1){
-        document.getElementById("errorMsg").innerText="Enter Valid Values"
+      let error = null;
+      if(mail.length !== 1) {
+        error = "Invalid Email. Please enter as email@example.com"
+      } else if(id.length !== 10) {
+        error = "Invalid Phone."
+      } else if(fName.length !== 0){
+        error = "Please enter valid first name"
+      } else if (lName.length !== 0 || mail.length !== 1){
+        error = "Please enter valid last name"
       }
-      else{
+      if(error !== null) {
+        document.getElementById("errorMsg").innerText = error
+      } else{
         document.getElementById("errorMsg").innerText=""
         database.database().ref('users/'+id).set({
           first_Name: values.firstName,
