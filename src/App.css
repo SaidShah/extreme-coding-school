@@ -327,8 +327,10 @@ button.btn{
 .bootcamp-p {
   text-align: left;
   padding-left: 2px;
-  font-size: 1.4vw;
-  margin-bottom: 1%;
+  font-size: 1em;
+  margin: auto;
+  margin-bottom: 2%;
+  width: 60%;
 }
 
 .left-text{
@@ -1045,7 +1047,7 @@ div.column-about-name {
 
   .curriculum-label-mobile {
     display: block !important;
-    font-size: 3.8vw;
+    font-size: 1.5em;
   }
 
   .curriculum-hr {
@@ -1497,6 +1499,15 @@ div.column-about-name {
 
   .course-private-paragraph {
     width: 90%;
+  }
+
+  .bootcamp-p {
+    margin-bottom: 5%;
+    width: 90%;
+  }
+
+  .curriculum-label-mobile {
+    font-size: 1em;
   }
 
 }
