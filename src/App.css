@@ -707,8 +707,8 @@ div.column-about-name {
 }
 
 .bootcamp-gradient {
-  background: rgb(235,111,255);
-  background: linear-gradient(90deg, rgba(235,111,255,1) 0%, rgba(127,198,255,1) 50%, rgba(0,248,139,1) 100%);
+  background: rgb(205,78,148);
+  background: linear-gradient(90deg, rgba(205,78,148,1) 0%, rgba(54,166,255,1) 100%);
 }
 
 .private-gradient {
