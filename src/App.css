@@ -7,6 +7,10 @@
 
 }
 
+.blu-text {
+  color: #003c9e;
+}
+
 .nav-mr-apply {
   float: right;
   margin-right: 1%;
@@ -292,19 +296,15 @@ button.btn{
   text-align: left;
   padding-left: 2px;
   font-size: 1.4vw;
+  margin: auto !important;
 }
-.tablet-home-page-ul-header-h2 {
-    display: none;
-    margin: auto;
-  }
+
 
 .home-page-ul-header-h2 {
   font-size: 3vw;
+  margin-bottom: 2%;
 }
 
-.home-page-ul-header-h3 {
-  font-size: 2vw;
-}
 
 .home-page-ul{
   list-style-type: square;
@@ -342,23 +342,22 @@ button.btn{
 
 
 .column-right-side-programming{
-  width: 50%;
+  width: 45%;
   display: inline-grid;
   justify-content: center;
   align-items: center;
 }
 
 .program_image{
-  margin: auto;
-  width: 75%;
-  margin-top: 7%;
-  margin-bottom: 5%;
-  /* word-wrap: break-word; */
+  margin-top: auto;
+  margin-bottom: auto;
+  float: left;
+  width: 100%;
 }
 
 .column-left-side-programming{
-  width: 40%;
-  display: inline-block;
+  width: 45%;
+  display: inline-grid;
 }
 
 
@@ -366,12 +365,12 @@ button.btn{
 .grad-row {
   position: relative;
   margin: auto;
-  display: flex;
+  display: inline-grid;
   justify-content: center;
 }
 
 .column-left-side-graduate{
-  width: 50%;
+  width: 45%;
   float: left;
   display: inline-grid;
   justify-content: center;
@@ -379,15 +378,16 @@ button.btn{
 }
 
 .column-right-side-graduate{
-  width: 40%;
-  display: inline-block;
+  width: 45%;
+  display: inline-grid;
 }
 
 .graduate_image{
-  margin: auto;
-  width: 75%;
-  margin-top: 7%;
-  margin-bottom: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  float:right;
+  width: 100%;
 }
 
 .home-page-ul-grad{
@@ -609,7 +609,7 @@ div.column-about-name {
   padding-right: 10px;
   margin-right: 20vw;
   margin-left: 20vw;
-  text-align: justify;
+  text-align: left;
 }
 
 .about-us-hr{
@@ -972,14 +972,6 @@ div.column-about-name {
     font-size: 2vw;
   }
 
-  .tablet-home-page-ul-header-h2 {
-    display: initial;
-    margin: auto;
-  }
-
-  .home-page-ul-header-h3 {
-    visibility: hidden;
-  }
 
   .column-right-side-graduate {
     display: none;
@@ -1164,7 +1156,7 @@ div.column-about-name {
     margin-bottom: 0px;
   }
 
-  .blue-text.bold-text{
+  ..bold-text{
     padding: 5px;
   }
 
@@ -1289,14 +1281,6 @@ div.column-about-name {
     margin-right: auto;
     margin-bottom: 2em;
     padding: 5px;
-  }
-
-  .tablet-home-page-ul-header-h2 {
-    font-size: 7vw;
-  }
-
-  .home-page-ul-header-h3 {
-    display: none;
   }
 
   .graduate_image{

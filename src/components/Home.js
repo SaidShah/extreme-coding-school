@@ -91,14 +91,14 @@ class Home extends Component {
                 </div> {/*header-img-text*/}
               </div> {/*header-table*/}
             </div>
-            <div className="padding-after-jumbotron row">
+            <div className="padding-after-jumbotron">
 
 
 
 
               <div className="column-right-side center-text">
                 <div className="column-mid-div">
-                  <h2 className="blue-text bold-text home-page-ul-header-h2">
+                  <h2 className="blu-text bold-text home-page-ul-header-h2">
                     Why Extreme?
                   </h2>
                   <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
@@ -146,29 +146,31 @@ class Home extends Component {
 
                 <div className="programming-container">
                   <div className="row prog-row">
-                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">
+                    <h3 className="blu-text bold-text home-page-ul-header-h2">
                       How We're Different
                     </h3>
-                    <div className="column-left-side-programming">
 
-                      <img src={programming_image} alt="programming" className="program_image"/>
-                    </div>
+                    <div style={{display:"flex", width:"90%", margin:"auto"}}>
+                      <div className="column-left-side-programming">
 
-                    <div className="column-right-side-programming">
-                      <h3 className="bold-text home-page-ul-header-h3">
-                        How We're Different
-                      </h3>
+                        <img src={programming_image} alt="programming" className="program_image"/>
+                      </div>
 
-                      <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
-                        We started Extreme because we noticed a severe lack in the way universities are teaching Computer Science.
-                        Modern businesses are actively looking for individuals who can hit the ground running as soon
-                        as they're hired. But universities are not properly preparing their students for this atmosphere.
-                        Instead, they focus on pure fundamentals and theory but rarely delve into modern applications of what
-                        is being taught. We design our courses with this in mind and offer students the best of both worlds; a solid foundation
-                        built on theory and modern methods being utilized by today's largest and most rapidly growing businesses. Our courses will
-                        have you complete projects that you can proudly show off on your résumé to prove that you have the skills businesses
-                        are loooking for and the fundamentals to back them up.
-                      </p>
+                      <div style={{width:"10%"}}></div>
+
+                      <div className="column-right-side-programming">
+
+                        <p className="left-text skills-paragraph">
+                          We started Extreme because we noticed a severe lack in the way universities are teaching Computer Science.
+                          Modern businesses are actively looking for individuals who can hit the ground running as soon
+                          as they're hired. But universities are not properly preparing their students for this atmosphere.
+                          Instead, they focus on pure fundamentals and theory but rarely delve into modern applications of what
+                          is being taught. We design our courses with this in mind and offer students the best of both worlds; a solid foundation
+                          built on theory and modern methods being utilized by today's largest and most rapidly growing businesses. Our courses will
+                          have you complete projects that you can proudly show off on your résumé to prove that you have the skills businesses
+                          are loooking for and the fundamentals to back them up.
+                        </p>
+                      </div>
                     </div>
                   </div>
 
@@ -177,11 +179,12 @@ class Home extends Component {
                   </div>
 
                   <div className="move-up">
-                    <h3 className="blue-text bold-text tablet-home-page-ul-header-h2">Who Extreme is For</h3>
                     <div className="grad-row">
-                      <div className="column-left-side-graduate">
-                        <h3 className="bold-text grad-h3 home-page-ul-header-h3">Who Extreme is For</h3>
-                        <p className="left-text skills-paragraph">
+                      <h3 className="blu-text bold-text grad-h3 home-page-ul-header-h2">Who Extreme is for</h3>
+                      <div style={{display:"flex", width:"90%", margin:"auto"}}>
+                        <div className="column-left-side-graduate">
+
+                          <p className="left-text skills-paragraph">
                             If you're looking to learn the skills needed to be considered a full-stack developer,
                             then Extreme is for you. Whether you want to finish our program as fast as possible or
                             have a busy schedule that prevents you from commiting a myriad of hours per week; we accomodate
@@ -191,11 +194,14 @@ class Home extends Component {
                             If you're a high school student -- or the parent of one -- we are excited to inform you that
                             we also have an AP Computer Science curriculum. We offer APCS tutoring sessions as well as
                             the full course. If you take our APCS course, we will cover the cost of the exam for you.
-                        </p>
-                      </div>
+                          </p>
+                        </div>
 
-                      <div className="column-right-side-graduate">
-                        <img src={graduate_image} alt="programming" className="graduate_image"/>
+                        <div style={{width:"10%"}}></div>
+
+                        <div className="column-right-side-graduate">
+                          <img src={graduate_image} alt="programming" className="graduate_image"/>
+                        </div>
                       </div>
                     </div>
                   </div>

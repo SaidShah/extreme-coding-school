@@ -66,7 +66,7 @@ class Footer extends Component {
 
                     <ul className="list-unstyled font-size-1-1">
                       <li>
-                        <a className="no-transition" href="mailto:admissions@extremecodingschool.com">admissions@extremecodingschool.com</a>
+                        <a className="no-transition" href="mailto:admissions@extremecodingschool.com">Admissions Email</a>
                       </li>
                       <li>
                         <a className="no-transition" href="tel:6312133240">(631) 213-3240</a>
@@ -75,11 +75,11 @@ class Footer extends Component {
 
                   </div>
                 </div>
-                <a className="no-transition" href="https://goo.gl/maps/z6EYdnYBwg12" target="_blank" rel="noopener noreferrer">
-                  <p className="no-transition font-size-1-5">207 Hallock Road, Stony Brook, NY 11790</p>
-                </a>
-            </div>
 
+            </div>
+            <a className="no-transition" href="https://goo.gl/maps/z6EYdnYBwg12" target="_blank" rel="noopener noreferrer">
+              <p className="no-transition font-size-1-5">207 Hallock Road, Stony Brook, NY 11790</p>
+            </a>
           </div>
 
           <div className="footer-copyright text-center py-3 font-size-1-5">© 2018 Copyright:
