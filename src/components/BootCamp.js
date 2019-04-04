@@ -31,8 +31,10 @@ class BootCamp extends Component {
 
 
         <div className="column-right-side ">
-          <h2 className="blue-text bold-text ">Bootcamp Curriculum</h2>
-          <img alt="curriculum " src={curr_img} className="curriculum-image"/>
+          <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>
+            Bootcamp Curriculum
+          </h2>
+          <img alt="curriculum " src={curr_img} className="curriculum-image" style={{marginBottom:"2%"}}/>
           <p className="left-text p-width cirr-text">Here at Extreme Coding School we want to equip you for continued success even when
             you graduate as a full-stack developer. We not only cover the most in-demand skills for full-stack development,
             we also provide you with a solid foundation in Data-Structures and Algorithms.
@@ -68,8 +70,10 @@ class BootCamp extends Component {
 
 
         <div className="column-right-side ">
-          <h2 className="blue-text bold-text ">Mini-Bootcamp Curriculum</h2>
-          <img alt="curriculum " src={apcs} className="curriculum-image"/>
+          <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>
+            Mini-Bootcamp Curriculum
+          </h2>
+          <img alt="curriculum " src={apcs} className="curriculum-image" style={{marginBottom:"2%"}}/>
           <p className="left-text p-width cirr-text">Here at Extreme Coding School we want to equip you for continued success even when
             you graduate as a full-stack developer. We not only cover the most in-demand skills for full-stack development,
             we also provide you with a solid foundation in Data-Structures and Algorithms.
@@ -116,7 +120,7 @@ class BootCamp extends Component {
     return (
       <>
         <div style={{display:"flex"}}>
-          <div style={{width:"fit-content", margin:"auto"}}>
+          <div style={{width:"fit-content", margin:"auto", marginTop:"2%"}}>
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleMiniBootcamp}>View Full Bootcamp</button>
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleBootcamp}>View Mini-Bootcamp</button>
           </div>
