@@ -338,7 +338,7 @@ class Courses extends Component {
       <div className="private-gradient">
         <div style={{display:"flex", marginTop:"3%", marginBottom: "3%"}}>
           <Fade>
-            <p className="course-private-paragraph" style={{textAlign: "center", fontSize: "2em", color:"white", margin:"auto"}}>
+            <p className="course-private-paragraph" style={{textAlign: "center", fontSize: "2em", color:"white", margin:"auto", marginTop:"5%"}}>
               We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
               with. We are able to teach any of the above courses to you.
             </p>
