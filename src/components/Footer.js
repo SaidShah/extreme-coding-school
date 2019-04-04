@@ -23,7 +23,7 @@ class Footer extends Component {
               </div>
 
               <hr className="clearfix w-100 d-md-none" style={{marginTop:"10px", marginBottom:"10px"}}/>
-              <div style={{width:"50%", display:"flex", justifyContent:"center"}}>
+              <div className="footer-links-div">
                 <div className="mb-md-0 mb-3" style={{marginBot:"10px", marginRight:"3%", marginLeft:"3%"}}>
 
                   <h4 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.4vw"}}>About</h4>

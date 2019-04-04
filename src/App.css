@@ -58,7 +58,6 @@ button.btn{
 
 
 .no-transition-nav {
-  font-size: 1.3vw;
   -webkit-transition: none !important;
   transition: none !important;
 }
@@ -158,6 +157,12 @@ button.btn{
 
 .center-text{
   text-align: center;
+}
+
+.footer-links-div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .sticky {
@@ -1187,13 +1192,6 @@ div.column-about-name {
   }
 
 
-  h5.bold-text {
-    color: black;
-  }
-
-  .bold-text{
-    color: #2195f3
-  }
 
   .left-text.p-width{
     width: 100%;
@@ -1489,7 +1487,9 @@ div.column-about-name {
   }
 
   .p-desc-width {
+    width: 90%;
     margin:auto;
+    margin-bottom: 10%;
     font-size: 4vw;
   }
 
@@ -1508,6 +1508,10 @@ div.column-about-name {
 
   .curriculum-label-mobile {
     font-size: 1em;
+  }
+
+  .footer-links-div {
+    width: 100%;
   }
 
 }
