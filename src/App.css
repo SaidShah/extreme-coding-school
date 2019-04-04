@@ -20,6 +20,7 @@
 }
 
 .nav-bc-drop {
+  text-align: left;
   background: #003c9e;
   border:none;
 }
@@ -245,6 +246,11 @@ button.btn{
   top: 0px;
 }
 
+.home-spacer-div {
+  width: 10%;
+  display: block;
+}
+
 .header-img-text{
   padding: 30px;
 }
@@ -262,6 +268,10 @@ button.btn{
   padding-bottom: 1.5%;
   background: #023c9e;
   opacity: .8;
+}
+
+.home-para-div {
+  width: 90%;
 }
 
 .row-div {
@@ -1294,6 +1304,14 @@ div.column-about-name {
 
   .program_image{
     display: none;
+  }
+
+  .home-spacer-div {
+    display: none;
+  }
+
+  .home-para-div {
+    width: 100%;
   }
 
   .column-left-side-graduate {

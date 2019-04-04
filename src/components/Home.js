@@ -153,13 +153,13 @@ class Home extends Component {
                       How we're different
                     </h3>
 
-                    <div style={{display:"flex", width:"90%", margin:"auto"}}>
+                    <div className="home-para-div" style={{display:"flex", margin:"auto"}}>
                       <div className="column-left-side-programming">
 
                         <img src={programming_image} alt="programming" className="program_image"/>
                       </div>
 
-                      <div style={{width:"10%"}}></div>
+                      <div className="home-spacer-div"></div>
 
                       <div className="column-right-side-programming">
 
@@ -184,7 +184,7 @@ class Home extends Component {
                   <div className="move-up">
                     <div className="grad-row">
                       <h3 className="blu-text bold-text grad-h3 home-page-ul-header-h2">Who Extreme is for</h3>
-                      <div style={{display:"flex", width:"90%", margin:"auto"}}>
+                      <div className="home-para-div" style={{display:"flex", margin:"auto"}}>
                         <div className="column-left-side-graduate">
 
                           <p className="left-text skills-paragraph">
@@ -200,7 +200,7 @@ class Home extends Component {
                           </p>
                         </div>
 
-                        <div style={{width:"10%"}}></div>
+                        <div className="home-spacer-div" style={{width:"10%"}}></div>
 
                         <div className="column-right-side-graduate">
                           <img src={graduate_image} alt="programming" className="graduate_image"/>
