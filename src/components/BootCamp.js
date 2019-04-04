@@ -57,7 +57,7 @@ class BootCamp extends Component {
 
 
         <div className="column-right-side ">
-          <h2 className="blue-text bold-text ">Mini Bootcamp Curriculum</h2>
+          <h2 className="blue-text bold-text ">Mini-Bootcamp Curriculum</h2>
           <img alt="curriculum " src={apcs} className="curriculum-image"/>
           <p className="left-text p-width cirr-text">Here at Extreme Coding School we want to equip you for continued success even when
             you graduate as a full-stack developer. We not only cover the most in-demand skills for full-stack development,
@@ -79,7 +79,7 @@ class BootCamp extends Component {
 
           <MiniBootcampCurriculumSections />
         </div>
-        <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Mini Bootcamp</Link>
+        <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Mini-Bootcamp</Link>
 
       </div>
 
@@ -107,7 +107,7 @@ class BootCamp extends Component {
         <div style={{display:"flex"}}>
           <div style={{width:"fit-content", margin:"auto"}}>
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleMiniBootcamp}>View Full Bootcamp</button>
-            <button id="bootcampButton" className="btn boot-button" onClick={this.handleBootcamp}>View Mini Bootcamp</button>
+            <button id="bootcampButton" className="btn boot-button" onClick={this.handleBootcamp}>View Mini-Bootcamp</button>
           </div>
         </div>
         {this.state.bootcamp ? this.showBootcamp() : this.showMiniBootcamp()}

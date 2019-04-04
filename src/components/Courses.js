@@ -232,51 +232,6 @@ class Courses extends Component {
       <hr style={{marginTop:"1rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
 
 
-      {/* Bootcamp 4 kids */}
-      <div className="bootcamp-gradient">
-        <h1 className="course-title" style={{color:"white"}}>
-          <strong> Mini Bootcamp </strong>
-        </h1>
-        <div className="course-top-half no-bot-margin">
-          <div className="course-top-left">
-            <Fade>
-              <img src={BootcampLogo} alt="html/css/js" style={{width:"60%", margin:"auto", height:"75%"}}/>
-            </Fade>
-          </div>
-
-          <div className="course-top-right">
-            <Slide right>
-              <p className="course-paragraph" style={{color:"white"}}>
-                If you (or your child) is very invested in programming, or wants to get a job later in life
-                in the field: look no further. This course is a lighter, more relaxed version of our 15-week bootcamp.
-              </p>
-            </Slide>
-          </div>
-        </div>
-
-        {/*list hidden until mobile*/}
-        <ul className="course-list" style={{color:"white"}}>
-          <li>
-            Learn Full-Stack Development in a class focused on the experience of the student.
-          </li>
-          <li>
-            Be assured that you will be able to keep up in the bootcamp, even if you don't have
-            as much time to dedicate to it.
-          </li>
-        </ul>
-
-        <Fade>
-          <div className="course-link-div">
-            <a href={'/courses/bootcampkids'} className="course-link">
-              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
-                More Info
-              </button>
-            </a>
-          </div>
-        </Fade>
-      </div>
-
-
       {/* Full Stack bootcamp */}
       <div className="fullStackBootcamp-gradient">
         <h1 className="course-title" style={{color:"white"}}>
@@ -324,6 +279,49 @@ class Courses extends Component {
         </Fade>
       </div>
 
+      {/* Bootcamp 4 kids */}
+      <div className="bootcamp-gradient">
+        <h1 className="course-title" style={{color:"white"}}>
+          <strong> Mini-Bootcamp </strong>
+        </h1>
+        <div className="course-top-half no-bot-margin">
+          <div className="course-top-left">
+            <Fade>
+              <img src={BootcampLogo} alt="html/css/js" style={{width:"60%", margin:"auto", height:"75%"}}/>
+            </Fade>
+          </div>
+
+          <div className="course-top-right">
+            <Slide right>
+              <p className="course-paragraph" style={{color:"white"}}>
+                If you (or your child) is very invested in programming, or wants to get a job later in life
+                in the field: look no further. This course is a lighter, more relaxed version of our 15-week bootcamp.
+              </p>
+            </Slide>
+          </div>
+        </div>
+
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:"white"}}>
+          <li>
+            Learn Full-Stack Development in a class focused on the experience of the student.
+          </li>
+          <li>
+            Be assured that you will be able to keep up in the bootcamp, even if you don't have
+            as much time to dedicate to it.
+          </li>
+        </ul>
+
+        <Fade>
+          <div className="course-link-div">
+            <a href={'/courses/bootcampkids'} className="course-link">
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
+            </a>
+          </div>
+        </Fade>
+      </div>
 
       {/* Private Lessons */}
 
