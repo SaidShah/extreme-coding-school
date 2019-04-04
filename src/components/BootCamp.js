@@ -126,7 +126,7 @@ class BootCamp extends Component {
     return (
       <>
         <div style={{display:"flex"}}>
-          <div style={{width:"fit-content", margin:"auto", marginTop:"2%"}}>
+          <div style={{display:"inline-flex", width:"fit-content", margin:"auto", marginTop:"2%"}}>
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleMiniBootcamp}>View Full Bootcamp</button>
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleBootcamp}>View Mini-Bootcamp</button>
           </div>
