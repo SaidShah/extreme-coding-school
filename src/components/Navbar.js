@@ -24,36 +24,39 @@ render() {
         data-toggle="collapse"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        >
+      >
         <span className="navbar-toggler-icon" />
       </button>
 
       <div
-      className={(navCollapsed ? 'collapse' : '') + ' navbar-collapse'}
+        className={(navCollapsed ? 'collapse' : '') + ' navbar-collapse'}
       >
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
             <a className="nav-link no-transition-nav bold-font" href="/">
-          Home
-           </a>
-          </li>
-          <li className="nav-item">
-           <a className="nav-link no-transition-nav bold-font"  href="/bootcamp">
-          Bootcamp
+              Home
             </a>
           </li>
           <li className="nav-item">
-           <a className="nav-link no-transition-nav bold-font" href="/courses">
-          Courses
-           </a>
+            <a className="nav-link no-transition-nav bold-font"  href="/bootcamp">
+              Bootcamp
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link no-transition-nav bold-font" href="/courses">
+              Courses
+            </a>
           </li>
 
           <li className="nav-item">
             <a className="nav-link no-transition-nav bold-font" href="/about">
-          About Us
+              About Us
             </a>
           </li>
 
+
+        </ul>
+        <ul className="navbar-nav nav-mr-apply">
           <li className="nav-item">
             <a href="/apply" className="nav-link no-transition-nav bold-font shadow light-green">Apply Now</a>
           </li>

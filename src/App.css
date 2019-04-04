@@ -7,6 +7,11 @@
 
 }
 
+.nav-mr-apply {
+  float: right;
+  margin-right: 1%;
+}
+
 div.card-block{
   padding: 20px;
 }
@@ -657,6 +662,10 @@ div.column-about-name {
   text-align: left;
 }
 
+.course-private-paragraph {
+  width: 60%;
+}
+
 .course-paragraph-left {
   text-align: right;
 }
@@ -1043,8 +1052,15 @@ div.column-about-name {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nav-mr-apply {
+    margin-right: auto;
+    float:none;
+  }
+}
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 530px) {
   #primary { width:100%; }
   #secondary { width:100%; margin:0; border:none; }
   .column-left-side {
@@ -1442,6 +1458,10 @@ div.column-about-name {
 
   .jumbo-image {
     height: 650px;
+  }
+
+  .course-private-paragraph {
+    width: 90%;
   }
 
 }
