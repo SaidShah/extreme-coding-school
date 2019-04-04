@@ -147,7 +147,7 @@ class Home extends Component {
                 <div className="programming-container">
                   <div className="row prog-row">
                     <h3 className="blu-text bold-text home-page-ul-header-h2">
-                      How We're Different
+                      How we're different
                     </h3>
 
                     <div style={{display:"flex", width:"90%", margin:"auto"}}>
