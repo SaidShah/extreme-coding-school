@@ -62,7 +62,7 @@ class FAQ extends Component {
               <label htmlFor="tab-six" className="faq-label">Do I need to bring my own computer?</label>
               <div className="tab-content faq-width">
               <ul className='faq-ul'>
-                <li>Yes, you must have a mac computer in order to attend. We require a mac because we feel if all of the students are working with the same enviornments we will have a much better learning and debugging experience. </li>
+                <li>Yes, you must have a Mac computer in order to attend. We require a Mac because we feel if all of the students are working with the same enviornments we will have a much better learning and debugging experience. </li>
                 </ul>
               </div>
               </div>

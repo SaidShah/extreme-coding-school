@@ -119,9 +119,9 @@ class Courses extends Component {
 
       {/* AP CS Java */}
       <div style={{background:""}}>
-        <h1 className="course-title" style={{color:""}}>
+        <h2 className="course-title" style={{color:""}}>
           <strong> AP Computer Science A </strong>
-        </h1>
+        </h2>
         <div className="course-top-half">
           <div className="course-top-left">
             <Fade>
@@ -322,7 +322,7 @@ class Courses extends Component {
         </h1>
         <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
           <Fade>
-            <p style={{width:"80%", textAlign: "center", fontSize: "2em", color:"white", margin:"auto"}}>
+            <p className="course-private-paragraph" style={{textAlign: "center", fontSize: "2em", color:"white", margin:"auto"}}>
               We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
               with. We are able to teach any of the above courses to you.
             </p>

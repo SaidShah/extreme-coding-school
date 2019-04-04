@@ -141,7 +141,7 @@ const About = () => (
       </p>
       <p className="about-p">
         I ended up going to college for Math, which I was good at, however I had to take an intro CS class and
-        it reignited  my passion for programming. I then got into tutoring for Computer Science, as it was Second Nature
+        it reignited  my passion for programming. I then got into tutoring for Computer Science, as it was second nature
         to me at that point. I started working on other projects, websites, programs and a couple games. I started
         applying for jobs, however, it did not bear fruit.
       </p>

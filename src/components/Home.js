@@ -111,7 +111,7 @@ class Home extends Component {
                     ensure that you learn, and later have projects to put straight onto your resume to help
                     you get hired later.
 
-                    We want to give back to our community by creating bight students
+                    We want to give back to our community by creating bright students
                     who excel at their craft
                     and make them employable in their field.
                   </p>
