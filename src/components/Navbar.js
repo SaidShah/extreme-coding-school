@@ -26,7 +26,7 @@ onDropdown=()=>{
 }
 
 handleClick=()=>{
-  this.setState({dropdown: !this.state.dropdown})
+  this.setState({dropdown: !this.state.dropdown, navCollapsed: !this.state.navCollapsed})
 }
 
 
