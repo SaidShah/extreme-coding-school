@@ -54,6 +54,12 @@ render() {
             </a>
           </li>
 
+          <li className="nav-item">
+            <a className="nav-link no-transition-nav bold-font" href="/contactus">
+              Contact Us
+            </a>
+          </li>
+
 
         </ul>
         <ul className="navbar-nav nav-mr-apply">
