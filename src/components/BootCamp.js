@@ -13,7 +13,8 @@ import {Link} from 'react-router-dom'
 class BootCamp extends Component {
 
   state={
-    bootcamp: true
+    bootcamp: true,
+    showingBootcamp: true
   }
 
   showBootcamp=()=>{
@@ -77,19 +78,28 @@ class BootCamp extends Component {
 
       </div>)
   }
-  handleClick=()=>{
-    document.getElementById('bootcampButton').innerText="View Mini Bootcamp"
-    this.state.bootcamp ? document.getElementById('bootcampButton').innerText="View Full Bootcamp" : document.getElementById('bootcampButton').innerText="View Mini Bootcamp"
-    this.setState({
-      bootcamp: !this.state.bootcamp
-    })
+  handleBootcamp=()=>{
+    if(this.state.bootcamp && this.state.showingBootcamp){
+      this.setState({
+        bootcamp: !this.state.bootcamp, showingBootcamp: !this.state.showingBootcamp
+      })
+    }
+  }
+
+  handleMiniBootcamp=()=>{
+    if(!this.state.bootcamp && !this.state.showingBootcamp){
+      this.setState({
+        bootcamp: !this.state.bootcamp, showingBootcamp: !this.state.showingBootcamp
+      })
+    }
   }
 
   render() {
     return (
       <>
       <div>
-        <button id="bootcampButton" className="btn" onClick={this.handleClick}>View Bootcamp</button>
+        <button id="bootcampButton" className="btn" onClick={this.handleBootcamp}>View Mini Bootcamp</button>
+        <button id="bootcampButton" className="btn" onClick={this.handleMiniBootcamp}>View Full Bootcamp</button>
       </div>
         {this.state.bootcamp ? this.showBootcamp() : this.showMiniBootcamp()}
       </>
