@@ -22,6 +22,16 @@ class Courses extends Component {
     const course =  <div>
 
 
+    <hr style={{marginTop:"2rem", marginBottom:"1rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+
+    <Fade>
+      <h1 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem", fontSize:"3rem"}}>
+        <strong>Courses</strong>
+      </h1>
+    </Fade>
+
+    <hr style={{marginTop:"1rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+
       {/* Front End */}
       <div style={{background:"#7fc6ff"}}>
         <h1 className="course-title">
@@ -211,6 +221,17 @@ class Courses extends Component {
       </div>
 
 
+      <hr style={{marginTop:"2rem", marginBottom:"1rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+
+      <Fade>
+        <h1 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem", fontSize:"3rem"}}>
+          <strong>Bootcamps</strong>
+        </h1>
+      </Fade>
+
+      <hr style={{marginTop:"1rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+
+
       {/* Bootcamp 4 kids */}
       <div className="bootcamp-gradient">
         <h1 className="course-title" style={{color:"white"}}>
@@ -320,7 +341,7 @@ class Courses extends Component {
         <h1 style={{textAlign: "center", paddingTop:"3%", color:"white"}}>
           <strong> Private Lessons & Tutoring </strong>
         </h1>
-        <div style={{display:"flex", marginTop:"8%", marginBottom: "8%"}}>
+        <div style={{display:"flex", marginTop:"3%", marginBottom: "3%"}}>
           <Fade>
             <p className="course-private-paragraph" style={{textAlign: "center", fontSize: "2em", color:"white", margin:"auto"}}>
               We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
