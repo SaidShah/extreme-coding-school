@@ -60,13 +60,19 @@ render() {
 
           <li className="navbar-nav nav-item dropdown">
 
-                  <button className="nav-link dropdown-toggle no-transition-nav bold-font dropbtn" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false" onClick={this.onDropdown}>Bootcamps</button>
-                  <div className="dropdown-menu dropdown-primary dropdown-content" aria-labelledby="navbarDropdownMenuLink" id="bootcampDropdown" style={this.state.dropdown ? displayDropdown : hideDropdown}>
-                    <Link id="fullbootcamp" className="dropdown-item" to="/bootcamp/fullBootcamp" onClick={this.handleClick}>Bootcamp</Link>
-                    <Link id="minibootcamp" className="dropdown-item" to="/bootcamp/miniBootcamp" onClick={this.handleClick}>Mini Bootcamp</Link>
-                  </div>
-                </li>
+            <button className="nav-link dropdown-toggle no-transition-nav bold-font dropbtn nav-bc-drop"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+              onClick={this.onDropdown}>
+              Bootcamps
+            </button>
+            <div className="dropdown-menu dropdown-primary dropdown-content" aria-labelledby="navbarDropdownMenuLink" id="bootcampDropdown" style={this.state.dropdown ? displayDropdown : hideDropdown}>
+              <Link id="fullbootcamp" className="dropdown-item" to="/bootcamp/fullBootcamp" onClick={this.handleClick}>Bootcamp</Link>
+              <Link id="minibootcamp" className="dropdown-item" to="/bootcamp/miniBootcamp" onClick={this.handleClick}>Mini Bootcamp</Link>
+            </div>
+          </li>
 
 
 
