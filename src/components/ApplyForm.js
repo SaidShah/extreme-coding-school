@@ -175,7 +175,7 @@ class ApplyForm extends Component {
    <select value={this.state.course} name="course" onChange={this.handleChange} className="form-control">
      <option defaultValue value="none">Select Your Course</option>
      <option value="BootCamp">Full-Stack Bootcamp 15 Weeks</option>
-     <option value="BootCampTeens">Full-Stack Bootcamp For Young Adults</option>
+     <option value="BootCampTeens">Mini Bootcamp</option>
      <option value="apCSa8mw">AP Computer Science A Mon & Wed</option>
      <option value="apCSa8">AP Computer Science A Sat & Sun</option>
      <option value="apCSa4tr">AP Computer Science A Tues & Thur</option>
