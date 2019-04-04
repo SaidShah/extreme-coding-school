@@ -96,7 +96,7 @@ const About = () => (
         a lack of training or funding, there are many hurdles one has to cross.
       </p>
       <p className="about-p">
-        First, it’s hard to get into a Computer Science program in college. I remember when I wanted to major in CS, my counselor said, “Sorry, Said, you just don’t have enough math classes to be accepted”. That was tough for me to hear, especially when I had the passion in programming. Here are some real numbers to show how hard it is. There are about a thousand students who would like to major in CS every year at Stony Brook University, there are between 100 and 200 people who actually get in and graduate with a bachelor’s degree.
+        First, it’s hard to get into a Computer Science program in college. I remember when I wanted to major in CS, my counselor said, “Sorry, Said, you just don’t have enough math classes to be accepted”. That was tough for me to hear, especially when I had the passion in programming. Here are some real numbers to show how hard it is. There are about a thousand students who would like to major in CS every year at state universities, there are between 100 and 200 people who actually get in and graduate with a bachelor’s degree.
       </p>
       <p className="about-p">
         Second, even if you’re lucky enough to get into a CS program, it is still hard to learn the practical skills of coding. Most professors don’t code in class. Their mode of teaching consists of hours of mind-numbing PowerPoint slides covering technologies already obsolete. It is hard for many people to learn like that. I, for example, tend to learn by designing algorithms, writing code, and building tangible modern web projects. I believe there are many like-minded people who learn this way.
