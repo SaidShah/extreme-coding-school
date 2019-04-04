@@ -65,7 +65,7 @@ class Home extends Component {
                       </div>
                       <div className="column box-border column-desktop">
                         <div>
-                          <h5 className="white-letters font-size-1-6">Mini Bootcamp</h5>
+                          <h5 className="white-letters font-size-1-6">Mini-Bootcamp</h5>
                           <p className="black-letters font-size-1-5">
                             Don't have time for the Full Bootcamp but you still want to learn Full-Stack
                             Development?  We offer a Mini-Bootcamp that is lighter and
@@ -150,7 +150,7 @@ class Home extends Component {
                 <div className="programming-container">
                   <div className="row prog-row">
                     <h3 className="blu-text bold-text home-page-ul-header-h2">
-                      How We're Different
+                      How we're different
                     </h3>
 
                     <div style={{display:"flex", width:"90%", margin:"auto"}}>

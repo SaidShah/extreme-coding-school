@@ -5,7 +5,7 @@ import apcsTwo from '.././images/apcsTwo.svg'
 
 const bootcampkids= () => (
   <div className="course-top-div">
-    <h1 className="center-text bold-text">Coding Bootcamp for Young Adults 8 weeks</h1>
+    <h1 className="center-text bold-text">Mini Bootcamp</h1>
 
     <div className="course-div">
       <div className="course-image-div">
@@ -61,7 +61,7 @@ const bootcampkids= () => (
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 06, 2019</span> </h5>
-        <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Young Adult Bootcamp</Link>
+        <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now for Mini Bootcamp</Link>
         </div>
       </div>
     </div>
