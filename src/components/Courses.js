@@ -4,6 +4,7 @@ import Slide from 'react-reveal/Slide';
 import Frontend from './Frontend'
 import ReactRedux from './ReactRedux'
 import PrivateLessons from './PrivateLessons'
+import IntroToJava from './IntroToJava'
 import Java from './Java'
 import Apcs from './Apcs'
 import Bootcampkids from './bootcampkids'
@@ -74,6 +75,51 @@ class Courses extends Component {
           <div className="course-link-div">
             <a href={'/courses/frontend'} className="course-link">
               <button className="btn course-btn btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
+            </a>
+          </div>
+        </Fade>
+      </div>
+
+
+      {/* Intro to Java */}
+      <div className="intro-java-gradient">
+        <h1 className="course-title" style={{color:"white"}}>
+          <strong> Into to Java </strong>
+        </h1>
+        <div className="course-top-half">
+          <div className="course-top-right">
+            <Slide left>
+              <p className="course-paragraph course-paragraph-left" style={{color:"white"}}>
+                Learn Java, We need more content here
+              </p>
+            </Slide>
+          </div>
+          <div className="course-top-left-swap">
+            <Fade>
+              <img src={JavaOrangeLogo} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
+            </Fade>
+          </div>
+        </div>
+
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:"white"}}>
+          <li>
+            Learn complex algorithms to use towards problem solving in the workplace.
+          </li>
+          <li>
+            Understand the importance of data management and data structures.
+          </li>
+          <li>
+            Get to know Big O notation and efficicent sorting algorithms.
+          </li>
+        </ul>
+
+        <Fade>
+          <div className="course-link-div">
+            <a href={'/courses/introToJava'} className="course-link">
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>
             </a>
@@ -363,6 +409,7 @@ class Courses extends Component {
       <>
         <Switch>
           <Route exact path="/courses/frontend" render={()=><Frontend/>}/>
+          <Route exact path="/courses/introToJava" render={()=><IntroToJava/>}/>
           <Route exact path="/courses/react" render={()=><ReactRedux/>}/>
           <Route exact path="/courses/java" render={()=><Java/>}/>
           <Route exact path="/courses/privateLessons" render={()=><PrivateLessons/>}/>

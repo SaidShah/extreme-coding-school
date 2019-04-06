@@ -733,6 +733,11 @@ div.column-about-name {
   margin:auto;
 }
 
+.intro-java-gradient{
+  background: rgb(148,52,29);
+  background: linear-gradient(90deg, rgba(238,152,9,1) 0%, rgba(248, 160, 0,1) 65%);
+}
+
 .java-gradient {
   background: rgb(248,152,29);
   background: linear-gradient(90deg, rgba(248,152,29,1) 0%, rgba(248, 0, 0,1) 65%);
