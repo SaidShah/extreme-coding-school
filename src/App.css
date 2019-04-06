@@ -341,13 +341,13 @@ button.btn{
 .left-text{
   text-align: left;
   padding-left: 2px;
-  font-size: 1.4vw;
+  font-size: 1em;
   margin: auto !important;
 }
 
 
 .home-page-ul-header-h2 {
-  font-size: 3vw;
+  font-size: 2.5em;
   margin-bottom: 2%;
 }
 
@@ -798,6 +798,7 @@ div.column-about-name {
 }
 
 .course-div{
+  margin-top: 2%;
   width: 100%;
   display: flex;
 }
@@ -856,17 +857,18 @@ div.column-about-name {
 .course-desc-div-two{
   width: 50%;
   padding-left: 5vw;
-  margin-top: 5vw;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .course-ul-title {
-  font-size: 2.5rem;
+  font-size: 2em;
 }
 
 .course-ul{
   padding: .5vw;
   margin-left: 2vw;
-  font-size: 1.4vw;
+  font-size: 0.8em;
 }
 
 .apply-now-size{
