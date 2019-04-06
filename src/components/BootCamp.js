@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import CurriculumSections from './CurriculumSections'
 import MiniBootcampCurriculumSections from './MiniBootcampCurriculumSections'
 import curr_img from '.././images/person-coding.svg'
-import apcs from '.././images/apcs.svg'
+import apcs from '.././images/minibootcamp.svg'
 import {Link} from 'react-router-dom'
 
 class BootCamp extends Component {
