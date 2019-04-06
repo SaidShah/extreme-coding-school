@@ -39,7 +39,7 @@ class ContactUs extends Component {
 
             <a className="no-transition" href="tel:6312133240">
               <h3 className="contact-h3">
-                <strong> 631-213-3240</strong> 
+                <strong> 631-213-3240</strong>
               </h3>
             </a>
 
