@@ -11,6 +11,7 @@ import FrontLogo from '.././images/htmlcssjs.svg'
 import ReactReduxLogo from '.././images/reactredux.svg'
 import JavaRedLogo from '.././images/java-red.svg'
 import JavaOrangeLogo from '.././images/java-orange.svg'
+import Data from '.././images/database.svg'
 import BootcampLogo from '.././images/bootcamp.svg'
 import {Route, Switch} from 'react-router-dom'
 
@@ -191,7 +192,7 @@ class Courses extends Component {
           </div>
           <div className="course-top-left-swap">
             <Fade>
-              <img src={JavaOrangeLogo} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
+              <img src={Data} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
             </Fade>
           </div>
         </div>

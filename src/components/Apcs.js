@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import apcs from '.././images/apcs.svg'
-import apcsTwo from '.././images/apcsTwo.svg'
+import apcs from '.././images/image-ap.jpg'
+import apcsTwo from '.././images/adult_learning.jpg'
 
 const Apcs = () => (
   <div className="course-top-div">
@@ -10,7 +10,7 @@ const Apcs = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={apcs} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"75%", height:"75%"}}/>
+          style={{width:"75%", height:"100%"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
@@ -46,7 +46,7 @@ const Apcs = () => (
       </div>
       <div className="course-image-div">
         <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
-        style={{width:"100%", height:"100%"}}/>
+        style={{width:"75%", height:"100%"}}/>
       </div>
     </div>
 
