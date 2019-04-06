@@ -10,7 +10,7 @@ const ReactRedux = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={react} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%"}}/>
+          style={{width:"50%", height:"100%"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
