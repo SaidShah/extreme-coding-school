@@ -37,10 +37,12 @@ class ApplyForm extends Component {
         this.setState({course: "BootCampTeens"})
       }else if(userCourse==="BootCamp"){
         this.setState({course: "BootCamp"})
-      }else if(userCourse==="javaIntro4MW"){
-        this.setState({course: "javaIntro4MW"})
-      }else if(userCourse==="javaIntro4TTR"){
-        this.setState({course: "javaIntro4TTR"})
+      }else if(userCourse==="javaIntro8MW"){
+        this.setState({course: "javaIntro8MW"})
+      }else if(userCourse==="javaIntro8TTR"){
+        this.setState({course: "javaIntro8TTR"})
+      }else if(userCourse==="javaIntro4ss"){
+        this.setState({course: "javaIntro4ss"})
       }
     }
 
@@ -188,8 +190,9 @@ class ApplyForm extends Component {
                     <option value="dataStructuresMW">Data Structures Mon & Wed 8 Weeks</option>
                     <option value="dataStructuresTR">Data Structures Tues & Thur 8 Weeks</option>
                     <option value="reactRedux">React & Redux Mon & Wed 4 Weeks</option>
-                    <option value="javaIntro4MW">Intro to Java Mon & Wed 4 Weeks</option>
-                    <option value="javaIntro4TTR">Intro to Java Tues & Thurs 4 Weeks</option>
+                    <option value="javaIntro8MW">Intro to Java Mon & Wed 8 Weeks</option>
+                    <option value="javaIntro8TTR">Intro to Java Tues & Thurs 8 Weeks</option>
+                    <option value="javaIntro4ss">Intro to Java Sat & Sun 4 Weeks</option>
                   </select>
                 </label>
 

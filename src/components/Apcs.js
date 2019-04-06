@@ -41,7 +41,7 @@ const Apcs = () => (
           <li className="course-ul">Focus on the basic building blocks of computer science and programming tools. Topics include control structures, primitive and class data types such as arrays, ArrayList and Strings, methods, and recursions.</li>
           <li className="course-ul">Introduction to Java, Strings, Loops, One-Dimensional Arrays and Methods</li>
           <li className="course-ul">Learn how to manipulate data to create more sophisticated programs, with topics including class design, algorithm development and user-defined data types.</li>
-          <li className="course-ul"> User Defined Classes, Advanced Classes, Algorithms, Two-Dimensional Arrays and Exam Preparation</li>
+          <li className="course-ul">User Defined Classes, Advanced Classes, Algorithms, Two-Dimensional Arrays and Exam Preparation</li>
         </ul>
       </div>
       <div className="course-image-div">
@@ -84,7 +84,7 @@ const Apcs = () => (
         <div className="course-double-ul-div course-padding-left">
           <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 weeks</span> </h5>
           <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Saturday & Sunday</span> </h5>
-          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 12:30 pm | 1:00 pm - 5:00 pm</span> </h5>
+          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 3:30 pm </span> </h5>
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 11, 2019</span> </h5>

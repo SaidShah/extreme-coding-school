@@ -1,20 +1,21 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import react from '.././images/react-logo.svg'
-import redux from '.././images/redux-logo.svg'
+import javaPic from '.././images/web-dev-adults-img.jpg'
+import javaPicTwo from '.././images/web-dev-adults-img-two.jpg'
+
 
 const IntroToJava = () => (
   <div className="course-top-div">
     <h1 className="center-text bold-text">Intro To Java</h1>
 
-    <div className="course-div">
+    <div className="course-div" style={{height:"30vw"}}>
       <div className="course-image-div">
-        <img src={react} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%"}}/>
+        <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+          style={{width:"50%", marginTop:"5vw"}}/>
       </div>
-      <div className="course-desc-div">
+      <div className="course-desc-div"   style={{marginTop:"5vw"}}>
         <p className="font-size-1-4 p-desc-width">
-        <strong>React is one of the most popular libraries for JavaScript with over 100,000 stars on Github. It was built as an open source project by Facebook and is the view layer in MVC frameworks. If you know javascript and just want to gain new skills with new technologies, then React-Redux is for you. Learn to build powerful modular web applications. Transfer those skills with React Native and build full functional and native mobile applications. Learn state management with Redux and remove all of the complexity of tracking data. Learn to use the React and Redux devtools to make programming fun and interactive.</strong></p>
+        <strong>The intro to Java course teaches fundamental programming topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions, and ethical and social implications of computing.</strong></p>
       </div>
     </div>
 
@@ -34,34 +35,32 @@ const IntroToJava = () => (
     </div>
 
 
-    <div className="course-div">
+    <div className="course-div" style={{height:"30vw"}}>
       <div className="course-desc-div-two">
         <h4 className="course-ul-title">What you will learn</h4>
         <ul className="course-ul">
-          <li className="course-ul">Learn React Components and related terms like JSX, Babel, Props, State etc... </li>
-          <li className="course-ul">Learn how to build custom reusable React Components</li>
-          <li className="course-ul">Use React-router to build routes for you application</li>
-          <li className="course-ul">Learn to incorporate redux as a layer for state management</li>
-          <li className="course-ul">Incorporate reducers, actions and thunk for fetching from API's</li>
-          <li className="course-ul">Publish React App websites using Node and Firebase</li>
+          <li className="course-ul">Focus on the basic building blocks of computer science and programming tools. Topics include control structures, primitive and class data types such as arrays, ArrayList and Strings, methods, and recursions.</li>
+          <li className="course-ul">Introduction to Java, Strings, Loops, One-Dimensional Arrays and Methods</li>
+          <li className="course-ul">Learn how to manipulate data to create more sophisticated programs, with topics including class design, algorithm development and user-defined data types.</li>
+          <li className="course-ul">User Defined Classes, Advanced Classes, Algorithms, Two-Dimensional Arrays and Exam Preparation</li>
         </ul>
       </div>
       <div className="course-image-div">
-        <img src={redux} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%"}}/>
+        <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
+          style={{width:"50%", marginTop:"4vw"}}/>
       </div>
     </div>
 
     <div className="course-div second-course-div">
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
-          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 weeks</span> </h5>
+          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 weeks</span> </h5>
           <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Monday & Wednesday</span> </h5>
-          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 12:30 pm</span> </h5>
+          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 12:30 pm | 1:00 pm - 5:00 pm</span> </h5>
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 06, 2019</span> </h5>
-        <Link to="/apply/javaIntro4MW" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Java Mon & Wed</Link>
+        <Link to="/apply/javaIntro8MW" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Java Mon & Wed</Link>
         </div>
       </div>
     </div>
@@ -69,13 +68,28 @@ const IntroToJava = () => (
     <div className="course-div second-course-div">
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
-          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 weeks</span> </h5>
-          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Monday & Wednesday</span> </h5>
-          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 12:30 pm</span> </h5>
+          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 weeks</span> </h5>
+          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Tuesday & Thursday</span> </h5>
+          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 12:30 pm | 1:00 pm - 5:00 pm</span> </h5>
         </div>
         <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 06, 2019</span> </h5>
-        <Link to="/apply/javaIntro4TTR" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Java Tues & Thurs</Link>
+        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 07, 2019</span> </h5>
+        <Link to="/apply/javaIntro8TTR" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Java Tues & Thurs</Link>
+        </div>
+      </div>
+    </div>
+
+
+    <div className="course-div second-course-div">
+      <div className="course-ul-div">
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 weeks</span> </h5>
+          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Saturday & Sunday</span> </h5>
+          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 3:30 pm </span> </h5>
+        </div>
+        <div className="course-double-ul-div course-padding-left">
+        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 11, 2019</span> </h5>
+        <Link to="/apply/javaIntro4ss" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Java Tues & Thurs</Link>
         </div>
       </div>
     </div>
