@@ -86,7 +86,7 @@ class Courses extends Component {
       {/* Intro to Java */}
       <div className="intro-java-gradient">
         <h1 className="course-title" style={{color:"white"}}>
-          <strong> Into to Java </strong>
+          <strong> Intro to Java </strong>
         </h1>
         <div className="course-top-half">
           <div className="course-top-right">
