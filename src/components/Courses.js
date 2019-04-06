@@ -92,7 +92,7 @@ class Courses extends Component {
           <div className="course-top-right">
             <Slide left>
               <p className="course-paragraph course-paragraph-left" style={{color:"white"}}>
-                Learn Java, We need more content here
+                In this Introduction to Java Programming training course, you gain extensive hands-on experience writing, compiling, and executing Java programs. You will learn to build robust applications that use Java’s object-oriented features. Java is known for reliability, maintainability, and ease of development.
               </p>
             </Slide>
           </div>
@@ -106,10 +106,13 @@ class Courses extends Component {
         {/*list hidden until mobile*/}
         <ul className="course-list" style={{color:"white"}}>
           <li>
-            Learn complex algorithms to use towards problem solving in the workplace.
+            Design and build robust, object-oriented applications
           </li>
           <li>
-            Understand the importance of data management and data structures.
+            Organize complex data using Java collections
+          </li>
+          <li>
+            Read/write files and handle exceptions
           </li>
           <li>
             Get to know Big O notation and efficicent sorting algorithms.
@@ -361,7 +364,7 @@ class Courses extends Component {
 
         <Fade>
           <div className="course-link-div">
-            <a href={'/courses/bootcampkids'} className="course-link">
+            <a href={'/bootcamp/miniBootcamp'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>

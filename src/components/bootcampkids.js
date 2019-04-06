@@ -14,7 +14,7 @@ const bootcampkids= () => (
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
-        <strong>If you are a beginner to coding, you may take this course. If you’re a high school student who would like to learn web development to make you stand out from the crowd in your college application, take this course to increase the edge and show your passion in Computer Science. If you are an experienced desktop programmer, take this course to get up to speed quickly with web app development. If you are seasoned web developer, this is a fast-track way of learning some of the modern technologies such as HTML5, CSS3, Bootstrap, React, Redux, and Ruby-on-Rails.</strong></p>
+        <strong>If you are a beginner to coding, you may take this course. If you’re a high school student who would like to learn web development to make you stand out from the crowd in your college application, take this course to increase the edge and show your passion in Computer Science. If you are an experienced desktop programmer, take this course to get up to speed quickly with web app development. If you are seasoned web developer, this is a fast-track way of learning some of the modern technologies such as HTML5, CSS3, Bootstrap, Javascript and Ruby-on-Rails.</strong></p>
       </div>
     </div>
 
@@ -43,7 +43,6 @@ const bootcampkids= () => (
           <li className="course-ul">Monday - Friday 9:00 am - 1:00 pm</li>
           <li className="course-ul">Monday - Friday 1:30 pm - 5:30 pm</li>
           <li className="course-ul">Monday - Friday 5:30 pm - 9:30 pm</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
         </ul>
       </div>
       <div className="course-image-div">

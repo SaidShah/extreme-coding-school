@@ -10,11 +10,11 @@ const  Java = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"78%", height:"80%"}}/>
+          style={{width:"60%", height:"80%"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
-          <strong>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit amet, consectetur, adipisci[ng] velit, sed quia non numquam [do] eius modi tempora inci[di]dunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?</strong></p>
+          <strong>You will learn about fundamental data structures, such as lists, stacks, queues and trees, and presents algorithms for inserting, deleting, searching and sorting information on these data structures in an efficient way. Emphasis is put on immediate feedback and on having a fun experience. Programming knowledge is not only useful to be able to program today’s devices such as computers and smartphones. It also opens the door to computational thinking, i.e. the application of computing techniques to every-day processes.</strong></p>
       </div>
     </div>
 
@@ -50,15 +50,15 @@ const  Java = () => (
       <div className="course-desc-div-two">
         <h4 className="course-ul-title">What you will learn</h4>
         <ul className="course-ul">
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
-          <li className="course-ul">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</li>
+          <li className="course-ul">Arrange data on arrays and linked lists using primitive data types and classes.</li>
+          <li className="course-ul">Develop and use linear data structures, such as stacks and queues, implemented with linked lists or arrays.</li>
+          <li className="course-ul">Develop and use non-linear data structures, such as trees, including binary search trees and heaps, implemented with linked lists or arrays.</li>
+          <li className="course-ul">Implement algorithms for the efficient searching and sorting of data.</li>
         </ul>
       </div>
       <div className="course-image-div">
         <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"70%", height:"75%"}}/>
+          style={{width:"60%", height:"75%"}}/>
       </div>
     </div>
 
