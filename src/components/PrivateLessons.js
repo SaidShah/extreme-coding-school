@@ -1,6 +1,6 @@
 import React from 'react';
-import tutor from '.././images/tutor.svg'
-import tutorTwo from '.././images/tutorTwo.svg'
+import tutor from '.././images/private1.jpg'
+import tutorTwo from '.././images/private2.jpg'
 
 const PrivateLessons = () => (
   <div className="course-top-div">
@@ -8,7 +8,8 @@ const PrivateLessons = () => (
 
     <div className="course-div">
       <div className="course-image-div">
-        <img src={tutor} alt="front end web development extreme coding school" className="course-image" style={{width:"50%"}}/>
+        <img src={tutor} alt="front end web development extreme coding school" className="course-image"
+         style={{width:"80%", height:"100%"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4">
@@ -57,7 +58,7 @@ const PrivateLessons = () => (
       </div>
       <div className="course-image-div">
         <img src={tutorTwo} alt="front end web development extreme coding school"
-        className="course-image" style={{width:"45%", height:"100%"}}/>
+        className="course-image" style={{width:"70%", height:"100%"}}/>
       </div>
     </div>
 
