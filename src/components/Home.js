@@ -33,7 +33,7 @@ class Home extends Component {
               <img src={image_one} id="jumbo-image-home" alt="jumbotron " className="jumbo-image"/>
 
               <div className="header-table">
-                <div className="header-img-text center-text white-text" style={{display:"inline-grid"}}>
+                <div className="header-img-text center-text white-text">
                   <h1 className="bold-text-2 white-text">Long Island's Premier Coding School</h1>
                 </div>
 
@@ -76,8 +76,8 @@ class Home extends Component {
                     </div>
                     <div className="column box-border column-mobile" style={{display:"none"}}>
                       <div>
-                        <h5 className="white-letters" style={{fontSize:"155%"}}>What we teach</h5>
-                        <p className="black-letters" style={{fontSize:"150%"}}>
+                        <h5 className="white-letters">What we teach</h5>
+                        <p className="black-letters">
                           We offer many courses here at Extreme. Everything from AP Computer Science A
                           to Full-Stack Web Development. Find them with the button below.
                         </p>

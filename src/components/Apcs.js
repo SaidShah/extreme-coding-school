@@ -46,7 +46,7 @@ const Apcs = () => (
       </div>
       <div className="course-image-div">
         <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
-        style={{width:"75%", height:"100%"}}/>
+        style={{width:"80%", height:"80%"}}/>
       </div>
     </div>
 
