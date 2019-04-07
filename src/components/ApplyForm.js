@@ -125,7 +125,7 @@ class ApplyForm extends Component {
     render() {
 
       return (
-        <form onSubmit={(e)=>this.handleSubmit(e,this.state)} className="form-width" id="apply-now-form">
+        <form onSubmit={(e)=>this.handleSubmit(e,this.state)} className="form-width">
 
           <div className="signup-form">
             <div className="card">

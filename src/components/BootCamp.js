@@ -113,6 +113,7 @@ class BootCamp extends Component {
         bootcamp: !this.state.bootcamp, showingBootcamp: !this.state.showingBootcamp
       })
     }
+    window.scrollTo(0,0)
   }
 
   handleMiniBootcamp=()=>{
@@ -121,10 +122,10 @@ class BootCamp extends Component {
         bootcamp: !this.state.bootcamp, showingBootcamp: !this.state.showingBootcamp
       })
     }
+    window.scrollTo(0,0)
   }
 
   render() {
-    console.log(this.props.trigger, this.state.bootcamp)
     return (
       <>
         <div style={{display:"flex"}}>
