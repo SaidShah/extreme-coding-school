@@ -44,6 +44,7 @@ class ApplyForm extends Component {
       }else if(userCourse==="javaIntro4ss"){
         this.setState({course: "javaIntro4ss"})
       }
+      window.scrollTo(0,0)
     }
 
     handleChange=(e)=>{
@@ -124,7 +125,7 @@ class ApplyForm extends Component {
     render() {
 
       return (
-        <form onSubmit={(e)=>this.handleSubmit(e,this.state)} className="form-width">
+        <form onSubmit={(e)=>this.handleSubmit(e,this.state)} className="form-width" id="apply-now-form">
 
           <div className="signup-form">
             <div className="card">

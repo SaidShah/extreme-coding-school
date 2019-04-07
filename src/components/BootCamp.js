@@ -26,6 +26,8 @@ class BootCamp extends Component {
     document.getElementById("minibootcamp").addEventListener("click",this.handleBootcamp)
     document.getElementById("fullbootcamp").addEventListener("click",this.handleMiniBootcamp)
     }
+
+    window.scrollTo(0,0)
   }
 
 
