@@ -30,7 +30,7 @@ class Footer extends Component {
 
                   <ul className="list-unstyled font-size-1-1">
                     <li>
-                      <a className="no-transition" href="/bootcamp">Bootcamp</a>
+                      <a className="no-transition" href="/bootcamp">Bootcamps</a>
                     </li>
                     <li>
                       <a className="no-transition" href="/courses">Courses</a>
