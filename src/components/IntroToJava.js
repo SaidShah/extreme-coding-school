@@ -8,12 +8,12 @@ const IntroToJava = () => (
   <div className="course-top-div">
     <h1 className="center-text bold-text">Intro To Java</h1>
 
-    <div className="course-div" style={{height:"30vw"}}>
+    <div className="course-div">
       <div className="course-image-div">
         <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%", marginTop:"5vw"}}/>
+          style={{width:"50%", height:"100%"}}/>
       </div>
-      <div className="course-desc-div"   style={{marginTop:"5vw"}}>
+      <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
         <strong>The intro to Java course teaches fundamental programming topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions, and ethical and social implications of computing.</strong></p>
       </div>
@@ -35,7 +35,7 @@ const IntroToJava = () => (
     </div>
 
 
-    <div className="course-div" style={{height:"30vw"}}>
+    <div className="course-div">
       <div className="course-desc-div-two">
         <h4 className="course-ul-title">What you will learn</h4>
         <ul className="course-ul">
@@ -47,7 +47,7 @@ const IntroToJava = () => (
       </div>
       <div className="course-image-div">
         <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%", marginTop:"4vw"}}/>
+          style={{width:"80%", height:"100%"}}/>
       </div>
     </div>
 
