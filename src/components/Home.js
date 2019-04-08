@@ -177,8 +177,8 @@ class Home extends Component {
                     </div>
                   </div>
 
-                  <div>
-                    <hr className="grad-hr" style={{minHeight:"5px", position:"relative", marginBottom:"50px"}}/>
+                  <div className="prog-hr-div" >
+                    <hr className="hr-mobile-change" style={{minHeight:"5px"}}/>
                   </div>
 
                   <div className="move-up">

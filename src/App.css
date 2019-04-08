@@ -213,6 +213,10 @@ button.btn{
   font-size: 1.4vw;
 }
 
+.left-text.skills-paragraph {
+  width: 80%;
+}
+
 .logo-text{
   margin-left: 10px;
   padding-top: 15px;
@@ -353,14 +357,16 @@ button.btn{
 .home-page-ul{
   list-style-type: square;
   list-style-position: outside;
-  margin-left: 0;
+  margin: auto;
+  width: fit-content;
+
 }
 
 .home-page-li{
   word-wrap: break-word;
   text-align: left;
   padding: 5px;
-  font-size: 1.4vw;
+  font-size: 1rem;
 }
 
 .home-page-li-prog{
@@ -373,7 +379,8 @@ button.btn{
 
 .prog-hr-div {
   position: relative;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
+  margin-top: 3%;
 }
 
 
@@ -395,8 +402,10 @@ button.btn{
 .program_image{
   margin-top: auto;
   margin-bottom: auto;
-  float: left;
-  width: 100%;
+  margin-left: auto;
+  float: right;
+  width: auto;
+  height: 100%;
 }
 
 .column-left-side-programming{
@@ -429,9 +438,10 @@ button.btn{
 .graduate_image{
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: auto;
-  float:right;
-  width: 100%;
+  margin-right: auto;
+  float: left;
+  width: auto;
+  height: 100%;
 }
 
 .home-page-ul-grad{
@@ -956,7 +966,7 @@ div.column-about-name {
 
   .skills-paragraph {
     margin:auto;
-    font-size: 2vw;
+    font-size: 1rem;
   }
 
 
@@ -1283,7 +1293,7 @@ div.column-about-name {
 
   .skills-paragraph {
     width: 100%;
-    font-size: 4vw;
+    font-size: 1rem;
   }
 
   .skills-ul-div {
@@ -1299,7 +1309,7 @@ div.column-about-name {
   }
 
   .home-page-li {
-    font-size: 3.7vw;
+    font-size: 1rem;
   }
 
   .column-right-side-programming{
