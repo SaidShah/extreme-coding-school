@@ -82,7 +82,7 @@ class BootCamp extends Component {
           </h2>
           <img alt="curriculum " src={apcs} className="curriculum-image" style={{marginBottom:"2%"}}/>
           <p className="bootcamp-p">Here at Extreme Coding School we want to equip you for continued success even after
-            you graduate as a full-stack developer {/*(change?)*/}. Our mini bootcamp is designed with just this in mind. This
+            you graduate as a front-end developer {/*(change?)*/}. Our mini bootcamp is designed with just this in mind. This
             pared down version, covering the first three modules of our full bootcamp offers you the tools and knowledge
             you need to get started on your coding journey. {/*(something bit more specific here?)*/}
           </p>
