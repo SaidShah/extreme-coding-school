@@ -29,6 +29,10 @@
   outline: none;
 }
 
+.middle-div {
+  margin-bottom: 5%;
+}
+
 .dropdown-toggle::after {
   vertical-align: middle;
 }
@@ -677,7 +681,7 @@ div.column-about-name {
 }
 
 .about-p{
-  font-size: 1.2vw;
+  font-size: 1rem;
   padding-left: 20px;
   padding-right: 10px;
   margin-right: 20vw;
@@ -1127,7 +1131,7 @@ div.column-about-name {
   }
 
   .about-p{
-    font-size: 3vw;
+    font-size: 1rem;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 7.5vw;
