@@ -5,6 +5,8 @@ import MiniBootcampCurriculumSections from './MiniBootcampCurriculumSections'
 import curr_img from '.././images/person-coding.svg'
 import apcs from '.././images/minibootcamp.svg'
 import {Link} from 'react-router-dom'
+import MiniBootcampMoreInfo from "./MiniBootcampMoreInfo";
+import BootcampMoreInfo from "./BootcampMoreInfo";
 
 class BootCamp extends Component {
 
@@ -59,12 +61,7 @@ class BootCamp extends Component {
           <hr/>
           <CurriculumSections />
           <hr/>
-          <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>Schedule</h2>
-          <p className="bootcamp-p">This is Bootcamp schedule.</p>
-          <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Prerequisites</h2>
-          <p className="bootcamp-p">Those who wish to take this course must first pass a coding challenge.</p>
-          <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Tuition</h2>
-          <p className="bootcamp-p">$9000</p>
+          <BootcampMoreInfo/>
         </div>
         <Link to="/apply/BootCamp" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
           Apply Now Full Stack Coding Bootcamp
@@ -102,12 +99,7 @@ class BootCamp extends Component {
           <hr/>
           <MiniBootcampCurriculumSections />
           <hr/>
-          <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>Schedule</h2>
-          <p className="bootcamp-p">This is Bootcamp schedule.</p>
-          <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Prerequisites</h2>
-          <p className="bootcamp-p">Those who wish to take this course must first pass a coding challenge.</p>
-          <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Tuition</h2>
-          <p className="bootcamp-p">$4900</p>
+          <MiniBootcampMoreInfo/>
 
         </div>
         <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Mini-Bootcamp</Link>
