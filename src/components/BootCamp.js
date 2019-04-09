@@ -4,7 +4,6 @@ import CurriculumSections from './CurriculumSections'
 import MiniBootcampCurriculumSections from './MiniBootcampCurriculumSections'
 import curr_img from '.././images/person-coding.svg'
 import apcs from '.././images/minibootcamp.svg'
-import {Link} from 'react-router-dom'
 import BootcampMoreInfo from "./BootcampMoreInfo";
 
 class BootCamp extends Component {
