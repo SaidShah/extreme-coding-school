@@ -5,11 +5,9 @@ import MiniBootcampCurriculumSections from './MiniBootcampCurriculumSections'
 import curr_img from '.././images/person-coding.svg'
 import apcs from '.././images/minibootcamp.svg'
 import {Link} from 'react-router-dom'
-import MiniBootcampMoreInfo from "./MiniBootcampMoreInfo";
 import BootcampMoreInfo from "./BootcampMoreInfo";
 
 class BootCamp extends Component {
-
   state={
     bootcamp: true,
     showingBootcamp: true
@@ -61,7 +59,7 @@ class BootCamp extends Component {
           <hr/>
           <CurriculumSections />
           <hr/>
-          <BootcampMoreInfo/>
+          <BootcampMoreInfo tuition = {"$9000"} schedule = {"This is Schedule"}/>
         </div>
         <Link to="/apply/BootCamp" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
           Apply Now Full Stack Coding Bootcamp
@@ -99,7 +97,7 @@ class BootCamp extends Component {
           <hr/>
           <MiniBootcampCurriculumSections />
           <hr/>
-          <MiniBootcampMoreInfo/>
+          <BootcampMoreInfo tuition = {"$4900"} schedule = {"This is Schedule"}/>
 
         </div>
         <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Mini-Bootcamp</Link>
