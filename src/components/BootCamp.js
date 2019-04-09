@@ -61,9 +61,24 @@ class BootCamp extends Component {
           <hr/>
           <BootcampMoreInfo tuition = {"$9000"} schedule = {"This is Schedule"}/>
         </div>
-        <Link to="/apply/BootCamp" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
-          Apply Now Full Stack Coding Bootcamp
-        </Link>
+
+        <div className="course-div second-course-div">
+          <div className="course-ul-div">
+            <div className="course-double-ul-div course-padding-left">
+              <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 weeks</span> </h5>
+              <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Saturday & Sunday</span> </h5>
+              <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 3:30 pm </span> </h5>
+            </div>
+            <div className="course-double-ul-div course-padding-left">
+            <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 11, 2019</span> </h5>
+              <Link to="/apply/BootCamp" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
+                Apply Now Full Stack Coding Bootcamp
+              </Link>
+            </div>
+          </div>
+        </div>
+
+
 
       </div>
 
@@ -100,7 +115,23 @@ class BootCamp extends Component {
           <BootcampMoreInfo tuition = {"$4900"} schedule = {"This is Schedule"}/>
 
         </div>
-        <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Mini-Bootcamp</Link>
+
+        <div className="course-div second-course-div">
+          <div className="course-ul-div">
+            <div className="course-double-ul-div course-padding-left">
+              <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 weeks</span> </h5>
+              <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Saturday & Sunday</span> </h5>
+              <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 3:30 pm </span> </h5>
+            </div>
+            <div className="course-double-ul-div course-padding-left">
+              <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 11, 2019</span> </h5>
+              <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
+                Apply Now Mini-Bootcamp
+              </Link>
+            </div>
+          </div>
+        </div>
+
 
       </div>
 
@@ -128,7 +159,7 @@ class BootCamp extends Component {
     return (
       <>
         <div style={{display:"flex"}}>
-          <div style={{display:"inline-flex", width:"fit-content", margin:"auto", marginTop:"2%"}}>
+          <div className="bootcamp-buttons">
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleMiniBootcamp}>View Full Bootcamp</button>
             <button id="bootcampButton" className="btn boot-button" onClick={this.handleBootcamp}>View Mini-Bootcamp</button>
           </div>
