@@ -1003,7 +1003,7 @@ div.column-about-name {
   }
 
   .left-text.p-width{
-    width: 90;
+    width: 90%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -1292,7 +1292,7 @@ div.column-about-name {
     margin-bottom: 0px;
   }
 
-  ..bold-text{
+  .bold-text{
     padding: 5px;
   }
 
@@ -1610,6 +1610,4 @@ div.column-about-name {
   }
 
 }
-
-
 html { font-size:100%;}
