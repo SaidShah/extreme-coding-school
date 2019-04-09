@@ -56,14 +56,15 @@ class BootCamp extends Component {
             Coding School you'll gain a wide set of technical skills, put them in action,
             and complete the program with an array of projects, and an impressive portfolio that will help you land your dream job.
           </p>
+          <hr/>
+          <CurriculumSections />
+          <hr/>
+          <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>Schedule</h2>
+          <p className="bootcamp-p">This is Bootcamp schedule.</p>
           <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Prerequisites</h2>
           <p className="bootcamp-p">Those who wish to take this course must first pass a coding challenge.</p>
           <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Tuition</h2>
           <p className="bootcamp-p">$9000</p>
-          <hr/>
-
-
-          <CurriculumSections />
         </div>
         <Link to="/apply/BootCamp" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
           Apply Now Full Stack Coding Bootcamp
@@ -98,14 +99,16 @@ class BootCamp extends Component {
             12 weeks at Extreme Coding School you'll develop a wide set of technical skills that you can put into action,
             and begin putting together a portfolio that can help you land your dream job.
           </p>
+          <hr/>
+          <MiniBootcampCurriculumSections />
+          <hr/>
+          <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>Schedule</h2>
+          <p className="bootcamp-p">This is Bootcamp schedule.</p>
           <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Prerequisites</h2>
           <p className="bootcamp-p">Those who wish to take this course must first pass a coding challenge.</p>
           <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Tuition</h2>
           <p className="bootcamp-p">$4900</p>
-          <hr/>
 
-
-          <MiniBootcampCurriculumSections />
         </div>
         <Link to="/apply/bootcampTeens" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Mini-Bootcamp</Link>
 
