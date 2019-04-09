@@ -98,6 +98,10 @@ class BootCamp extends Component {
             12 weeks at Extreme Coding School you'll develop a wide set of technical skills that you can put into action,
             and begin putting together a portfolio that can help you land your dream job.
           </p>
+          <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Prerequisites</h2>
+          <p className="bootcamp-p">Those who wish to take this course must first pass a coding challenge.</p>
+          <h2 className = "blue-text bold-text" style={{marginBottom:"2%"}}>Tuition</h2>
+          <p className="bootcamp-p">$4900</p>
           <hr/>
 
 
