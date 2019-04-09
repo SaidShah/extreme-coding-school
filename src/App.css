@@ -1167,6 +1167,24 @@ div.column-about-name {
   }
 }
 
+@media screen and (max-width: 680px) {
+  .jumbo-image {
+    height: 45rem;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .jumbo-image {
+    height: 50rem;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .jumbo-image {
+    height: 52rem;
+  }
+}
+
 
 @media screen and (max-width: 530px) {
   #primary { width:100%; }
@@ -1557,7 +1575,7 @@ div.column-about-name {
   }
 
   .jumbo-image {
-    height: 550px;
+    height: 32rem;
   }
 
   .course-private-paragraph {
