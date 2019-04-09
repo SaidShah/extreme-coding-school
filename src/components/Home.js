@@ -104,7 +104,7 @@ class Home extends Component {
                   <h2 className="blu-text bold-text home-page-ul-header-h2">
                     Why Extreme?
                   </h2>
-                  <p className="left-text skills-paragraph" style={{marginTop:"3%"}}>
+                  <p className="left-text skills-paragraph " style={{marginTop:"3%"}}>
                     At Extreme, we believe that practical skills are just as valuable as
                     theoretical knowledge. With this in mind, we
                     strive to teach students about what they
@@ -163,7 +163,7 @@ class Home extends Component {
 
                       <div className="column-right-side-programming">
 
-                        <p className="left-text skills-paragraph">
+                        <p className="left-text skills-paragraph right-skills-p">
                           We started Extreme because we noticed a severe lack in the way universities are teaching Computer Science.
                           Modern businesses are actively looking for individuals who can hit the ground running as soon
                           as they're hired. But universities are not properly preparing their students for this atmosphere.
@@ -187,7 +187,7 @@ class Home extends Component {
                       <div className="home-para-div" style={{display:"flex", margin:"auto"}}>
                         <div className="column-left-side-graduate">
 
-                          <p className="left-text skills-paragraph">
+                          <p className="left-text skills-paragraph left-skills-p">
                             If you're looking to learn the skills needed to be considered a full-stack developer,
                             then Extreme is for you. Whether you want to finish our program as fast as possible or
                             have a busy schedule that prevents you from commiting a myriad of hours per week; we accomodate
