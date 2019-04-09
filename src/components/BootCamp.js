@@ -34,7 +34,7 @@ class BootCamp extends Component {
   showBootcamp=()=>{
     return (<div>
 
-      <div className="padding-after-jumbotron row center-text">
+      <div className="padding-after-jumbotron center-text">
 
 
         <div className="column-right-side ">
@@ -88,7 +88,7 @@ class BootCamp extends Component {
   showMiniBootcamp=()=>{
     return (<div>
 
-      <div className="padding-after-jumbotron row center-text">
+      <div className="padding-after-jumbotron center-text">
 
 
         <div className="column-right-side ">
