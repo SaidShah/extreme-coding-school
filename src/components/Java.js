@@ -10,7 +10,7 @@ const  Java = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"60%", height:"80%"}}/>
+          style={{width:"25rem", height:"20rem"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
@@ -58,7 +58,7 @@ const  Java = () => (
       </div>
       <div className="course-image-div">
         <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"60%", height:"75%"}}/>
+          style={{width:"25rem", height:"20rem"}}/>
       </div>
     </div>
 

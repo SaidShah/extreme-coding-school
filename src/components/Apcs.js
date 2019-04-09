@@ -10,7 +10,7 @@ const Apcs = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={apcs} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"75%", height:"100%"}}/>
+          style={{width:"25rem", height:"20rem"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
@@ -46,7 +46,7 @@ const Apcs = () => (
       </div>
       <div className="course-image-div">
         <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
-        style={{width:"80%", height:"80%"}}/>
+        style={{width:"30rem", height:"25rem"}}/>
       </div>
     </div>
 

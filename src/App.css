@@ -238,6 +238,7 @@ button.btn{
   height: fit-content;
   width: 100%;
   filter: brightness(40%);
+  height: 40rem;
 }
 
 .header-img-container{
@@ -821,10 +822,15 @@ div.column-about-name {
   display: flex;
 }
 
+.course-desc-uno {
+  width: 80%;
+}
+
 .course-ul-div {
   width:90%;
   margin:auto;
   display: flex;
+  float: right;
 }
 
 .course-double-ul-div {
@@ -876,13 +882,16 @@ div.column-about-name {
 }
 
 .course-ul-title {
+  text-align: center;
   font-size: 2rem;
 }
 
 .course-ul{
   padding: .5vw;
-  margin-left: 2vw;
   font-size: 1rem;
+  margin: auto;
+  width: fit-content;
+  width: 100%;
 }
 
 .apply-now-size{
@@ -894,8 +903,8 @@ div.column-about-name {
 }
 
 .p-desc-width{
-  width: 85%;
-  text-align: justify;
+  width: 75%;
+  margin:auto;
 }
 
 
@@ -988,7 +997,7 @@ div.column-about-name {
 
 
   .jumbo-image {
-    height: 730px;
+    height: 48rem;
   }
 
   .image-box {
@@ -1106,6 +1115,10 @@ div.column-about-name {
 
   .font-size-1-5 {
     font-size: 1.1rem;
+  }
+
+  .jumbo-image {
+    height: 40rem;
   }
 
   .contact-h3 {
@@ -1499,14 +1512,14 @@ div.column-about-name {
   }
 
   .course-ul {
-    font-size: 4vw;
+    font-size: 1rem;
   }
 
   .p-desc-width {
     width: 90%;
     margin:auto;
     margin-bottom: 10%;
-    font-size: 4vw;
+    font-size: 1rem;
   }
 
   .jumbo-image {
