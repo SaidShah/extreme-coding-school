@@ -15,11 +15,11 @@ const Frontend = () => (
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
           <strong> If you would like to learn a set of highly marketable skills in web development in a short period of time,
-          then this Web Development crash course might just be the right path for you.
-          We provide two options: two days a week for four weeks at 8 hours per day, or two days a week for 8 weeks at 4 hours per day. 
-          You will be immersed in learning a complete set of web technologies hands-on, guided by our instructors.
-          By the end of the course, you will have built several individual and group web apps to showcase your
-          skills.
+            then this Web Development crash course might just be the right path for you.
+            We provide two options: two days a week for four weeks at 8 hours per day, or two days a week for 8 weeks at 4 hours per day.
+            You will be immersed in learning a complete set of web technologies hands-on, guided by our instructors.
+            By the end of the course, you will have built several individual and group web apps to showcase your
+            skills.
           </strong>
         </p>
       </div>
@@ -55,13 +55,15 @@ const Frontend = () => (
 
     <div className="course-div">
       <div className="course-desc-div-two">
-        <h4 className="course-ul-title" >What you will learn:</h4>
-        <ul className="course-ul">
-          <li className="course-ul">How to design and build static websites with just HTML</li>
-          <li className="course-ul">How to incorporate CSS and Bootstrap to make fancy creative websites and more...</li>
-          <li className="course-ul">Incorporate JavaScript to make dynamic multi-functional websites and more... </li>
-          <li className="course-ul">RESTful routes and API's to get data for you websites and more....</li>
-        </ul>
+        <div>
+          <h4 className="course-ul-title" >What you will learn:</h4>
+          <ul className="course-ul">
+            <li className="course-ul">How to design and build static websites with just HTML</li>
+            <li className="course-ul">How to incorporate CSS and Bootstrap to make fancy creative websites and more...</li>
+            <li className="course-ul">Incorporate JavaScript to make dynamic multi-functional websites and more... </li>
+            <li className="course-ul">RESTful routes and API's to get data for you websites and more....</li>
+          </ul>
+        </div>
       </div>
       <div className="course-image-div">
         <img src={frontEndTwo} alt="front end web development extreme coding school" className="course-image"
@@ -116,9 +118,6 @@ const Frontend = () => (
 
       </div>
     </div>
-
-
-
 
   </div>
 );
