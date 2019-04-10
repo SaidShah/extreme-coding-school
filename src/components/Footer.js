@@ -84,9 +84,9 @@ class Footer extends Component {
               </div>
 
             </div>
-            <a className="no-transition" href="https://goo.gl/maps/z6EYdnYBwg12" target="_blank" rel="noopener noreferrer">
+            <a className="no-transition" href="https://goo.gl/maps/gtGC2NjrCv32" target="_blank" rel="noopener noreferrer">
               <p className="no-transition font-size-1-5" style={{textAlign:"center"}}>
-                207 Hallock Road, Stony Brook, NY 11790
+                207 Hallock Road Suite 2F, Stony Brook, NY 11790
               </p>
             </a>
           </div>
