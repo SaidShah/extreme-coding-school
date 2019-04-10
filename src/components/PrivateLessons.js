@@ -49,7 +49,7 @@ const PrivateLessons = () => (
     <div className="course-div">
       <div className="course-desc-div-two">
         <h4 className="course-ul-title">What we Tutor</h4>
-        <p>We tutor any of the courses taught at our school. We also may be willing to teach other topics on a case by case basis</p>
+        <p className="font-size-1-4 p-desc-width">We tutor any of the courses taught at our school. We also may be willing to teach other topics on a case by case basis</p>
       </div>
       <div className="course-image-div">
         <img src={tutorTwo} alt="front end web development extreme coding school"
