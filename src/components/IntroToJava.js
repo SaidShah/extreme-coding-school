@@ -11,7 +11,7 @@ const IntroToJava = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%", height:"100%"}}/>
+          style={{width:"30rem", height:"20rem"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
@@ -47,7 +47,7 @@ const IntroToJava = () => (
       </div>
       <div className="course-image-div">
         <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"80%", height:"100%"}}/>
+          style={{width:"30rem", height:"25rem"}}/>
       </div>
     </div>
 

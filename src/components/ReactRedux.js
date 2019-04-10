@@ -10,7 +10,7 @@ const ReactRedux = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={react} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%", height:"100%"}}/>
+          style={{width:"30rem", height:"20rem"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
@@ -48,7 +48,7 @@ const ReactRedux = () => (
       </div>
       <div className="course-image-div">
         <img src={redux} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"50%"}}/>
+          style={{width:"30rem", height:"20rem"}}/>
       </div>
     </div>
 
