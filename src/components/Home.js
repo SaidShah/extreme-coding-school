@@ -46,9 +46,9 @@ class Home extends Component {
                         <div>
                           <h5 className="white-letters font-size-1-6">Front-End Development</h5>
                           <p className="black-letters font-size-1-5">
-                            Learn how to develop professional websites that are
-                            adaptive and reactive with HTML5, CSS3, and Javascript.
-                            Make use of modern web frameworks including Bootstrap.
+                            Learn how to develop professional and adaptive websites
+                            with HTML5, CSS3, and JavaScript.
+                            Make use of modern web frameworks like Bootstrap.
                           </p>
                         </div>
                       </div>
@@ -68,7 +68,7 @@ class Home extends Component {
                           <h5 className="white-letters font-size-1-6">Mini-Bootcamp</h5>
                           <p className="black-letters font-size-1-5">
                             Don't have time for the Full Bootcamp but you still want to learn Full-Stack
-                            Development?  We offer a Mini-Bootcamp that is lighter and
+                            Development?  We offer a Mini-Bootcamp that's lighter and
                             requires less time in the classroom.
                           </p>
                         </div>
