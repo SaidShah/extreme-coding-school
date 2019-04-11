@@ -14,8 +14,7 @@ const PrivateLessons = () => (
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
         <strong>We tutor any of the courses taught at our school. We also may be willing to teach other topics on a case
-          by case basis. While there are no official prerequisites, if you wanted to learn about data structures,
-          for example, you should have a basic understanding of ___. To schedule a time for tutoring, please contact us at placeholder.  </strong> </p>
+          by case basis. To schedule a time for tutoring, please contact us at placeholder.  </strong> </p>
       </div>
     </div>
 
