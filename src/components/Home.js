@@ -59,7 +59,7 @@ class Home extends Component {
                           <p className="black-letters font-size-1-5">
                             Ace the AP Computer Science A exam with ease! In our AP course, you will
                             learn all necessary topics in a small, immersive, and personal
-                            class setting akin to a high school classroom.
+                            class setting.
                           </p>
                         </div>
                       </div>
