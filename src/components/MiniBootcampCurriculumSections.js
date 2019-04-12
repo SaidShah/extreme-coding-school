@@ -71,7 +71,7 @@ const MiniBootcampCurriculumSections = () => (
         <div className="row">
           <div className="column-left curriculum-text">
             <h4 className="curriculum-h4">Description:</h4>
-            <p>Learn and understand functional programming with JavaScript which is crucal for front-end devs. Dive into detail about how the browser works and what exactly the source code comprising a web page does. Learn how to communicate with other systems to enable you to do even more with yours.</p>
+            <p>Learn and understand functional programming with JavaScript which is crucial for front-end devs. Dive into detail about how the browser works and what exactly the source code comprising a web page does. Learn how to communicate with other systems to enable you to do even more with yours.</p>
 
           </div>
             <div className="column-right curriculum-text">
