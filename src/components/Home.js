@@ -190,7 +190,7 @@ class Home extends Component {
                           <p className="left-text skills-paragraph left-skills-p">
                             If you're looking to learn the skills needed to be considered a full-stack developer,
                             then Extreme is for you. Whether you want to finish our program as fast as possible or
-                            have a busy schedule that prevents you from committing a myriad of hours per week; we accomodate
+                            have a busy schedule that prevents you from committing a myriad of hours per week; we accommodate
                             for both with our main bootcamp and a mini-bootcamp. Or maybe you're looking to learn just one
                             or a few of the courses that we offer. For that, we have you covered as we offer what
                             makes up our bootcamps as individual courses so you can learn exactly what you need and nothing else.
