@@ -106,7 +106,7 @@ class CurriculumSections extends PureComponent {
 
             <div className="tab">
               <input id="tab-four" type="checkbox" name="tabs"/>
-              <label htmlFor="tab-four" className="curriculum-label">Module 4: Dive into React, Redux and Json Web Tokens</label>
+              <label htmlFor="tab-four" className="curriculum-label">Module 4: Dive into React, Redux and JSON Web Tokens</label>
               <label htmlFor="tab-four" className="curriculum-label-mobile">Module 4: React, Redux and JSON Web Tokens</label>
               <hr className="curriculum-hr"/>
               <div className="tab-content">
