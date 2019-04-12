@@ -89,7 +89,7 @@ const IntroToJava = () => (
         </div>
         <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 11, 2019</span> </h5>
-        <Link to="/apply/javaIntro4ss" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Java Tues & Thurs</Link>
+        <Link to="/apply/javaIntro4ss" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Sat & Sun</Link>
         </div>
       </div>
     </div>
