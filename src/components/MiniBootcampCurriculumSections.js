@@ -78,10 +78,10 @@ const MiniBootcampCurriculumSections = () => (
 
             <h4 className="curriculum-h4">What You Will Learn:</h4>
             <ul>
-              <li>Learn different approaches to the object model, javaScript syntax and functional architecture</li>
+              <li>Learn different approaches to the object model, JavaScript syntax and functional architecture</li>
               <li>Manipulate the DOM and use one of the webs most famous frameworks, jQuery.</li>
               <li>Manipulate webpages with event listeners and events</li>
-              <li>Build full-stack Javascript web applications from end-to-end with JavaScript and your knowledge of Rails</li>
+              <li>Build full-stack JavaScript web applications from end-to-end with JavaScript and your knowledge of Rails</li>
               <li>Build real-time web application servers with Node and Express frameworks</li>
             </ul>
 
