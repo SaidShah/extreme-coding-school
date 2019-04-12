@@ -90,7 +90,7 @@ class BootCamp extends Component {
             how to learn so you can continue growing your skills in the years to come.
           </p>
           <p className="bootcamp-p">We believe in an approach that is very hands on, so be prepared to code! During your
-            12 weeks at Extreme Coding School you'll develop a wide set of technical skills that you can put into action,
+            8 weeks at Extreme Coding School you'll develop a wide set of technical skills that you can put into action,
             and begin putting together a portfolio that can help you land your dream job.
           </p>
           <hr/>
