@@ -164,14 +164,14 @@ class Home extends Component {
                       <div className="column-right-side-programming">
 
                         <p className="left-text skills-paragraph right-skills-p">
-                          We started Extreme because we noticed a severe lack in the way universities are teaching Computer Science.
+                          We started Extreme because we noticed a severe deficit in the way universities are teaching Computer Science.
                           Modern businesses are actively looking for individuals who can hit the ground running as soon
                           as they're hired. But universities are not properly preparing their students for this atmosphere.
                           Instead, they focus on pure fundamentals and theory but rarely delve into modern applications of what
                           is being taught. We design our courses with this in mind and offer students the best of both worlds; a solid foundation
                           built on theory and modern methods being utilized by today's largest and most rapidly growing businesses. Our courses will
                           have you complete projects that you can proudly show off on your résumé to prove that you have the skills businesses
-                          are loooking for and the fundamentals to back them up.
+                          are looking for and the fundamentals to back them up.
                         </p>
                       </div>
                     </div>
@@ -190,7 +190,7 @@ class Home extends Component {
                           <p className="left-text skills-paragraph left-skills-p">
                             If you're looking to learn the skills needed to be considered a full-stack developer,
                             then Extreme is for you. Whether you want to finish our program as fast as possible or
-                            have a busy schedule that prevents you from commiting a myriad of hours per week; we accomodate
+                            have a busy schedule that prevents you from committing a myriad of hours per week; we accomodate
                             for both with our main bootcamp and a mini-bootcamp. Or maybe you're looking to learn just one
                             or a few of the courses that we offer. For that, we have you covered as we offer what
                             makes up our bootcamps as individual courses so you can learn exactly what you need and nothing else.
