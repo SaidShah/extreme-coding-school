@@ -164,7 +164,7 @@ class Home extends Component {
                       <div className="column-right-side-programming">
 
                         <p className="left-text skills-paragraph right-skills-p">
-                          We started Extreme because we noticed a severe deficit in the way universities are teaching Computer Science.
+                          We started Extreme because we noticed a deficit in the way universities are teaching Computer Science.
                           Modern businesses are actively looking for individuals who can hit the ground running as soon
                           as they're hired. But universities are not properly preparing their students for this atmosphere.
                           Instead, they focus on pure fundamentals and theory but rarely delve into modern applications of what
