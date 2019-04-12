@@ -151,7 +151,7 @@ class CurriculumSections extends PureComponent {
                       <li>Understand how to search for data with depth first search, breadth first search and more</li>
                       <li>Learn how to sort small and large data sets by implementing sorting algorithms</li>
                       <li>Understand which data structures to use based on the given problem to come up with the most efficient solution</li>
-                      <li>Learn about space and time complexities as well as Big-O </li>
+                      <li>Learn about space and time complexities as well as Big O </li>
                     </ul>
 
                   </div>
