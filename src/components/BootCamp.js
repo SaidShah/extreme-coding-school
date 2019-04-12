@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 import CurriculumSections from './CurriculumSections'
 import MiniBootcampCurriculumSections from './MiniBootcampCurriculumSections'
-import curr_img from '.././images/person-coding.svg'
-import apcs from '.././images/minibootcamp.svg'
+import curr_img from '.././images/person-coding.jpg'
+import apcs from '.././images/minibootcamp.jpg'
 import BootcampMoreInfo from "./BootcampMoreInfo";
 
 class BootCamp extends Component {
