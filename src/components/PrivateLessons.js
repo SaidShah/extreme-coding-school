@@ -30,7 +30,7 @@ const PrivateLessons = () => (
       </div>
       <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Contact:
-          <a href={"mailto:tutoring@extremecodingschool.com"} className="not-bold-text"> tutoring@extremecodingschool.com</a>
+          <a href={"mailto:tutoring@extremecodingschool.com"} className="not-bold-text white-text"> tutoring@extremecodingschool.com</a>
         </h5>
       </div>
     </div>
