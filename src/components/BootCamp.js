@@ -58,7 +58,7 @@ class BootCamp extends Component {
           <hr/>
           <CurriculumSections />
         </div>
-        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {"$9000"} schedule = {"Saturday & Sunday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCamp"}/>
+        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {"$9000"} schedule = {"Monday - Friday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCamp"}/>
 
 
 
