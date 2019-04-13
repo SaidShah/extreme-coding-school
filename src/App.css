@@ -113,6 +113,10 @@ button.btn{
   transition: none !important;
 }
 
+.social-media-icon-class{
+  display: none;
+}
+
 .sm-padding{
   font-weight: bold;
 }

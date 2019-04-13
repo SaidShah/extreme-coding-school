@@ -23,9 +23,14 @@ class App extends Component {
     trigger: false
   }
 
+  componentDidMount() {
+  document.getElementById("socialMediaImage").className = "social-media-icon-class"
+  }
+
   render() {
     return (
       <div >
+
       <img src={social} className="social-media-logo" alt="how did you see this" />
         <div className="middle-div">
           <div className="body-content">
