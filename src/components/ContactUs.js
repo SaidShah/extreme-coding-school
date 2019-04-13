@@ -16,6 +16,13 @@ class ContactUs extends Component {
 
             <a className="no-transition" href="mailto:admissions@extremecodingschool.com">
               <h3 className="contact-h3" style={{marginBottom: "1%"}}>
+                <strong> Tutoring </strong> -
+                tutoring@extremecodingschool.com
+              </h3>
+            </a>
+
+            <a className="no-transition" href="mailto:admissions@extremecodingschool.com">
+              <h3 className="contact-h3" style={{marginBottom: "1%"}}>
                 <strong> Admissions </strong> -
                 admissions@extremecodingschool.com
               </h3>

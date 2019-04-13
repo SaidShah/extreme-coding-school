@@ -84,17 +84,17 @@ class CurriculumSections extends PureComponent {
                 <div className="row">
                   <div className="column-left curriculum-text">
                     <h4 className="curriculum-h4">Description:</h4>
-                    <p>Learn and understand functional programming with JavaScript which is crucal for front-end devs. Dive into detail about how the browser works and what exactly the source code comprising a web page does. Learn how to communicate with other systems to enable you to do even more with yours.</p>
+                    <p>Learn and understand functional programming with JavaScript which is crucial for front-end devs. Dive into detail about how the browser works and what exactly the source code comprising a web page does. Learn how to communicate with other systems to enable you to do even more with yours.</p>
 
                   </div>
                   <div className="column-right curriculum-text">
 
                     <h4 className="curriculum-h4">What You Will Learn:</h4>
                     <ul>
-                      <li>Learn different approaches to the object model, javaScript syntax and functional architecture</li>
+                      <li>Learn different approaches to the object model, JavaScript syntax and functional architecture</li>
                       <li>Manipulate the DOM and use one of the webs most famous frameworks, jQuery.</li>
                       <li>Manipulate webpages with event listeners and events</li>
-                      <li>Build full-stack Javascript web applications from end-to-end with JavaScript and your knowledge of Rails</li>
+                      <li>Build full-stack JavaScript web applications from end-to-end with JavaScript and your knowledge of Rails</li>
                       <li>Build real-time web application servers with Node and Express frameworks</li>
                     </ul>
 
@@ -106,7 +106,7 @@ class CurriculumSections extends PureComponent {
 
             <div className="tab">
               <input id="tab-four" type="checkbox" name="tabs"/>
-              <label htmlFor="tab-four" className="curriculum-label">Module 4: Dive into React, Redux and Json Web Tokens</label>
+              <label htmlFor="tab-four" className="curriculum-label">Module 4: Dive into React, Redux and JSON Web Tokens</label>
               <label htmlFor="tab-four" className="curriculum-label-mobile">Module 4: React, Redux and JSON Web Tokens</label>
               <hr className="curriculum-hr"/>
               <div className="tab-content">
@@ -141,17 +141,17 @@ class CurriculumSections extends PureComponent {
                 <div className="row">
                   <div className="column-left curriculum-text">
                     <h4 className="curriculum-h4">Description:</h4>
-                    <p>To understand the ramifications of how data is stored and accesed, students build their knowledge of Stacks, Queues, Trees and Graphs. Gain a thorough understanding of Big O while implementing the most popular sorting and searching algorithms.</p>
+                    <p>To understand the ramifications of how data is stored and accessed, students build their knowledge of Stacks, Queues, Trees and Graphs. Gain a thorough understanding of Big O while implementing the most popular sorting and searching algorithms.</p>
 
                   </div>
                   <div className="column-right curriculum-text">
 
                     <h4 className="curriculum-h4">What You Will Learn:</h4>
                     <ul>
-                      <li>Understand how to search for data with depth first search, breath first search and more</li>
+                      <li>Understand how to search for data with depth first search, breadth first search and more</li>
                       <li>Learn how to sort small and large data sets by implementing sorting algorithms</li>
                       <li>Understand which data structures to use based on the given problem to come up with the most efficient solution</li>
-                      <li>Learn about space and time complexities as well as Big-O </li>
+                      <li>Learn about space and time complexities as well as Big O </li>
                     </ul>
 
                   </div>
