@@ -36,9 +36,9 @@ class Courses extends Component {
 
       {/* Front End */}
       <div style={{background:"#7fc6ff"}}>
-        <h1 className="course-title">
+        <h3 className="course-title">
           <strong> Web Development </strong>
-        </h1>
+        </h3>
         <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
             <Fade>
@@ -85,9 +85,9 @@ class Courses extends Component {
 
       {/* Intro to Java */}
       <div className="intro-java-gradient">
-        <h1 className="course-title" style={{color:"white"}}>
+        <h3 className="course-title" style={{color:"white"}}>
           <strong> Intro to Java </strong>
-        </h1>
+        </h3>
         <div className="course-top-half">
           <div className="course-top-right">
             <Slide left>
@@ -132,9 +132,9 @@ class Courses extends Component {
 
       {/* React and Redux */}
       <div style={{background:"#282c34"}}>
-        <h1 className="course-title" style={{color:"#61dafb"}}>
+        <h3 className="course-title" style={{color:"#61dafb"}}>
           <strong> React and Redux </strong>
-        </h1>
+        </h3>
         <div className="course-top-half">
 
 
@@ -179,9 +179,9 @@ class Courses extends Component {
 
       {/* AP CS Java */}
       <div style={{background:""}}>
-        <h2 className="course-title" style={{color:""}}>
+        <h3 className="course-title" style={{color:""}}>
           <strong> AP Computer Science A </strong>
-        </h2>
+        </h3>
         <div className="course-top-half">
           <div className="course-top-left">
             <Fade>
@@ -226,9 +226,9 @@ class Courses extends Component {
 
       {/* Java DATASTRUCT */}
       <div className="java-gradient">
-        <h1 className="course-title" style={{color:"white"}}>
+        <h3 className="course-title" style={{color:"white"}}>
           <strong> Data Structures and Algorithms with Java </strong>
-        </h1>
+        </h3>
         <div className="course-top-half">
           <div className="course-top-right">
             <Slide left>
@@ -284,9 +284,9 @@ class Courses extends Component {
 
       {/* Full Stack bootcamp */}
       <div className="fullStackBootcamp-gradient">
-        <h1 className="course-title" style={{color:"white"}}>
+        <h3 className="course-title" style={{color:"white"}}>
           <strong> Full Stack Web Development Bootcamp </strong>
-        </h1>
+        </h3>
         <div className="course-top-half">
           <div className="course-top-right">
             <Slide left>
@@ -331,9 +331,9 @@ class Courses extends Component {
 
       {/* Bootcamp 4 kids */}
       <div className="bootcamp-gradient">
-        <h1 className="course-title" style={{color:"white"}}>
+        <h3 className="course-title" style={{color:"white"}}>
           <strong> Mini-Bootcamp </strong>
-        </h1>
+        </h3>
         <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
             <Fade>
@@ -378,9 +378,9 @@ class Courses extends Component {
       <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
 
       <Fade top>
-        <h2 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem"}}>
+        <h3 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem"}}>
           Private Lessons & Tutoring
-        </h2>
+        </h3>
       </Fade>
 
       <hr style={{marginTop:"2rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
@@ -388,14 +388,14 @@ class Courses extends Component {
       <div className="private-gradient">
         <div style={{display:"flex", marginTop:"3%", marginBottom: "3%"}}>
           <Fade>
-            <p className="course-private-paragraph" style={{textAlign: "center", fontSize: "2em", color:"white", margin:"auto", marginTop:"5%"}}>
+            <h3 className="course-private-paragraph" style={{textAlign: "center", color:"white", margin:"auto", marginTop:"5%"}}>
               We offer private, 1 on 1 (or more) classes to help you learn the way you're comfortable
               with. We are able to teach any of the above courses to you.
-            </p>
+            </h3>
           </Fade>
         </div>
         <Fade>
-          <h4 style={{textAlign: "center", color:"white", fontSize:"1.7em"}}>
+          <h4 style={{textAlign: "center", color:"white"}}>
             We go on a student by student basis to make sure we get your needs right.
           </h4>
           <div className="course-link-div">

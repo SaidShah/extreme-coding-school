@@ -1,3 +1,37 @@
+
+p {
+  font-size: 21px;
+}
+
+ul {
+  font-size: 21px;
+}
+
+label {
+  font-size: 23px;
+}
+
+h1 {
+  font-size: 40px !important;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+
 .nav-link.no-transition-nav.bold-font.shadow.light-green:hover{
   color: #0061ff !important;
 }
@@ -85,53 +119,15 @@ button.btn{
 
 .bold-text-3 {
   font-weight: bold;
-  font-size: 3vw;
 }
 
 .bold-text-2 {
   font-weight: bold;
-  font-size: 2rem;
   }
 
-.font-size-3 {
-  font-size: 3vw;
-}
 
-.font-size-2 {
-  font-size: 2vw;
-}
-
-.font-size-1-6 {
-  font-size: 1.4rem;
-}
-
-.font-size-1-5 {
-  font-size: 1.2rem;
-}
-
-.font-size-1-4 {
-  font-size: 1.2rem;
-}
-
-.font-size-1-3 {
-  font-size: 1.3vw;
-}
-
-.font-size-1-2 {
-  font-size: 1.2vw;
-}
-
-.font-size-1 {
-  font-size: 1vw;
-}
-
-
-.font-size-1-5-footer {
-  font-size: 1.5vw;
-}
 
 .font-size-1-2-footer {
-  font-size: 1.2vw;
   text-align: center;
 }
 
@@ -208,13 +204,11 @@ button.btn{
 
 .cirr-text {
   margin-top: 2%;
-  font-size: 4vw;
   width: 55vw;
   margin-left: 20.5vw;
 }
 
 .cirr-text.left-text {
-  font-size: 1.4vw;
 }
 
 .left-text.skills-paragraph {
@@ -224,7 +218,6 @@ button.btn{
 .logo-text{
   margin-left: 10px;
   padding-top: 15px;
-  font-size: 2vw;
   font-weight: bold;
   color: #003c9e;
 }
@@ -346,7 +339,6 @@ button.btn{
 .bootcamp-p {
   text-align: left;
   padding-left: 2px;
-  font-size: 1.2rem;
   margin: auto;
   margin-bottom: 2%;
   width: 60%;
@@ -355,13 +347,11 @@ button.btn{
 .left-text{
   text-align: left;
   padding-left: 2px;
-  font-size: 1.2rem;
   margin: auto;
 }
 
 
 .home-page-ul-header-h2 {
-  font-size: 2.5rem;
   margin-bottom: 2%;
 }
 
@@ -390,14 +380,12 @@ button.btn{
   word-wrap: break-word;
   text-align: left;
   padding: 5px;
-  font-size: 1.2rem;
 }
 
 .home-page-li-prog{
   word-wrap: break-word;
   text-align: left;
   padding: 5px;
-  font-size: 1vw;
   margin-top:10%;
 }
 
@@ -517,12 +505,10 @@ button.btn{
 
 .curriculum-label{
   font-weight: bold;
-  font-size: 1.5rem;
 }
 
 .faq-label{
   font-weight: bold;
-  font-size: 1.2rem;
   text-align: center;
 }
 
@@ -653,7 +639,6 @@ button.btn{
 .faq-ul{
   list-style-type: square;
   list-style-position: outside;
-  font-size: 1.2rem;
 }
 
 .row-about{
@@ -672,16 +657,13 @@ div.column-about-name {
 }
 
 .about-title{
-  font-size: 2vw;
   color: black;
 }
 
 .mission-title{
-  font-size: 3vw;
 }
 
 .about-p{
-  font-size: 1.2rem;
   padding-left: 20px;
   padding-right: 10px;
   margin-right: 20vw;
@@ -733,7 +715,7 @@ div.column-about-name {
 }
 
 .course-paragraph {
-  font-size: 1.6vw;
+  font-weight: 450;
   width: 65%;
   margin: auto;
   text-align: left;
@@ -748,7 +730,6 @@ div.column-about-name {
 }
 
 .course-list {
-  font-size: 1.2rem;
   padding-top: 2%;
   display: none;
 }
@@ -760,7 +741,6 @@ div.column-about-name {
 }
 
 .course-link {
-  font-size: 2vw;
   margin:auto;
 }
 
@@ -871,7 +851,6 @@ div.column-about-name {
   width: 50%;
   padding-top: 2vw;
   margin: auto;
-  font-size: 1.4rem;
 }
 
 .second-course-div{
@@ -881,7 +860,6 @@ div.column-about-name {
 }
 
 .not-bold-text{
-  font-size: 1.2rem;
   font-weight: normal;
 }
 
@@ -891,7 +869,6 @@ div.column-about-name {
 
 .course-padding-btm{
   padding-bottom: 1vw;
-  font-size: 1.2rem;
   text-align: center;
   color: white;
 }
@@ -905,12 +882,10 @@ div.column-about-name {
 
 .course-ul-title {
   text-align: center;
-  font-size: 2rem;
 }
 
 .course-ul{
   padding: .5vw;
-  font-size: 1.2rem;
   margin: auto;
   width: 100%;
 }
@@ -919,7 +894,6 @@ div.column-about-name {
   width: fit-content;
   text-align: center;
   margin: auto;
-  font-size: 1.2vw;
   margin-bottom: 1%;
 }
 
@@ -940,6 +914,42 @@ div.column-about-name {
   html, body{
   }
 
+  p {
+    font-size: 18px;
+  }
+
+  ul {
+    font-size: 15px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  h5 {
+    font-size: 15px;
+  }
+
+  .column-mid-div {
+    width: 90%;
+  }
+
   .left-skills-p {
     margin-left: auto;
     margin-right: auto;
@@ -958,6 +968,11 @@ div.column-about-name {
     width: 90%;
   }
 
+  .course-paragraph {
+  }
+
+
+
   .home-spacer-div {
     display: none;
   }
@@ -966,44 +981,14 @@ div.column-about-name {
     display:inline-grid;
   }
 
-  .bold-text-3 {
-    font-size: 4vw;
-  }
-
-  .bold-text-2 {
-    font-size: 2rem;
-  }
-
-  .font-size-2 {
-    font-size: 4vw;
-  }
-
-  .font-size-1-5 {
-    font-size: 1.7rem;
-  }
-
-  .font-size-1-3 {
-    font-size: 2.3vw;
-  }
-
-  .font-size-2-footer {
-    font-size: 2.3vw;
-  }
-
-  .font-size-1-5-footer {
-    font-size: 3vw;
-  }
-
-  .font-size-1-2-footer {
-    font-size: 2vw;
-  }
 
   .column {
     width: 30%;
   }
 
-  .bold-text-2 {
-    font-size: 2rem;
+
+  .bootcamp-p {
+    width: 85%;
   }
 
   .left-text.p-width{
@@ -1018,7 +1003,6 @@ div.column-about-name {
 
   .skills-paragraph {
     margin:auto;
-    font-size: 1.2rem;
   }
 
 
@@ -1032,15 +1016,8 @@ div.column-about-name {
     width:100%;
   }
 
-  .logo-text {
-    padding-top: 0;
-    margin-left: 15px !important;
-    font-size: 3vw;
-  }
-
-
   .jumbo-image {
-    height: 48rem;
+    height: 32rem;
   }
 
   .image-box {
@@ -1050,10 +1027,7 @@ div.column-about-name {
 
   .skills-ul-div {
     margin: auto;
-  }
-
-  .home-page-li {
-    font-size: 1.2rem;
+    width: 80%;
   }
 
 
@@ -1080,13 +1054,12 @@ div.column-about-name {
   }
 
   .column-right-side-programming {
-    width: 70%;
+    width: 95%;
     margin: auto;
   }
 
   .home-page-li-prog {
     margin-top: 0px;
-    font-size: 2vw;
   }
 
 
@@ -1100,7 +1073,7 @@ div.column-about-name {
 
   .column-left-side-graduate {
     margin: auto;
-    width: 70%;
+    width: 95%;
     float: none;
   }
 
@@ -1109,7 +1082,6 @@ div.column-about-name {
   }
 
   .cirr-text.left-text {
-    font-size: 3vw;
     width: 75vw;
   }
 
@@ -1119,19 +1091,14 @@ div.column-about-name {
 
   .curriculum-label-mobile {
     display: block !important;
-    font-size: 1.5rem;
   }
 
   .curriculum-hr {
     margin-top: 0;
   }
 
-  .faq-label {
-    font-size: 3.5vw;
-  }
 
   .about-p{
-    font-size: 1.2rem;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 7.5vw;
@@ -1148,49 +1115,43 @@ div.column-about-name {
 }
 
 @media screen and (max-width: 1000px) {
-
-  .font-size-1-5 {
-    font-size: 1.3rem;
+  .jumbo-image {
+    height: 34rem;
   }
 }
 
 @media screen and (max-width: 800px) {
-
-  .font-size-1-5 {
-    font-size: 1.1rem;
-  }
-
   .jumbo-image {
-    height: 40rem;
-  }
-
-  .contact-h3 {
-    font-size: 1.2em;
+    height: 36rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .nav-mr-apply {
-    margin-right: auto;
+    margin-right: 1%;
     float:none;
+  }
+
+  .jumbo-image {
+    height: 38rem;
   }
 }
 
 @media screen and (max-width: 680px) {
   .jumbo-image {
-    height: 45rem;
+    height: 40rem;
   }
 }
 
 @media screen and (max-width: 605px) {
   .jumbo-image {
-    height: 50rem;
+    height: 44rem;
   }
 }
 
 @media screen and (max-width: 565px) {
   .jumbo-image {
-    height: 52rem;
+    height: 46rem;
   }
 }
 
@@ -1203,25 +1164,12 @@ div.column-about-name {
   }
   html, body{}
 
-  .contact-h3 {
-    font-size: 1rem;
-  }
-
-  .nav-link {
-    font-size: 5vw;
-  }
 
   .course-btn{
     font-size: 1rem !important;
   }
 
-  .bold-text-3 {
-    font-size: 7vw;
-  }
 
-  .bold-text-2 {
-    font-size: 1.5rem;
-  }
 
   .row-div > div:nth-child(4){
     display: none;
@@ -1249,7 +1197,6 @@ div.column-about-name {
   .logo-text {
     padding-top: 0;
     margin-left: 5px !important;
-    font-size: 5vw;
   }
 
   .row-div{
@@ -1285,7 +1232,6 @@ div.column-about-name {
     position: absolute;
     display: initial !important;
     width: 70%;
-    font-size: 7vw;
   }
 
 
@@ -1307,16 +1253,13 @@ div.column-about-name {
   label.curriculum-label{
     width: 100%;
     padding-left: 0px;
-    font-size: 1rem;
     padding-top: 0px;
   }
 
   .curriculum-h4{
-    font-size: 1rem;
   }
 
   label.curriculum-label{
-    font-size: 1rem;
   }
 
   .form-width{
@@ -1367,7 +1310,6 @@ div.column-about-name {
 
   .skills-paragraph {
     width: 100%;
-    font-size: 1rem;
   }
 
   .skills-ul-div {
@@ -1375,7 +1317,6 @@ div.column-about-name {
   }
 
   .home-page-ul-header-h2 {
-    font-size: 7vw;
   }
 
   .home-page-ul {
@@ -1383,7 +1324,6 @@ div.column-about-name {
   }
 
   .home-page-li {
-    font-size: 1rem;
   }
 
   .column-right-side-programming{
@@ -1437,37 +1377,10 @@ div.column-about-name {
     display:  none;
   }
 
-  .cirr-text.left-text  {
-    font-size: 4vw;
-  }
-
-  .font-size-2-footer {
-    font-size: 6vw;
-  }
-
-  .font-size-1-5-footer {
-    font-size: 5vw;
-  }
-
-  .font-size-1-2-footer {
-    font-size: 3.5vw;
-  }
-
-  .font-size-1-4 {
-    font-size:  3vw;
-  }
-
-  .footer-bold {
-    font-size: 4vw !important;
-  }
-
   .faq-width {
     width: 95%;
   }
 
-  .faq-ul {
-    font-size: 3vw;
-  }
 
   .row-about{
     padding: 1.5vw;
@@ -1478,21 +1391,18 @@ div.column-about-name {
   }
 
   .about-font{
-    font-size: 4vw;
     padding: 0;
     color: black;
     margin-bottom: 0px;
   }
 
   .about-font-name{
-    font-size: 6vw;
     padding: 0;
     color: black;
     margin-bottom: 0px;
   }
 
   .about-p{
-    font-size: 4vw;
     padding-left: 10px;
     padding-right: 10px;
     margin-right: 7.5vw;
@@ -1500,11 +1410,9 @@ div.column-about-name {
   }
 
   .mission-title{
-    font-size: 5vw;
   }
 
   .about-title{
-    font-size: 4vw;
     color: black;
   }
 
@@ -1573,18 +1481,16 @@ div.column-about-name {
   }
 
   .course-ul {
-    font-size: 1rem;
   }
 
   .p-desc-width {
     width: 90%;
     margin:auto;
     margin-bottom: 10%;
-    font-size: 1rem;
   }
 
   .jumbo-image {
-    height: 32rem;
+    height: 35rem;
   }
 
   .course-private-paragraph {
@@ -1597,7 +1503,6 @@ div.column-about-name {
   }
 
   .curriculum-label-mobile {
-    font-size: 1rem;
   }
 
   .footer-links-div {
@@ -1605,7 +1510,6 @@ div.column-about-name {
   }
 
   .course-title {
-    font-size: 1.5rem;
   }
 
   .bootcamp-buttons {

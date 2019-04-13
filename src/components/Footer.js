@@ -13,12 +13,12 @@ class Footer extends Component {
 
               <div className="col-md-6" style={{display:"flex", justifyContent:"center"}}>
                 <div>
-                  <h4 className="text-uppercase font-size-1-5-footer bold-text" style={{textAlign:"center", marginTop:"5%"}}>
+                  <h3 className="text-uppercase font-size-1-5-footer bold-text" style={{textAlign:"center", marginTop:"5%"}}>
                     Extreme Coding School
-                  </h4>
-                  <p className="font-size-1-2-footer">
+                  </h3>
+                  <h4 className="font-size-1-2-footer">
                     Learn Programming and Change Your Life
-                  </p>
+                  </h4>
                 </div>
               </div>
 
@@ -26,7 +26,7 @@ class Footer extends Component {
               <div className="footer-links-div">
                 <div className="mb-md-0 mb-3" style={{marginBot:"10px", marginRight:"3%", marginLeft:"3%"}}>
 
-                  <h4 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.4vw"}}>About</h4>
+                  <h5 className="text-uppercase bold-text footer-bold">About</h5>
 
                   <ul className="list-unstyled font-size-1-1">
                     <li>
@@ -44,7 +44,7 @@ class Footer extends Component {
                 <div style = {{width:"10px"}}/>
                 <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
-                  <h4 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.4vw"}}>Resources</h4>
+                  <h5 className="text-uppercase bold-text footer-bold">Resources</h5>
 
                   <ul className="list-unstyled font-size-1-1">
                     <li>
@@ -66,7 +66,7 @@ class Footer extends Component {
 
                 <div className="mb-md-0 mb-3" style={{marginRight:"3%", marginLeft:"3%"}}>
 
-                  <h4 className="text-uppercase bold-text footer-bold" style={{fontSize:"1.4vw"}}>Contact Us</h4>
+                  <h5 className="text-uppercase bold-text footer-bold">Contact Us</h5>
 
                   <ul className="list-unstyled font-size-1-1">
                     <li>
