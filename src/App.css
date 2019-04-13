@@ -1126,11 +1126,12 @@ div.column-about-name {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
   .jumbo-image {
     height: 36rem;
   }
 }
+
 
 @media screen and (max-width: 768px) {
   .nav-mr-apply {
@@ -1143,13 +1144,13 @@ div.column-about-name {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 690px) {
   .jumbo-image {
     height: 40rem;
   }
 }
 
-@media screen and (max-width: 605px) {
+@media screen and (max-width: 640px) {
   .jumbo-image {
     height: 44rem;
   }
@@ -1157,7 +1158,7 @@ div.column-about-name {
 
 @media screen and (max-width: 565px) {
   .jumbo-image {
-    height: 46rem;
+    height: 47rem;
   }
 }
 
