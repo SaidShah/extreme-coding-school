@@ -32,6 +32,10 @@ h5 {
 }
 
 
+.social-media-logo {
+  display: none;
+}
+
 .nav-link.no-transition-nav.bold-font.shadow.light-green:hover{
   color: #0061ff !important;
 }

@@ -16,6 +16,7 @@ import ContactUs from './components/ContactUs'
 import {Switch, Route, withRouter} from 'react-router-dom'
 import logo from './images/ecs-long.svg'
 import logons from './images/ecs-long-ns.svg'
+import social from './images/social-media-logo.png'
 
 class App extends Component {
   state={
@@ -25,6 +26,7 @@ class App extends Component {
   render() {
     return (
       <div >
+      <img src={social} className="social-media-logo" alt="how did you see this" />
         <div className="middle-div">
           <div className="body-content">
 
