@@ -714,6 +714,12 @@ div.column-about-name {
   margin: auto;
 }
 
+.courses-image-sizing {
+  width: 30rem;
+  height: 20rem;
+  margin: auto;
+}
+
 .course-paragraph {
   font-weight: 450;
   width: 65%;

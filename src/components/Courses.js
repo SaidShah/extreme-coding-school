@@ -42,7 +42,7 @@ class Courses extends Component {
         <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
             <Fade>
-              <img src={FrontLogo} alt="html/css/js" style={{width:"50%", margin:"auto", height:"75%"}}/>
+              <img src={FrontLogo} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
 
@@ -98,7 +98,7 @@ class Courses extends Component {
           </div>
           <div className="course-top-left-swap">
             <Fade>
-              <img src={JavaOrangeLogo} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
+              <img src={JavaOrangeLogo} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
         </div>
@@ -149,7 +149,7 @@ class Courses extends Component {
           </div>
           <div className="course-top-left-swap">
             <Fade>
-              <img src={ReactReduxLogo} alt="html/css/js" style={{width:"85%", margin:"auto", height:"75%"}}/>
+              <img src={ReactReduxLogo} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
         </div>
@@ -185,7 +185,7 @@ class Courses extends Component {
         <div className="course-top-half">
           <div className="course-top-left">
             <Fade>
-              <img src={JavaRedLogo} alt="html/css/js" style={{width:"50%", margin:"auto", height:"75%"}}/>
+              <img src={JavaRedLogo} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
 
@@ -241,7 +241,7 @@ class Courses extends Component {
           </div>
           <div className="course-top-left-swap">
             <Fade>
-              <img src={Data} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
+              <img src={Data} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
         </div>
@@ -299,7 +299,7 @@ class Courses extends Component {
           </div>
           <div className="course-top-left-swap">
             <Fade>
-              <img src={BootcampLogo} alt="html/css/js" style={{width:"40%", margin:"auto", height:"30%"}}/>
+              <img src={BootcampLogo} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
         </div>
@@ -337,7 +337,7 @@ class Courses extends Component {
         <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
             <Fade>
-              <img src={BootcampLogo} alt="html/css/js" style={{width:"60%", margin:"auto", height:"75%"}}/>
+              <img src={BootcampLogo} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
 
@@ -395,7 +395,7 @@ class Courses extends Component {
           </Fade>
         </div>
         <Fade>
-          <h4 style={{textAlign: "center", color:"white"}}>
+          <h4 style={{textAlign: "center", color:"white", marginBottom:"2%"}}>
             We go on a student by student basis to make sure we get your needs right.
           </h4>
           <div className="course-link-div">
