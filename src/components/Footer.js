@@ -17,7 +17,7 @@ class Footer extends Component {
                     Extreme Coding School
                   </h3>
                   <h4 className="font-size-1-2-footer">
-                    Learn Programming and Change Your Life
+                    Learn Programming and Change Lives
                   </h4>
                 </div>
               </div>
