@@ -97,6 +97,8 @@ class FAQ extends Component {
                   </div>
                   </div>
 
+
+
                   <div className="tab faq-width faq-top-margin">
                     <input id="tab-tenth" type="checkbox" name="tabs"/>
                     <label htmlFor="tab-tenth" className="faq-label">Are there any scholarships?</label>
@@ -116,6 +118,65 @@ class FAQ extends Component {
                         </ul>
                       </div>
                       </div>
+
+/*
+
+              <div className="tab faq-width faq-top-margin">
+                <input id="tab-ninth" type="checkbox" name="tabs"/>
+                <label htmlFor="tab-ninth" className="faq-label">What is pair programming?</label>
+                <div className="tab-content faq-width">
+                  <ul className='faq-ul'>
+                    <li>In pair programming, there are two parties. One, the driver, is responsible for typing code, while the other, the navigator, tells the driver what to type.</li>
+                  </ul>
+                </div>
+              </div>
+
+        <div className="tab faq-width faq-top-margin">
+          <input id="tab-ninth" type="checkbox" name="tabs"/>
+          <label htmlFor="tab-ninth" className="faq-label">I like driving! Can I be the driver all the time?</label>
+          <div className="tab-content faq-width">
+            <ul className='faq-ul'>
+              <li>In the car? Sure. But in pair programming, the driver and navigator often switch responsibilities. So we encourage the same. It is important to feel comfortable with both responsibilities, even if you find one seems to come to you more "naturally".</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="tab faq-width faq-top-margin">
+          <input id="tab-ninth" type="checkbox" name="tabs"/>
+          <label htmlFor="tab-ninth" className="faq-label">Why pair programming?</label>
+          <div className="tab-content faq-width">
+            <ul className='faq-ul'>
+              <li>We believe that pair programming is an effective tool for learning and writing code.
+                As the saying goes, "Two heads are better than one". It's a bit cliche, but there is truth to it.
+                Sometimes you just need a second pair of eyes to figure out a problem, or to keep your code from going
+                off the rails. It can serve to help keep both members focused on the task at hand whereas programming
+                alone one might become distracted or shut down when confronting an obstacle. It is also a highly effective
+                means of pooling knowledge and coming up with novel solutions to challenging problems. Many companies
+                have recognized the value, and begun to implement it in their own workplace, so familiarity with pair programming
+                is also a marketable skill.
+                When coding on a team, communication is key, and pair programming does an excellent job of fostering
+                communication skills. The driver and navigator must by definition be in a constant state of communication.
+                In doing so, they will find it easier to remain focused, and when encountering an obstacle, discuss rather
+                than despair. Companies have come to value pair programming for the communication and cooperation it fosters,
+                and many implement this practice in their workplaces today.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="tab faq-width faq-top-margin">
+          <input id="tab-ninth" type="checkbox" name="tabs"/>
+          <label htmlFor="tab-ninth" className="faq-label">What if both navigator and driver get stuck? Are we out of options?</label>
+          <div className="tab-content faq-width">
+            <ul className='faq-ul'>
+              <li>Extreme Coding School also has tutors that can help if the need arises, but we like to encourage self-reliance first and foremost. We believe that you can learn best, and feel the greatest sense of accomplishment if, when you run into a problem, you are able to solve it yourself, or amongst peers."</li>
+            </ul>
+          </div>
+        </div>
+
+
+*/
+
+
 
         </div>
 
