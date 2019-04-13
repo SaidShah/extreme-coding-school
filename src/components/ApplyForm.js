@@ -11,7 +11,8 @@ class ApplyForm extends Component {
       phone: '',
       college: '',
       major: '',
-      course: ''
+      course: '',
+      comments: ''
     }
 
     componentDidMount() {
@@ -94,7 +95,8 @@ class ApplyForm extends Component {
           phone: values.phone,
           college: values.college,
           major: values.major,
-          course: values.course
+          course: values.course,
+          comments: values.comments
         },()=>this.setState({
           firstName: '',
           lastName: '',
@@ -102,7 +104,8 @@ class ApplyForm extends Component {
           phone: '',
           college: '',
           major: '',
-          course: ''
+          course: '',
+          comments: ''
         },()=>this.sendMail(userEmail)))
       }
 
@@ -155,6 +158,11 @@ class ApplyForm extends Component {
                 <div className="md-form margin-left">
                   <i className="fa fa-phone prefix"></i>
                   <input type="text"  className="form-control " placeholder="Phone Number" value={this.state.phone} name="phone" onChange={this.handleChange} required/>
+                </div>
+
+                <div className="md-form margin-left">
+                  <i className="fa fa-envelope prefix "></i>
+                  <textarea  className="form-control" placeholder="Questions/Comments? Preferred method of contact?" value={this.state.comments} name="comments" onChange={this.handleChange} />
                 </div>
 
                 <label className="select-box">
