@@ -4,8 +4,11 @@ import apcs from '.././images/image-ap.jpg'
 import apcsTwo from '.././images/adult_learning.jpg'
 
 const Apcs = () => (
+
+
+
   <div className="course-top-div">
-    <h1 className="center-text bold-text">AP Computer Science A</h1>
+    <h1 className="center-text bold-text">AP Computer Science A{window.scrollTo(0,0)}</h1>
 
     <div className="course-div">
       <div className="course-image-div">

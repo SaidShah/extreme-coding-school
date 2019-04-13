@@ -47,7 +47,7 @@ class App extends Component {
               <Route path="/about" render={()=><About/>}/>
               <Route path="/thankyou" render={()=><ThankyouPage/>}/>
               <Route path="/contactus" render={()=><ContactUs/>}/>
-              <Route path="/" render={()=><Home/>}/>
+              <Route path="/" render={()=><Home props={this.props}/>}/>
             </Switch>
           </div>
         </div>

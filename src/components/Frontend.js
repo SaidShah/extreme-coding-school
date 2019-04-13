@@ -5,7 +5,7 @@ import frontEndTwo from '.././images/front-end-two.svg'
 
 const Frontend = () => (
   <div className="course-top-div">
-    <h1 className="center-text bold-text">Web Development</h1>
+    <h1 className="center-text bold-text">Web Development{window.scrollTo(0,0)}</h1>
 
     <div className="course-div">
       <div className="course-image-div">
