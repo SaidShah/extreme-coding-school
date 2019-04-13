@@ -43,6 +43,10 @@ class ApplyForm extends Component {
         this.setState({course: "javaIntro8TTR"})
       }else if(userCourse==="javaIntro4ss"){
         this.setState({course: "javaIntro4ss"})
+      }else if(userCourse==="BootCampJune"){
+        this.setState({course: "BootCampJune"})
+      }else if(userCourse==="BootCampTeensJune"){
+        this.setState({course: "BootCampTeensJune"})
       }
       window.scrollTo(0,0)
     }
@@ -194,6 +198,8 @@ class ApplyForm extends Component {
                     <option value="javaIntro8MW">Intro to Java Mon & Wed 8 Weeks</option>
                     <option value="javaIntro8TTR">Intro to Java Tues & Thurs 8 Weeks</option>
                     <option value="javaIntro4ss">Intro to Java Sat & Sun 4 Weeks</option>
+                    <option value="BootCampJune">Full Stack Bootcamp Mon-Fri 15 Weeks June Start Date</option>
+                    <option value="BootCampTeensJune">Mini-Bootcamp Mon-Fri 8 Weeks June Start Date</option>
                   </select>
                 </label>
 
