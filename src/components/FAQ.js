@@ -119,7 +119,7 @@ class FAQ extends Component {
                       </div>
                       </div>
 
-/*
+        {/*
 
               <div className="tab faq-width faq-top-margin">
                 <input id="tab-ninth" type="checkbox" name="tabs"/>
@@ -174,7 +174,7 @@ class FAQ extends Component {
         </div>
 
 
-*/
+*/}
 
 
 
