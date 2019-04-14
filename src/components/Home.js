@@ -120,7 +120,7 @@ class Home extends Component {
                     As a Computer Science professor and full-stack software developers, we always wanted to create a place for people of all ages in the community to learn the craft of computer programming. And we had a few ideas in mind.
                     First, we don’t want math, science, or even age to be a barrier — Any interested person could come to learn and enjoy.
                     We would also like to keep pace with new trends and emerging technologies in the classroom. We want students to learn not just from a Computer Science professor but also from working programmers.
-                    Finally, in additional to coding skills, we would like to foster a few other intangibles — confidence, enjoyment, intention, and integrity.
+                    Finally, in addition to coding skills, we would like to foster a few other intangibles — confidence, enjoyment, intention, and integrity.
                     Our school motto is “Freedom through Practice.”  We believe that having a system to learn, practice, and solve problems hands-on is more productive than setting up a goal of, say, getting a high paying IT job in two months.
                     So that’s it. Come to meet with us in our place. We’ll be delighted.
                   </p>
