@@ -80,8 +80,7 @@ class Home extends Component {
                           <h5 className="white-letters font-size-1-6">Mini-Bootcamp</h5>
                           <p className="black-letters font-size-1-5">
                             Don't have time for the Full Bootcamp but you still want to learn Full-Stack
-                            Development?  We offer a Mini-Bootcamp that's lighter and
-                            requires less time in the classroom.
+                            Development?  Consider our Mini-Bootcamp. It’s lighter and requires less time in the classroom.
                           </p>
                         </div>
                       </div>
