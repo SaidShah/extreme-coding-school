@@ -145,8 +145,8 @@ class Home extends Component {
                       <div className="column-right-side-programming">
 
                         <p className="left-text skills-paragraph right-skills-p">
-                          We observe that, while the traditional Computer Science education has tremendous intellectual
-                          benefits, it nonetheless has a deep-rooted deficiency. There is a tendency to overlook practical
+                          While the traditional Computer Science education has tremendous intellectual
+                          benefits, it nonetheless has a deep-rooted deficiency to overlooking practical
                           programming skills over theories.  While Computer Science theories, such as the Cook-Levin theorem,
                           are beautiful and fascinating, they do not directly relate to what most programmers do most of the time.
                           We design our courses with this in mind,
