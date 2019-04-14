@@ -61,7 +61,7 @@ const About = () => (
 
         <p className="about-p">
           We would like to offer you, whether a student or a parent like me, a little different system, a system that will not
-          drastically disrupt your routine life. We would teach you or your children a full-stack of highly marketable
+          disrupt your routine life. We would teach you or your children a full-stack of highly marketable
           skills to avoid the life-long trap.
         </p>
 
