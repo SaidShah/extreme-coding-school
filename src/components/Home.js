@@ -60,7 +60,7 @@ class Home extends Component {
                           <p className="black-letters font-size-1-5">
                             Learn how to develop professional and adaptive websites
                             with HTML5, CSS3, and JavaScript.
-                            Make use of modern web frameworks like Bootstrap.
+                            Make use of modern web frameworks and libraries such as Bootstrap, React, and Redux.
                           </p>
                         </div>
                       </div>
