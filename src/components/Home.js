@@ -122,33 +122,7 @@ class Home extends Component {
                     will be well versed in the tools that today's businesses are using and you will have a portfolio of
                     projects to show for it.
                   </p>
-                  <div className="skills-ul-div" style={{marginTop:"2%"}}>
-                    <ul className="home-page-ul">
-                      <li className="home-page-li">
-                        Learn skills in computer science that can be applied anywhere
-                      </li>
-
-                      <li className="home-page-li">
-                        Create projects to help build your professional portfolio to get ready for employment
-                      </li>
-
-                      <li className="home-page-li">
-                        Learn version control with Git through the terminal
-                      </li>
-
-                      <li className="home-page-li">
-                        Study part-time while maintaining your work schedule
-                      </li>
-
-                      <li className="home-page-li">
-                        We also offer accelerated full-time options that will help you achieve your dreams faster
-                      </li>
-
-                      <li className="home-page-li">
-                        Get extra help from our instructors to help you navigate through our programs
-                      </li>
-                    </ul>
-                  </div>
+                  
                 </div>
                 <div className="prog-hr-div">
                   <hr className = "hr-mobile-change" style={{minHeight:"5px"}}/>
