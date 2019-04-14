@@ -41,7 +41,7 @@ class ContactUs extends Component {
               Phone Number
             </h1>
             <h4 style={{marginBottom:"2%"}}>
-              (Available: Mon-Fri 10am-6pm)
+              Monday - Friday, 10:00 AM - 6:00 PM
             </h4>
 
             <a className="no-transition" href="tel:6312133240">
