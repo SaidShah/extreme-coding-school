@@ -113,7 +113,7 @@ class Home extends Component {
               <div className="column-right-side center-text">
                 <div className="column-mid-div">
                   <h2 className="blu-text bold-text home-page-ul-header-h2">
-                    Why Extreme?
+                    Why Extreme:
                   </h2>
                   <p className="left-text skills-paragraph " style={{marginTop:"3%"}}>
                     At Extreme, we believe that practical skills are just as valuable as
