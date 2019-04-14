@@ -291,9 +291,8 @@ class Courses extends Component {
           <div className="course-top-right">
             <Slide left>
               <p className="course-paragraph course-paragraph-left" style={{color:"white"}}>
-                Enter into Object Oriented Programming (OOP) with Java. Java is widely used in
-                applications deployed all over the world; from apps on your smartphone to large
-                databases for multi-billion dollar companies.
+                If you (or your child) is very invested in programming, or wants to get a job later in life
+                in the field, look no further than our 15-week bootcamp.
               </p>
             </Slide>
           </div>
