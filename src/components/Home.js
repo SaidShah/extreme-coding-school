@@ -151,7 +151,7 @@ class Home extends Component {
                           are beautiful and fascinating, they do not directly relate to what most programmers do most of the time.
                           We design our courses with this in mind,
                           emphasizing practical skills as well as Data Structures and Algorithms. We keep our eyes on
-                          technologies currently in demand in the web development industry.  Upon completion, you will have
+                          technologies currently in demand.  Upon completion, you will have
                           a portfolio of projects demonstrating what you’ve accomplished rather than a
                           transcript showing what courses you’ve taken.
                         </p>
