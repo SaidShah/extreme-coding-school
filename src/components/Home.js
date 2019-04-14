@@ -171,22 +171,23 @@ class Home extends Component {
                         <div className="column-left-side-graduate">
 
                           <p className="left-text skills-paragraph left-skills-p">
-                            Our bootcamps are for students interested in career changes. These students have often
-                            completed their college or even graduate education but are not satisfied with their current
-                            employment prospects.  By taking an intensive and immersive bootcamp, they hope to break into
-                            the high-paying web development industry.
+                            Our bootcamps are for people interested in career changes. If you are in this category, you
+                            most likely have completed your college or even graduate education but are not satisfied with
+                            your current employment prospects.  By taking an intensive and immersive bootcamp, you hope
+                            to break into the high-paying web development industry.
 
                             We also offer shorter, less intensive courses to allow people to learn specific parts of the
                             full stack technologies. It could be either front-end or back-end. It could be either HTML,
                             CSS, and JavaScript, or React, Redux, and Bootstrap.  It could be either Programming in general
-                            or Data Structures and Algorithms. No matter what you choose, our focus is the same: It is to
-                            better your understanding of Computer Science theories and nurture your practical skills through
-                            project-centered problem-solving.
+                            or Data Structures and Algorithms. No matter what you choose, our focus is the same:
+                            It is to better your understanding of Computer Science theories and nurture your practical
+                            skills through project-centered problem-solving.
 
                             In addition, we offer a course that prepares high school students for their AP Computer
-                            Science A exam.  A student may choose to set aside a few hours a week when school is in
-                            session, or even a few days a week in the summer to study the entire set of topics required
-                            by its curriculum. Regardless what you choose, we will accommodate you in this journey.
+                            Science A exam.  As a high school student, you may choose to set aside a few hours a week
+                            when school is in session, or a few days a week in the summer to study the entire set of
+                            topics required by its curriculum. Regardless what you choose, we will accommodate you in
+                            this journey.
                           </p>
                         </div>
 
