@@ -147,7 +147,7 @@ class Home extends Component {
                         <p className="left-text skills-paragraph right-skills-p">
                           While the traditional Computer Science education has tremendous intellectual
                           benefits, it nonetheless has a deep-rooted deficiency in that it overlooks practical
-                          programming skills in favor of theories.  While Computer Science theories, such as the Cook-Levin theorem,
+                          programming skills in favor of theories. While Computer Science theories, such as the Cook-Levin theorem,
                           are beautiful and fascinating, they do not directly relate to what most programmers do most of the time.
                           We design our courses with this in mind,
                           emphasizing practical skills as well as Data Structures and Algorithms. We keep our eyes on
