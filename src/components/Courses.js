@@ -291,7 +291,7 @@ class Courses extends Component {
           <div className="course-top-right">
             <Slide left>
               <p className="course-paragraph course-paragraph-left" style={{color:"white"}}>
-                If you (or your child) is very invested in programming, or wants to get a job later in life
+                If you are very invested in programming, and would like to get a job
                 in the field, look no further than our 15-week bootcamp.
               </p>
             </Slide>
