@@ -149,7 +149,7 @@ class Home extends Component {
                           benefits, it nonetheless has an unfortunate tendency to overlook practical
                           programming skills in favor of theories. Theories such as the Cook-Levin theorem
                           are beautiful and fascinating, but they do not directly relate to what most programmers do most of the time.
-                          <br/><br/>We focus more on practical skills, keeping a close eye on the technologies currently in demand.
+                          <br/><br/>We focus more on practical skills and use technologies currently in demand.
                           Upon graduation, you will not only gain a Certificate of Completion but also a portfolio of projects
                           that proves your skills.
                         </p>
