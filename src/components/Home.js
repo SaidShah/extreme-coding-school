@@ -79,7 +79,7 @@ class Home extends Component {
                         <div>
                           <h5 className="white-letters font-size-1-6">Mini-Bootcamp</h5>
                           <p className="black-letters font-size-1-5">
-                            Don't have time for the Full Bootcamp but you still want to learn Full-Stack
+                            Don't have time for the Full Bootcamp but still want to learn Full-Stack
                             Development?  Consider our Mini-Bootcamp. It’s lighter and requires less time in the classroom.
                           </p>
                         </div>
@@ -170,23 +170,16 @@ class Home extends Component {
                         <div className="column-left-side-graduate">
 
                           <p className="left-text skills-paragraph left-skills-p">
-                            Our bootcamps are for people interested in career changes. If you are in this category, you
-                            most likely have completed your college or even graduate education but are not satisfied with
-                            your current employment prospects.  By taking an intensive and immersive bootcamp, you hope
-                            to break into the high-paying web development industry.
+                            If you know a little programming, great. If you know more programming, even better!
 
-                            We also offer shorter, less intensive courses to allow people to learn specific parts of the
-                            full stack technologies. It could be either front-end or back-end. It could be either HTML,
-                            CSS, and JavaScript, or React, Redux, and Bootstrap.  It could be either Programming in general
-                            or Data Structures and Algorithms. No matter what you choose, our focus is the same:
-                            It is to better your understanding of Computer Science theories and nurture your practical
-                            skills through project-centered problem-solving.
+                            Our bootcamps are for people interested in a career change. You hope to learn both front-end and back-end technologies intensively and immersively.
 
-                            In addition, we offer a course that prepares high school students for their AP Computer
-                            Science A exam.  As a high school student, you may choose to set aside a few hours a week
-                            when school is in session, or a few days a week in the summer to study the entire set of
-                            topics required by its curriculum. Regardless what you choose, we will accommodate you in
-                            this journey.
+                            Our shorter, less intensive courses are to allow people to learn specific parts of the
+                            full stack technologies. It could be either front-end or back-end. No matter what you choose, the focus is the same — You will learn Computer Science theories as well as practical
+                            programming skills through project-centered problem-solving.
+
+                            Our AP Computer Science A Prep course is for high school students to learn Computer Science and prepare for the AP exam.  You may choose to set aside a few hours a week
+                            when school is in session, or a few days a week intensively in the summer to study the entire set of topics required by the curriculum. And your exam fee is on us.
                           </p>
                         </div>
 
