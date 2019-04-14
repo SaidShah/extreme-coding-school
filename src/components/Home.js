@@ -146,7 +146,7 @@ class Home extends Component {
 
                         <p className="left-text skills-paragraph right-skills-p">
                           We observe that, while the traditional Computer Science education has tremendous intellectual
-                          benefits, it nonetheless has deep-rooted deficit. The deficit is the tendency to overlook practical
+                          benefits, it nonetheless has a deep-rooted deficiency. There is a tendency to overlook practical
                           programming skills over theories.  While Computer Science theories, such as the Cook-Levin theorem,
                           are beautiful and fascinating, they do not directly relate to what most programmers do most of the time.
                           In fact, they tend to effectively prevent Computer Science students from learning practical
@@ -171,15 +171,22 @@ class Home extends Component {
                         <div className="column-left-side-graduate">
 
                           <p className="left-text skills-paragraph left-skills-p">
-                            If you're looking to learn the skills needed to be considered a full-stack developer,
-                            then Extreme is for you. Whether you want to finish our program as fast as possible or
-                            have a busy schedule that prevents you from committing a myriad of hours per week; we accommodate
-                            for both with our main bootcamp and a mini-bootcamp. Or maybe you're looking to learn just one
-                            or a few of the courses that we offer. For that, we have you covered as we offer what
-                            makes up our bootcamps as individual courses so you can learn exactly what you need and nothing else.
-                            If you're a high school student -- or the parent of one -- we are excited to inform you that
-                            we also have an AP Computer Science curriculum. We offer APCS tutoring sessions as well as
-                            the full course. If you take our APCS course, we will cover the cost of the exam for you.
+                            Our bootcamps are for students interested in career changes. These students have often
+                            completed their college or even graduate education but are not satisfied with their current
+                            employment prospects.  By taking an intensive and immersive bootcamp, they hope to break into
+                            the high-paying web development industry.
+
+                            We also offer shorter, less intensive courses to allow people to learn specific parts of the
+                            full stack technologies. It could be either front-end or back-end. It could be either HTML,
+                            CSS, and JavaScript, or React, Redux, and Bootstrap.  It could be either Programming in general
+                            or Data Structures and Algorithms. No matter what you choose, our focus is the same: It is to
+                            better your understanding of Computer Science theories and nurture your practical skills through
+                            project-centered problem-solving.
+
+                            In addition, we offer a course that prepares high school students for their AP Computer
+                            Science A exam.  A student may choose to set aside a few hours a week when school is in
+                            session, or even a few days a week in the summer to study the entire set of topics required
+                            by its curriculum. Regardless what you choose, we will accommodate you in this journey.
                           </p>
                         </div>
 
