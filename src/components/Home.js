@@ -122,7 +122,7 @@ class Home extends Component {
                     will be well versed in the tools that today's businesses are using and you will have a portfolio of
                     projects to show for it.
                   </p>
-                  
+
                 </div>
                 <div className="prog-hr-div">
                   <hr className = "hr-mobile-change" style={{minHeight:"5px"}}/>
@@ -145,14 +145,16 @@ class Home extends Component {
                       <div className="column-right-side-programming">
 
                         <p className="left-text skills-paragraph right-skills-p">
-                          We started Extreme because we noticed a deficit in the way universities are teaching Computer Science.
-                          Modern businesses are actively looking for individuals who can hit the ground running as soon
-                          as they're hired. But universities are not properly preparing their students for this atmosphere.
-                          Instead, they focus on pure fundamentals and theory but rarely delve into modern applications of what
-                          is being taught. We design our courses with this in mind and offer students the best of both worlds; a solid foundation
-                          built on theory and modern methods being utilized by today's largest and most rapidly growing businesses. Our courses will
-                          have you complete projects that you can proudly show off on your résumé to prove that you have the skills businesses
-                          are looking for and the fundamentals to back them up.
+                          We observe that, while the traditional Computer Science education has tremendous intellectual
+                          benefits, it nonetheless has deep-rooted deficit. The deficit is the tendency to overlook practical
+                          programming skills over theories.  While Computer Science theories, such as the Cook-Levin theorem,
+                          are beautiful and fascinating, they do not directly relate to what most programmers do most of the time.
+                          In fact, they tend to effectively prevent Computer Science students from learning practical
+                          programming skills most needed in businesses. We design our courses with this in mind. We
+                          emphasize practical skills as well as Data Structures and Algorithms. We keep our eyes on
+                          technologies currently in demand in the web development industry.  Upon completion, we furnish
+                          you with a portfolio of projects demonstrating what you’ve accomplished rather than a
+                          transcript showing what courses you’ve taken.
                         </p>
                       </div>
                     </div>
