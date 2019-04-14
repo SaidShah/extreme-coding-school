@@ -149,11 +149,10 @@ class Home extends Component {
                           benefits, it nonetheless has a deep-rooted deficiency. There is a tendency to overlook practical
                           programming skills over theories.  While Computer Science theories, such as the Cook-Levin theorem,
                           are beautiful and fascinating, they do not directly relate to what most programmers do most of the time.
-                          In fact, they tend to effectively prevent Computer Science students from learning practical
-                          programming skills most needed in businesses. We design our courses with this in mind. We
-                          emphasize practical skills as well as Data Structures and Algorithms. We keep our eyes on
-                          technologies currently in demand in the web development industry.  Upon completion, we furnish
-                          you with a portfolio of projects demonstrating what you’ve accomplished rather than a
+                          We design our courses with this in mind,
+                          emphasizing practical skills as well as Data Structures and Algorithms. We keep our eyes on
+                          technologies currently in demand in the web development industry.  Upon completion, you will have
+                          a portfolio of projects demonstrating what you’ve accomplished rather than a
                           transcript showing what courses you’ve taken.
                         </p>
                       </div>
