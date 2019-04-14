@@ -49,8 +49,8 @@ class Courses extends Component {
           <div className="course-top-right">
             <Slide right>
               <p className="course-paragraph">
-                Build your own website! Learn HTML5, CSS3, and Javascript with
-                our Front End Web Development course.
+                Build your own website! Learn HTML5, CSS3, and JavaScript with
+                our Front-End Web Development course.
                 We go into all that you would need to know to design and build a website
                 from the ground up.
               </p>
@@ -67,7 +67,7 @@ class Courses extends Component {
             Learn CSS3 and stylize your elements to captivate your audience
           </li>
           <li>
-            Learn Javascript and create reactive web pages that puts you on a higher level
+            Learn JavaScript and create reactive web pages that puts you on a higher level
           </li>
         </ul>
 
@@ -141,8 +141,8 @@ class Courses extends Component {
           <div className="course-top-right">
             <Slide left>
               <p className="course-paragraph course-paragraph-left" style={{color:"#61dafb"}}>
-                Heighten your web development prowess with React and Redux. These two Javascript
-                libraries allow you to push your Front End skills farther than before, and preps
+                Heighten your web development prowess with React and Redux. These two JavaScript
+                libraries allow you to push your Front-End skills farther than before, and preps
                 you for real world projects.
               </p>
             </Slide>
@@ -157,7 +157,7 @@ class Courses extends Component {
         {/*list hidden until mobile*/}
         <ul className="course-list" style={{color:"#61dafb"}}>
           <li>React will allow you to add statefulness to your HTML/CSS,
-            effectively turning it into a way to run Javascript and allow you
+            effectively turning it into a way to run JavaScript and allow you
             to open up many new ways of designing functionality for web.
           </li>
           <li>Redux is a container for statefulness, making it easier and lighter
