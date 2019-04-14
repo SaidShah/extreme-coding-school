@@ -113,18 +113,14 @@ class Home extends Component {
               <div className="column-right-side center-text">
                 <div className="column-mid-div">
                   <h2 className="blu-text bold-text home-page-ul-header-h2">
-                    Why Extreme:
+                    Why Extreme
                   </h2>
                   <p className="left-text skills-paragraph " style={{marginTop:"3%"}}>
-                    At Extreme, we believe that practical skills are just as valuable as
-                    theoretical knowledge. With this in mind, we
-                    strive to teach students about what they
-                    can do with the tools available to them, not about what is simply
-                    possible. When we teach, we don't have you sit down and listen to our
-                    instructors read from PowerPoint slides for hours on end. Instead, we have you follow us
-                    with activities and assignments to ensure that you absorb as much as possible while
-                    you learn. After you're finished with our courses, you will be well-versed in the tools
-                    that today's businesses are using and have the projects to show for it.
+                    We believe that practical skills are just as valuable as a theoretical foundation. We emphasize
+                    clean, scalable code. We teach technologies currently used in the industry.
+                    We value immersive, hands-on practice over passive lecturing. After each course or each segment, you
+                    will be well versed in the tools that today's businesses are using and you will have a portfolio of
+                    projects to show for it.
                   </p>
                   <div className="skills-ul-div" style={{marginTop:"2%"}}>
                     <ul className="home-page-ul">
