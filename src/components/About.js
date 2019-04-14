@@ -29,20 +29,30 @@ const About = () => (
           </div>
         </div>
         <p className="about-p">
-          In high school, my two children were just regular kids.  In Kurt Vonnegut’s terms, they had neither good nor ill fortune. They were healthy, they got reasonably good grades, and they did what they were supposed to -- not unlike many others.
+          In high school, my two children were just regular kids.  In Kurt Vonnegut’s terms, they had neither good nor
+          ill fortune. They were healthy, they got reasonably good grades, and they did what they were supposed to --
+          not unlike many others.
         </p>
         <p className="about-p">
-          On a hot summer day, when I was watching them skipping around the soccer field on South P, I suddenly started to think about their future -- Are they going to be alright when they grow up? Are they going to have a career and a rewarding life? At the bare minimum, are they going to be independent financially and not move back in with us after their college?
+          On a hot summer day, when I was watching them skipping around the soccer field on South P, I suddenly started
+          to think about their future -- Are they going to be alright when they grow up? Are they going to have a career
+          and a rewarding life? At the bare minimum, are they going to be independent financially and not move back in
+          with us after their college?
         </p>
         <p className="about-p">
-          I got worried, and I had many reasons to.
+          I got worried, and I had many reasons too.
         </p>
 
         <p className="about-p">
-          At that time, a large majority of college graduates owed a student loan worth more than two brand-new Audi A4 ($72,000) or, in today’s market, two brand-new Tesla Model 3. This amount, with compound interest, was what they would have to pay back for the rest of their lives. All while they would be trying to get an actual car of their own to go to work, have their own little apartment or house, and do exciting things like — eat.
+          At that time, a large majority of college graduates owed a student loan worth more than two brand-new Audi A4
+          ($72,000) or, in today’s market, two brand-new Tesla Model 3. This amount, with compound interest, was what they
+          would have to pay back for the rest of their lives. All while they would be trying to get an actual car of their
+          own to go to work, have their own little apartment or house, and do exciting things like — eat.
         </p>
         <p className="about-p">
-          Today, as an educator in a local college, I see firsthand many students graduating without employable skills. How can they ever pay off the amount of debt they owe? How can they ever live a rewarding life? I think there is no mystery — for many of them, they simply can’t, and they never will.  They are trapped for the rest of their lives.
+          Today, as an educator in a local college, I see firsthand many students graduating without employable skills.
+          How can they ever pay off the amount of debt they owe? How can they ever live a rewarding life? I think there
+          is no mystery — for many of them, they simply can’t, and they never will.  They are trapped for the rest of their lives.
         </p>
 
         <p className="about-p">
@@ -50,7 +60,9 @@ const About = () => (
         </p>
 
         <p className="about-p">
-          We would like to offer you, whether a student or a parent like me, a little different system, parallel to your routine life. We would teach you or your children a full-stack of highly marketable skills to avoid the life-long trap.
+          We would like to offer you, whether a student or a parent like me, a little different system, a system that will not
+          drastically disrupt your routine life. We would teach you or your children a full-stack of highly marketable
+          skills to avoid the life-long trap.
         </p>
 
         <p className="about-p">
