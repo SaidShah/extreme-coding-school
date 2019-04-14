@@ -54,7 +54,7 @@ class Home extends Component {
                   <div className="row row-div">
 
                     <div style={{display:"inherit"}}>
-                      <div className="column box-border column-desktop" onClick={this.frontEndClicked}>
+                      <div className="column box-border column-desktop" style={{cursor: "pointer"}} onClick={this.frontEndClicked}>
                         <div>
                           <h5 className="white-letters font-size-1-6">Front-End Development</h5>
                           <p className="black-letters font-size-1-5">
@@ -65,7 +65,7 @@ class Home extends Component {
                         </div>
                       </div>
 
-                      <div className="column box-border column-desktop" onClick={this.apcsClicked}>
+                      <div className="column box-border column-desktop" style={{cursor: "pointer"}} onClick={this.apcsClicked}>
                         <div>
                           <h5 className="white-letters font-size-1-6">AP Computer Science A</h5>
                           <p className="black-letters font-size-1-5">
@@ -75,7 +75,7 @@ class Home extends Component {
                           </p>
                         </div>
                       </div>
-                      <div className="column box-border column-desktop" onClick={this.miniBootcampClicked}>
+                      <div className="column box-border column-desktop" style={{cursor: "pointer"}} onClick={this.miniBootcampClicked}>
                         <div>
                           <h5 className="white-letters font-size-1-6">Mini-Bootcamp</h5>
                           <p className="black-letters font-size-1-5">
