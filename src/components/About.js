@@ -37,7 +37,7 @@ const About = () => (
           On a hot summer day, when I was watching them skipping around the soccer field on South P, I suddenly started
           to think about their future -- Are they going to be alright when they grow up? Are they going to have a career
           and a rewarding life? At the bare minimum, are they going to be independent financially and not move back in
-          with us after their college?
+          with us after college?
         </p>
         <p className="about-p">
           I got worried, and I had many reasons too.
@@ -70,20 +70,29 @@ const About = () => (
         </p>
 
         <p className="about-p">
-          If you are busy, set aside a small block of time each week — maybe one or two evenings or days — to take a programming class with us. We will teach you how to build things from scratch — from simple web sites to complex web and mobile applications. We will teach you how to design the front-end and how to store and manage a large amount of data in the back-end.
+          If you are busy, set aside a small block of time each week — maybe one or two evenings or days — to take a
+          programming class with us. We will teach you how to build things from scratch — from simple web sites to complex
+          web and mobile applications. We will teach you how to design the front-end and how to store and manage a large
+          amount of data in the back-end.
         </p>
 
         <p className="about-p">
-          If you have a summer off from high school, come to take an immersive AP Computer Science boot camp. We will teach you everything to pass the AP exam. Its credits can be transferred into most colleges to save you money down the road. Or you may even take our immersive, 5 days a week, hands-on boot camp for 8 weeks. You will learn the full-stack web development technologies both front-end and back-end. Upon completion, you will have built a portfolio of projects to show your passion and make you stand out from the crowd in your college applications.
+          If you have a summer off from high school, come to take an immersive AP Computer Science boot camp. We will
+          teach you everything to pass the AP exam. Its credits can be transferred into most colleges to save you money
+          down the road. Or you may even take our immersive, 5 days a week, hands-on boot camp for 8 weeks. You will learn
+          the full-stack web development technologies both front-end and back-end. Upon completion, you will have built
+          a portfolio of projects to show your passion and make you stand out from the crowd in your college applications.
 
         </p>
 
         <p className="about-p">
-          If you’re thinking about a career change, you may consider our immersive, 15-week, boot camp. Come talk to us. We will explain how.
+          If you’re thinking about a career change, you may consider our immersive, 15-week, boot camp. Come talk to us.
+          We will explain how.
         </p>
 
         <p className="about-p">
-          You own your own destiny. You don’t have to lose sleep worrying about the future like I used to. Come travel with us on an exciting journey.
+          You own your own destiny. You don’t have to lose sleep worrying about the future like I used to. Come travel
+          with us on an exciting journey.
         </p>
       </div>
 
