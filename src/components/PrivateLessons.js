@@ -15,7 +15,7 @@ const PrivateLessons = () => (
         <p className="font-size-1-4 p-desc-width">
         <strong>Our tutoring / private lessons option can be completely tailor made according to your needs and objectives.
           This option is particularly useful for students who have a very particular need or for students who wish to learn very intensively.
-          We tutor all of the courses taught at our school, and may also be willing to cover other topics on a case
+          We tutor all of the courses taught at our school, and may also cover other topics on a case
           by case basis. To schedule a time for tutoring, please contact us at tutoring@extremecodingschool.com  </strong> </p>
       </div>
     </div>
