@@ -172,14 +172,11 @@ class Home extends Component {
                           <p className="left-text skills-paragraph left-skills-p">
                             If you know a little programming, great. If you know more programming, even better!
 
-                            Our bootcamps are for people interested in a career change. You hope to learn both front-end and back-end technologies intensively and immersively.
+                            Our bootcamps are for people interested in a career change.
+                            Our shorter, less intensive courses are for people to learn specific parts of the
+                            full stack technologies. It could be either front-end or back-end.
 
-                            Our shorter, less intensive courses are to allow people to learn specific parts of the
-                            full stack technologies. It could be either front-end or back-end. No matter what you choose, the focus is the same — You will learn Computer Science theories as well as practical
-                            programming skills through project-centered problem-solving.
-
-                            Our AP Computer Science A Prep course is for high school students to learn Computer Science and prepare for the AP exam.  You may choose to set aside a few hours a week
-                            when school is in session, or a few days a week intensively in the summer to study the entire set of topics required by the curriculum. And your exam fee is on us.
+                            Our AP Computer Science A Prep course is for high school students to learn Computer Science and prepare for the AP exam.
                           </p>
                         </div>
 
