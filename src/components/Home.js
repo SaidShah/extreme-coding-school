@@ -89,8 +89,8 @@ class Home extends Component {
                       <div>
                         <h5 className="white-letters">What we teach</h5>
                         <p className="black-letters">
-                          We offer many courses here at Extreme. Everything from AP Computer Science A
-                          to Full-Stack Web Development. Find them with the button below.
+                          Extreme Coding School offers a variety of exciting courses for coders of all skill levels.
+                          Choose the course that is right for you.
                         </p>
                       </div>
                     </div>
