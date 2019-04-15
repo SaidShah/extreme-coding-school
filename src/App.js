@@ -10,6 +10,7 @@ import Privacy from './components/Privacy'
 import FAQ from './components/FAQ'
 import Navbar from './components/Navbar'
 import ThankyouPage from './components/ThankyouPage'
+import Chinese from './components/Chinese'
 import Footer from './components/Footer'
 import About from './components/About'
 import ContactUs from './components/ContactUs'
@@ -53,6 +54,7 @@ class App extends Component {
               <Route path="/about" render={()=><About/>}/>
               <Route path="/thankyou" render={()=><ThankyouPage/>}/>
               <Route path="/contactus" render={()=><ContactUs/>}/>
+              <Route path="/chinese" render={()=><Chinese/>}/>
               <Route path="/" render={()=><Home props={this.props}/>}/>
             </Switch>
           </div>
