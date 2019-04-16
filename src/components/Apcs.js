@@ -25,12 +25,10 @@ const Apcs = () => (
 
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text"> 14+</span> </h5>
         <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text"> Beginner - Advanced</span> </h5>
         <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text"> $1,280</span> </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text">  Algebra I is required; Algebra II is recommended.</span> </h5>
         <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> A Laptop</span> </h5>
         <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 or 4 week course</span> </h5>
       </div>

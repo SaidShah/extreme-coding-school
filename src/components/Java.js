@@ -19,29 +19,28 @@ const  Java = () => (
     </div>
 
 
-    <div className="course-div second-course-div">
-      <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages:
-          <span className="not-bold-text"> 15+</span>
-        </h5>
-        <h5 className="bold-text course-padding-btm">Skill Level:
-          <span className="not-bold-text"> Beginner - Advanced</span>
-        </h5>
-        <h5 className="bold-text course-padding-btm"> Price:
-          <span className="not-bold-text"> $960</span>
-        </h5>
+    <div className="course-div second-course-div" style={{display:"inline-grid"}}>
+      <div style={{display:"flex", width:"100%", marginBottom: "2%"}}>
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Skill Level:
+            <span className="not-bold-text"> Beginner - Advanced</span>
+          </h5>
+          <h5 className="bold-text course-padding-btm"> Price:
+            <span className="not-bold-text"> $960</span>
+          </h5>
+        </div>
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Tools:
+            <span className="not-bold-text"> A Laptop</span>
+          </h5>
+          <h5 className="bold-text course-padding-btm">Duration:
+            <span className="not-bold-text"> 4 or 8 week track</span>
+          </h5>
+        </div>
       </div>
-      <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite:
-          <span className="not-bold-text"> Intro to Java or Code Challenge</span>
-        </h5>
-        <h5 className="bold-text course-padding-btm">Tools:
-          <span className="not-bold-text"> A Laptop</span>
-        </h5>
-        <h5 className="bold-text course-padding-btm">Duration:
-          <span className="not-bold-text"> 4 or 8 week track</span>
-        </h5>
-      </div>
+      <h5 className="bold-text course-padding-btm">Prerequisite:
+        <span className="not-bold-text"> Intro to Java or Code Challenge</span>
+      </h5>
     </div>
 
 

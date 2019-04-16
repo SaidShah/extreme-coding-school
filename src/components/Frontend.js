@@ -29,9 +29,6 @@ const Frontend = () => (
 
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages:
-          <span className="not-bold-text"> 15+</span>
-        </h5>
         <h5 className="bold-text course-padding-btm">Skill Level:
           <span className="not-bold-text"> Beginner - Advanced</span>
         </h5>
@@ -40,9 +37,6 @@ const Frontend = () => (
         </h5>
       </div>
       <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite:
-          <span className="not-bold-text"> Basic understanding of Algebra</span>
-        </h5>
         <h5 className="bold-text course-padding-btm">Tools:
           <span className="not-bold-text"> A Laptop</span>
         </h5>

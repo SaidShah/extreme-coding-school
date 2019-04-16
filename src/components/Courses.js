@@ -24,15 +24,15 @@ class Courses extends Component {
     const course =  <div>
 
 
-    <hr style={{marginTop:"2rem", marginBottom:"1rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+      <hr style={{marginTop:"2rem", marginBottom:"1rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
 
-    <Fade>
-      <h1 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem", fontSize:"3rem"}}>
-        <strong>Courses</strong>
-      </h1>
-    </Fade>
+      <Fade>
+        <h1 style={{textAlign:"center", paddingTop:"2rem", paddingBottom: "2rem", fontSize:"3rem"}}>
+          <strong>Courses</strong>
+        </h1>
+      </Fade>
 
-    <hr style={{marginTop:"1rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
+      <hr style={{marginTop:"1rem", marginBottom:"2rem", borderTop:"3px solid rgba(0,0,0,.1)"}}/>
 
       {/* Front End */}
       <div style={{background:"#7fc6ff"}}>
@@ -130,6 +130,52 @@ class Courses extends Component {
         </Fade>
       </div>
 
+      {/* AP CS Java */}
+      <div style={{background:""}}>
+        <h3 className="course-title" style={{color:""}}>
+          <strong> AP Computer Science A </strong>
+        </h3>
+        <div className="course-top-half">
+          <div className="course-top-left">
+            <Fade>
+              <img src={JavaRedLogo} alt="html/css/js" className="courses-image-sizing"/>
+            </Fade>
+          </div>
+
+          <div className="course-top-right">
+            <Slide right>
+              <p className="course-paragraph" style={{color:""}}>
+                AP CS A teaches object-oriented programming using Java and is meant to be the equivalent of a first semester, college-level course in computer science. It will emphasize problem solving and algorithm development, and use hands-on experiences and examples so that students can apply programming tools and solve complex problems.
+              </p>
+            </Slide>
+          </div>
+        </div>
+
+        {/*list hidden until mobile*/}
+        <ul className="course-list" style={{color:""}}>
+          <li>
+            Learn the basics of Java and programming in this course.
+          </li>
+          <li>
+            You'll be able to take the AP CS-A test with ease after this course.
+          </li>
+          <li>
+            Learn more than most intro courses for Computer Science
+            at SUNY Colleges offer.
+          </li>
+        </ul>
+
+        <Fade>
+          <div className="course-link-div">
+            <a href={'/courses/apcs'} className="course-link">
+              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
+                More Info
+              </button>
+            </a>
+          </div>
+        </Fade>
+      </div>
+
       {/* React and Redux */}
       <div style={{background:"#282c34"}}>
         <h3 className="course-title" style={{color:"#61dafb"}}>
@@ -169,52 +215,6 @@ class Courses extends Component {
 
           <div className="course-link-div">
             <a href={'/courses/react'} className="course-link">
-              <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
-                More Info
-              </button>
-            </a>
-          </div>
-        </Fade>
-      </div>
-
-      {/* AP CS Java */}
-      <div style={{background:""}}>
-        <h3 className="course-title" style={{color:""}}>
-          <strong> AP Computer Science A </strong>
-        </h3>
-        <div className="course-top-half">
-          <div className="course-top-left">
-            <Fade>
-              <img src={JavaRedLogo} alt="html/css/js" className="courses-image-sizing"/>
-            </Fade>
-          </div>
-
-          <div className="course-top-right">
-            <Slide right>
-              <p className="course-paragraph" style={{color:""}}>
-                AP CS A teaches object-oriented programming using Java and is meant to be the equivalent of a first semester, college-level course in computer science. It will emphasize problem solving and algorithm development, and use hands-on experiences and examples so that students can apply programming tools and solve complex problems.
-              </p>
-            </Slide>
-          </div>
-        </div>
-
-        {/*list hidden until mobile*/}
-        <ul className="course-list" style={{color:""}}>
-          <li>
-            Learn the basics of Java and programming in this course.
-          </li>
-          <li>
-            You'll be able to take the AP CS-A test with ease after this course.
-          </li>
-          <li>
-            Learn more than most intro courses for Computer Science
-            at SUNY Colleges offer.
-          </li>
-        </ul>
-
-        <Fade>
-          <div className="course-link-div">
-            <a href={'/courses/apcs'} className="course-link">
               <button className="btn course-btn  btn-info" style={{borderRadius:"0.5rem"}}>
                 More Info
               </button>

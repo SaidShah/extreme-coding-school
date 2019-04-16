@@ -14,23 +14,24 @@ const ReactRedux = () => (
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
-        <strong>React is one of the most popular libraries for JavaScript with over 100,000 stars on Github. It was built as an open source project by Facebook and is the view layer in MVC frameworks. If you know javascript and just want to gain new skills with new technologies, then React-Redux is for you. Learn to build powerful modular web applications. Transfer those skills with React Native and build full functional and native mobile applications. Learn state management with Redux and remove all of the complexity of tracking data. Learn to use the React and Redux devtools to make programming fun and interactive.</strong></p>
+          <strong>React is one of the most popular libraries for JavaScript with over 100,000 stars on Github. It was built as an open source project by Facebook and is the view layer in MVC frameworks. If you know javascript and just want to gain new skills with new technologies, then React-Redux is for you. Learn to build powerful modular web applications. Transfer those skills with React Native and build full functional and native mobile applications. Learn state management with Redux and remove all of the complexity of tracking data. Learn to use the React and Redux devtools to make programming fun and interactive.</strong></p>
       </div>
     </div>
 
 
 
-    <div className="course-div second-course-div">
-      <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Ages: <span className="not-bold-text"> 16+</span> </h5>
-        <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text"> Intermediate - Advanced</span> </h5>
-        <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text"> $1,280</span> </h5>
+    <div className="course-div second-course-div" style={{display:"inline-grid"}}>
+      <div style={{display:"flex", width:"100%", marginBottom: "2%"}}>
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text"> Intermediate - Advanced</span> </h5>
+          <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text"> $1,280</span> </h5>
+        </div>
+        <div className="course-double-ul-div course-padding-left">
+          <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> Macbook or Linux Laptop</span> </h5>
+          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 or 8 week track</span> </h5>
+        </div>
       </div>
-      <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text"> Knowledge of HTML, CSS, JavaScript</span> </h5>
-        <h5 className="bold-text course-padding-btm">Tools: <span className="not-bold-text"> Macbook or Linux Laptop</span> </h5>
-        <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 4 or 8 week track</span> </h5>
-      </div>
+      <h5 className="bold-text course-padding-btm">Prerequisite: <span className="not-bold-text"> Knowledge of HTML, CSS, JavaScript</span> </h5>
     </div>
 
 
