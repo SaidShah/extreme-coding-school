@@ -23,9 +23,6 @@ class App extends Component {
     trigger: false
   }
 
-  componentDidMount() {
-  document.getElementById("socialMediaImage").className = "social-media-icon-class"
-  }
 
   render() {
     return (
