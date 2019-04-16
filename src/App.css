@@ -1295,7 +1295,11 @@ div.column-about-name {
 
   .column-right-side.center-text{
     width: 100%;
-    padding: 40px;
+    padding: 30px;
+  }
+
+  .left-text.skills-paragraph {
+    width: 100%;
   }
 
   .column-left.curriculum-text{
@@ -1424,8 +1428,8 @@ div.column-about-name {
   .about-p{
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 7.5vw;
-    margin-left: 7.5vw;
+    margin-right: 5.5vw;
+    margin-left: 5.5vw;
   }
 
   .mission-title{

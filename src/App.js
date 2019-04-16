@@ -31,7 +31,7 @@ class App extends Component {
     return (
       <div >
 
-      <img src={social} className="social-media-logo" alt="how did you see this" />
+      <img src={social} className="social-media-logo" alt="how did you see this" style={{display:"none"}}/>
         <div className="middle-div">
           <div className="body-content">
 
