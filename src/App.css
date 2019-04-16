@@ -920,6 +920,11 @@ div.column-about-name {
   margin-bottom: 3vw;
 }
 
+@media screen and (max-width: 1200px) {
+  .jumbo-image {
+    height: 45rem;
+  }
+}
 
 
 /* Tablet Landscape (big tablet [ipad pro])*/
