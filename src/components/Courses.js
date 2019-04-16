@@ -51,7 +51,7 @@ class Courses extends Component {
               <p className="course-paragraph">
                 Build your own website! Learn HTML5, CSS3, and JavaScript with
                 our Front-End Web Development course.
-                We go into all that you would need to know to design and build a website
+                We go into everything you would need to know in order to design and build a website
                 from the ground up.
               </p>
             </Slide>
