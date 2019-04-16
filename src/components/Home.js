@@ -30,8 +30,8 @@ class Home extends Component {
        index++;
        index %= images.length;
        if(document.getElementById("jumbo-image-home")){
-       document.getElementById("jumbo-image-home").src = images[index];
-     }
+         document.getElementById("jumbo-image-home").src = images[index];
+       }
      },5000)
   }
 
