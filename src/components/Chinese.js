@@ -1,8 +1,45 @@
 import React from 'react';
+import Slide from 'react-reveal/Slide';
 import javaPic from '.././images/web-dev-adults-img.jpg'
 
 
 const Chinese = () => (
+  <>
+  <div className="intro-java-gradient" style={{paddingBottom:"1vw"}}>
+    <h3 className="course-title" style={{color:"white"}}>
+      <strong> This is your Introduction </strong>
+    </h3>
+    <div className="course-top-half">
+      <div className="course-top-right">
+        <Slide left>
+          <p className="course-paragraph course-paragraph-left" style={{color:"white", width:"100%", textAlign:"center"}}>
+            滚滚长江东逝水，浪花淘尽英雄。是非成败转头空，青山依旧在，几度夕阳红。白发渔樵江渚上，惯看秋月春风。一壶浊酒喜相逢，古今多少事，都付笑谈中。是非成败转头空，青山依旧在，惯看秋月春风。一壶浊酒喜相逢，古今多少事，滚滚长江东逝水，浪花淘尽英雄。 几度夕阳红。白发渔樵江渚上，都付笑谈中......
+          </p>
+        </Slide>
+      </div>
+
+    </div>
+
+    {/*list hidden until mobile*/}
+    <ul className="course-list" style={{color:"white"}}>
+      <li>
+        Design and build robust, object-oriented applications
+      </li>
+      <li>
+        Organize complex data using Java collections
+      </li>
+      <li>
+        Read/write files and handle exceptions
+      </li>
+      <li>
+        Get to know Big O notation and efficicent sorting algorithms.
+      </li>
+    </ul>
+  </div>
+
+
+
+
 
   <div className="course-top-div">
     <h1 className="center-text bold-text">Bootcamp</h1>
@@ -234,6 +271,7 @@ const Chinese = () => (
 
 
   </div>
+  </>
 );
 
 export default Chinese;
