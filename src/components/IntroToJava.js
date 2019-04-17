@@ -53,20 +53,6 @@ const IntroToJava = () => (
     <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Monday & Wednesday"} courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"} starting = {"May 06, 2019"} applyLink = {"/apply/javaIntro8MW"} courseName = {"Intro to Java Mon & Wed"}/>
     <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Tuesday & Thursday"} courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"} starting = {"May 07, 2019"} applyLink = {"/apply/javaIntro8TTR"} courseName = {"Intro to Java Tues & Thurs"}/>
 
-    <div className="course-div second-course-div">
-      <div className="course-ul-div">
-        <div className="course-double-ul-div course-padding-left">
-          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 weeks</span> </h5>
-          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Tuesday & Thursday</span> </h5>
-          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 12:30 pm | 1:00 pm - 5:00 pm</span> </h5>
-        </div>
-        <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 07, 2019</span> </h5>
-        <Link to="/apply/javaIntro8TTR" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Intro to Java Tues & Thurs</Link>
-        </div>
-      </div>
-    </div>
-
 
     <div className="course-div second-course-div">
       <div className="course-ul-div">
