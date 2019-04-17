@@ -16,7 +16,6 @@ import About from './components/About'
 import ContactUs from './components/ContactUs'
 import {Switch, Route, withRouter} from 'react-router-dom'
 import logo from './images/ecs-long-ns.svg'
-import social from './images/social-media-logo.png'
 
 class App extends Component {
   state={
