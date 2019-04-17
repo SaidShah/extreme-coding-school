@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import apcs from '.././images/image-ap.jpg'
 import apcsTwo from '.././images/adult_learning.jpg'
+import CoursesMoreInfo from "./CoursesMoreInfo";
 
 const Apcs = () => (
 
@@ -51,7 +52,17 @@ const Apcs = () => (
       </div>
     </div>
 
+    {/*<h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> {props.courseDuration}</span> </h5>
+            <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> {props.schedule}</span> </h5>
+            <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> {props.courseHours} </span> </h5>
 
+          </div>
+          <div className="course-double-ul-div course-padding-left">
+            <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> {props.starting}</span> </h5>
+            <Link to={props.applyLink} className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
+              Apply Now {props.courseName}*/}
+
+    <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Monday & Wednesday"} courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 3:00 pm"} starting = {"May 06, 2019"} applyLink = {"/apply/apCSa8mw"} courseName = {"AP Computer Science A Mon & Wed"}/>
     <div className="course-div second-course-div">
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
