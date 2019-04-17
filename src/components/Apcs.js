@@ -63,7 +63,7 @@ const Apcs = () => (
               Apply Now {props.courseName}*/}
 
     <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Monday & Wednesday"} courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 3:00 pm"} starting = {"May 06, 2019"} applyLink = {"/apply/apCSa8mw"} courseName = {"AP Computer Science A Mon & Wed"}/>
-
+    <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Tuesday & Thursday"} courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 3:00 pm"} starting = {"May 07, 2019"} applyLink = {"/apply/apCSa4tr"} courseName = {"AP Computer Science A Tues & Thur"}/>
     <div className="course-div second-course-div">
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
