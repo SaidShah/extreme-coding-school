@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import javaPic from '.././images/web-dev-adults-img.jpg'
 import javaPicTwo from '.././images/web-dev-adults-img-two.jpg'
+import CoursesMoreInfo from "./CoursesMoreInfo";
 
 
 const IntroToJava = () => (
@@ -49,6 +50,7 @@ const IntroToJava = () => (
       </div>
     </div>
 
+    <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Monday & Wednesday"} courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 5:00 pm"} starting = {"May 06, 2019"} applyLink = {"/apply/javaIntro8MW"} courseName = {"Intro to Java Mon & Wed"}/>
     <div className="course-div second-course-div">
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
