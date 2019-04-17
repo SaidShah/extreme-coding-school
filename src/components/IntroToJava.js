@@ -51,6 +51,7 @@ const IntroToJava = () => (
     </div>
 
     <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Monday & Wednesday"} courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"} starting = {"May 06, 2019"} applyLink = {"/apply/javaIntro8MW"} courseName = {"Intro to Java Mon & Wed"}/>
+    <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Tuesday & Thursday"} courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"} starting = {"May 07, 2019"} applyLink = {"/apply/javaIntro8TTR"} courseName = {"Intro to Java Tues & Thurs"}/>
 
     <div className="course-div second-course-div">
       <div className="course-ul-div">
