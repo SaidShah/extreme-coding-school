@@ -42,7 +42,7 @@ const ReactRedux = () => (
           <li className="course-ul">Learn React Components and related terms like JSX, Babel, Props, State etc... </li>
           <li className="course-ul">Learn how to build custom reusable React Components</li>
           <li className="course-ul">Use React-router to build routes for you application</li>
-          <li className="course-ul">Learn to incorporate redux as a layer for state management</li>
+          <li className="course-ul">Learn to incorporate Redux as a layer for state management</li>
           <li className="course-ul">Incorporate reducers, actions and thunk for fetching from API's</li>
           <li className="course-ul">Publish React App websites using Node and Firebase</li>
         </ul>
