@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import frontEnd from '.././images/front-end.svg'
 import frontEndTwo from '.././images/front-end-two.svg'
+import CourseListing from "./CourseListing";
 
 const Frontend = () => (
   <div className="course-top-div">
@@ -65,6 +66,14 @@ const Frontend = () => (
       </div>
     </div>
 
+    <CourseListing
+        courseDuration = {"4 weeks"}
+        schedule = {"Saturday & Sunday"}
+        courseHours = {"8:30 am - 4:30 pm"}
+        starting = {"May 11, 2019"}
+        applyLink = {"/apply/frontEndWebDev4"}
+        courseName = {"4 week course"}
+    />
 
     <div className="course-div second-course-div">
       <div className="course-double-ul-div course-padding-left">
