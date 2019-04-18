@@ -21,19 +21,29 @@ class FAQ extends Component {
       <div className="faq-top-margin">
         <h1 className="center-text blue-text bold-text">Frequently Asked Questions</h1>
 
-        <QnA tabNum = {"tab-one"} ask = {"What are the starting dates?"} answer = {"You will have the opportunity to choose from multiple starting dates once you have passed the pre-enrollment coding challenges."} />
+        <QnA
+            tabNum = {"tab-one"}
+            ask = {"What are the starting dates?"}
+            answer = {"You will have the opportunity to choose from multiple starting dates once you have passed the pre-enrollment coding challenges."} />
 
-        <QnA tabNum = {"tab-two"} ask = {"How much time will I have to dedicate to the program?"} answer = {"In order to be successful in the program you must be willing to dedicate 20 hours of class time per week. You will also have to dedicate between 20-30 hours per week outside of class."}/>
+        <QnA
+            tabNum = {"tab-two"}
+            ask = {"How much time will I have to dedicate to the program?"}
+            answer = {"In order to be successful in the program you must be willing to dedicate 20 hours of class time per week. You will also have to dedicate between 20-30 hours per week outside of class."}
+        />
+        {/*
+        <QnA
+            tabNum = {""}
+            ask = {""}
+            answer = {""}
+        />
+        */}
 
-            <div className="tab faq-width faq-top-margin">
-              <input id="tab-three" type="checkbox" name="tabs"/>
-              <label htmlFor="tab-three" className="faq-label">Do I need a college degree to enroll?</label>
-              <div className="tab-content faq-width">
-              <ul className='faq-ul'>
-                <li>A college degree is not required. The only requirement is that you must pass the pre-enrollment code challenges in order to be eligible. </li>
-                </ul>
-              </div>
-              </div>
+        <QnA
+            tabNum = {"tab-three"}
+            ask = {"Do I need a college degree to enroll?"}
+            answer = {"A college degree is not required. The only requirement is that you must pass the pre-enrollment code challenges in order to be eligible."}
+        />
 
               <div className="tab faq-width faq-top-margin">
               <input id="tab-four" type="checkbox" name="tabs"/>
