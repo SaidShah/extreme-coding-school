@@ -31,13 +31,6 @@ class FAQ extends Component {
             ask = {"How much time will I have to dedicate to the program?"}
             answer = {"In order to be successful in the program you must be willing to dedicate 20 hours of class time per week. You will also have to dedicate between 20-30 hours per week outside of class."}
         />
-        {/*
-        <QnA
-            tabNum = {""}
-            ask = {""}
-            answer = {""}
-        />
-        */}
 
         <QnA
             tabNum = {"tab-three"}
@@ -58,17 +51,20 @@ class FAQ extends Component {
             answer = {"The first challenge will test your knowledge of HTML and CSS. For the second and third code challenges you will have the option of either completing them in Java, Javascript or Ruby. They are not difficult, but we would like to test your critical thinking and problem-solving skills."}
         />
 
-        <QnA/>
+        {/*
+        <QnA
+            tabNum = {""}
+            ask = {""}
+            answer = {""}
+        />
+        */}
 
-            <div className="tab faq-width faq-top-margin">
-              <input id="tab-six" type="checkbox" name="tabs"/>
-              <label htmlFor="tab-six" className="faq-label">Do I need to bring my own computer?</label>
-              <div className="tab-content faq-width">
-              <ul className='faq-ul'>
-                <li>Yes, you must have a Mac computer in order to attend. We require a Mac because we feel if all of the students are working with the same enviornments we will have a much better learning and debugging experience. </li>
-                </ul>
-              </div>
-              </div>
+        {/*MOD/REMOVE*/}
+        <QnA
+            tabNum = {"tab-six"}
+            ask = {"Do I need to bring my own computer?"}
+            answer = {"Yes, you must have a Mac computer in order to attend. We require a Mac because we feel if all of the students are working with the same enviornments we will have a much better learning and debugging experience."}
+        />
 
             <div className="tab faq-width faq-top-margin">
               <input id="tab-seven" type="checkbox" name="tabs"/>
