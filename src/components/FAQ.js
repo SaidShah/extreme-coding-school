@@ -84,17 +84,11 @@ class FAQ extends Component {
             answer = {"At Extreme Coding School we have built a curriculum based on the most in-demand technologies specific to the New York market. Especially our Data Structures and Algorithms which most boot camps do not offer."}
         />
 
-
-
-                  <div className="tab faq-width faq-top-margin">
-                    <input id="tab-tenth" type="checkbox" name="tabs"/>
-                    <label htmlFor="tab-tenth" className="faq-label">Are there any scholarships?</label>
-                    <div className="tab-content faq-width">
-                    <ul className='faq-ul'>
-                      <li>We offer early registration pricing and an interest-free payment plan for those who qualify.</li>
-                      </ul>
-                    </div>
-                    </div>
+        <QnA
+            tabNum = {"tab-tenth"}
+            ask = {"Are there any scholarships?"}
+            answer = {"We offer early registration pricing and an interest-free payment plan for those who qualify."}
+        />
 
                     <div className="tab faq-width faq-top-margin">
                       <input id="tab-eleventh" type="checkbox" name="tabs"/>
