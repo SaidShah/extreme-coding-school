@@ -100,8 +100,8 @@ class FAQ extends Component {
         {/*
 
               <div className="tab faq-width faq-top-margin">
-                <input id="tab-ninth" type="checkbox" name="tabs"/>
-                <label htmlFor="tab-ninth" className="faq-label">What is pair programming?</label>
+                <input id="tab-twelfth" type="checkbox" name="tabs"/>
+                <label htmlFor="tab-twelfth" className="faq-label">What is pair programming?</label>
                 <div className="tab-content faq-width">
                   <ul className='faq-ul'>
                     <li>In pair programming, there are two parties. One, the driver, is responsible for typing code, while the other, the navigator, tells the driver what to type.</li>
@@ -110,8 +110,8 @@ class FAQ extends Component {
               </div>
 
         <div className="tab faq-width faq-top-margin">
-          <input id="tab-ninth" type="checkbox" name="tabs"/>
-          <label htmlFor="tab-ninth" className="faq-label">I like driving! Can I be the driver all the time?</label>
+          <input id="tab-thirteenth" type="checkbox" name="tabs"/>
+          <label htmlFor="tab-thirteenth" className="faq-label">I like driving! Can I be the driver all the time?</label>
           <div className="tab-content faq-width">
             <ul className='faq-ul'>
               <li>In the car? Sure. But in pair programming, the driver and navigator often switch responsibilities. So we encourage the same. It is important to feel comfortable with both responsibilities, even if you find one seems to come to you more "naturally".</li>
@@ -120,8 +120,8 @@ class FAQ extends Component {
         </div>
 
         <div className="tab faq-width faq-top-margin">
-          <input id="tab-ninth" type="checkbox" name="tabs"/>
-          <label htmlFor="tab-ninth" className="faq-label">Why pair programming?</label>
+          <input id="tab-fourteenth" type="checkbox" name="tabs"/>
+          <label htmlFor="tab-fourteenth" className="faq-label">Why pair programming?</label>
           <div className="tab-content faq-width">
             <ul className='faq-ul'>
               <li>We believe that pair programming is an effective tool for learning and writing code.
@@ -142,7 +142,7 @@ class FAQ extends Component {
         </div>
 
         <div className="tab faq-width faq-top-margin">
-          <input id="tab-ninth" type="checkbox" name="tabs"/>
+          <input id="tab-fifteenth" type="checkbox" name="tabs"/>
           <label htmlFor="tab-ninth" className="faq-label">What if both navigator and driver get stuck? Are we out of options?</label>
           <div className="tab-content faq-width">
             <ul className='faq-ul'>
