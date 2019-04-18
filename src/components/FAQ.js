@@ -1,5 +1,19 @@
 import React, { Component } from 'react';
 
+const QnA = (props) => {
+  return (
+      <div className="tab faq-width faq-top-margin">
+        <input id={props.tabNum} type="checkbox" name="tabs"/>
+        <label htmlFor={props.tabNum} className="faq-label">{props.ask}</label>
+        <div className="tab-content faq-width">
+          <ul className='faq-ul'>
+            <li>{props.answer}</li>
+          </ul>
+        </div>
+      </div>
+  );
+}
+
 class FAQ extends Component {
 
   render() {
@@ -7,15 +21,7 @@ class FAQ extends Component {
       <div className="faq-top-margin">
         <h1 className="center-text blue-text bold-text">Frequently Asked Questions</h1>
 
-        <div className="tab faq-width faq-top-margin">
-          <input id="tab-one" type="checkbox" name="tabs"/>
-          <label htmlFor="tab-one" className="faq-label">What are the starting dates?</label>
-          <div className="tab-content faq-width">
-          <ul className='faq-ul'>
-            <li>You will have the opportunity to choose from multiple starting dates once you have passed the pre-enrollment coding challenges.</li>
-            </ul>
-          </div>
-          </div>
+        <QnA tabNum = {"tab-one"} ask = {"What are the starting dates?"} answer = {"You will have the opportunity to choose from multiple starting dates once you have passed the pre-enrollment coding challenges."} />
 
           <div className="tab faq-width faq-top-margin">
             <input id="tab-two" type="checkbox" name="tabs"/>
@@ -187,3 +193,4 @@ class FAQ extends Component {
 }
 
 export default FAQ;
+
