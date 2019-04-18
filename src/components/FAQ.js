@@ -70,13 +70,6 @@ class FAQ extends Component {
             answer = {"The main criteria we look for is your passion and commitment to succeed. Becoming a full-stack developer is difficult and requires lots of hard work, and dedication. We look for applicants who are determined and willing to give the program their all in order to achieve life-changing results."}
         />
 
-        {/*
-        <QnA
-            tabNum = {""}
-            ask = {""}
-            answer = {""}
-        />
-        */}
 
         <QnA
             tabNum = {"tab-ninth"}
@@ -98,63 +91,52 @@ class FAQ extends Component {
         />
 
         {/*
+        <QnA
+            tabNum = {"tab-twelfth"}
+            ask = {"What is pair programming?"}
+            answer = {"In pair programming, there are two parties. One, the driver, is responsible for typing code, while the other, the navigator, tells the driver what to type."}
+        />
 
-              <div className="tab faq-width faq-top-margin">
-                <input id="tab-twelfth" type="checkbox" name="tabs"/>
-                <label htmlFor="tab-twelfth" className="faq-label">What is pair programming?</label>
-                <div className="tab-content faq-width">
-                  <ul className='faq-ul'>
-                    <li>In pair programming, there are two parties. One, the driver, is responsible for typing code, while the other, the navigator, tells the driver what to type.</li>
-                  </ul>
-                </div>
-              </div>
+        <QnA
+            tabNum = {"tab-thirteenth"}
+            ask = {"I like driving! Can I be the driver all the time?"}
+            answer = {"In the car? Sure. But in pair programming, the driver and navigator often switch responsibilities. So we encourage the same. It is important to feel comfortable with both responsibilities, even if you find one seems to come to you more \"naturally\"."}
+        />
 
-        <div className="tab faq-width faq-top-margin">
-          <input id="tab-thirteenth" type="checkbox" name="tabs"/>
-          <label htmlFor="tab-thirteenth" className="faq-label">I like driving! Can I be the driver all the time?</label>
-          <div className="tab-content faq-width">
-            <ul className='faq-ul'>
-              <li>In the car? Sure. But in pair programming, the driver and navigator often switch responsibilities. So we encourage the same. It is important to feel comfortable with both responsibilities, even if you find one seems to come to you more "naturally".</li>
-            </ul>
-          </div>
-        </div>
+        <QnA
+            tabNum = {"tab-fourteenth"}
+            ask = {"Why pair programming?"}
+            answer = {
+              "We believe that pair programming is an effective tool for learning and writing code. " +
+            "                As the saying goes, \"Two heads are better than one\". It's a bit cliche, but there is truth to it. " +
+            "                Sometimes you just need a second pair of eyes to figure out a problem, or to keep your code from going " +
+            "                off the rails. It can serve to help keep both members focused on the task at hand whereas programming " +
+            "                alone one might become distracted or shut down when confronting an obstacle. It is also a highly effective " +
+            "                means of pooling knowledge and coming up with novel solutions to challenging problems. Many companies " +
+            "                have recognized the value, and begun to implement it in their own workplace, so familiarity with pair programming " +
+            "                is also a marketable skill.\n" +
+            "                When coding on a team, communication is key, and pair programming does an excellent job of fostering " +
+            "                communication skills. The driver and navigator must by definition be in a constant state of communication. " +
+            "                In doing so, they will find it easier to remain focused, and when encountering an obstacle, discuss rather " +
+            "                than despair. Companies have come to value pair programming for the communication and cooperation it fosters, " +
+            "                and many implement this practice in their workplaces today."}
+        />
 
-        <div className="tab faq-width faq-top-margin">
-          <input id="tab-fourteenth" type="checkbox" name="tabs"/>
-          <label htmlFor="tab-fourteenth" className="faq-label">Why pair programming?</label>
-          <div className="tab-content faq-width">
-            <ul className='faq-ul'>
-              <li>We believe that pair programming is an effective tool for learning and writing code.
-                As the saying goes, "Two heads are better than one". It's a bit cliche, but there is truth to it.
-                Sometimes you just need a second pair of eyes to figure out a problem, or to keep your code from going
-                off the rails. It can serve to help keep both members focused on the task at hand whereas programming
-                alone one might become distracted or shut down when confronting an obstacle. It is also a highly effective
-                means of pooling knowledge and coming up with novel solutions to challenging problems. Many companies
-                have recognized the value, and begun to implement it in their own workplace, so familiarity with pair programming
-                is also a marketable skill.
-                When coding on a team, communication is key, and pair programming does an excellent job of fostering
-                communication skills. The driver and navigator must by definition be in a constant state of communication.
-                In doing so, they will find it easier to remain focused, and when encountering an obstacle, discuss rather
-                than despair. Companies have come to value pair programming for the communication and cooperation it fosters,
-                and many implement this practice in their workplaces today.</li>
-            </ul>
-          </div>
-        </div>
+        <QnA
+            tabNum = {"tab-fifteenth"}
+            ask = {"What if both navigator and driver get stuck? Are we out of options?"}
+            answer = {"Extreme Coding School also has tutors that can help if the need arises, but we like to encourage self-reliance first and foremost. We believe that you can learn best, and feel the greatest sense of accomplishment if, when you run into a problem, you are able to solve it yourself, or amongst peers."}
+        />
+        */}
 
-        <div className="tab faq-width faq-top-margin">
-          <input id="tab-fifteenth" type="checkbox" name="tabs"/>
-          <label htmlFor="tab-ninth" className="faq-label">What if both navigator and driver get stuck? Are we out of options?</label>
-          <div className="tab-content faq-width">
-            <ul className='faq-ul'>
-              <li>Extreme Coding School also has tutors that can help if the need arises, but we like to encourage self-reliance first and foremost. We believe that you can learn best, and feel the greatest sense of accomplishment if, when you run into a problem, you are able to solve it yourself, or amongst peers."</li>
-            </ul>
-          </div>
-        </div>
-
-
-*/}
-
-
+        
+        {/*
+        <QnA
+            tabNum={""}
+            ask={""}
+            answer={""}
+        />
+        */}
 
         </div>
 
