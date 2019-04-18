@@ -2,6 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom'
 import react from '.././images/react-logo.svg'
 import redux from '.././images/redux-logo.svg'
+import CoursesMoreInfo from "./CoursesMoreInfo";
 
 const ReactRedux = () => (
   <div className="course-top-div">
@@ -52,7 +53,14 @@ const ReactRedux = () => (
           style={{width:"30rem", height:"20rem"}}/>
       </div>
     </div>
-
+    <CoursesMoreInfo
+        courseDuration = {"4 weeks"}
+        schedule = {"Monday & Wednesday"}
+        courseHours = {"8:30 am - 12:30 pm"}
+        starting = {"May 06, 2019"}
+        applyLink = {"/apply/react"}
+        courseName = {"React & Redux"}
+    />
     <div className="course-div second-course-div">
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
