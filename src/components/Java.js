@@ -75,20 +75,6 @@ const  Java = () => (
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
           <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 weeks</span> </h5>
-          <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Monday & Wednesday</span> </h5>
-          <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 11:30 am | 12:30 pm - 3:00 pm</span> </h5>
-        </div>
-        <div className="course-double-ul-div course-padding-left">
-        <h5 className="bold-text course-padding-btm">Starting: <span className="not-bold-text"> May 06, 2019</span> </h5>
-        <Link to="/apply/dataStructuresMW" className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">Apply Now Java Data Structures & Algorithms Mon & Wed</Link>
-        </div>
-      </div>
-    </div>
-
-    <div className="course-div second-course-div">
-      <div className="course-ul-div">
-        <div className="course-double-ul-div course-padding-left">
-          <h5 className="bold-text course-padding-btm">Duration: <span className="not-bold-text"> 8 weeks</span> </h5>
           <h5 className="bold-text course-padding-btm">Schedule: <span className="not-bold-text"> Tuesday & Thursday</span> </h5>
           <h5 className="bold-text course-padding-btm">Hours: <span className="not-bold-text"> 8:30 am - 11:30 am | 12:30 pm - 3:00 pm</span> </h5>
         </div>
