@@ -90,15 +90,12 @@ class FAQ extends Component {
             answer = {"We offer early registration pricing and an interest-free payment plan for those who qualify."}
         />
 
-                    <div className="tab faq-width faq-top-margin">
-                      <input id="tab-eleventh" type="checkbox" name="tabs"/>
-                      <label htmlFor="tab-eleventh" className="faq-label">How long does the program take to complete?</label>
-                      <div className="tab-content faq-width">
-                      <ul className='faq-ul'>
-                        <li>The program takes 15 weeks to complete, and then you will start working with career services to land your first full-stack developer or web developer position.</li>
-                        </ul>
-                      </div>
-                      </div>
+        {/*MOD/REMOVE*/}
+        <QnA
+            tabNum = {"tab-eleventh"}
+            ask = {"How long does the program take to complete?"}
+            answer = {"The program takes 15 weeks to complete, and then you will start working with career services to land your first full-stack developer or web developer position."}
+        />
 
         {/*
 
