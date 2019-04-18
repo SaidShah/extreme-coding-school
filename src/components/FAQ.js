@@ -44,7 +44,7 @@ class FAQ extends Component {
             answer = {"You must first apply to the program, then we will be in contact with you to schedule the code challenges. If you are successful in all 3 of the code challenges, you will be eligible to attend, and we will get in touch so you can choose a start date and make your pre-payment."}
         />
 
-
+        {/*BOOTCAMP*/}
         <QnA
             tabNum = {"tab-five"}
             ask = {'What are the pre-enrollment code challenges?'}
@@ -55,7 +55,7 @@ class FAQ extends Component {
         <QnA
             tabNum = {"tab-six"}
             ask = {"Do I need to bring my own computer?"}
-            answer = {"Yes, you must have a Mac computer in order to attend. We require a Mac because we feel if all of the students are working with the same enviornments we will have a much better learning and debugging experience."}
+            answer = {"Yes, you must have a Mac computer in order to attend. We require a Mac because we feel if all of the students are working with the same environments we will have a much better learning and debugging experience."}
         />
 
         <QnA
@@ -70,7 +70,7 @@ class FAQ extends Component {
             answer = {"The main criteria we look for is your passion and commitment to succeed. Becoming a full-stack developer is difficult and requires lots of hard work, and dedication. We look for applicants who are determined and willing to give the program their all in order to achieve life-changing results."}
         />
 
-
+        {/*BOOTCAMP*/}
         <QnA
             tabNum = {"tab-ninth"}
             ask = {"How are you different from other boot camps?"}
@@ -82,7 +82,7 @@ class FAQ extends Component {
             ask = {"Are there any scholarships?"}
             answer = {"We offer early registration pricing and an interest-free payment plan for those who qualify."}
         />
-
+        {/*BOOTCAMP???*/}
         {/*MOD/REMOVE*/}
         <QnA
             tabNum = {"tab-eleventh"}
