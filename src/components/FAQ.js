@@ -72,25 +72,13 @@ class FAQ extends Component {
             answer = {"No, the only thing you need to succeed is your laptop and the eagerness to learn."}
         />
 
-            <div className="tab faq-width faq-top-margin">
-              <input id="tab-seven" type="checkbox" name="tabs"/>
-              <label htmlFor="tab-seven" className="faq-label">Do I have to purchase any textbooks?</label>
-              <div className="tab-content faq-width">
-              <ul className='faq-ul'>
-                <li>No, the only thing you need to succeed is your laptop and the eagerness to learn. </li>
-                </ul>
-              </div>
-              </div>
+        <QnA
+            tabNum = {"tab-eight"}
+            ask = {"What criteria do you look for in those applying?"}
+            answer = {"The main criteria we look for is your passion and commitment to succeed. Becoming a full-stack developer is difficult and requires lots of hard work, and dedication. We look for applicants who are determined and willing to give the program their all in order to achieve life-changing results."}
+        />
 
-              <div className="tab faq-width faq-top-margin">
-                <input id="tab-eight" type="checkbox" name="tabs"/>
-                <label htmlFor="tab-eight" className="faq-label">What criteria do you look for in those applying?</label>
-                <div className="tab-content faq-width">
-                <ul className='faq-ul'>
-                  <li>The main criteria we look for is your passion and commitment to succeed. Becoming a full-stack developer is difficult and requires lots of hard work, and dedication. We look for applicants who are determined and willing to give the program their all in order to achieve life-changing results.</li>
-                  </ul>
-                </div>
-                </div>
+              
 
                 <div className="tab faq-width faq-top-margin">
                   <input id="tab-ninth" type="checkbox" name="tabs"/>
