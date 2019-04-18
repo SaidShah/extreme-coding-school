@@ -51,14 +51,6 @@ class FAQ extends Component {
             answer = {"The first challenge will test your knowledge of HTML and CSS. For the second and third code challenges you will have the option of either completing them in Java, Javascript or Ruby. They are not difficult, but we would like to test your critical thinking and problem-solving skills."}
         />
 
-        {/*
-        <QnA
-            tabNum = {""}
-            ask = {""}
-            answer = {""}
-        />
-        */}
-
         {/*MOD/REMOVE*/}
         <QnA
             tabNum = {"tab-six"}
@@ -78,17 +70,19 @@ class FAQ extends Component {
             answer = {"The main criteria we look for is your passion and commitment to succeed. Becoming a full-stack developer is difficult and requires lots of hard work, and dedication. We look for applicants who are determined and willing to give the program their all in order to achieve life-changing results."}
         />
 
-              
+        {/*
+        <QnA
+            tabNum = {""}
+            ask = {""}
+            answer = {""}
+        />
+        */}
 
-                <div className="tab faq-width faq-top-margin">
-                  <input id="tab-ninth" type="checkbox" name="tabs"/>
-                  <label htmlFor="tab-ninth" className="faq-label">How are you different from other boot camps?</label>
-                  <div className="tab-content faq-width">
-                  <ul className='faq-ul'>
-                    <li>At Extreme Coding School we have built a curriculum based on the most in-demand technologies specific to the New York market. Especially our Data Structures and Algorithms which most boot camps do not offer.</li>
-                    </ul>
-                  </div>
-                  </div>
+        <QnA
+            tabNum = {"tab-ninth"}
+            ask = {"How are you different from other boot camps?"}
+            answer = {"At Extreme Coding School we have built a curriculum based on the most in-demand technologies specific to the New York market. Especially our Data Structures and Algorithms which most boot camps do not offer."}
+        />
 
 
 
