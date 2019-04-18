@@ -130,7 +130,7 @@ class FAQ extends Component {
         */}
 
 
-        {/*
+        {/* NOTE: PLACE ADDITIONAL QnA's ABOVE THIS COMMENT(FOR CONTINUED EASE OF COPY-PASTE)
         <QnA
             tabNum={""}
             ask={""}
