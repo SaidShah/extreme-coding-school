@@ -50,9 +50,30 @@ const IntroToJava = () => (
       </div>
     </div>
 
-    <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Monday & Wednesday"} courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"} starting = {"May 06, 2019"} applyLink = {"/apply/javaIntro8MW"} courseName = {"Intro to Java Mon & Wed"}/>
-    <CoursesMoreInfo courseDuration = {"8 weeks"} schedule = {"Tuesday & Thursday"} courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"} starting = {"May 07, 2019"} applyLink = {"/apply/javaIntro8TTR"} courseName = {"Intro to Java Tues & Thurs"}/>
-    <CoursesMoreInfo courseDuration = {"4 weeks"} schedule = {"Saturday & Sunday"} courseHours = {"8:30 am - 3:30 pm"} starting = {"May 11, 2019"} applyLink = {"/apply/javaIntro4ss"} courseName = {"Intro to Java Sat & Sun"}/>
+    <CoursesMoreInfo
+        courseDuration = {"8 weeks"}
+        schedule = {"Monday & Wednesday"}
+        courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"}
+        starting = {"May 06, 2019"}
+        applyLink = {"/apply/javaIntro8MW"}
+        courseName = {"Intro to Java Mon & Wed"}
+    />
+    <CoursesMoreInfo
+        courseDuration = {"8 weeks"}
+        schedule = {"Tuesday & Thursday"}
+        courseHours = {"8:30 am - 12:30 pm | 1:00 pm - 5:00 pm"}
+        starting = {"May 07, 2019"}
+        applyLink = {"/apply/javaIntro8TTR"}
+        courseName = {"Intro to Java Tues & Thurs"}
+    />
+    <CoursesMoreInfo
+        courseDuration = {"4 weeks"}
+        schedule = {"Saturday & Sunday"}
+        courseHours = {"8:30 am - 3:30 pm"}
+        starting = {"May 11, 2019"}
+        applyLink = {"/apply/javaIntro4ss"}
+        courseName = {"Intro to Java Sat & Sun"}
+    />
 
 
   </div>
