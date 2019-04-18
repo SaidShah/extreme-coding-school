@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-const CoursesMoreInfo = (props) => {
+const CourseListing = (props) => {
   return (
       <div className="course-div second-course-div">
         <div className="course-ul-div">
@@ -22,4 +22,4 @@ const CoursesMoreInfo = (props) => {
   );
 }
 
-export default CoursesMoreInfo;
+export default CourseListing;

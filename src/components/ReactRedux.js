@@ -1,7 +1,7 @@
 import React from 'react';
 import react from '.././images/react-logo.svg'
 import redux from '.././images/redux-logo.svg'
-import CoursesMoreInfo from "./CoursesMoreInfo";
+import CourseListing from "./CourseListing";
 
 const ReactRedux = () => (
   <div className="course-top-div">
@@ -52,7 +52,7 @@ const ReactRedux = () => (
           style={{width:"30rem", height:"20rem"}}/>
       </div>
     </div>
-    <CoursesMoreInfo
+    <CourseListing
         courseDuration = {"4 weeks"}
         schedule = {"Monday & Wednesday"}
         courseHours = {"8:30 am - 12:30 pm"}

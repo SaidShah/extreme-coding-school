@@ -1,7 +1,7 @@
 import React from 'react';
 import javaPic from '.././images/adult_education.jpg'
 import javaPicTwo from '.././images/computer_class_3.jpg'
-import CoursesMoreInfo from "./CoursesMoreInfo";
+import CourseListing from "./CourseListing";
 
 const  Java = () => (
   <div className="course-top-div">
@@ -61,7 +61,7 @@ const  Java = () => (
       </div>
     </div>
 
-    <CoursesMoreInfo
+    <CourseListing
         courseDuration = {"8 weeks"}
         schedule = {"Monday & Wednesday"}
         courseHours = {"8:30 am - 11:30 am | 12:30 pm - 3:00 pm"}
@@ -70,7 +70,7 @@ const  Java = () => (
         courseName = {"Java Data Structures & Algorithms Mon & Wed"}
     />
 
-    <CoursesMoreInfo
+    <CourseListing
         courseDuration = {"8 weeks"}
         schedule = {"Tuesday & Thursday"}
         courseHours = {"8:30 am - 11:30 am | 12:30 pm - 3:00 pm"}

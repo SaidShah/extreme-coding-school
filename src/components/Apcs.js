@@ -1,7 +1,7 @@
 import React from 'react';
 import apcs from '.././images/image-ap.jpg'
 import apcsTwo from '.././images/adult_learning.jpg'
-import CoursesMoreInfo from "./CoursesMoreInfo";
+import CourseListing from "./CourseListing";
 
 const Apcs = () => (
 
@@ -51,7 +51,7 @@ const Apcs = () => (
       </div>
     </div>
 
-    <CoursesMoreInfo
+    <CourseListing
         courseDuration = {"8 weeks"}
         schedule = {"Monday & Wednesday"}
         courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 3:00 pm"}
@@ -59,7 +59,7 @@ const Apcs = () => (
         applyLink = {"/apply/apCSa8mw"}
         courseName = {"AP Computer Science A Mon & Wed"}
     />
-    <CoursesMoreInfo
+    <CourseListing
         courseDuration = {"8 weeks"}
         schedule = {"Tuesday & Thursday"}
         courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 3:00 pm"}
@@ -67,7 +67,7 @@ const Apcs = () => (
         applyLink = {"/apply/apCSa4tr"}
         courseName = {"AP Computer Science A Tues & Thur"}
     />
-    <CoursesMoreInfo
+    <CourseListing
         courseDuration = {"4 weeks"}
         schedule = {"Saturday & Sunday"}
         courseHours = {"8:30 am - 3:30 pm"}
