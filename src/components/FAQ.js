@@ -47,7 +47,7 @@ class FAQ extends Component {
 
         <QnA
             tabNum = {"tab-five"}
-            ask = {'What are the \n pre-enrollment code challenges?'}
+            ask = {'What are the pre-enrollment code challenges?'}
             answer = {"The first challenge will test your knowledge of HTML and CSS. For the second and third code challenges you will have the option of either completing them in Java, Javascript or Ruby. They are not difficult, but we would like to test your critical thinking and problem-solving skills."}
         />
 
