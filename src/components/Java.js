@@ -71,6 +71,15 @@ const  Java = () => (
         courseName = {"Java Data Structures & Algorithms Mon & Wed"}
     />
 
+    <CoursesMoreInfo
+        courseDuration = {"8 weeks"}
+        schedule = {"Tuesday & Thursday"}
+        courseHours = {"8:30 am - 11:30 am | 12:30 pm - 3:00 pm"}
+        starting = {"May 07, 2019"}
+        applyLink = {"/apply/dataStructuresTR"}
+        courseName = {"Java Data Structures & Algorithms Tues & Thurs"}
+    />
+
     <div className="course-div second-course-div">
       <div className="course-ul-div">
         <div className="course-double-ul-div course-padding-left">
