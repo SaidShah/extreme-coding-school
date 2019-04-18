@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import javaPic from '.././images/web-dev-adults-img.jpg'
 import javaPicTwo from '.././images/web-dev-adults-img-two.jpg'
 import CoursesMoreInfo from "./CoursesMoreInfo";

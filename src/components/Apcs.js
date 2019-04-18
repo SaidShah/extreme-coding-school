@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import apcs from '.././images/image-ap.jpg'
 import apcsTwo from '.././images/adult_learning.jpg'
 import CoursesMoreInfo from "./CoursesMoreInfo";
