@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import react from '.././images/react-logo.svg'
 import redux from '.././images/redux-logo.svg'
 import CoursesMoreInfo from "./CoursesMoreInfo";
