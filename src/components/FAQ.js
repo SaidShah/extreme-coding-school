@@ -23,15 +23,7 @@ class FAQ extends Component {
 
         <QnA tabNum = {"tab-one"} ask = {"What are the starting dates?"} answer = {"You will have the opportunity to choose from multiple starting dates once you have passed the pre-enrollment coding challenges."} />
 
-          <div className="tab faq-width faq-top-margin">
-            <input id="tab-two" type="checkbox" name="tabs"/>
-            <label htmlFor="tab-two" className="faq-label">How much time will I have to dedicate to the program?</label>
-            <div className="tab-content faq-width">
-            <ul className='faq-ul'>
-              <li>In order to be successful in the program you must be willing to dedicate 20 hours of class time per week. You will also have to dedicate between 20-30 hours per week outside of class. </li>
-              </ul>
-            </div>
-            </div>
+        <QnA tabNum = {"tab-two"} ask = {"How much time will I have to dedicate to the program?"} answer = {"In order to be successful in the program you must be willing to dedicate 20 hours of class time per week. You will also have to dedicate between 20-30 hours per week outside of class."}/>
 
             <div className="tab faq-width faq-top-margin">
               <input id="tab-three" type="checkbox" name="tabs"/>
