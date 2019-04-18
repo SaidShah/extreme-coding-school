@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import javaPic from '.././images/adult_education.jpg'
 import javaPicTwo from '.././images/computer_class_3.jpg'
 import CoursesMoreInfo from "./CoursesMoreInfo";
@@ -79,8 +78,6 @@ const  Java = () => (
         applyLink = {"/apply/dataStructuresTR"}
         courseName = {"Java Data Structures & Algorithms Tues & Thurs"}
     />
-
-
   </div>
 );
 
