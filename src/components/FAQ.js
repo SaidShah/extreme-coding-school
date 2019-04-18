@@ -45,25 +45,20 @@ class FAQ extends Component {
             answer = {"A college degree is not required. The only requirement is that you must pass the pre-enrollment code challenges in order to be eligible."}
         />
 
-              <div className="tab faq-width faq-top-margin">
-              <input id="tab-four" type="checkbox" name="tabs"/>
-              <label htmlFor="tab-four" className="faq-label">How do I get started?</label>
-              <div className="tab-content faq-width">
-          <ul className='faq-ul'>
-            <li>You must first apply to the program, then we will be in contact with you to schedule the code challenges. If you are successful in all 3 of the code challenges, you will be eligible to attend, and we will get in touch so you can choose a start date and make your pre-payment. </li>
-            </ul>
-          </div>
-          </div>
+        <QnA
+            tabNum = {"tab-four"}
+            ask = {"How do I get started?"}
+            answer = {"You must first apply to the program, then we will be in contact with you to schedule the code challenges. If you are successful in all 3 of the code challenges, you will be eligible to attend, and we will get in touch so you can choose a start date and make your pre-payment."}
+        />
 
-          <div className="tab faq-width faq-top-margin">
-            <input id="tab-five" type="checkbox" name="tabs"/>
-            <label htmlFor="tab-five" className="faq-label">What are the pre-enrollment code challenges?</label>
-            <div className="tab-content faq-width">
-            <ul className='faq-ul'>
-              <li>The first challenge will test your knowledge of HTML and CSS. For the second and third code challenges you will have the option of either completing them in Java, Javascript or Ruby. They are not difficult, but we would like to test your critical thinking and problem-solving skills. </li>
-              </ul>
-            </div>
-            </div>
+
+        <QnA
+            tabNum = {"tab-five"}
+            ask = {"What are the pre-enrollment code challenges?"}
+            answer = {"The first challenge will test your knowledge of HTML and CSS. For the second and third code challenges you will have the option of either completing them in Java, Javascript or Ruby. They are not difficult, but we would like to test your critical thinking and problem-solving skills."}
+        />
+
+        <QnA/>
 
             <div className="tab faq-width faq-top-margin">
               <input id="tab-six" type="checkbox" name="tabs"/>
