@@ -195,6 +195,8 @@ class ApplyForm extends Component {
                     <option defaultValue value="none">Select Your Course</option>
                     <option value="BootCamp">Full Stack Bootcamp Mon-Fri 15 Weeks</option>
                     <option value="BootCampTeens">Mini-Bootcamp Mon-Fri 8 Weeks</option>
+                    <option value="BootCampJune">Full Stack Bootcamp Mon-Fri 15 Weeks June Start Date</option>
+                    <option value="BootCampTeensJune">Mini-Bootcamp Mon-Fri 8 Weeks June Start Date</option>
                     <option value="apCSa8mw">AP Computer Science A Mon & Wed 8 Weeks</option>
                     <option value="apCSa4tr">AP Computer Science A Tues & Thur 8 Weeks</option>
                     <option value="apCSa8">AP Computer Science A Sat & Sun 4 Weeks</option>
@@ -206,8 +208,6 @@ class ApplyForm extends Component {
                     <option value="javaIntro8MW">Intro to Java Mon & Wed 8 Weeks</option>
                     <option value="javaIntro8TTR">Intro to Java Tues & Thurs 8 Weeks</option>
                     <option value="javaIntro4ss">Intro to Java Sat & Sun 4 Weeks</option>
-                    <option value="BootCampJune">Full Stack Bootcamp Mon-Fri 15 Weeks June Start Date</option>
-                    <option value="BootCampTeensJune">Mini-Bootcamp Mon-Fri 8 Weeks June Start Date</option>
                   </select>
                 </label>
 
