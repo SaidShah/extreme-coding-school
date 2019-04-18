@@ -76,9 +76,9 @@ const Frontend = () => (
     />
 
     <CourseListing
-        courseDuration = {"4 weeks"}
+        courseDuration = {"8 weeks"}
         schedule = {"Tuesday & Thursday"}
-        courseHours = {"12:30 am - 4:30 pm"}
+        courseHours = {"12:30 pm - 4:30 pm"}
         starting = {"May 07, 2019"}
         applyLink = {"/apply/frontEndWebDev8"}
         courseName = {"8 week course"}
