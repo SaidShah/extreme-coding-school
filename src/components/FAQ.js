@@ -66,6 +66,12 @@ class FAQ extends Component {
             answer = {"Yes, you must have a Mac computer in order to attend. We require a Mac because we feel if all of the students are working with the same enviornments we will have a much better learning and debugging experience."}
         />
 
+        <QnA
+            tabNum = {"tab-seven"}
+            ask = {"Do I have to purchase any textbooks?"}
+            answer = {"No, the only thing you need to succeed is your laptop and the eagerness to learn."}
+        />
+
             <div className="tab faq-width faq-top-margin">
               <input id="tab-seven" type="checkbox" name="tabs"/>
               <label htmlFor="tab-seven" className="faq-label">Do I have to purchase any textbooks?</label>
