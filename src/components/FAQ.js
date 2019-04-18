@@ -64,6 +64,7 @@ class FAQ extends Component {
             answer = {"No, the only thing you need to succeed is your laptop and the eagerness to learn."}
         />
 
+        {/*BOOTCAMP?/MOD}
         <QnA
             tabNum = {"tab-eight"}
             ask = {"What criteria do you look for in those applying?"}
