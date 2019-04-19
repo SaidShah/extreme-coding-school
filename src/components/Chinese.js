@@ -94,7 +94,7 @@ const Chinese = () => (
 
         <div className="course-div">
           <div className="course-image-div">
-            <img alt="curriculum " src={curr_img} className="curriculum-image"
+            <img alt="curriculum " src={curr_img} className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -120,7 +120,7 @@ const Chinese = () => (
         <h1 className="center-text bold-text">迷你编程集训营和夏令营</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img alt="curriculum " src={apcs} className="curriculum-image"
+            <img alt="curriculum " src={apcs} className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
