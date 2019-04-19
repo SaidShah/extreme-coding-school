@@ -1,6 +1,13 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
 import javaPic from '.././images/web-dev-adults-img.jpg'
+import frontEnd from "../images/front-end.svg";
+import curr_img from "../images/person-coding.jpg";
+import apcs from "../images/minibootcamp.jpg";
+import apcsTwo from "../images/adult_learning.jpg";
+import javaPicTwo from "../images/computer_class_3.jpg";
+import react from "../images/react-logo.svg";
+import tutor from "../images/private1.jpg";
 
 
 const Chinese = () => (
@@ -81,13 +88,13 @@ const Chinese = () => (
       </div>
 
 
-
+        {/*Full Boot*/}
       <div className="course-top-div">
         <h1 className="center-text bold-text">编程集训营</h1>
 
         <div className="course-div">
           <div className="course-image-div">
-            <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+            <img alt="curriculum " src={curr_img} className="curriculum-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -109,12 +116,11 @@ const Chinese = () => (
           </div>
         </div>
 
-
-
+        {/*Mini Boot*/}
         <h1 className="center-text bold-text">迷你编程集训营和夏令营</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+            <img alt="curriculum " src={apcs} className="curriculum-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -136,11 +142,11 @@ const Chinese = () => (
           </div>
         </div>
 
-
+        {/*APCS*/}
         <h1 className="center-text bold-text">AP 计算机科学 A</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+            <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -162,11 +168,11 @@ const Chinese = () => (
           </div>
         </div>
 
-
+        {/*Web Dev*/}
         <h1 className="center-text bold-text">网页开发</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+            <img src={frontEnd} alt="front end web development extreme coding school" className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -188,7 +194,7 @@ const Chinese = () => (
           </div>
         </div>
 
-
+        {/*Intro Java*/}
         <h1 className="center-text bold-text">Java编程入门</h1>
         <div className="course-div">
           <div className="course-image-div">
@@ -214,11 +220,11 @@ const Chinese = () => (
           </div>
         </div>
 
-
+        {/*DataStruct*/}
         <h1 className="center-text bold-text">数据结构与算法</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+            <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -244,7 +250,7 @@ const Chinese = () => (
         <h1 className="center-text bold-text">React & Redux</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+            <img src={react} alt="front end web development extreme coding school" className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -266,11 +272,11 @@ const Chinese = () => (
           </div>
         </div>
 
-
+        {/*Tutoring*/}
         <h1 className="center-text bold-text">计算机编程补习与辅导</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={javaPic} alt="front end web development extreme coding school" className="course-image"
+            <img src={tutor} alt="front end web development extreme coding school" className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
