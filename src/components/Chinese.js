@@ -8,6 +8,8 @@ import apcsTwo from "../images/adult_learning.jpg";
 import javaPicTwo from "../images/computer_class_3.jpg";
 import react from "../images/react-logo.svg";
 import tutor from "../images/private1.jpg";
+import graduate_image from "../images/graduate.jpg";
+import programming_image from "../images/programming-image.jpg";
 
 
 const Chinese = () => (
@@ -172,7 +174,7 @@ const Chinese = () => (
         <h1 className="center-text bold-text">网页开发</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={frontEnd} alt="front end web development extreme coding school" className="course-image"
+            <img src={graduate_image} alt="front end web development extreme coding school" className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
@@ -250,7 +252,7 @@ const Chinese = () => (
         <h1 className="center-text bold-text">React & Redux</h1>
         <div className="course-div">
           <div className="course-image-div">
-            <img src={react} alt="front end web development extreme coding school" className="course-image"
+            <img src={programming_image} alt="front end web development extreme coding school" className="course-image"
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
