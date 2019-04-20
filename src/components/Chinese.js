@@ -86,7 +86,7 @@ const Chinese = () => (
         <div className="course-div second-course-div  chinese-div-blue">
           <div className="course-double-ul-div course-padding-left">
             <h5 className="bold-text course-padding-btm">编程能力: <span className="not-bold-text"> 中 </span> </h5>
-            <h5 className="bold-text course-padding-btm">价格: <span className="not-bold-text"> $8990</span> </h5>
+            <h5 className="bold-text course-padding-btm">价格: <span className="not-bold-text"> $8950</span> </h5>
           </div>
           <div className="course-double-ul-div course-padding-left">
             <h5 className="bold-text course-padding-btm">电脑: <span className="not-bold-text">苹果电脑</span> </h5>

@@ -30,7 +30,7 @@ class BootCamp extends Component {
 
 
   showBootcamp=()=>{
-    let price = 8990;
+    let price = 8950;
     return (<div>
 
       <div className="padding-after-jumbotron center-text">
