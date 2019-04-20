@@ -14,7 +14,7 @@ const BootcampMoreInfo = (props) => {
             </div>
             <div className="course-double-ul-div course-padding-left">
               <h5 className="bold-text course-padding-btm">Prerequisites: <span className="not-bold-text">You must complete a coding challenge.</span></h5>
-              <h5 className="bold-text course-padding-btm">Tuition: <span className="not-bold-text">{props.tuition}</span></h5>
+              <h5 className="bold-text course-padding-btm">Tuition: <span className="not-bold-text">${props.tuition}</span></h5>
               <Link to={props.applyLink} className="nav-link no-transition-nav bold-font shadow light-green apply-now-size">
                 Apply Now {props.campName}
               </Link>
