@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import CurriculumSections from './CurriculumSections'
 import MiniBootcampCurriculumSections from './MiniBootcampCurriculumSections'
@@ -35,7 +34,6 @@ class BootCamp extends Component {
 
       <div className="padding-after-jumbotron center-text">
 
-
         <div className="column-right-side ">
           <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>
             Full Stack Web Development Bootcamp Curriculum
@@ -58,12 +56,9 @@ class BootCamp extends Component {
           <hr/>
           <CurriculumSections />
         </div>
-        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {"$9000"} schedule = {"Monday - Friday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCamp"} starting={"May 06, 2019"}/>
+        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {"$8950"} schedule = {"Monday - Friday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCamp"} starting={"May 06, 2019"}/>
 
-          <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {"$9000"} schedule = {"Monday - Friday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCampJune"} starting={"June 03, 2019"}/>
-
-
-
+        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {"$8950"} schedule = {"Monday - Friday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCampJune"} starting={"June 03, 2019"}/>
 
       </div>
 
@@ -74,7 +69,6 @@ class BootCamp extends Component {
     return (<div>
 
       <div className="padding-after-jumbotron center-text">
-
 
         <div className="column-right-side ">
           <h2 className="blue-text bold-text" style={{marginBottom:"2%"}}>
@@ -97,10 +91,9 @@ class BootCamp extends Component {
           <hr/>
           <MiniBootcampCurriculumSections />
         </div>
-        <BootcampMoreInfo campName = {"Mini-Bootcamp"} campDuration = {"8 weeks"} tuition = {"$4900"} schedule = {"Monday - Friday"} starting={"May 06, 2019"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/bootcampTeens"}/>
+        <BootcampMoreInfo campName = {"Mini-Bootcamp"} campDuration = {"8 weeks"} tuition = {"$4890"} schedule = {"Monday - Friday"} starting={"May 06, 2019"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/bootcampTeens"}/>
 
-        <BootcampMoreInfo campName = {"Mini-Bootcamp"} campDuration = {"8 weeks"} tuition = {"$4900"} schedule = {"Monday - Friday"} starting={"June 03, 2019"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCampTeensJune"}/>
-
+        <BootcampMoreInfo campName = {"Mini-Bootcamp"} campDuration = {"8 weeks"} tuition = {"$4890"} schedule = {"Monday - Friday"} starting={"June 03, 2019"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCampTeensJune"}/>
 
       </div>
 
@@ -137,7 +130,6 @@ class BootCamp extends Component {
       </>
     );
   }
-
 }
 
 export default BootCamp;
