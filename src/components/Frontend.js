@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import frontEnd from '.././images/front-end.svg'
-import frontEndTwo from '.././images/front-end-two.svg'
+import frontEnd from '.././images/people_coding_around_desk.jpg'
+import frontEndTwo from '.././images/group_hacking.jpg'
 import CourseListing from "./CourseListing";
 
 const Frontend = () => (
@@ -11,7 +11,7 @@ const Frontend = () => (
     <div className="course-div">
       <div className="course-image-div">
         <img src={frontEnd} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"100%", height:"100%"}}/>
+          style={{width:"30rem", height:"20rem"}}/>
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
@@ -62,7 +62,7 @@ const Frontend = () => (
       </div>
       <div className="course-image-div">
         <img src={frontEndTwo} alt="front end web development extreme coding school" className="course-image"
-          style={{width:"100%", height:"100%"}}/>
+          style={{width:"30rem", height:"20rem"}}/>
       </div>
     </div>
 
