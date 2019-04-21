@@ -722,6 +722,11 @@ div.column-about-name {
   margin: auto;
 }
 
+.course-top-right-chinese {
+  width: 65%;
+  margin: auto;
+}
+
 .courses-image-sizing {
   width: 30rem;
   height: 20rem;
@@ -914,6 +919,10 @@ div.column-about-name {
 .p-desc-width{
   width: 75%;
   margin:auto;
+}
+
+.p-chinese {
+  width: 90%;
 }
 
 .chinese-div-blue{

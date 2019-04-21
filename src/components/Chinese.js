@@ -17,7 +17,7 @@ const Chinese = () => (
           <strong> 极限编程学校 </strong>
         </h3>
         <div className="course-top-half">
-          <div className="course-top-right">
+          <div className="course-top-right-chinese">
             <Slide left>
               <p className="course-paragraph course-paragraph-left" style={{color:"white", width:"100%", textAlign:"left"}}>
                 <p> 时常有人问我，孩子课外应该学什么。我的建议是学编程。</p>
@@ -64,7 +64,7 @@ const Chinese = () => (
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>给想转行做电脑编程的人开的编程集训营。十五周，每周五天由老师领着强化训练。</strong></p>
           </div>
         </div>
@@ -90,7 +90,7 @@ const Chinese = () => (
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>迷你型的编程集训营夏令营是8周时间，每周五天，网页开发前端后端都学，比15周的集训营会减少一些内容，但关键内容都在。</strong></p>
           </div>
         </div>
@@ -113,10 +113,10 @@ const Chinese = () => (
         <div className="course-div">
           <div className="course-image-div">
             <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
-                 style={{width:"30rem", height:"20rem"}}/>
+                 style={{width:"30rem", height:"23rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>高中AP Computer Science A课程。学完可以参加AP考试，从而获得大多数大学的计算机专业的学分</strong></p>
           </div>
         </div>
@@ -142,7 +142,7 @@ const Chinese = () => (
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>这个是教授网站前端界面及少量后端开发内容的课程 </strong></p>
           </div>
         </div>
@@ -168,7 +168,7 @@ const Chinese = () => (
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>美国大学计算机专业统一的第一学期编程课程 </strong></p>
           </div>
         </div>
@@ -191,10 +191,10 @@ const Chinese = () => (
         <div className="course-div">
           <div className="course-image-div">
             <img src={javaPicTwo} alt="front end web development extreme coding school" className="course-image"
-                 style={{width:"30rem", height:"20rem"}}/>
+                 style={{width:"30rem", height:"23rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>数据结构与算法是给有编程基础的人开的。属于大学计算机专业第二年的课程 </strong></p>
           </div>
         </div>
@@ -220,7 +220,7 @@ const Chinese = () => (
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>这是给有编程基础的学生准备的课程。介绍目前市场上用于网站前端界面设计的两个热门软件包。 </strong></p>
           </div>
         </div>
@@ -246,7 +246,7 @@ const Chinese = () => (
                  style={{width:"30rem", height:"20rem"}}/>
           </div>
           <div className="course-desc-div">
-            <p className="font-size-1-4 p-desc-width">
+            <p className="font-size-1-4 p-desc-width p-chinese">
               <strong>我们还提供个人辅导以及私人订制的课程。</strong></p>
           </div>
         </div>
