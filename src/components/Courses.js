@@ -8,12 +8,14 @@ import IntroToJava from './IntroToJava'
 import Java from './Java'
 import Apcs from './Apcs'
 import Bootcampkids from './bootcampkids'
+
 import FrontLogo from '.././images/htmlcssjs.svg'
 import ReactReduxLogo from '.././images/reactredux.svg'
 import JavaRedLogo from '.././images/java-red.svg'
 import JavaOrangeLogo from '.././images/java-orange.svg'
 import Data from '.././images/database.svg'
 import BootcampLogo from '.././images/bootcamp.svg'
+import MiniBootcampLogo from '.././images/minibootcamplogo.svg'
 import {Route, Switch} from 'react-router-dom'
 
 
@@ -336,7 +338,7 @@ class Courses extends Component {
         <div className="course-top-half no-bot-margin">
           <div className="course-top-left">
             <Fade>
-              <img src={BootcampLogo} alt="html/css/js" className="courses-image-sizing"/>
+              <img src={MiniBootcampLogo} alt="html/css/js" className="courses-image-sizing"/>
             </Fade>
           </div>
 
