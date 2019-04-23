@@ -785,22 +785,24 @@ div.column-about-name {
 
 .private-gradient {
   background: rgb(127,198,255);
-  background: linear-gradient(90deg, rgba(127,198,255,1) 20%, rgba(248,152,49,1) 50%, rgba(248,0,0,1) 80%);
+  background: linear-gradient(90deg,
+  rgba(127,198,255,1) 0%,
+  rgba(248,152,49,1) 25%,
+  rgba(248,0,0,1) 50%,
+  rgba(127,198,255,1) 75%,
+  rgba(248,152,49,1) 100%);
   background-size: 400% 400%;
-	-webkit-animation: Gradient 20s ease infinite;
-	-moz-animation: Gradient 20s ease infinite;
-	animation: Gradient 20s ease infinite;
+	-webkit-animation: Gradient 15s linear infinite;
+	-moz-animation: Gradient 15s linear infinite;
+	animation: Gradient 15s linear infinite;
 }
 
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
 	}
-	50% {
-		background-position: 100% 50%
-	}
 	100% {
-		background-position: 0% 50%
+		background-position: 100% 50%
 	}
 }
 
@@ -808,11 +810,8 @@ div.column-about-name {
 	0% {
 		background-position: 0% 50%
 	}
-	50% {
-		background-position: 100% 50%
-	}
 	100% {
-		background-position: 0% 50%
+		background-position: 100% 50%
 	}
 }
 
@@ -820,13 +819,11 @@ div.column-about-name {
 	0% {
 		background-position: 0% 50%
 	}
-	50% {
+	100% {
 		background-position: 100% 50%
 	}
-	100% {
-		background-position: 0% 50%
-	}
 }
+
 
 .course-top-div{
   margin-top: 2vw;
