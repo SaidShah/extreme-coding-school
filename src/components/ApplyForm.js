@@ -139,7 +139,7 @@ class ApplyForm extends Component {
               <div className="card-block">
 
                 <div className="form-header blue-gradient">
-                  <h3><i className="fa fa-user padding-header"></i> Apply Now</h3>
+                  <h3 className="white-text"><i className="fa fa-user padding-header"></i> Apply Now</h3>
                 </div>
 
                 <div className="md-form margin-left">
@@ -165,52 +165,55 @@ class ApplyForm extends Component {
                   <textarea  className="form-control" placeholder="Questions/Comments? Preferred method of contact?" value={this.state.comments} name="comments" onChange={this.handleChange} />
                 </div>
 
-                <label className="select-box">
-                  College Degree
-                  <select value={this.state.college} name="college" onChange={this.handleChange} className="form-control">
-                    <option defaultValue value="none">No Degree</option>
-                    <option value="associates">Associates</option>
-                    <option value="bachelors">Bachelors</option>
-                    <option value="masters">Masters</option>
-                    <option value="phd">Phd</option>
-                  </select>
-                </label>
+                <div className="select-box-div">
+                  <label className="select-box">
+                    College Degree
+                    <select value={this.state.college} name="college" onChange={this.handleChange} className="form-control">
+                      <option defaultValue value="none">No Degree</option>
+                      <option value="associates">Associates</option>
+                      <option value="bachelors">Bachelors</option>
+                      <option value="masters">Masters</option>
+                      <option value="phd">Phd</option>
+                    </select>
+                  </label>
 
-                <label className="select-box">
-                  Degree Major
-                  <select value={this.state.major} name="major" onChange={this.handleChange} className="form-control">
-                    <option defaultValue value="none">No Major</option>
-                    <option value="computerScience">Computer Science</option>
-                    <option value="informationTechnology">Information Technology</option>
-                    <option value="informationSystems">Information Systems</option>
-                    <option value="cyberSecurity">Cyber Security</option>
-                    <option value="nonTech">STEM Major</option>
-                    <option value="other">Other Major</option>
-                  </select>
-                </label>
+                  <label className="select-box">
+                    Degree Major
+                    <select value={this.state.major} name="major" onChange={this.handleChange} className="form-control">
+                      <option defaultValue value="none">No Major</option>
+                      <option value="computerScience">Computer Science</option>
+                      <option value="informationTechnology">Information Technology</option>
+                      <option value="informationSystems">Information Systems</option>
+                      <option value="cyberSecurity">Cyber Security</option>
+                      <option value="nonTech">STEM Major</option>
+                      <option value="other">Other Major</option>
+                    </select>
+                  </label>
+                </div>
 
-                <label className="select-box">
-                  Course
-                  <select value={this.state.course} name="course" onChange={this.handleChange} className="form-control">
-                    <option defaultValue value="none">Select Your Course</option>
-                    <option value="BootCamp">Full Stack Bootcamp Mon-Fri 15 Weeks</option>
-                    <option value="BootCampTeens">Mini-Bootcamp Mon-Fri 8 Weeks</option>
-                    <option value="BootCampJune">Full Stack Bootcamp Mon-Fri 15 Weeks June Start Date</option>
-                    <option value="BootCampTeensJune">Mini-Bootcamp Mon-Fri 8 Weeks June Start Date</option>
-                    <option value="apCSa8mw">AP Computer Science A Mon & Wed 8 Weeks</option>
-                    <option value="apCSa4tr">AP Computer Science A Tues & Thur 8 Weeks</option>
-                    <option value="apCSa8">AP Computer Science A Sat & Sun 4 Weeks</option>
-                    <option value="frontEndWebDev4">Web Development Sat & Sun 4 weeks</option>
-                    <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
-                    <option value="dataStructuresMW">Data Structures Mon & Wed 8 Weeks</option>
-                    <option value="dataStructuresTR">Data Structures Tues & Thur 8 Weeks</option>
-                    <option value="reactRedux">React & Redux Mon & Wed 4 Weeks</option>
-                    <option value="javaIntro8MW">Intro to Java Mon & Wed 8 Weeks</option>
-                    <option value="javaIntro8TTR">Intro to Java Tues & Thurs 8 Weeks</option>
-                    <option value="javaIntro4ss">Intro to Java Sat & Sun 4 Weeks</option>
-                  </select>
-                </label>
-
+                <div className="select-box-div">
+                  <label className="select-box-course">
+                    Course
+                    <select value={this.state.course} name="course" onChange={this.handleChange} className="form-control">
+                      <option defaultValue value="none">Select Your Course</option>
+                      <option value="BootCamp">Full Stack Bootcamp Mon-Fri 15 Weeks</option>
+                      <option value="BootCampTeens">Mini-Bootcamp Mon-Fri 8 Weeks</option>
+                      <option value="BootCampJune">Full Stack Bootcamp Mon-Fri 15 Weeks June Start Date</option>
+                      <option value="BootCampTeensJune">Mini-Bootcamp Mon-Fri 8 Weeks June Start Date</option>
+                      <option value="apCSa8mw">AP Computer Science A Mon & Wed 8 Weeks</option>
+                      <option value="apCSa4tr">AP Computer Science A Tues & Thur 8 Weeks</option>
+                      <option value="apCSa8">AP Computer Science A Sat & Sun 4 Weeks</option>
+                      <option value="frontEndWebDev4">Web Development Sat & Sun 4 weeks</option>
+                      <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
+                      <option value="dataStructuresMW">Data Structures Mon & Wed 8 Weeks</option>
+                      <option value="dataStructuresTR">Data Structures Tues & Thur 8 Weeks</option>
+                      <option value="reactRedux">React & Redux Mon & Wed 4 Weeks</option>
+                      <option value="javaIntro8MW">Intro to Java Mon & Wed 8 Weeks</option>
+                      <option value="javaIntro8TTR">Intro to Java Tues & Thurs 8 Weeks</option>
+                      <option value="javaIntro4ss">Intro to Java Sat & Sun 4 Weeks</option>
+                    </select>
+                  </label>
+                </div>
 
                 <div className="text-center">
                   <button type="submit" className="btn">Submit</button>

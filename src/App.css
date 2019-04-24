@@ -37,7 +37,7 @@ h5 {
 }
 
 .nav-link.no-transition-nav.bold-font.shadow.light-green:hover{
-  color: #0061ff !important;
+  color: #003c9e !important;
 }
 
 .nav-link.no-transition-nav.bold-font.shadow.light-green{
@@ -46,7 +46,11 @@ h5 {
 }
 
 .boot-button:hover {
-  color: #44caff !important;
+  color: #C4CEE5 !important;
+}
+
+.btn:hover {
+  color: #C4CEE5 !important;
 }
 
 .boot-button {
@@ -498,10 +502,21 @@ button.btn{
   text-align: center;
 }
 
-
+.select-box-div {
+  display: flex;
+  margin-bottom: 2%;
+}
 
 .select-box{
-  margin-left: 2%;
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.select-box-course{
+  width: 75%;
+  margin: auto;
+  text-align: center;
 }
 
 
