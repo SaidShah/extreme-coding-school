@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import frontEnd from '.././images/people_coding_around_desk.jpg'
 import frontEndTwo from '.././images/group_hacking.jpg'
 import CourseListing from "./CourseListing";
