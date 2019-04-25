@@ -13,7 +13,8 @@ class ApplyForm extends Component {
       major: '',
       course: '',
       comments: '',
-      contacted: ''
+      contacted: '',
+      dateapplied: ''
     }
 
     componentDidMount() {
@@ -89,6 +90,11 @@ class ApplyForm extends Component {
         document.getElementById("errorMsg").innerText = error
       } else{
         document.getElementById("errorMsg").innerText=""
+        let separator= '/'
+        let newDate = new Date()
+        let date = newDate.getDate();
+        let month = newDate.getMonth() + 1;
+        let year = newDate.getFullYear();
         database.database().ref('users/'+id).set({
           first_Name: values.firstName,
           last_Name: values.lastName,
@@ -98,7 +104,10 @@ class ApplyForm extends Component {
           major: values.major,
           course: values.course,
           comments: values.comments,
-          contacted: 'no'
+          contacted: 'no',
+          dateapplied: `${month<10?`0${month}`:`${month}`}${separator}${date}${separator}${year}`
+
+
         },()=>this.setState({
           firstName: '',
           lastName: '',
@@ -108,7 +117,8 @@ class ApplyForm extends Component {
           major: '',
           course: '',
           comments: '',
-          contacted: ''
+          contacted: '',
+          dateapplied: ''
         },()=>this.sendMail(userEmail)))
       }
 
