@@ -12,7 +12,8 @@ class ApplyForm extends Component {
       college: '',
       major: '',
       course: '',
-      comments: ''
+      comments: '',
+      contacted: ''
     }
 
     componentDidMount() {
@@ -96,7 +97,8 @@ class ApplyForm extends Component {
           college: values.college,
           major: values.major,
           course: values.course,
-          comments: values.comments
+          comments: values.comments,
+          contacted: 'no'
         },()=>this.setState({
           firstName: '',
           lastName: '',
@@ -105,7 +107,8 @@ class ApplyForm extends Component {
           college: '',
           major: '',
           course: '',
-          comments: ''
+          comments: '',
+          contacted: ''
         },()=>this.sendMail(userEmail)))
       }
 
@@ -230,5 +233,6 @@ class ApplyForm extends Component {
     }
 
 }
+
 
 export default ApplyForm;
