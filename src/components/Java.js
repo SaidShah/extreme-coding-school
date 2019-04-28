@@ -62,22 +62,24 @@ const  Java = () => (
     </div>
 
     <CourseListing
-        courseDuration = {"8 weeks"}
+        courseDuration = {"8 Weeks"}
         schedule = {"Monday & Wednesday"}
-        courseHours = {"8:30 am - 11:30 am | 12:30 pm - 3:00 pm"}
-        starting = {"May 06, 2019"}
-        applyLink = {"/apply/dataStructuresMW"}
+        courseHours = {"4:00 pm - 8:00 pm"}
+        starting = {"June 03, 2019"}
+        applyLink = {"/apply/DataStruct8wMW-June"}
         courseName = {"Java Data Structures & Algorithms Mon & Wed"}
     />
 
+    {/*
     <CourseListing
-        courseDuration = {"8 weeks"}
+        courseDuration = {"8 Weeks"}
         schedule = {"Tuesday & Thursday"}
         courseHours = {"8:30 am - 11:30 am | 12:30 pm - 3:00 pm"}
         starting = {"May 07, 2019"}
         applyLink = {"/apply/dataStructuresTR"}
         courseName = {"Java Data Structures & Algorithms Tues & Thurs"}
     />
+    */}
   </div>
 );
 

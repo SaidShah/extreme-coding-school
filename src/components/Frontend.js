@@ -66,21 +66,21 @@ const Frontend = () => (
     </div>
 
     <CourseListing
-        courseDuration = {"4 weeks"}
+        courseDuration = {"8 Weeks"}
         schedule = {"Saturday & Sunday"}
-        courseHours = {"8:30 am - 4:30 pm"}
-        starting = {"May 11, 2019"}
-        applyLink = {"/apply/frontEndWebDev4"}
-        courseName = {"4 week course"}
+        courseHours = {"2:00 pm - 6:00 pm"}
+        starting = {"June 01, 2019"}
+        applyLink = {"/apply/FrontEnd8wSS-June"}
+        courseName = {"8 Week Course, Saturday & Sunday"}
     />
 
     <CourseListing
-        courseDuration = {"8 weeks"}
+        courseDuration = {"8 Weeks"}
         schedule = {"Tuesday & Thursday"}
-        courseHours = {"12:30 pm - 4:30 pm"}
-        starting = {"May 07, 2019"}
-        applyLink = {"/apply/frontEndWebDev8"}
-        courseName = {"8 week course"}
+        courseHours = {"4:00 pm - 8:00 pm"}
+        starting = {"June 04, 2019"}
+        applyLink = {"/apply/FrontEnd8wTTR-June"}
+        courseName = {"8 Week Course, Tuesday & Thursday"}
     />
 
   </div>

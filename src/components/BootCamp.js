@@ -57,9 +57,8 @@ class BootCamp extends Component {
           <hr/>
           <CurriculumSections />
         </div>
-        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {price} schedule = {"Monday - Friday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCamp"} starting={"May 06, 2019"}/>
 
-        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 weeks"} tuition = {price} schedule = {"Monday - Friday"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCampJune"} starting={"June 03, 2019"}/>
+        <BootcampMoreInfo campName = {"Full Stack Coding Bootcamp"} campDuration = {"15 Weeks"} tuition = {price} schedule = {"Monday - Friday"} campHours = {"9:00 am - 3:30 pm"} applyLink = {"/apply/BootCampJune"} starting={"June 03, 2019"}/>
 
       </div>
 
@@ -93,9 +92,8 @@ class BootCamp extends Component {
           <hr/>
           <MiniBootcampCurriculumSections />
         </div>
-        <BootcampMoreInfo campName = {"Mini-Bootcamp"} campDuration = {"8 weeks"} tuition = {price} schedule = {"Monday - Friday"} starting={"May 06, 2019"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/bootcampTeens"}/>
 
-        <BootcampMoreInfo campName = {"Mini-Bootcamp"} campDuration = {"8 weeks"} tuition = {price} schedule = {"Monday - Friday"} starting={"June 03, 2019"} campHours = {"8:30 am - 3:30 pm"} applyLink = {"/apply/BootCampTeensJune"}/>
+        <BootcampMoreInfo campName = {"Mini-Bootcamp"} campDuration = {"8 Weeks"} tuition = {price} schedule = {"Monday - Friday"} starting={"June 03, 2019"} campHours = {"9:00 am - 3:30 pm"} applyLink = {"/apply/MiniBootcampJune"}/>
 
       </div>
 

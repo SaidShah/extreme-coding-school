@@ -20,36 +20,36 @@ class ApplyForm extends Component {
     componentDidMount() {
       let userLocArr= this.props.props.location.pathname.split("/")
       let userCourse = userLocArr[userLocArr.length-1]
-      if(userCourse==="frontEndWebDev4"){
-        this.setState({course: "frontEndWebDev4"})
-      }else if(userCourse==="frontEndWebDev8"){
-        this.setState({course: "frontEndWebDev8"})
-      }else if(userCourse ==="dataStructuresMW"){
-        this.setState({course: "dataStructuresMW"})
+      if(userCourse==="FrontEnd8wSS-June"){
+        this.setState({course: "FrontEnd8wSS-June"})
+      }else if(userCourse==="FrontEnd8wTTR-June"){
+        this.setState({course: "FrontEnd8wTTR-June"})
+      }else if(userCourse ==="DataStruct8wMW-June"){
+        this.setState({course: "DataStruct8wMW-June"})
       }else if(userCourse ==="dataStructuresTR"){
         this.setState({course: "dataStructuresTR"})
-      }else if(userCourse==="apCSa8"){
-        this.setState({course: "apCSa8"})
-      }else if(userCourse==="apCSa8mw"){
-        this.setState({course: "apCSa8mw"})
-      }else if(userCourse==="apCSa4tr"){
-        this.setState({course: "apCSa4tr"})
+      }else if(userCourse==="APCS4w-June"){
+        this.setState({course: "APCS4w-June"})
+      }else if(userCourse==="APCS8wMW-June"){
+        this.setState({course: "APCS8wMW-June"})
+      }else if(userCourse==="APCS8wTTR-June"){
+        this.setState({course: "APCS8wTTR-June"})
       }else if(userCourse==="react"){
         this.setState({course: "reactRedux"})
-      }else if(userCourse==="bootcampTeens"){
-        this.setState({course: "BootCampTeens"})
+      }else if(userCourse==="MiniBootcamp"){
+        this.setState({course: "MiniBootcamp"})
       }else if(userCourse==="BootCamp"){
         this.setState({course: "BootCamp"})
-      }else if(userCourse==="javaIntro8MW"){
-        this.setState({course: "javaIntro8MW"})
-      }else if(userCourse==="javaIntro8TTR"){
-        this.setState({course: "javaIntro8TTR"})
-      }else if(userCourse==="javaIntro4ss"){
-        this.setState({course: "javaIntro4ss"})
+      }else if(userCourse==="JavaInt8wMW-June"){
+        this.setState({course: "JavaInt8wMW-June"})
+      }else if(userCourse==="JavaInt8wTTR-June"){
+        this.setState({course: "JavaInt8wTTR-June"})
+      }else if(userCourse==="JavaInt8wSS-June"){
+        this.setState({course: "JavaInt8wSS-June"})
       }else if(userCourse==="BootCampJune"){
         this.setState({course: "BootCampJune"})
-      }else if(userCourse==="BootCampTeensJune"){
-        this.setState({course: "BootCampTeensJune"})
+      }else if(userCourse==="MiniBootcampJune"){
+        this.setState({course: "MiniBootcampJune"})
       }
       window.scrollTo(0,0)
     }
@@ -209,21 +209,19 @@ class ApplyForm extends Component {
                     Course
                     <select value={this.state.course} name="course" onChange={this.handleChange} className="form-control">
                       <option defaultValue value="none">Select Your Course</option>
-                      <option value="BootCamp">Full Stack Bootcamp Mon-Fri 15 Weeks</option>
-                      <option value="BootCampTeens">Mini-Bootcamp Mon-Fri 8 Weeks</option>
-                      <option value="BootCampJune">Full Stack Bootcamp Mon-Fri 15 Weeks June Start Date</option>
-                      <option value="BootCampTeensJune">Mini-Bootcamp Mon-Fri 8 Weeks June Start Date</option>
-                      <option value="apCSa8mw">AP Computer Science A Mon & Wed 8 Weeks</option>
-                      <option value="apCSa4tr">AP Computer Science A Tues & Thur 8 Weeks</option>
-                      <option value="apCSa8">AP Computer Science A Sat & Sun 4 Weeks</option>
-                      <option value="frontEndWebDev4">Web Development Sat & Sun 4 weeks</option>
-                      <option value="frontEndWebDev8">Web Development Tues & Thurs 8 weeks</option>
-                      <option value="dataStructuresMW">Data Structures Mon & Wed 8 Weeks</option>
-                      <option value="dataStructuresTR">Data Structures Tues & Thur 8 Weeks</option>
-                      <option value="reactRedux">React & Redux Mon & Wed 4 Weeks</option>
-                      <option value="javaIntro8MW">Intro to Java Mon & Wed 8 Weeks</option>
-                      <option value="javaIntro8TTR">Intro to Java Tues & Thurs 8 Weeks</option>
-                      <option value="javaIntro4ss">Intro to Java Sat & Sun 4 Weeks</option>
+                      <option value="BootCampJune">Full Stack Bootcamp Mon-Fri 15 Weeks June</option>
+                      <option value="MiniBootcampJune">Mini-Bootcamp Mon-Fri 8 Weeks June</option>
+                      <option value="APCS8wMW-June">APCS-A Mon & Wed 8 Weeks June</option>
+                      <option value="APCS8wTTR-June">APCS-A Tues & Thur 8 Weeks June</option>
+                      <option value="APCS4w-June">APCS-A Sat & Sun 4 Weeks June</option>
+                      <option value="FrontEnd8wSS-June">Web Development Sat & Sun 8 Weeks June</option>
+                      <option value="FrontEnd8wTTR-June">Web Development Tues & Thurs 8 Weeks June</option>
+                      <option value="DataStruct8wMW-June">Data Structures Mon & Wed 8 Weeks June</option>
+                      {/*<option value="dataStructuresTR">Data Structures Tues & Thur 8 Weeks</option>*/}
+                      {/*<option value="reactRedux">React & Redux Mon & Wed 4 Weeks</option>*/}
+                      <option value="JavaInt8wMW-June">Intro to Java Mon & Wed 8 Weeks June</option>
+                      <option value="JavaInt8wTTR-June">Intro to Java Tues & Thurs 8 Weeks June</option>
+                      <option value="JavaInt8wSS-June">Intro to Java Sat & Sun 8 Weeks June</option>
                     </select>
                   </label>
                 </div>

@@ -179,6 +179,7 @@ class Courses extends Component {
       </div>
 
       {/* React and Redux */}
+      {/* removed until more staff
       <div style={{background:"#282c34"}}>
         <h3 className="course-title" style={{color:"#61dafb"}}>
           <strong> React and Redux </strong>
@@ -203,6 +204,7 @@ class Courses extends Component {
         </div>
 
         {/*list hidden until mobile*/}
+        {/*
         <ul className="course-list" style={{color:"#61dafb"}}>
           <li>React will allow you to add statefulness to your HTML/CSS,
             effectively turning it into a way to run JavaScript and allow you
@@ -224,7 +226,7 @@ class Courses extends Component {
           </div>
         </Fade>
       </div>
-
+    */}
 
       {/* Java DATASTRUCT */}
       <div className="java-gradient">
@@ -330,7 +332,7 @@ class Courses extends Component {
         </Fade>
       </div>
 
-      {/* Bootcamp 4 kids */}
+      {/* MiniBootcamp  */}
       <div className="bootcamp-gradient">
         <h3 className="course-title" style={{color:"white"}}>
           <strong> Mini-Bootcamp </strong>

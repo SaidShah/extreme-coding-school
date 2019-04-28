@@ -17,7 +17,7 @@ const Apcs = () => (
       </div>
       <div className="course-desc-div">
         <p className="font-size-1-4 p-desc-width">
-        <strong> The AP Computer Science A course teaches fundamental programming topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions, and ethical and social implications of computing.</strong></p>
+          <strong> The AP Computer Science A course teaches fundamental programming topics that include problem solving, design strategies and methodologies, organization of data (data structures), approaches to processing data (algorithms), analysis of potential solutions, and ethical and social implications of computing.</strong></p>
       </div>
     </div>
 
@@ -47,36 +47,36 @@ const Apcs = () => (
       </div>
       <div className="course-image-div">
         <img src={apcsTwo} alt="front end web development extreme coding school" className="course-image"
-        style={{width:"30rem", height:"25rem"}}/>
+          style={{width:"30rem", height:"25rem"}}/>
       </div>
     </div>
 
     <CourseListing
-        courseDuration = {"8 weeks"}
-        schedule = {"Monday & Wednesday"}
-        courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 3:00 pm"}
-        starting = {"May 06, 2019"}
-        applyLink = {"/apply/apCSa8mw"}
-        courseName = {"AP Computer Science A Mon & Wed"}
-    />
-    <CourseListing
-        courseDuration = {"8 weeks"}
-        schedule = {"Tuesday & Thursday"}
-        courseHours = {"8:30 am - 10:30 pm | 1:00 pm - 3:00 pm"}
-        starting = {"May 07, 2019"}
-        applyLink = {"/apply/apCSa4tr"}
-        courseName = {"AP Computer Science A Tues & Thur"}
-    />
-    <CourseListing
-        courseDuration = {"4 weeks"}
-        schedule = {"Saturday & Sunday"}
-        courseHours = {"8:30 am - 3:30 pm"}
-        starting = {"May 11, 2019"}
-        applyLink = {"/apply/apCSa8"}
-        courseName = {"AP Computer Science A Sat & Sun"}
+      courseDuration = {"4 Weeks"}
+      schedule = {"Saturday & Sunday"}
+      courseHours = {"9:00 am - 1:00 pm"}
+      starting = {"June 01, 2019"}
+      applyLink = {"/apply/APCS4w-June"}
+      courseName = {"AP Computer Science A Sat & Sun"}
     />
 
+    <CourseListing
+      courseDuration = {"8 Weeks"}
+      schedule = {"Monday & Wednesday"}
+      courseHours = {"4:00 pm - 6:00 pm"}
+      starting = {"June 03, 2019"}
+      applyLink = {"/apply/APCS8wMW-June"}
+      courseName = {"AP Computer Science A Mon & Wed"}
+    />
 
+    <CourseListing
+      courseDuration = {"8 Weeks"}
+      schedule = {"Tuesday & Thursday"}
+      courseHours = {"4:00 pm - 6:00 pm"}
+      starting = {"June 04, 2019"}
+      applyLink = {"/apply/APCS8wTTR-June"}
+      courseName = {"AP Computer Science A Tues & Thur"}
+    />
 
   </div>
 );
