@@ -79,7 +79,7 @@ class Footer extends Component {
                       <a className="no-transition" href="mailto:info@extremecodingschool.com">General Inquiries</a>
                     </li>
                     <li>
-                      <a className="no-transition" href="tel:6312133240">(631) 213-3240</a>
+                      <a className="no-transition" href="tel:6312464470">(631) 246-4470</a>
                     </li>
                   </ul>
 
