@@ -21,7 +21,7 @@ const IntroToJava = () => (
 
 
 
-    <div className="course-div second-course-div">
+    <div className="course-div info-course-div">
       <div className="course-double-ul-div course-padding-left">
         <h5 className="bold-text course-padding-btm">Skill Level: <span className="not-bold-text"> Intermediate - Advanced</span> </h5>
         <h5 className="bold-text course-padding-btm">Price: <span className="not-bold-text"> $1,280</span> </h5>

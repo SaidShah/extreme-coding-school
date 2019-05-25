@@ -868,7 +868,19 @@ div.column-about-name {
 
 .course-double-ul-div {
   width: 50%;
+  padding-top: 2vw;
   margin: auto;
+}
+
+.course-date-div {
+  background-color: #003c9e;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 .course-image {
@@ -884,9 +896,25 @@ div.column-about-name {
   margin: auto;
 }
 
+.info-course-div{
+  background: #3c7dcc ;
+  padding-bottom: 1vw;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 2%;
+}
+
 .second-course-div{
   background: #3c7dcc ;
-  padding: 2vw;
+  display: grid;
+  padding-bottom: 2vw;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 2%;
+}
+
+.chinese-course-div{
+  background: #3c7dcc ;
+  padding-bottom: 2vw;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   margin-top: 2%;
 }
 

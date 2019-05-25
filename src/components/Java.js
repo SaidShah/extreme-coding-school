@@ -19,7 +19,7 @@ const  Java = () => (
     </div>
 
 
-    <div className="course-div second-course-div" style={{display:"inline-grid"}}>
+    <div className="course-div info-course-div" style={{display:"inline-grid"}}>
       <div style={{display:"flex", width:"100%", marginBottom: "2%"}}>
         <div className="course-double-ul-div course-padding-left">
           <h5 className="bold-text course-padding-btm">Skill Level:
