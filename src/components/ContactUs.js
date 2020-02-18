@@ -14,24 +14,24 @@ class ContactUs extends Component {
               Emails
             </h1>
 
-            <a className="no-transition" href="mailto:admissions@extremecodingschool.com">
+            <a className="no-transition" href="mailto:extremecodingschool@gmail.com">
               <h3 className="contact-h3" style={{marginBottom: "1%"}}>
                 <strong> Tutoring </strong> -
-                tutoring@extremecodingschool.com
+                ExtremeCodingSchool@gmail.com
               </h3>
             </a>
 
-            <a className="no-transition" href="mailto:admissions@extremecodingschool.com">
+            <a className="no-transition" href="mailto:ExtremeCodingSchool@gmail.com">
               <h3 className="contact-h3" style={{marginBottom: "1%"}}>
                 <strong> Admissions </strong> -
-                admissions@extremecodingschool.com
+                ExtremeCodingSchool@gmail.com
               </h3>
             </a>
 
-            <a className="no-transition" href="mailto:info@extremecodingschool.com">
+            <a className="no-transition" href="mailto:extremecodingschool@gmail.com">
               <h3 className="contact-h3" style={{marginBottom: "1%"}}>
                 <strong> General Inquiries </strong> -
-                info@extremecodingschool.com
+                ExtremeCodingSchool@gmail.com
               </h3>
             </a>
 
@@ -44,9 +44,9 @@ class ContactUs extends Component {
               Monday - Friday, 10:00 AM - 6:00 PM
             </h4>
 
-            <a className="no-transition" href="tel:6312133240">
+            <a className="no-transition" href="tel:6314030302">
               <h3 className="contact-h3">
-                <strong> 631-213-3240</strong>
+                <strong> 631-403-0302</strong>
               </h3>
             </a>
 
