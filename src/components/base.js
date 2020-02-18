@@ -1,5 +1,5 @@
 
-// import firebase from 'firebase/database'
+//import firebase from 'firebase/database'
 const firebase = require("firebase/app");
 require('firebase/database');
 
