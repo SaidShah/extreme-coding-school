@@ -15,7 +15,7 @@
     "react-reveal": "^1.2.2",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "^2.1.8",
+    "react-scripts": "^5.0.1",
     "sendgrid": "^5.2.3"
   },
   "scripts": {
